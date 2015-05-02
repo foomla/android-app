@@ -1,39 +1,35 @@
 package org.foomla.androidapp.activities.trainingdetail;
 
+import android.content.Context;
+import android.content.Intent;
+import android.hardware.SensorManager;
+import android.os.Bundle;
+import android.os.Vibrator;
+import android.view.MenuItem;
+import android.widget.Toast;
+
+import com.squareup.seismic.ShakeDetector;
+
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.edittraining.EditTrainingActivity;
 import org.foomla.androidapp.activities.exercisebrowser.ExerciseBrowserIntent;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
-import org.foomla.androidapp.async.DownloadRandomTrainingTask;
-import org.foomla.androidapp.async.DownloadTask;
 import org.foomla.androidapp.async.RepositoryLoadTask;
 import org.foomla.androidapp.async.RepositorySaveTrainingTask;
 import org.foomla.androidapp.persistence.Repository;
 import org.foomla.androidapp.persistence.TrainingProxyRepository;
 import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
-
+import org.foomla.androidapp.service.TrainingService;
 import org.foomla.api.client.FoomlaClient;
 import org.foomla.api.entities.twizard.Exercise;
 import org.foomla.api.entities.twizard.Training;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.squareup.seismic.ShakeDetector;
-
-import android.content.Context;
-import android.content.Intent;
-
-import android.hardware.SensorManager;
-
-import android.os.Bundle;
-import android.os.Vibrator;
-
-import android.view.MenuItem;
-import android.widget.Toast;
+import java.io.IOException;
 
 public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements TrainingDetailFragment.ActionHandler,
     ShakeDetector.Listener {
@@ -107,34 +103,17 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
 
     @Override
     public void onRandomizeTrainingPhase(final int trainingPhase) {
-        DownloadTask.DownloadHandler<Training> handler = new DownloadTask.DownloadHandler<Training>() {
-            @Override
-            public void handle(final Training training) {
-                if (trainingPhase < training.getExercises().size()) {
-                    Exercise exercise = training.getExercises().get(trainingPhase);
-                    getTraining().setExercise(trainingPhase, exercise);
-                    trainingDetailFragment.trainingChanged();
-                }
-            }
-        };
+        try {
+            TrainingService service = ((FoomlaApplication) getApplication()).getTrainingService();
+            Training training = service.random();
 
-        new DownloadRandomTrainingTask(this, handler) {
-            @Override
-            protected void hideProgressbar() {
-                trainingDetailFragment.hideRandomizeProgessbar(trainingPhase);
-            }
-
-            @Override
-            protected void onCancelled(final Training result) {
-                hideProgressbar();
-                showUserHint(R.string.downloadtask_alert_no_data_desc);
-            }
-
-            @Override
-            protected void showProgressbar() {
-                trainingDetailFragment.showRandomizeProgessBar(trainingPhase);
-            }
-        }.execute(getFoomlaClient());
+            Exercise exercise = training.getExercises().get(trainingPhase);
+            getTraining().setExercise(trainingPhase, exercise);
+            trainingDetailFragment.trainingChanged();
+        }
+        catch (IOException ioe) {
+            LOGGER.error("Unable to set random training phase", ioe);
+        }
     }
 
     @Override
