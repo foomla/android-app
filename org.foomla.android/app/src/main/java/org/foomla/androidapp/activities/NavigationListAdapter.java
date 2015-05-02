@@ -21,8 +21,7 @@ public class NavigationListAdapter extends BaseAdapter {
 
         DIVIDER_MISC(R.string.menu_category_misc, true), DIVIDER_TRAINING(R.string.menu_category_training, true), EXERCISE_CATALOG(
                 R.string.menu_exercise_catalog, R.drawable.catalog), HOME(R.string.menu_home, R.drawable.catalog), INFO(
-                        R.string.menu_info, R.drawable.info), NEW_TRAINING(R.string.menu_new_training, R.drawable.training), NEWS(
-                                R.string.menu_news, R.drawable.news), TRAININGS(R.string.menu_trainings, R.drawable.favorites);
+                R.string.menu_info, R.drawable.info), NEW_TRAINING(R.string.menu_new_training, R.drawable.training), TRAININGS(R.string.menu_trainings, R.drawable.favorites);
 
         public boolean divider;
         public int icon;
@@ -42,7 +41,7 @@ public class NavigationListAdapter extends BaseAdapter {
 
     }
 
-    private static final List<NavigationItem> NAVIGATION_ITEMS = Lists.newArrayList(NavigationItem.HOME, NavigationItem.NEWS,
+    private static final List<NavigationItem> NAVIGATION_ITEMS = Lists.newArrayList(NavigationItem.HOME,
             NavigationItem.DIVIDER_TRAINING, NavigationItem.NEW_TRAINING, NavigationItem.TRAININGS,
             NavigationItem.EXERCISE_CATALOG, NavigationItem.DIVIDER_MISC, NavigationItem.INFO);
 
