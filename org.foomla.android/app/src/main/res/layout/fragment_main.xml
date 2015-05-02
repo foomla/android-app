@@ -117,58 +117,6 @@
                 </LinearLayout>
             </LinearLayout>
 
-  <LinearLayout
-                android:id="@+id/latestNewsEntryContainerWrapper"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:layout_weight="1"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/white_box_selector"
-                android:clickable="true"
-                android:gravity="center_horizontal|center_vertical"
-                android:orientation="vertical"
-                android:padding="10dp" >
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:text="News"
-                    android:textSize="@dimen/text_extra_big" />
-
-                <ProgressBar
-                    android:id="@+id/latestNewsEntryProgressBar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <LinearLayout
-                    android:id="@+id/latestNewsEntryContainer"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:baselineAligned="false"
-                    android:orientation="vertical" >
-
-                     <TextView
-                        android:id="@+id/latestNewsEntryTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:ellipsize="end"
-                        android:scrollHorizontally="true"
-                        android:singleLine="true"
-                        android:textColor="@color/fooblack"
-                        android:textSize="@dimen/text_big" />
-                     
-                    <TextView
-                        android:id="@+id/latestNewsEntrySummary"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-						android:textColor="@color/grey"	
-                        android:textSize="@dimen/text_normal" />
-
-                </LinearLayout>
-            </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/openWebsiteButton"
                 android:layout_width="match_parent"

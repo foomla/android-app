@@ -1,28 +1,5 @@
 package org.foomla.androidapp.activities.main;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.List;
-
-import org.foomla.androidapp.FoomlaApplication;
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
-import org.foomla.androidapp.activities.edittraining.EditTrainingActivity;
-import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
-import org.foomla.androidapp.activities.mytrainings.MyTrainingsActivity;
-import org.foomla.androidapp.activities.news.NewsUtil;
-import org.foomla.androidapp.activities.user.UserActivity;
-import org.foomla.androidapp.async.DownloadLatestExerciseTask;
-import org.foomla.androidapp.async.DownloadNewsTask;
-import org.foomla.androidapp.async.DownloadTask;
-import org.foomla.androidapp.preferences.FoomlaPreferences;
-import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
-import org.foomla.androidapp.widgets.ExplainShakeDialog;
-import org.foomla.api.client.FoomlaClient;
-import org.foomla.api.entities.twizard.Exercise;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.SensorManager;
@@ -32,8 +9,24 @@ import android.os.Handler;
 import android.os.Vibrator;
 import android.view.View;
 
-import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndEntry;
 import com.squareup.seismic.ShakeDetector;
+
+import org.foomla.androidapp.FoomlaApplication;
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
+import org.foomla.androidapp.activities.edittraining.EditTrainingActivity;
+import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
+import org.foomla.androidapp.activities.mytrainings.MyTrainingsActivity;
+import org.foomla.androidapp.activities.user.UserActivity;
+import org.foomla.androidapp.preferences.FoomlaPreferences;
+import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
+import org.foomla.androidapp.service.ExerciseService;
+import org.foomla.androidapp.widgets.ExplainShakeDialog;
+import org.foomla.api.entities.twizard.Exercise;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
 
 public class MainActivity extends BaseActivityWithNavDrawer implements MainFragment.ActionHandler,
 ShakeDetector.Listener {
@@ -68,68 +61,13 @@ ShakeDetector.Listener {
 
     @Override
     public void onLoadLatestExercise() {
-
-        DownloadTask.DownloadHandler<Exercise> handler = new DownloadTask.DownloadHandler<Exercise>() {
-            @Override
-            public void handle(final Exercise exercise) {
-                mainFragment.showLatestExercise(exercise);
-            }
-        };
-
-        FoomlaClient foomlaClient = ((FoomlaApplication) getApplication()).getFoomlaClient();
-        new DownloadLatestExerciseTask(this, handler) {
-            @Override
-            protected int getLoadingTextId() {
-
-                // not needed
-                return 0;
-            }
-
-            @Override
-            protected void hideProgressbar() {
-                mainFragment.hideProgressBar(R.id.latestExerciseProgressBar, R.id.latestExerciseContainer);
-            }
-
-            @Override
-            protected void onCancelled() {
-                hideProgressbar();
-                showUserHint(R.string.downloadtask_alert_no_data_desc);
-            }
-
-            @Override
-            protected void showProgressbar() {
-                mainFragment.showProgressBar(R.id.latestExerciseProgressBar, R.id.latestExerciseContainer);
-            }
-        }.execute(foomlaClient);
-    }
-
-    @Override
-    public void onLoadNewsFeed() {
         try {
-            new DownloadNewsTask(this, new DownloadNewsTask.Handler() {
-
-                @Override
-                public void onFinish(final List<SyndEntry> feedEntries) {
-                    if (!feedEntries.isEmpty()) {
-                        mainFragment.showLatestNewsEntry(feedEntries.get(0));
-                    }
-                }
-            }) {
-                @Override
-                protected void onPostExecute(final List<SyndEntry> syndEntries) {
-                    super.onPostExecute(syndEntries);
-                    mainFragment.hideProgressBar(R.id.latestNewsEntryProgressBar, R.id.latestNewsEntryContainer);
-                }
-
-                @Override
-                protected void onPreExecute() {
-                    super.onPreExecute();
-                    mainFragment.showProgressBar(R.id.latestNewsEntryProgressBar, R.id.latestNewsEntryContainer);
-                }
-            }.execute(new URL(getString(R.string.news_url)));
-
-        } catch (MalformedURLException e) {
-            LOGGER.error("Feed URL is not valid: {}", e.getMessage(), e);
+            ExerciseService service = ((FoomlaApplication) getApplication()).getExerciseService();
+            mainFragment.showLatestExercise(service.random());
+        }
+        catch (IOException ioe) {
+            LOGGER.error("Unable to set random exercise", ioe);
+            // TODO inform user
         }
     }
 
@@ -156,11 +94,6 @@ ShakeDetector.Listener {
     @Override
     public void onShowMyTrainingsActivity() {
         startActivity(new Intent(this, MyTrainingsActivity.class));
-    }
-
-    @Override
-    public void onShowNewsDetailActivity(final SyndEntry feedEntry) {
-        startActivity(NewsUtil.createNewsDetailIntent(this, feedEntry));
     }
 
     @Override

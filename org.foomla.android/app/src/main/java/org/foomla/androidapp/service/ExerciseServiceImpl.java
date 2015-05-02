@@ -15,8 +15,11 @@ import org.foomla.api.entities.twizard.TrainingPhase;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class ExerciseServiceImpl implements ExerciseService {
+
+    private final Random random = new Random();
 
     private final List<Exercise> exercises = new ArrayList<>();
 
@@ -42,5 +45,11 @@ public class ExerciseServiceImpl implements ExerciseService {
                 return input.getTrainingPhases().contains(trainingPhase);
             }
         }));
+    }
+
+    @Override
+    public Exercise random() {
+        int randomIndex = random.nextInt(exercises.size() - 1);
+        return exercises.get(randomIndex);
     }
 }

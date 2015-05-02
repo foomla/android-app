@@ -10,4 +10,6 @@ public interface ExerciseService {
     List<Exercise> list();
 
     List<Exercise> filter(TrainingPhase trainingPhase);
+
+    Exercise random();
 }
