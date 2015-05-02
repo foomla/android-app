@@ -44,45 +44,6 @@ public class ActivityNavDrawer {
     public void create() {
         setAppVersionInBottomTextView();
 
-        AsyncTask<Void, Void, User> asyncTask = new AsyncTask<Void, Void, User>() {
-
-            @Override
-            protected User doInBackground(final Void... params) {
-                return ((FoomlaApplication) activity.getApplication()).getUser();
-            }
-
-            @Override
-            protected void onPostExecute(final User user) {
-                if (user != null && !user.equals(FoomlaApplication.ANONYMOUS_USER)) {
-
-                    final TextView usernameTextView = (TextView) activity.findViewById(R.id.usernameNav);
-                    usernameTextView.setText(user.getFirstname());
-                    usernameTextView.setVisibility(View.VISIBLE);
-
-                    final TextView emailTextView = (TextView) activity.findViewById(R.id.emailNav);
-                    emailTextView.setText(user.getEmail());
-
-                } else {
-
-                    final TextView usernameTextView = (TextView) activity.findViewById(R.id.usernameNav);
-                    usernameTextView.setVisibility(View.GONE);
-
-                    final TextView emailTextView = (TextView) activity.findViewById(R.id.emailNav);
-                    emailTextView.setText(R.string.not_logged_in);
-                }
-            }
-        };
-
-        asyncTask.execute();
-
-        activity.findViewById(R.id.account).setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                activity.startActivity(new Intent(activity, UserActivity.class));
-            }
-        });
-
         drawerListLayout = (ViewGroup) activity.findViewById(R.id.left_drawer);
         drawerList = (ListView) activity.findViewById(R.id.left_drawer_list);
         drawerList.setOnItemClickListener(new OnItemClickListener() {
@@ -113,10 +74,6 @@ public class ActivityNavDrawer {
 
                 case INFO :
                     activity.startActivity(new Intent(activity, InfoActivity.class));
-                    break;
-
-                case NEWS :
-                    activity.startActivity(new Intent(activity, NewsActivity.class));
                     break;
 
                 default :

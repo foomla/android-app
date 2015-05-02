@@ -71,18 +71,6 @@ public class MainFragment extends Fragment {
     }
 
     @Override
-    public boolean onOptionsItemSelected(final MenuItem menuItem) {
-        switch (menuItem.getItemId()) {
-
-        case R.id.account:
-            getActionHandler().onShowAccountActivity();
-            return true;
-        }
-
-        return false;
-    }
-
-    @Override
     public void onViewCreated(final View view, final Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         registerButtonClickerListener(view);

@@ -36,15 +36,7 @@ public class SplashScreenActivity extends BaseActivity {
     @Override
     protected void onStart() {
         super.onStart();
-
-        boolean login = FoomlaPreferences.getBoolean(this, Preference.LOGIN);
-        String refreshToken = FoomlaPreferences.getString(SplashScreenActivity.this, Preference.REFRESH_TOKEN);
-
-        if (login && refreshToken == null) {
-            startLoginInfoActivity();
-        } else {
-            initClientAndStartMainActivity();
-        }
+        initClientAndStartMainActivity();
     }
 
     private void initClientAndStartMainActivity() {
@@ -87,11 +79,7 @@ public class SplashScreenActivity extends BaseActivity {
                 }
             }, SPLASH_DISPLAY_TIME);
     }
-
-    private void startLoginInfoActivity() {
-        startActivityDelayed(LoginInfoActivity.class);
-    }
-
+    
     private void startMainActivity() {
         startActivity(new Intent(this, MainActivity.class));
         finish();
