@@ -18,10 +18,10 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="Theme.FoomlaTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/foogreen</item>
-        <item name="colorPrimaryDark">@color/foodarkgreen</item>
-        <item name="colorAccent">@color/foogreen</item>
+    <style name="Theme.FoomlaTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/foogreen</item>
+        <item name="android:colorPrimaryDark">@color/foodarkgreen</item>
+        <item name="android:colorAccent">@color/foogreen</item>
     </style>
 
 </resources>
