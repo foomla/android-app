@@ -21,17 +21,12 @@ import org.foomla.api.entities.twizard.TrainingPhase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.actionbarsherlock.app.SherlockFragment;
-
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuInflater;
-import com.actionbarsherlock.view.MenuItem;
-
 import com.google.common.base.Joiner;
 import com.google.common.collect.Lists;
 
 import android.app.Activity;
 
+import android.app.Fragment;
 import android.graphics.drawable.Drawable;
 
 import android.os.Bundle;
@@ -39,6 +34,9 @@ import android.os.Bundle;
 import android.text.Html;
 
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -47,7 +45,7 @@ import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-public class ExerciseDetailFragment extends SherlockFragment {
+public class ExerciseDetailFragment extends Fragment {
 
     public interface ActionHandler {
 

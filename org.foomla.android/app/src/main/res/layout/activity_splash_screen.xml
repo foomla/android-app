@@ -5,7 +5,7 @@
     android:background="@color/foogreen"
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
-    android:theme="@style/Theme.Sherlock.NoActionBar" >
+    android:theme="@android:style/Theme.Holo.NoActionBar" >
 
     <LinearLayout
         android:layout_width="match_parent"

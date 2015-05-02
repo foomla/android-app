@@ -29,7 +29,7 @@ public class NewsActivity extends BaseActivityWithNavDrawer implements NewsListF
         createNavDrawer();
 
         newsListFragment = new NewsListFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.news_list, newsListFragment).commit();
+        getFragmentManager().beginTransaction().add(R.id.news_list, newsListFragment).commit();
 
         loadNewsFeed();
     }

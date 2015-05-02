@@ -6,24 +6,22 @@ import org.foomla.androidapp.utils.ImageUtil.ImageType;
 import org.foomla.androidapp.utils.UiUtils;
 import org.foomla.api.entities.twizard.Exercise;
 
+import android.app.Fragment;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.actionbarsherlock.app.SherlockFragment;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuInflater;
-import com.actionbarsherlock.view.MenuItem;
-import com.google.ads.AdRequest;
-import com.google.ads.AdView;
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndEntry;
 
-public class MainFragment extends SherlockFragment {
+public class MainFragment extends Fragment {
 
     public interface ActionHandler {
         void onLoadLatestExercise();
@@ -195,11 +193,13 @@ public class MainFragment extends SherlockFragment {
     }
 
     private void initAdView(final View view) {
+        /*
         AdView adView = (AdView) view.findViewById(R.id.ad);
         AdRequest adRequest = new AdRequest();
         adRequest.addKeyword(ADVERTISE_KEY_WORDS);
         adRequest.addTestDevice("A6CF3D5EB79673020CAEBE2861E66E7E");
         adView.loadAd(adRequest);
+        */
     }
 
     private void registerButtonClickerListener(final View view) {

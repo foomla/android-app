@@ -4,12 +4,11 @@ import org.foomla.androidapp.R;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import android.app.Activity;
 import android.os.Bundle;
+import android.view.MenuItem;
 
-import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.actionbarsherlock.view.MenuItem;
-
-public class NewsDetailActivity extends SherlockFragmentActivity {
+public class NewsDetailActivity extends Activity {
 
     private static final Logger LOG = LoggerFactory.getLogger("[foomla] NewsDetailActivity");
 
@@ -19,11 +18,11 @@ public class NewsDetailActivity extends SherlockFragmentActivity {
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_newsdetail);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         detailFragment = new NewsDetailFragment();
 
-        getSupportFragmentManager().beginTransaction().add(R.id.newsdetail, detailFragment).commit();
+        getFragmentManager().beginTransaction().add(R.id.newsdetail, detailFragment).commit();
     }
 
     @Override

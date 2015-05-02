@@ -19,7 +19,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="Theme.FoomlaTheme" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+    <style name="Theme.FoomlaTheme" parent="android:Widget.Holo.ActionBar">
         <item name="actionBarItemBackground">@drawable/selectable_background_footheme</item>
         <item name="popupMenuStyle">@style/PopupMenu.FoomlaTheme</item>
         <item name="dropDownListViewStyle">@style/DropDownListView.FoomlaTheme</item>
@@ -34,46 +34,46 @@
 
     </style>
 
-    <style name="ActionBar.Solid.FoomlaTheme" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+    <style name="ActionBar.Solid.FoomlaTheme" parent="android:Widget.Holo.ActionBar.Solid">
         <item name="background">@drawable/ab_solid_footheme</item>
         <item name="backgroundStacked">@drawable/ab_stacked_solid_footheme</item>
         <item name="backgroundSplit">@drawable/ab_bottom_solid_footheme</item>
         <item name="progressBarStyle">@style/ProgressBar.FoomlaTheme</item>
     </style>
 
-    <style name="ActionBar.Transparent.FoomlaTheme" parent="@style/Widget.Sherlock.ActionBar">
+    <style name="ActionBar.Transparent.FoomlaTheme" parent="android:Widget.Holo.ActionBar">
         <item name="background">@drawable/ab_transparent_footheme</item>
         <item name="progressBarStyle">@style/ProgressBar.FoomlaTheme</item>
     </style>
 	
-    <style name="PopupMenu.FoomlaTheme" parent="@style/Widget.Sherlock.ListPopupWindow">	
+    <style name="PopupMenu.FoomlaTheme" parent="android:Widget.Holo.ListPopupWindow">
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_footheme</item>	
     </style>
 	
-    <style name="DropDownListView.FoomlaTheme" parent="@style/Widget.Sherlock.ListView.DropDown">
+    <style name="DropDownListView.FoomlaTheme" parent="android:Widget.Holo.Light.DropDownItem">
         <item name="android:listSelector">@drawable/selectable_background_footheme</item>
     </style>
 
-    <style name="ActionBarTabStyle.FoomlaTheme" parent="@style/Widget.Sherlock.ActionBar.TabView">
+    <style name="ActionBarTabStyle.FoomlaTheme" parent="android:Widget.Holo.ActionBar.TabView">
         <item name="android:background">@drawable/tab_indicator_ab_footheme</item>
     </style>
 	
-    <style name="DropDownNav.FoomlaTheme" parent="@style/Widget.Sherlock.Spinner.DropDown.ActionBar">
+    <style name="DropDownNav.FoomlaTheme" parent="android:Widget.Holo.DropDownItem">
         <item name="android:background">@drawable/spinner_background_ab_footheme</item>
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_footheme</item>
         <item name="android:dropDownSelector">@drawable/selectable_background_footheme</item>
     </style>
     
-    <style name="ProgressBar.FoomlaTheme" parent="@style/Widget.Sherlock.ProgressBar.Horizontal">
+    <style name="ProgressBar.FoomlaTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/progress_horizontal_footheme</item>
     </style>
     
-    <style name="ActionButton.CloseMode.FoomlaTheme" parent="@style/Widget.Sherlock.ActionButton.CloseMode">
+    <style name="ActionButton.CloseMode.FoomlaTheme" parent="android:Widget.Holo.ActionButton.CloseMode">
         <item name="android:background">@drawable/btn_cab_done_footheme</item>
     </style>
     
     <!-- this style is only referenced in a Light.DarkActionBar based theme -->
-    <style name="Theme.FoomlaTheme.Widget" parent="@style/Theme.Sherlock">
+    <style name="Theme.FoomlaTheme.Widget" parent="android:Theme.Holo">
         <item name="popupMenuStyle">@style/PopupMenu.FoomlaTheme</item>
         <item name="dropDownListViewStyle">@style/DropDownListView.FoomlaTheme</item>
     </style>

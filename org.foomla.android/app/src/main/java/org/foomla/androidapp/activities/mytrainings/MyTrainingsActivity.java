@@ -51,7 +51,7 @@ public class MyTrainingsActivity extends BaseActivityWithNavDrawer implements My
 
         myTrainings = new ArrayList<Training>();
         myTrainingsFragment = buildMyTrainingsFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.my_trainings, myTrainingsFragment).commit();
+        getFragmentManager().beginTransaction().replace(R.id.my_trainings, myTrainingsFragment).commit();
     }
 
     @Override

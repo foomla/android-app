@@ -85,7 +85,7 @@ public class EditTrainingActivity extends TrainingDetailActivity implements Trai
     protected void initializeView() {
         setContentView(R.layout.activity_edittraining);
         trainingDetailFragment = buildTrainingDetailFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.edit_training, trainingDetailFragment).commit();
+        getFragmentManager().beginTransaction().replace(R.id.edit_training, trainingDetailFragment).commit();
     }
 
     private Integer getTrainingIdFromIntent() {

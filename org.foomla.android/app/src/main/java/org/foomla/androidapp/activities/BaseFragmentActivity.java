@@ -2,12 +2,11 @@ package org.foomla.androidapp.activities;
 
 import org.foomla.androidapp.FoomlaApplication;
 
+import android.app.Activity;
 import android.os.Bundle;
+import android.view.MenuItem;
 
-import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.actionbarsherlock.view.MenuItem;
-
-public class BaseFragmentActivity extends SherlockFragmentActivity {
+public class BaseFragmentActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -27,7 +26,7 @@ public class BaseFragmentActivity extends SherlockFragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }

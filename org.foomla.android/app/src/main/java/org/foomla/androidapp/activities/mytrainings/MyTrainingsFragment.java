@@ -8,19 +8,18 @@ import org.foomla.api.entities.twizard.Training;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.ListFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.ListView;
 
-import com.actionbarsherlock.app.SherlockListFragment;
-import com.actionbarsherlock.view.Menu;
-
-public class MyTrainingsFragment extends SherlockListFragment {
+public class MyTrainingsFragment extends ListFragment {
 
     public interface FragmentCallback {
         List<Training> getMyTrainings();

@@ -1,7 +1,7 @@
 package org.foomla.androidapp.activities.exercisebrowser;
 
-import java.util.ArrayList;
-import java.util.List;
+import android.content.Intent;
+import android.os.Bundle;
 
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
@@ -10,16 +10,13 @@ import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
 import org.foomla.androidapp.async.DownloadExercisesTask;
 import org.foomla.androidapp.async.DownloadTask;
 import org.foomla.androidapp.async.DownloadTrainingPhaseExercisesTask;
-
 import org.foomla.api.client.FoomlaClient;
 import org.foomla.api.entities.twizard.Exercise;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import android.content.Intent;
-
-import android.os.Bundle;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     implements ExerciseBrowserFragment.FragmentCallback {
@@ -52,7 +49,7 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
         trainingPhase = getTrainingPhaseFromIntent();
 
         exerciseBrowserFragment = new ExerciseBrowserFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.exercise_browser, exerciseBrowserFragment).commit();
+        getFragmentManager().beginTransaction().replace(R.id.exercise_browser, exerciseBrowserFragment).commit();
 
         initialize();
     }

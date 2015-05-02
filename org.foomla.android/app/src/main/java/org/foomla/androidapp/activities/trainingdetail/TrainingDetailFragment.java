@@ -16,26 +16,23 @@ import org.foomla.api.entities.twizard.Exercise;
 import org.foomla.api.entities.twizard.Training;
 import org.foomla.api.entities.twizard.TrainingFocus;
 
-import com.actionbarsherlock.app.SherlockFragment;
-
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuInflater;
-import com.actionbarsherlock.view.MenuItem;
-
+import android.app.Activity;
+import android.app.Fragment;
 import android.graphics.drawable.Drawable;
 
 import android.os.Bundle;
 
-import android.support.v4.app.FragmentActivity;
-
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class TrainingDetailFragment extends SherlockFragment {
+public class TrainingDetailFragment extends Fragment {
 
     public interface ActionHandler {
         Training getTraining();
@@ -53,7 +50,7 @@ public class TrainingDetailFragment extends SherlockFragment {
 
     private ActionHandler actionHandler;
 
-    private FragmentActivity activity;
+    private Activity activity;
 
     private View view;
 

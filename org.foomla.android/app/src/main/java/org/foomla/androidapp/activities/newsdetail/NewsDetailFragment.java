@@ -5,6 +5,7 @@ import org.foomla.androidapp.activities.news.NewsUtil;
 import org.foomla.androidapp.utils.ExtendedTagHandler;
 import org.foomla.androidapp.utils.UiUtils;
 
+import android.app.Fragment;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
@@ -13,10 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.actionbarsherlock.app.SherlockFragment;
 import com.google.common.base.Strings;
 
-public class NewsDetailFragment extends SherlockFragment {
+public class NewsDetailFragment extends Fragment {
 
     public void displayNews(final String title, final String date, final String summary, final String content) {
         View view = getView();

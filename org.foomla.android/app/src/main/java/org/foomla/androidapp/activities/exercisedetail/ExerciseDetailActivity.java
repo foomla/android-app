@@ -46,7 +46,7 @@ public class ExerciseDetailActivity extends BaseFragmentActivity implements Exer
 
         if (savedInstanceBundle == null) {
             exerciseDetailFragment = buildExerciseDetailFragment();
-            getSupportFragmentManager().beginTransaction().add(R.id.exercise_detail, exerciseDetailFragment).commit();
+            getFragmentManager().beginTransaction().add(R.id.exercise_detail, exerciseDetailFragment).commit();
         }
     }
 

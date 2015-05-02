@@ -1,17 +1,11 @@
 package org.foomla.androidapp.utils;
 
+import android.app.ActionBar;
 import android.app.Activity;
+import android.app.Fragment;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.ActionBar.Tab;
-import com.actionbarsherlock.app.ActionBar.TabListener;
-
-public class FragmentTabListener<T extends Fragment> implements TabListener {
+public class FragmentTabListener<T extends Fragment> implements ActionBar.TabListener {
 
     private final Activity activity;
     private Fragment fragment;
@@ -26,14 +20,8 @@ public class FragmentTabListener<T extends Fragment> implements TabListener {
         this.fragmentArguments = fragmentArguments;
     }
 
-    public void onTabReselected(ActionBar.Tab tab, FragmentTransaction ft) {
-
-    }
-
     @Override
-    public void onTabSelected(Tab tab, FragmentTransaction ignoredFt) {
-        FragmentManager fragMgr = ((FragmentActivity) activity).getSupportFragmentManager();
-        FragmentTransaction ft = fragMgr.beginTransaction();
+    public void onTabSelected(ActionBar.Tab tab, android.app.FragmentTransaction ft) {
         if (fragment == null) {
             fragment = Fragment.instantiate(activity, fragmentClass.getName(), fragmentArguments);
             fragment.setArguments(fragmentArguments);
@@ -46,14 +34,17 @@ public class FragmentTabListener<T extends Fragment> implements TabListener {
         ft.commit();
     }
 
-    public void onTabUnselected(Tab tab, FragmentTransaction ignoredFt) {
-        FragmentManager fragMgr = ((FragmentActivity) activity).getSupportFragmentManager();
-        FragmentTransaction ft = fragMgr.beginTransaction();
-
+    @Override
+    public void onTabUnselected(ActionBar.Tab tab, android.app.FragmentTransaction ft) {
         if (fragment != null) {
             ft.detach(fragment);
         }
 
         ft.commit();
+    }
+
+    @Override
+    public void onTabReselected(ActionBar.Tab tab, android.app.FragmentTransaction ft) {
+
     }
 }

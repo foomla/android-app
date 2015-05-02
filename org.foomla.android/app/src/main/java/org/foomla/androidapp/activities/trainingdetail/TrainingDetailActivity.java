@@ -22,8 +22,6 @@ import org.foomla.api.entities.twizard.Training;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.actionbarsherlock.view.MenuItem;
-
 import com.squareup.seismic.ShakeDetector;
 
 import android.content.Context;
@@ -34,6 +32,7 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.os.Vibrator;
 
+import android.view.MenuItem;
 import android.widget.Toast;
 
 public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements TrainingDetailFragment.ActionHandler,
@@ -74,7 +73,7 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
         initializeView();
         setTitle(getTraining() != null ? getTraining().getTitle() : getTitle());
         if (!isEditTrainingActivity()) {
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getActionBar().setDisplayHomeAsUpEnabled(true);
         }
     }
 
@@ -170,7 +169,7 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
     protected void initializeView() {
         setContentView(R.layout.activity_trainingdetail);
         trainingDetailFragment = buildTrainingDetailFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.training_detail_fragment, trainingDetailFragment)
+        getFragmentManager().beginTransaction().replace(R.id.training_detail_fragment, trainingDetailFragment)
                                    .commit();
     }
 

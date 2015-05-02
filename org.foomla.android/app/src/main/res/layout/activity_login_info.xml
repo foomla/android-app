@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/foowhite"
     android:orientation="vertical"
-    android:theme="@style/Theme.Sherlock.NoActionBar" >
+    android:theme="@android:style/Theme.Holo.NoActionBar" >
 
     <ImageView
         android:id="@+id/imageView1"

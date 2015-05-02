@@ -1,11 +1,11 @@
 package org.foomla.androidapp.activities;
 
+import android.app.Activity;
+import android.view.MenuItem;
+
 import org.foomla.androidapp.FoomlaApplication;
 
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.MenuItem;
-
-public class BaseActivity extends SherlockActivity {
+public class BaseActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

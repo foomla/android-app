@@ -9,9 +9,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 
-import com.viewpagerindicator.TitlePageIndicator;
 
 public class InfoActivity extends BaseActivityWithNavDrawer {
+    /*
     private class InfoFragmentAdapter extends FragmentPagerAdapter {
 
         public InfoFragmentAdapter(FragmentManager fm) {
@@ -67,5 +67,5 @@ public class InfoActivity extends BaseActivityWithNavDrawer {
         TitlePageIndicator indicator = (TitlePageIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(pager);
     }
-
+    */
 }

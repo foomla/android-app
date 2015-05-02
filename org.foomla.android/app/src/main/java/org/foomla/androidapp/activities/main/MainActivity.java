@@ -63,7 +63,7 @@ ShakeDetector.Listener {
         createNavDrawer();
 
         mainFragment = new MainFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_main, mainFragment).commit();
+        getFragmentManager().beginTransaction().replace(R.id.fragment_main, mainFragment).commit();
     }
 
     @Override

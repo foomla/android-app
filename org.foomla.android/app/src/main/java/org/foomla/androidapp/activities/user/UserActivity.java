@@ -43,7 +43,7 @@ public class UserActivity extends BaseActivityWithNavDrawer implements Callback 
         createNavDrawer();
 
         userFragment = new UserFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_user, userFragment).commit();
+        getFragmentManager().beginTransaction().replace(R.id.fragment_user, userFragment).commit();
 
         loadUser();
     }
