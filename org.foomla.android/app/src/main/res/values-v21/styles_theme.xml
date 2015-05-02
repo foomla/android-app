@@ -24,4 +24,10 @@
         <item name="android:colorAccent">@color/foogreen</item>
     </style>
 
+    <style name="Theme.FoomlaDarkTheme" parent="Theme.FoomlaTheme">
+        <item name="android:colorPrimary">@color/fooblack</item>
+        <item name="android:colorPrimaryDark">@color/foodarkblack</item>
+        <item name="android:colorAccent">@color/foowhite</item>
+    </style>
+
 </resources>

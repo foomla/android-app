@@ -11,6 +11,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:logo="@drawable/foomla_logo"
         android:theme="@style/Theme.FoomlaTheme">
 
         <activity
@@ -67,7 +68,8 @@
         </activity>
         <activity
             android:name=".activities.exercisedetail.ExerciseDetailActivity"
-            android:label="@string/activity_exercisedetails">
+            android:label="@string/activity_exercisedetails"
+            android:theme="@style/Theme.FoomlaDarkTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>

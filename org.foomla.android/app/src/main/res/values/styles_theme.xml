@@ -24,4 +24,10 @@
         <item name="colorAccent">@color/foogreen</item>
     </style>
 
+    <style name="Theme.FoomlaDarkTheme" parent="Theme.FoomlaTheme">
+        <item name="colorPrimary">@color/fooblack</item>
+        <item name="colorPrimaryDark">@color/foodarkblack</item>
+        <item name="colorAccent">@color/foowhite</item>
+    </style>
+
 </resources>
