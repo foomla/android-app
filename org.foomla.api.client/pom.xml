@@ -15,7 +15,7 @@
 		<dependency>
 			<groupId>org.foomla</groupId>
 			<artifactId>org.foomla.api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.0</version>
 		</dependency>
 
 		<!-- external dependencies -->
