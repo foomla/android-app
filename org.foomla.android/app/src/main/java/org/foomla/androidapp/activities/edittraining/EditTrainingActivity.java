@@ -36,8 +36,8 @@ public class EditTrainingActivity extends TrainingDetailActivity implements Trai
     }
 
     @Override
-    protected void onStart() {
-        super.onStart();
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
         initialize();
     }
 
