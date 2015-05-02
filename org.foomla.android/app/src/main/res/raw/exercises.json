@@ -1,0 +1,2447 @@
+[
+   {
+      "note" : "In dieser Übung muss der Trainer sowohl den Verteidigern als auch den Angreifern Hilfestellungen geben. Wann sollen sie attackieren, wir sollen sie das Tor vorbereiten.",
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "1/2 Platz",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "auxiliaryMaterial" : "Bälle und Hütchen",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1406048047895,
+      "id" : 78,
+      "createdAt" : 1378496511550,
+      "schedule" : "<h1> Organisation </h1>\r\nDie Trainingsgruppe wird geteilt. Kurz hinter der Mittellinie nehmen die Spieler ihre Position ein. Der Trainer steht zwischen diesen beiden Gruppen und hat die Bälle vor sich.\r\n\r\n<h1> Ablauf </h1>\r\nDer Trainer spielt den Ball in die Tiefe. Wenn sich der Ball bewegt, ist dies das Startsignal um den Ball zu ersprinten. Wer als erstes den Ball unter Kontrolle hat, ist der Angreifer, der andere Spieler muss den Angriff abwehren.",
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung des 1 vs 1 auf dem Flügel und Verbesserung des langen Sprints.",
+      "images" : [],
+      "title" : "1 gegen 1 auf dem Flügel, Laufduell um den Torabschluss",
+      "maxPlayers" : 0
+   },
+   {
+      "trainingFocus" : "ENDURANCE",
+      "note" : "Diese Übung ist sehr intensiv. Deshalb sollte der Trainer diese Übung zeitlich begrenzen.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, Halle, 10 x 10 Metere, 10 x 15 Meter",
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Hütchen, Bälle, Markierungshemden.",
+      "properties" : [],
+      "updatedAt" : 1406301679570,
+      "id" : 156,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein rechteckiges Feld in der Größe von 10 x 15 Meter abgesteckt. Der Trainer befindet sich seitlich neben dem Feld und hat mehrere Bälle an seiner Seite.\r\n<h1> Ablauf </h1>\r\nDer Trainer spielt einen Ball in das Feld. Die Spieler sprinten nach dem Ball und wer ihn kontrolliert, ist der Angreifer. Er sucht den Ball so lange wir möglich zu halten. Welcher Spieler hat nach 30 Sekunden den Ball?",
+      "createdAt" : 1406301679570,
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung der Zweikampftechnik in Offensive und Defensive.",
+      "title" : "1 vs 1 auf auf Ballhalten, ohne Tore",
+      "images" : [],
+      "maxPlayers" : 0
+   },
+   {
+      "images" : [],
+      "title" : "1 vs 1 auf dem Flügel, weite Distanz",
+      "maxPlayers" : 0,
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "SENIOR",
+         "U19"
+      ],
+      "createdAt" : 1376028049543,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden zwei Team gebildet. Ein Team steht am Mittelkreis. Das andere positioniert sich ca. 25 Meter vor dem Tor. \r\n<h1> Ablauf </h1>\r\nEin Spieler der angreifenden Mannschaft geht auf den rechten Flügel und erhält ein Zuspiel aus dem Zentrum. In diesem Moment läuft ein Spieler vom roten Team auf den Flügel und der Zweikampf beginnt. Der grüne Spieler versucht so schnell wie möglich ein Tor zu erzielen. Der Verteidiger versucht dies zu verhindern. Sollte der rote Spieler den Ball gewinnen, kontert er durch ein 10 Meter Dribbling. Die Spieler wechseln nun die Aufgaben.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li> Der rote Spieler verhält sich passiv.</li>\r\n  <li> Der rote Spieler verhält sich teilaktiv.</li>\r\n  <li> Der rote Spieler verhält sich aktiv.</li>\r\n</ul>",
+      "objective" : "Verbessern des Zweikampfverhaltens auf dem Flügel, für die defensiven und offensiven Spieler.",
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore.",
+      "minPlayers" : 0,
+      "id" : 63,
+      "updatedAt" : 1406038053407,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Der Trainer schult mit diesem Training die Grundsitutaion 1 gegen 1 auf dem Flügel, frontal, bei zunächst weitem Abstand.",
+      "trainingFocus" : "TACTIC",
+      "setting" : "Sportplatz, halbes Feld",
+      "trainingPhases" : [
+         "MAIN",
+         "SCRIMMAGE"
+      ]
+   },
+   {
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "createdAt" : 1406298810916,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein rechteckiges Feld in der Größe von 15 x 25 Meter abgesteckt. An den schmalen Seiten werden jeweils zwei Stangentore markiert. Zwischen den Stangentoren, steht jeweils ein neutraler Wandspieler. In dem Feld befinden sich zwei konkurrierende Spieler. Der Trainer befindet sich seitlich neben dem Feld und hat mehrere Bälle an seiner Seite.\r\n<h1> Ablauf </h1>\r\nDer Trainer spielt einen Ball in das Feld. Die Spieler sprinten nach dem Ball und wer ihn kontrolliert, ist der Angreifer. Er versucht den Ball durch eines der beiden gegnerischen Stangentore zu dribbeln um einen Punkt zu erhalten. Spielt er mit einem neutralen Wandspieler einen Doppelpass und erzielt einen Treffer, erhält er zwei Punkte. Sollte der Verteidiger den Ball gewinnen, wird er zum Angreifer und kann selber Treffer erzielen.",
+      "objective" : "Verbesserung der Zweikampftechnik in Offensive und Defensive.",
+      "images" : [],
+      "title" : "1 vs 1 auf vier Stangentore plus 2 neutrale Wandspieler, mit fester Spielrichtung",
+      "maxPlayers" : 0,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Diese Übung ist sehr intensiv. Deshalb sollte der Trainer diese Übung zeitlich begrenzen.",
+      "trainingFocus" : "ENDURANCE",
+      "setting" : "Sportplatz, 15 x 20 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "properties" : [],
+      "auxiliaryMaterial" : "Stangen, Hütchen, Bälle, Markierungshemden.",
+      "minPlayers" : 0,
+      "id" : 153,
+      "updatedAt" : 1406298894935
+   },
+   {
+      "objective" : "Verbesserung der Zweikampftechnik in Offensive und Defensive.",
+      "createdAt" : 1406296943321,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein rechteckiges Feld in der Größe von 15 x 25 Meter abgesteckt. An den schmalen Seiten werden jeweils zwei Stangentore markiert. Zwischen den Stangentoren, steht jeweils ein neutraler Wandspieler. In dem Feld befinden sich zwei konkurrierende Spieler. Der Trainer befindet sich seitlich neben dem Feld und hat mehrere Bälle an seiner Seite.\r\n<h1> Ablauf </h1>\r\nDer Trainer spielt einen Ball in das Feld. Die Spieler sprinten nach dem Ball und wer ihn kontrolliert, ist der Angreifer. Er sucht sich eines der vier Stangentore aus, durch das er den Ball spielen will. Passt er den Ball durch ein Stangentor, erhält er einen Punkt. Spielt er mit einem neutralen Wandspieler einen Doppelpass, erhält er zwei Punkte. Sollte der Verteidiger den Ball gewinnen, wird er zum Angreifer und kann selber Treffer erzielen.\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Der Spieler erhält drei Punkte, wenn er mit vor dem Torerfolg mit beiden neutralen Wandspielern einen Doppelpass spielt. </li>\r\n  <li>Die Spieler müssen das Stangentor durch dribbeln.</li>\r\n</ul>",
+      "ageClasses" : [
+         "U13",
+         "SENIOR",
+         "U15",
+         "U17",
+         "U19"
+      ],
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "1 vs 1 auf vier Stangentore plus 2 neutrale Wandspieler, ohne feste Spielrichtung",
+      "setting" : "Sportplatz, 15 x 25 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : "Diese Übung ist sehr intensiv. Deshalb sollte der Trainer diese Übung zeitlich begrenzen.",
+      "trainingFocus" : "ENDURANCE",
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1406298987113,
+      "id" : 152,
+      "auxiliaryMaterial" : "Stangen, Hütchen, Bälle, Markierungshemden.",
+      "minPlayers" : 0,
+      "properties" : []
+   },
+   {
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "1 vs 1 auf vier Stangentore plus 4 neutrale Wandspieler, ohne feste Spielrichtung",
+      "objective" : "Verbesserung der Zweikampftechnik in Offensive und Defensive.",
+      "createdAt" : 1406301194710,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein rechteckiges Feld in der Größe von 15 x 20 Meter abgesteckt. An den schmalen Seiten werden jeweils zwei Stangentore markiert. Zwischen den Stangentoren, steht jeweils ein neutraler Wandspieler. Ebenso an den Seitenlinien. In dem Feld befinden sich zwei konkurrierende Spieler. Der Trainer befindet sich seitlich neben dem Feld und hat mehrere Bälle an seiner Seite.\r\n<h1> Ablauf </h1>\r\nDer Trainer spielt einen Ball in das Feld. Die Spieler sprinten nach dem Ball und wer ihn kontrolliert, ist der Angreifer. Er sucht sich eines der vier Stangentore aus, durch das er den Ball spielen will. Passt er den Ball durch ein Stangentor, erhält er einen Punkt. Spielt er mit einem neutralen Wandspieler einen Doppelpass, erhält er zwei Punkte. Sollte der Verteidiger den Ball gewinnen, wird er zum Angreifer und kann selber Treffer erzielen.",
+      "ageClasses" : [
+         "SENIOR",
+         "U19"
+      ],
+      "updatedAt" : 1406303071029,
+      "id" : 154,
+      "auxiliaryMaterial" : "Stangen, Hütchen, Bälle, Markierungshemden.",
+      "minPlayers" : 0,
+      "properties" : [],
+      "setting" : "Sportplatz, Halle, 15 x 20 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : "Diese Übung ist sehr intensiv. Deshalb sollte der Trainer diese Übung zeitlich begrenzen.",
+      "trainingFocus" : "ENDURANCE",
+      "exerciseStatus" : "PUBLISHED"
+   },
+   {
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "1 vs 1 auf vier offene Hütchentore",
+      "objective" : "Verbesserung der Zweikampftechnik in Offensive und Defensive.",
+      "ageClasses" : [
+         "U13",
+         "SENIOR",
+         "U15",
+         "U17",
+         "U19"
+      ],
+      "createdAt" : 1406301210675,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein rechteckiges Feld in der Größe von 10 x 15 Meter abgesteckt. Der Trainer befindet sich seitlich neben dem Feld und hat mehrere Bälle an seiner Seite.\r\n<h1> Ablauf </h1>\r\nDer Trainer spielt einen Ball in das Feld. Die Spieler sprinten nach dem Ball und wer ihn kontrolliert, ist der Angreifer. Der Gewinner versucht so schnell wie möglich durch die Hütchentore zu dribbeln. Dafür erhält er einen Punkt. Die Hütchentore sind von beiden Seiten bespielbar. Der Trainer sollte einen Durchgang auf 30 Sekunden beschränken.",
+      "id" : 155,
+      "updatedAt" : 1406302279541,
+      "properties" : [],
+      "auxiliaryMaterial" : "Hütchen, Bälle, Markierungshemden.",
+      "minPlayers" : 0,
+      "setting" : "Sportplatz, Halle, 10 x 15 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Diese Übung ist sehr intensiv. Deshalb sollte der Trainer diese Übung zeitlich begrenzen.",
+      "trainingFocus" : "ENDURANCE"
+   },
+   {
+      "createdAt" : 1365242400000,
+      "schedule" : "Das Team wird auf die Spielpositionen verteilt. Notfalls werden Positionen auch doppelt besetzt.\r\n\r\n<h1> Ablauf </h1>\r\nDer Trainer stellt verschiedene Hütchen in der gegnerischen Hälfte auf. Diese Hütchen werden auf Kommando von der gesamten Mannschaft angelaufen. Der Trainer korrigiert die Abstände und gibt den Spielern Tipps, wie sie die Laufwege gegen den Ball perfektionieren können. \r\n\r\n<h1> Modifikation </h1>\r\nDie Spieler starten immer aus einer zentralen Grundposition und bewegen sich in die Richtung des Balls und schützen ihren Raum.",
+      "ageClasses" : [
+         "SENIOR",
+         "U17",
+         "U19"
+      ],
+      "objective" : "Optimierung des Spiels gegen den Ball als Mannschaft.",
+      "images" : [],
+      "title" : "11 gegen 0 im 4:2:3:1",
+      "maxPlayers" : 0,
+      "note" : "Das Spiel mit der Doppel 6 bedeutet eine eher defensive Grundeinstellung. Die offensiven Aktionen erfolgen überwiegend durch die Spielposition 9, 10 und 7 und 11.",
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz",
+      "trainingPhases" : [
+         "SCRIMMAGE",
+         "MAIN"
+      ],
+      "auxiliaryMaterial" : "Hütchen",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1406045480698,
+      "id" : 30
+   },
+   {
+      "maxPlayers" : 0,
+      "title" : "11 gegen 0 im 4:4:2 flach",
+      "images" : [],
+      "objective" : "Optimierung des Spiels gegen den Ball als Mannschaft.",
+      "schedule" : "<h1> Organisation </h1>\r\nDas Team wird auf die Spielpositionen verteilt. Notfalls werden Positionen auch doppelt besetzt.\r\n\r\n<h1> Ablauf </h1>\r\nDer Trainer stellt verschiedene Hütchen in der gegnerischen Hälfte auf. Diese Hütchen werden auf Kommando von der gesamten Mannschaft angelaufen. Der Trainer korrigiert die Abstände und gibt den Spielern Tipps, wie sie die Laufwege gegen den Ball perfektionieren können. \r\n\r\n<h1> Modifikation </h1>\r\nDie Spieler starten immer aus einer zentralen Grundposition und bewegen sich in die Richtung des Balls und schützen ihre Räume.",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "SENIOR",
+         "U17",
+         "U19"
+      ],
+      "updatedAt" : 1406045384176,
+      "id" : 21,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Hütchen",
+      "properties" : [],
+      "trainingPhases" : [
+         "MAIN",
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz",
+      "trainingFocus" : "TACTIC",
+      "note" : "Das Spiel mit der Doppel 6 bedeutet eine eher defensive Grundeinstellung. Die offensiven Aktionen erfolgen überwiegend durch die Spielposition 9, 10 und 7 und 11.",
+      "exerciseStatus" : "PUBLISHED"
+   },
+   {
+      "setting" : "halbes Spielfeld",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1375730592021,
+      "id" : 44,
+      "auxiliaryMaterial" : "Tor, Bälle, Markierungshemden",
+      "minPlayers" : 0,
+      "properties" : [],
+      "objective" : "Verbesserung des gruppentaktischen Abwehr- und Angriffverhaltens bei einer Unterzahl-, Überzahlsituation. Positionstraining für die Innenverteidigung, Außenstürmer/ äußeren Mittelfeldspieler, und des zentralen Stürmers, bzw, Spielmachers.",
+      "createdAt" : 1375089699719,
+      "schedule" : "<h1>Organisation </h1>\r\nDrei Angreifer stehen gleichmäßig verteilt auf der Mittellinie. Der Spieler im Zentrum hat den Ball. Zwei verteidigende Innenverteidiger stellen sich ca. 35 Meter vor dem eigenen Tor auf.\r\n\r\n<h1>Ablauf </h1>\r\nDer zentrale Angreifer dribbelt an und die Übung beginnt. Die Verteidiger versuchen den Ball zu gewinnen und kontern mit einem Tempodribbling bei Ballgewinn über die Mittellinie. Die Angreifer versuchen ein Tor zu erzielen.\r\n\r\n<h1>Modifikation </h1>\r\n-\r\n\r\n<h1>Coaching </h1>\r\n\r\nFür die Offensive:\r\n- so lange wir möglich den Angriff breit gestalten (Tortricher als Hilfslinie)\r\n- der Ball sollte erst vom zentralen Angreifer gespielt werden, wenn die Verteidiger Druck aufbauen\r\n- Anspiele in die gedachte Passlücke zwischen Außenverteidiger und Innenverteidiger sind ausdrücklich gewünscht. Vorsicht, dies ist ein sehr schwieriger Ball, der bei hohem Tempodribbling gespielt wird\r\n\r\nFür die Defenisve:\r\n- Das Zentrum so lange wie möglich auf lassen\r\n- Dann erst in eine Tiefenstafflung gehen\r\n- Entschlossen den Ball gewinnen wollen. Bitte die individualtaktischen Prinzipien aus dem \"1vs1, Gegner frontal, weite Entfernung\" beachten.\r\n- Der Torwart gibt Kommandos.",
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "2 Innenverteidiger gegen 3 Angreifer"
+   },
+   {
+      "setting" : "Sportplatz, halbes Feld",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "id" : 46,
+      "updatedAt" : 1375730942983,
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle, Markierungshemden für 2 Teams, ein Tor",
+      "minPlayers" : 0,
+      "objective" : "Verbesserung des gruppentaktischen Abwehrverhaltens in Unterzahl. Gezielter Angriff in Kontersituation.",
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "createdAt" : 1375089783626,
+      "schedule" : "<h1> Organisation </h1>\r\nDrei Angreifer stellen sich an der Mittellinie in der vollen Breite des 16ers auf. Zwei Innenverteidiger positionieren sich ca. 35 Meter vor dem eigenen Tor.  Hinter dem zentralen Angreifer wartet noch ein verteidigender, zentraler Mittelfeldspieler (6er Position). \r\n\r\n<h1> Ablauf </h1>\r\nDer zentrale Angreifer, zum Beispiel die Spielmacherposition, eröffnet die Übung, indem er mit einem Ball andribbelt.  Die Außenspieler starten Richtung Tor. Sobald  der  Ball über die letzte Markierung des Mittelkreises gedribbelt worden ist, kann die verteidigende 6er-Position in das Feld einrücken und versuchen den Angriff zu verhindern. \r\n\r\n<h1> Modifikation </h1>\r\nDas Anspiel auf den zentralen Angreifer erfolgt durch den Torwart, oder einen Außenspieler",
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "2 Innenverteidiger plus nachrückende 6 gegen 3 Angreifer"
+   },
+   {
+      "trainingFocus" : "TACTIC",
+      "note" : "Diese Übung eignent sich auch prima um eine kleine teaminterne Meisterschaft auszuspielen.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, Halle, 15 x 15 Meter",
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Markierungshütchen und -hemden",
+      "properties" : [],
+      "updatedAt" : 1406035679737,
+      "id" : 24,
+      "schedule" : "<h1> Organisation </h1>\r\nDie Spieler werden auf die Hütchentore verteilt und spielen 2 gegen 2 auf die Hütchentore.\r\n\r\n<h1> Ablauf </h1>\r\nDie Mannschaft in Ballbesitz versucht so schnell wie möglich ein Tor zu erzielen. Bei 3 Torerfolgen muss die verlierende Mannschaft einmal um das Feld laufen. \r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li> die Übung wird durch ein tiefes Anspiel zum Gegner eröffnet</li>\r\n  <li> ein Spieler der verteidigenden Mannschaft darf erst nach 5 Sekunden in das Spielfeld einrücken. Solange muss der verbliebene Spieler versuchen den Angriff zu verzögern</li>\r\n  <li> ein Angreifer läuft aus der gegnerischen Hälfte in die Spieleröffnung</li>\r\n</ul>",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "U11",
+         "U17",
+         "U13",
+         "U15"
+      ],
+      "objective" : "Verbesserung des Zusammenspiels im 2 vs 2 offensiv und defensiv.",
+      "title" : "2 gegen 2 auf Hütchentore",
+      "images" : [],
+      "maxPlayers" : 0
+   },
+   {
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Hütchen.",
+      "properties" : [],
+      "updatedAt" : 1406036612065,
+      "id" : 60,
+      "trainingFocus" : "TACTIC",
+      "note" : "Da es sich um ein intensives Training handelt, sollte der zeitliche Umfang nicht mehr als 2 bis 3 Minuten betragen.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, 15 x 15 Meter.",
+      "title" : "2 gegen 2 auf Hütchentore",
+      "images" : [],
+      "maxPlayers" : 0,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein Feld in der große von 15 x 15 Meter abgesteckt. Zwei Gruppen mit jeweils zwei Spielern befinden sich in dem Feld.\r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler in Ballbesitz versuchen durch die gegnerischen Hütchentore zu passen. Gewinnen die Verteidiger den Ball, könne sie kontern.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Die Spieler müssen fünf Kontakte untereinander spielen. Erst dann dürfen sie Tore erzielen.</li>\r\n  <li>Der Trainer gibt ein akustisches Signal, z.B. durch einen Pfiff. Dann haben die Spieler 30 Sekunden um ein Tor zu erzielen. Das Team, dass einen Treffer erzielt, bekommt zwei Tore gutgeschrieben. </li>\r\n  <li>Bei einem Signal des Trainer, müssen die Spieler das andere Tor angreifen.</li>\r\n  <li></li>\r\n</ul>\r\n\r\n<h1> Erleichtern </h1>\r\n<ul>\r\n  <li>Ein neutraler Spieler spielt beim Team in Ballbesitz.</li>\r\n  <li>Auf der einen Seite sind zwei Tore.</li>\r\n  <li>Zunächst spielen zwei Angreifer gegen einen Verteidiger. Nach 5 Sekunden rückt ein weiterer Verteidiger in das Feld.</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\n<ul>\r\n  <li>Ein Angreifer muss durch Dribbeltechniken den Ball fünf Sekunden halten. Erst dann darf er abspielen.</li>\r\n  <li>Nach drei Doppelpässen darf erst ein Tor erzielt werden.</li>\r\n  <li>Der Pass durch das Tor muss vom zweiten Angreifer erlaufen und der Ball gesichert werden.</li>\r\n</ul>",
+      "createdAt" : 1375998626237,
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17"
+      ],
+      "objective" : "Verbesserung des gruppentaktischen Verhaltens."
+   },
+   {
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz",
+      "trainingFocus" : "TACTIC",
+      "note" : "Oftmals versuchen Spieler mit einem direkten Pass, diese Aufgabe zu lösen. Dies führt häufig zu Flüchtigkeitsfehlern. Es ist besser, wenn sie mit zwei Kontakten Spielen, z.B. Ballan- bzw. Ballmitnahmem, dann erfolgt erst der Pass. Diese Übung eignet sich, um die Kopplungsfähigkeit der Spieler zu verbessern.",
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1375194471972,
+      "id" : 5,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Ball, Markierungshemden, Tore, Hütchen",
+      "properties" : [],
+      "objective" : "Verbesserung des gruppentaktischen Verhaltens im 2 vs 2 defensiv.",
+      "schedule" : "<h1>Organisation</h1>\r\nDas Team wird in zwei Gruppen aufgeteilt.\r\n\r\n<h1>Ablauf</h1>\r\nEin Torwart rollt den Ball zu einem Mitspieler. \r\n\r\n• Passschatten des  Mitspielers schützen<br/>\r\n• Doppeln<br/>\r\n• Den Gegner aus dem Zentrum drängen<br/>",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR",
+         "U11",
+         "U13"
+      ],
+      "maxPlayers" : 0,
+      "title" : "2 vs 2 auf Tore",
+      "images" : []
+   },
+   {
+      "maxPlayers" : 0,
+      "title" : "2 vs 2 auf Tore defensiv",
+      "images" : [],
+      "objective" : "Verbesserung der Ballkontrolle und des Verständnisses von Breite und Tiefe im Spiel mit dem Ball.",
+      "schedule" : "<h1> Organisation </h1>\r\nDas Team wird in zwei Gruppen aufgeteilt.\r\n\r\n<h1>Ablauf</h1>\r\nDie Spieler versuchen den Ball so lange wie möglich in den eigenen Reihen zuhalten. Um ein Tor erzielen zu dürfen, müssen Sie inkl. Torhüter 5 Zuspiele durchführen. Erst im Anschluss darf abgeschlossen werden.\r\n\r\n<h1>Modifikation</h1>\r\nBevor der Torschuss erfolgt, muss ein Spieler in einem 1 vs 1 frontal eine Finte angesetzt haben.",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "updatedAt" : 1367054807373,
+      "id" : 6,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Ball, Tore, Markierungshemden",
+      "properties" : [],
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, 15 x 20 Meter Feld",
+      "trainingFocus" : "TACTIC",
+      "note" : "Oftmals versuchen Spieler mit direktem Passspiel diese Aufgabe zu erfüllen. Dies führt häufig zu Flüchtigkeitsfehlern. Es ist besser, wenn die Spieler mit zwei Kontakten Spielen (Ballan- bzw. Ballmitnahme und dann Passen). Hier wird die Kopplungsfähigkeit der Spieler geschult.",
+      "exerciseStatus" : "PUBLISHED"
+   },
+   {
+      "images" : [],
+      "title" : "3 Zonenspiel plus neutralen Spieler",
+      "maxPlayers" : 0,
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nDas Team wird in zwei Gruppen eingeteilt. Zudem kommt ein Spieler mit einer dritten Farbe. Dieser ist neutral und spielt immer bei dem Team, welches in Ballbesitz ist. \r\n\r\n<h1> Ablauf </h1>\r\nEs sollen Doppelpässe mit den Spielern in den seitlichen Zonen gesucht und gespielt werden.",
+      "ageClasses" : [
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung des Zusammenspiels und der Spielverlagerung auf die Außenposition.",
+      "auxiliaryMaterial" : "Zwei verschieden farbige Markierungshemden",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1389645549274,
+      "id" : 20,
+      "note" : "Zuspiele über Kniehöhe werden abgepfiffen und bedeuten einen Ballverlust.",
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, 30 x 40 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ]
+   },
+   {
+      "setting" : "Sportplatz, 10 x 15 Meter.",
+      "trainingPhases" : [
+         "MAIN",
+         "WARM_UP"
+      ],
+      "note" : null,
+      "trainingFocus" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1406270433897,
+      "id" : 141,
+      "auxiliaryMaterial" : "Hütchen, Balle, Markierungshemden.",
+      "minPlayers" : 0,
+      "properties" : [],
+      "objective" : "Verbesserung des Zusammenspiels und der Grundtechniken Passen, Ballkontrolle und der Ballan- und –mitnahme.",
+      "createdAt" : 1406042808586,
+      "schedule" : "<h1> Organisation </h1>\r\nDie Trainingsgruppe wird in 4er Teams unterteilt. Jede Gruppe wird einer Spielfeldfläche von 10 x 15 Metern zugewiesen. Ein Spieler ist Verteidiger. Die übrigen drei sind Angreifer.\r\n<h1> Ablauf </h1>\r\nDie Spieler in der Dreiergruppe erhalten den Ball. Sie passen sich den Ball im abgestecken Feld zu. Der Verteidiger versucht den Ball zu erhaschen. Wenn er den Ball gewinnt, muss er versuchen durch ein gegnerüberwindendes Dribbling den Ball um ein Hütchen zu führen. Gelingt es ihm, müssen die anderen Spieler wegen ihrer schlechten Abwehraktion drei Liegestütze durchführen. \r\n<h1> Modifikation </h1>\r\nDie Spieler haben\r\n<ul>\r\n  <li> zwei Pflichtkontakte.</li>\r\n  <li>müssen direkt spielen.</li>\r\n  <li>nur einen Kontakt, wenn der Mitspieler zwei hatte (1-2-1-2-1 Kontakte)</li>\r\n<li>Die Spieler in Überzahl können Punkte sammeln, wenn Sie es schaffen, ein Begrenzungshütchen zu umdribbeln. </li>\r\n</ul>\r\n\r\n<h1> Erleichtern / Erschweren </h1>\r\n<ul>\r\n  <li>Der Verteidiger ist passiv.</li>\r\n  <li>Der Verteidiger ist teilaktiv.</li>\r\n  <li>Der Verteidiger ist aktiv.</li>\r\n  <li>Der Ball darf maximal kniehoch gespielt werden.</li>\r\n  <li>Blocken des Balls ist nicht erlaubt.</li>\r\n</ul>",
+      "ageClasses" : [
+         "U13",
+         "U11",
+         "SENIOR",
+         "U15",
+         "U19",
+         "U17"
+      ],
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "3 gegen 1 auf Ballhalten"
+   },
+   {
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Markierungshemden, Hütchen.",
+      "id" : 144,
+      "updatedAt" : 1406270711775,
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "trainingPhases" : [
+         "MAIN",
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, 10 x 15 Meter",
+      "title" : "3 gegen 1 auf eine Zielzone",
+      "images" : [],
+      "maxPlayers" : 0,
+      "ageClasses" : [
+         "U13",
+         "U11",
+         "SENIOR",
+         "U15",
+         "U19",
+         "U17"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein Feld mit der Größe 10 x 15 Meter abgesteckt. Hinter diesem Feld wird eine Zone markiert. Es wird in in diesem Feld 3 vs 1 gespielt. \r\n<h1> Ablauf </h1>\r\nDie 3er-Gruppe erhält den Ball. Sie lassen den Ball untereinander zirkulieren. Nach 5 Abspielen untereinander versuchen Sie in die Zone zu gelangen. Dies können sie durch Dribblings oder Pässe erreichen. Gewinnt der Verteidiger den Ball, kann er auf die gegenüberliegende Seite der Zone kontern und so einen Punkt gewinnen. \r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Die Angreifer haben kleine Pflichtkontakte.</li>\r\n  <li>Ein Spieler wartet bereits als Zielspieler in der Zone.</li>\r\n  <li>Es dürfen nur Pässe in die Zone gespielt werden. Dribblings sind nicht erlaubt.</li>\r\n  <li>Es darf in die Zone nur gedribbelt werden. Pässe sind nicht erlaubt. </li>\r\n</ul>",
+      "createdAt" : 1406042927224,
+      "objective" : "Verbesserung des Zusammenspiels und der Grundtechniken."
+   },
+   {
+      "maxPlayers" : 0,
+      "title" : "3 gegen 3 auf je zwei Tore mit Schusszone",
+      "images" : [],
+      "objective" : "In dieser Übung geht es darum, durch gute technische Fähigkeiten, z.B. einer guten Ballan- und -mitnahme, Pässen und Dribblings, Überzahlsituationen herzustellen. Der Gegner muss Räume bewachen und dies gibt den Angreifern die Chance, Überzahl in Ballbesitz zu erlangen. Zudem lernen die Spieler im Angriff die optimale Breite des Spielfeldes zu nutzen.",
+      "ageClasses" : [
+         "U11",
+         "U13"
+      ],
+      "schedule" : "<h1>Organisation</h1>\r\nEs wird ein Spielfeld mit der Größe 30m x 30m mit Hütchen abgesteckt. 6 Spieler werden zu jeweils zwei 3er Gruppen aufgeteilt. Jedes Team muss zwei kleine Hütchentore (alternativ zwei Eishockeytore), die ca. 2 Meter vom Rand entfernt stehen, verteidigen. Vor den Toren wird eine Schusszone mit Hütchen markiert.\r\n\r\n<h1>Ablauf</h1>\r\nDas ballbesitzende Team soll versuchen, einen eigenen Spieler in der gegnerischen Schusszone anzuspielen. Dieser darf erst aus diesem Bereich, ein Tor erzielen. In diesen Raum dürfen die Verteidiger erst dann eindringen, wenn der Pass zum Angreifer gespielt wurde (nachrücken).\r\n\r\n<h1>Modifikation</h1>\r\nEs dürfen aus allen Positionen Tore erzielt werden. Unabhängig von der Schusszone. Der Torerfolg zählt doppelt, wenn er mit einem Pass in die Schusszone vorbereitet wurde. Vor dem Torerfolg, muss der Ball 5 mal im Team gespielt worden sein(Verbesserung der Ballzirkulation-> Hinweis! Bitte darauf achten, dass die Spieler immer zwei Kontakte verwenden. Dies führt dazu, dass der Ball immer kontrolliert und vor dem Gegner geschützt wird).",
+      "createdAt" : 1366563790250,
+      "id" : 39,
+      "updatedAt" : 1406035697641,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "10 Hütchen, 3 Markierungshemden",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz 30 x 30 Meter",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : "Häufige Fehler in dieser Übung: die Spieler setzen unüberlegt zum Hinterlaufen an. Geschickte Fragestellungen helfen den Spielern, die offenen Räume zu erkennen. In der Defensive werden oft Passwege geöffnet und es wird dem gegnerischen Team ermöglicht, in die Schussszone zu gelangen."
+   },
+   {
+      "setting" : "Sportplatz, 15 x 15 Meter.",
+      "trainingPhases" : [
+         "MAIN",
+         "WARM_UP"
+      ],
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "id" : 142,
+      "updatedAt" : 1406270510554,
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle, Hütchen, Markierungshemden.",
+      "minPlayers" : 0,
+      "objective" : "Die Spieler in Unterzahl versuchen so lange wie möglich den Ball zu halten. Die Defensiven sollen lernen, gemeinsam den Ball zu erobern.",
+      "ageClasses" : [
+         "U13",
+         "U11",
+         "SENIOR",
+         "U15",
+         "U19",
+         "U17"
+      ],
+      "createdAt" : 1406042881148,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden in einer Feldgröße 15 x 20 Meter zwei Gruppen gebildet. Das ballbesitzende Team hat drei Spieler, das andere hat 5 Spieler. \r\n\r\n<h1> Ablauf </h1>\r\nDie 3er Gruppe kann sich den Ball ohne Druck zupassen. Auf Kommando rückt die 5er Gruppe ins Feld. Sie sollen den Ball erobern und versuchen anhand eines Dribblings um ein Hütchen, den Ball aus dem Druckzentrum zu führen. \r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Die 5er Gruppe ist von Beginn an im Feld.</li>\r\n  <li>Zwei Verteidiger dürfen gegen den Mann spielen. Die übrigen drei dürfen nur Pässe abfangen.</li>\r\n  <li>Kann die 3er Gruppe den Ball 30 Sekunden behaupten, haben sie sich einen Punkt erspielt.</li>\r\n</ul>",
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "3 gegen 5, Spiel gegen Überzahl mit den Ball"
+   },
+   {
+      "schedule" : "<h1> Organisation </h1>\r\nKurz hinter der Mittellinie, wird zentral ein 15 x 15 Meter großes Feld aufgebaut. In diesem Feld spielen 3 Angreifer gegen einen Verteidiger. Vor dem Strafraum, ca. 20 Meter vom Tor entfernt, wird mit Hütchen eine Linie markiert. Mittig dieser Linie steht ein Verteidiger. An den Enden jeweils ein Stürmer.\r\n\r\n<h1> Ablauf </h1>\r\nIm zentralen Feld wird ein 3 vs 1 mit unterschiedlichen Regeln gespielt. Anhand einer besonderen Situation, oder einem Signal des Trainers, wird der Ball aus diesem Feld zu einem der beiden Stürmer gespielt. Der Torabschluss soll angesetzt werden.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Der Stürmer der den Ball erhält, muss den zweiten Stürmer anspielen.</li>\r\n  <li>Der Passgeber aus dem zentralen Spielfeld rückt in den 16 Meterraum nach.</li>\r\n  <li>Der Verteidiger aus dem zentralen Spielfeld rückt an die Stürmer heran.</li>\r\n</ul>\r\n\r\n<h1> Erleichtern </h1>\r\n<ul>\r\n  <li>Der zentrale Verteidiger auf der Linie darf nur die Pässe abfangen.</li>\r\n  <li>Beide Verteidiger sind passiv.</li>\r\n  <li>Der Verteidiger auf der Linie wird gestrichen.</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\n<ul>\r\n  <li>Der Verteidiger auf der Abwehrlinie erhält einen weiteren Mitspieler.</li>\r\n</ul>",
+      "createdAt" : 1406042940059,
+      "ageClasses" : [
+         "SENIOR",
+         "U19",
+         "U17"
+      ],
+      "objective" : "Das Herausspielen und Verwerten von Torchancen aus dem zentralen Bereich.",
+      "title" : "3 vs 1 im Zentrum mit Pass auf einen Stürmer",
+      "images" : [],
+      "maxPlayers" : 0,
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, halbes Feld",
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Hütchen, Markierungshemden, Tore.",
+      "properties" : [],
+      "updatedAt" : 1406270787247,
+      "id" : 145
+   },
+   {
+      "objective" : "Das Herausspielen und Verwerten von Torchancen über den Flügel, nach einem Pass aus dem Zentrum.",
+      "ageClasses" : [
+         "SENIOR",
+         "U19",
+         "U17"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nKurz hinter der Mittellinie, wird zentral ein 15 x 15 Meter großes Feld aufgebaut. In diesem Feld spielen 3 Angreifer gegen einen Verteidiger. Vor dem Strafraum, ca. 20 Meter vom Tor entfernt, wird mit Hütchen eine Linie markiert. Mittig dieser Linie steht ein Verteidiger der gegen zwei Stürmer spielt. Auf den Außenpositionen befinden sich jeweils ein Außenstürmer und ein Außenverteidiger. \r\n\r\n<h1> Ablauf </h1>\r\nIm zentralen Feld wird ein 3 vs 1 mit unterschiedlichen Regeln gespielt. Anhand einer besonderen Situation, oder einem Signal des Trainers, wird der Ball aus diesem Feld zu einem der beiden Außenstürmer gespielt. Diese soll den Ball gegen den Verteidiger behaupten und flanken.",
+      "createdAt" : 1406042986168,
+      "maxPlayers" : 0,
+      "title" : "3 vs 1 im Zentrum, Pass auf den Flügel",
+      "images" : [],
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, halbes Feld",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "id" : 147,
+      "updatedAt" : 1406270899701,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Hütchen, Markierungshemden, Tore."
+   },
+   {
+      "objective" : "Das Herausspielen und Verwerten von Torchancen aus dem zentralen Bereich.",
+      "schedule" : "<h1> Organisation </h1>\r\nKurz hinter der Mittellinie, werden zwei 15 x 15 Meter großes Feld in den Halbräumen aufgebaut. In diesen Feldern spielen jeweils 3 Angreifer gegen einen Verteidiger. Vor dem Strafraum, ca. 20 Meter vom Tor entfernt, wird mit Hütchen eine Linie markiert. Mittig dieser Linie steht ein Verteidiger. An den Enden jeweils ein Stürmer.\r\n\r\n<h1> Ablauf </h1>\r\nIn den Halbfeldern wird ein 3 vs 1 mit unterschiedlichen Regeln gespielt. Anhand einer besonderen Situation, oder einem Signal des Trainers, wird der Ball aus diesem Feld zu einem der beiden Stürmer gespielt. Der Torabschluss soll angesetzt werden.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Der Stürmer der den Ball erhält, muss den zweiten Stürmer anspielen.</li>\r\n  <li>Der Passgeber aus dem zentralen Spielfeld rückt in den 16 Meterraum nach.</li>\r\n  <li>Der Verteidiger aus dem zentralen Spielfeld rückt an die Stürmer heran.</li>\r\n</ul>\r\n\r\n<h1> Erleichtern </h1>\r\n<ul>\r\n  <li>Der zentrale Verteidiger auf der Linie darf nur die Pässe abfangen.</li>\r\n  <li>Beide Verteidiger sind passiv.</li>\r\n  <li>Der Verteidiger auf der Linie wird gestrichen.</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\n<ul>\r\n  <li>Der Verteidiger auf der Abwehrlinie erhält einen weiteren Mitspieler.</li>\r\n</ul>",
+      "createdAt" : 1406042970991,
+      "ageClasses" : [
+         "SENIOR",
+         "U19",
+         "U17"
+      ],
+      "maxPlayers" : 0,
+      "title" : "3 vs 1 in den Halbräumen, mit Pass auf einen Stürmer",
+      "images" : [],
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, halbes Feld",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1406270839565,
+      "id" : 146,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Hütchen, Markierungshemden, Tore.",
+      "properties" : []
+   },
+   {
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "3 vs 1 plus 3 vs 1 in zwei Zonen",
+      "objective" : "Verbesserung der Spielverlagerung",
+      "createdAt" : 1406042918790,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden zwei Felder mit der jeweiligen Größe von 10 x 15 Meter abgesteckt. Diese Felder sind direkt nebeneinander. In jeden Feld wird 3 vs 1 gespielt. Dazu werden drei Teams gebildet. Zwei 3er-Gruppen, die jeweils in einem Feld sind und dazu jeweils ein Abwehrspieler. \r\n<h1> Ablauf </h1>\r\nEs beginnt ein einem Feld die Übung, in dem die 3er-Gruppe den Ball zirkulieren lässt. Der Verteidiger versucht den Ball zu gewinnen. Nach 5 Kontakten in der Gruppe, darf der Ball zu der zweiten 3er-Gruppe gespielt werden. Dort wird das Spiel ebenfalls im 3 vs 1 fortgesetzt. Schafft es die zweite Gruppe ebenfalls den Ball fünf mal in ohne Ballverlust den Ball zu halten, können Sie die andere 3er-Gruppe erneut anspielen. Welche 3er-Gruppe schafft die meisten Abspiele auf die andere 3er Gruppe?\r\n<h1> Erleichtern </h1>\r\n<ul>\r\n  <li>Der erste Pass darf nach dem Wechseln nicht angegriffen werden.</li>\r\n  <li>Die Abwehrspieler sind passiv.</li>\r\n  <li>Die Abwehrspieler sind teilaktiv.</li>\r\n  <li>Die Abwehrspieler sind aktiv.</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\n<ul>\r\n  <li>Die Abwehrspieler wechseln mit dem Ball die Felder und spielen 3 gegen 2.</li>\r\n</ul>",
+      "ageClasses" : [
+         "U13",
+         "U11",
+         "SENIOR",
+         "U15",
+         "U19",
+         "U17"
+      ],
+      "updatedAt" : 1406270618272,
+      "id" : 143,
+      "auxiliaryMaterial" : "Bälle, Hütchen, Markierungshemden.",
+      "minPlayers" : 0,
+      "properties" : [],
+      "setting" : "sportplatz, 2 mal 15 x 15 Meter.",
+      "trainingPhases" : [
+         "MAIN",
+         "WARM_UP"
+      ],
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED"
+   },
+   {
+      "auxiliaryMaterial" : "Ball, Markierungshemden, Groß- oder Jugendtore",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1406055081871,
+      "id" : 10,
+      "note" : "Das Hinterlaufen stellt ein gruppentaktisches Mittel mit dem Ball dar. Daut gehören noch der Doppelpass, die Ballübergabe und das Spiel über den Dritten Man.",
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "images" : [],
+      "title" : "3 vs 3 mit Hinterlaufen",
+      "maxPlayers" : 0,
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1>Organisation</h1>\r\n3 gegen 3 plus Torhüter. Freie Anzahl an Ballkontakten. \r\n\r\n<h1>Ablauf</h1>\r\nEin Spieler hinterläuft den ballführenden Spieler auf dem Flügel. Nach dem Pass in den freien Raum zieht der Spieler in den Strafraum, wo er nach einem Zuspiel über den Flügel den direkten Torabschluss sucht. \r\n\r\n<h1>Modifikation</h1>\r\nHohes und flaches Zuspiel im Wechsel.",
+      "ageClasses" : [
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung des Spiels mit dem Ball. Einführung oder verfestigen des Hinterlaufens."
+   },
+   {
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "setting" : "Sportplatz, 20 x 30 Meter Spielfeld",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "properties" : [],
+      "auxiliaryMaterial" : "Ball, Markierungshemden, Zwei Groß- oder Jugendtore",
+      "minPlayers" : 0,
+      "id" : 8,
+      "updatedAt" : 1367055004349,
+      "ageClasses" : [
+         "U11",
+         "U15",
+         "U13"
+      ],
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1>Organisation</h1>\r\n3 gegen 3 plus Torhüter. Frei Anzahl Ballkontakte. \r\n\r\n<h1>Ablauf</h1>\r\nDer Torwart von Team 1 spielt einen Mitspieler an. Dieser versucht einen weiteren Mitspieler in der Gasse anzuspielen. Der angespielte Spieler sucht nach kurzen Dribbling den Torabschluss. \r\n\r\n<h1>Modifikation</h1>\r\nSollte ein Team ein Tor erzielen, wird es belohnt und darf mit einem Elfmeter den erzielten Treffer verdoppeln.",
+      "objective" : "Mit dieser Übung werden die Grundtechniken der Spieler verbessert. Insbesondere die Ballan- und -mitnahme sowie das Passspiel. Der Torabschluss sollte durch den Trainer gefordert werden.",
+      "images" : [],
+      "title" : "3 vs 3 mit Torabschluß",
+      "maxPlayers" : 0
+   },
+   {
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Ball, Markierungshemden, zwei Groß- oder Jugendtore",
+      "id" : 4,
+      "updatedAt" : 1367054326906,
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : "Prinzipien bei Spielformen:\r\n\r\n• vom Leichten zum Schweren\r\n• vom Bekannten zum Unbekannten",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, 20 x 30 Meter Spielfeld",
+      "title" : "3 vs 3 plus Torhüter",
+      "images" : [],
+      "maxPlayers" : 0,
+      "ageClasses" : [
+         "U13"
+      ],
+      "schedule" : "<h1>Organisation</h1>\r\nSpiel 3 gegen 3 plus Torhüter. Frei Anzahl an Ballkontakten. \r\n\r\n<h1>Ablauf</h1>\r\nDer Torwart von Team 1 spielt einen Mitspieler an. Dieser versucht einen weiteren Mitspieler anzuspielen. Gemeinsam versuchen sie ein Tor zu erzielen.\r\n\r\n<h1>Modifikation</h1>\r\nBevor die Spieler einen Torschuss versuchen dürfen, müssen insgesamt 5 Kontakte im eigenen Team erfolgt sein. Sollte das Team ein Tor erzielen, wird es belohnt und darf mit einem Elfmeter den erzielten Treffer verdoppeln.",
+      "createdAt" : 1365242400000,
+      "objective" : "Die Spieler sollen das Zusammenspiel trainieren und lernen die vollständige Breite und Tiefe der Spielfläche zu nutzen.\r\nIm Spiel gegen den Ball lernen die Spieler die Räume zu verdichten und sich gegenseitig zu helfen und die Passschatten hinter dem attackierenden Verteidiger zu schliessen."
+   },
+   {
+      "maxPlayers" : 0,
+      "title" : "4 gegen 4 auf jeweils 2 Hütchentore auf den Seitenlinien",
+      "images" : [],
+      "objective" : "Verbesserung der gruppentaktischen Fähigkeiten mit und gegen den Ball.",
+      "ageClasses" : [
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "schedule" : "<h1>Organisation</h1>\r\nEs werden zwei Team mit jeweils 4 Spielern gebildet. Die seitlichen 16er-Linien werden mit Markierungshütchen bis zur Mittellinie verlängert. Auf der Mittellinie und der oberen 16er-Linie, werden jeweils zwei ca. 3 Meter breite Passtore aufgebaut.\r\n\r\n<h1>Ablauf</h1>\r\nBeide Teams versuchen durch ein geschicktes Zusammenspiel, Tore zu erzielen. Dafür müssen sie versuchen, den Ball durch eines der beiden Passtore zu schießen.\r\n\r\n<h1>Modifikation</h1>\r\n<ul>\r\n   <li>Die Tore müssen durch gegnerüberwindendes, oder Tempodribblings erzielt werden.</li>\r\n   <li>Vor dem Tor, muss ein Doppelpass gespielt werden.</li>\r\n   <li>Jeder des angreifenden Teams muss den Ball mindestens einmal berührt haben.</li>\r\n   <li>Wenn es das ballbesitzenden Team schafft, 10 Pässe in den eigenen Reihen zu spielen, sind die Tore frei.</li>\r\n   <li>Der Trainer verändert die Spielrichtung durch ein akustisches, oder visuelles Signal. So bedeutet z.B. „Gold“, dass die Spieler des grünen Teams, die   beiden gegenüberstehenden Hütchentore auf der rechten Seite der Skizze verteidigen müssen.</li>\r\n</ul>",
+      "createdAt" : 1375997989790,
+      "id" : 59,
+      "updatedAt" : 1397642734174,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Ball, Markierungshütchen - und Leibchen",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz 30 x 40 Meter",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : null
+   },
+   {
+      "createdAt" : 1375089747498,
+      "schedule" : "<h1>Organisation</h1>\r\nIm abgesteckten Feld spielen zwei Teams gegeneinander. Das dritte Team verteilt sich auf die Seitenlinien. Spielziel ist es, den Ball so lange wie möglich in den eigenen Reihen zu halten. Die Spieler des dritten Teams agieren als Wandspieler. Nach ca. 4 bis 6 Minuten wechselt das dritte Team in das Feld und ein anderes Team besetzt die Seitenlinie als Wandspieler.\r\n\r\n<h1>Ablauf</h1>\r\nDie Spieler passen sich den Ball untereinander zu. Dabei versucht das ballbesitzende Team die Breite und Tiefe der Spielfläche optimal auszunutzen. Die Wandspieler sollten unbedingt angespielt werden. Sie haben 2 Pflichtkontakte, um die Ballan- und -mitnahme zu trainieren. Für zehn Kontakte innerhalb eines Teams gewinnt das entsprechende Team einen Punkt. Wer hat nach 4 Minuten mehr Punkte erreicht?\r\n\r\n<h1>Modifikation</h1>\r\n- Doppelpässe werden mit einem weiteren Zähler belohnt\r\n- Doppelpässe dürfen nicht gespielt werden. Es gilt \"das Spiel über den Drittenmann\" zu verbessern\r\n- Direktspiel ist untersagt\r\n- Wird ein Wandspieler angespielt, wechselt er in das Übungsfeld. Derjenige, der den Wandspieler angespielt hat, übernimmt dessen Position auf der Seitenlinie",
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung des Zusammenspiels. Ball- und -raumorientierte Bewegung. Fördern der Spielaktivität.",
+      "images" : [],
+      "title" : "4 gegen 4 plus 4 neutrale Wandspieler",
+      "maxPlayers" : 0,
+      "note" : "Bitte beachtet, dass in solchen Spielformen immer beide Teams gecoacht werden müssen. Sucht Euch einen Coachingschwerpunkt, z.B. offensiv, Passspiel und geht darauf immer wieder ein. Aber die andere Mannschaft darf auch korrigiert werden.\r\n\r\nHäufige Fehler: \r\n\"gegen den Ball\"\r\n- Mannorientierung, kein Verhalten gegen den Ball im Raum (Verteidiger spielen ja nun aber in Unterzahl, deswegen funktioniert eine Mannsdeckung schon numerisch nicht)\r\n- keine \"doppeln\"- Aktionen, Mitspieler sind zu passiv.\r\n\r\n\r\nUmschaltverhalten\r\n- zu langsame, da die Spieler die Situation nicht erkennen\r\n\r\nSpiel mit dem Ball\r\n- Breite und Tiefe wird nicht genutzt\r\n- der Ball wird zu lange gehalten/gedribbelt und ermöglicht dem Gegner den Zugriff\r\n- die Spieler im Spielfeld verdecken die Wandspieler und nehmen somit Anspielstationen aus dem Spiel.",
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, 30 x 40 Meter Feld",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "auxiliaryMaterial" : "Markierungshütchen, zwei Farben Markierungshemden",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1375730727418,
+      "id" : 45
+   },
+   {
+      "properties" : [],
+      "auxiliaryMaterial" : "Ball, Markierungshemden, zwei Groß- oder Jugendtore",
+      "minPlayers" : 0,
+      "id" : 3,
+      "updatedAt" : 1375194644959,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "setting" : "Sportplatz, Sporthalle",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "images" : [],
+      "title" : "4 vs  4 plus Torhüter",
+      "maxPlayers" : 0,
+      "ageClasses" : [
+         "U13"
+      ],
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1>Organisation</h1>\r\nDie Spieler werden in zwei Teams aufgeteilt. Jedes Team hat ein Tor zu verteidigen.\r\n\r\n<h1>Ablauf</h1>\r\nDie Spieler spielen sich den Ball untereinander zu. Sobald ein Spieler die Gelegenheit hat, soll der Torabschluss gesucht werden.\r\n\r\n<h1>Modifikation</h1>\r\n\r\n• erst nach 5 Kontakten innerhalb einer Mannschaft, darf der Torabschluss gesucht werden<br/>\r\n• der Ball darf maximal kniehoch gespielt werden<br/>\r\n• Einwürfe werden durch Einkicken ersetzt<br/>\r\n• der Torwart muss im Spielaufbau beteiligt worden sein<br/>\r\n• alle Spieler müssen zwei Ballkontakte haben, z.B. Ballannahme und Anschlussaktion)<br/>",
+      "objective" : "Lernziel Technik:\r\n\r\nVerbesserung der Basistechniken. \r\n\r\n• Ballan- und -mitnahme\r\n• Passspiel\r\n• Torabschluss\r\n\r\nLernziel Gruppentaktik:\r\n\r\n• Nutzen der Breite und Tiefe des Spiels\r\n• gemeinsames Verteidigen"
+   },
+   {
+      "maxPlayers" : 0,
+      "title" : "4 vs 4 auf Hütchentore",
+      "images" : [],
+      "objective" : "Verbesserung des Zusammenspiels und des Umschaltverhaltens.",
+      "ageClasses" : [
+         "U17",
+         "U19"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nDas Team wird in zwei Mannschaften eingeteilt. \r\n\r\n<h1> Ablauf </h1>\r\nDas Team mit dem Ball versucht ein Tor zu erzielen. Bei Torferfolg bleibt das erfolgreiche Team in Ballbesitz und darf einen erneuten Angriff vom eigenen Hütchentor beginnen.\r\n\r\n<h1> Modifikation </h1>\r\nBei Torerfolg, wechselt die Spielrichtung. Beträgt die Tordifferenz 3 Tore, werden neue Teams gebildet.\r\n\r\n<ul>\r\n  <li> </li>\r\n  <li> </li>\r\n  <li> </li>\r\n</ul>",
+      "createdAt" : 1365242400000,
+      "id" : 25,
+      "updatedAt" : 1366660522724,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Hütchen, Markierungshemden",
+      "trainingPhases" : [
+         "SCRIMMAGE"
+      ],
+      "setting" : "Sportplatz, 25 x 25 Meter",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : "Diese Übung eignet sich dazu, festzustellen ob die Spieler bereits ein gutes Gefühl für die Spielphasen \"Gegen den Ball\" und \"Mit dem Ball\" haben. Coachingpunkte sollten sein, die offenen Räume zu nutzen um in ihnen 1 vs 1 Situationen zu provozieren. Der Torabschluss ist aus allen Bereichen (inkl. Torhüter) erlaubt und gewünscht."
+   },
+   {
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein Spielfeld mit der Größe von ca. 30x 40 Metern abgesteckt. Zwei Tore stehen sich gegenüber. Es werden zwei Teams mit jeweils 4 Spielern und einem Torwart gebildet. Zusätzlich wird noch ein Neutraler in das Feld geschickt. Die Spieler werden farblich unterschiedlich markiert.\r\n\r\n<h1> Ablauf </h1>\r\nZiel ist es, einen Treffer zu erzielen. Dabei spielt der Neutrale immer mit dem Team, dass in Ballbesitz ist. \r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Mit dem Neutralen müssen Doppelpässe gesucht werden.</li>\r\n  <li>es müssen vor dem Torabschluss alle Spieler den Ball berührt haben.</li>\r\n  <li>Auf Kommando des Trainers muss der Torabschluss innerhalb von 10 Sekunden erreicht werden. </li>\r\n</ul>\r\n\r\n<h1> Erleichtern </h1>\r\n<ul>\r\n  <li>Durch zwei Neutrale wird das Unterzahl-, Überzahlverhältnis verändert.</li>\r\n  <li>Die ersten 5 Pässe sind frei, für die ballbesitzende Mannschaft. Es soll die Ballzirkulation geschult werden.</li>\r\n  <li>xxx</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\n<ul>\r\n  <li>Der neutrale Spieler wird aus dem Spiel genommen.</li>\r\n  <li>Die Spieler haben zwei Pflichtkontakte.</li>\r\n  <li>Dribblings sind verboten</li>\r\n  <li>Spielt ein Spieler direkt, muss der folgende Spieler zwei mal den Ball berühren. Schafft er dies nicht, ist es ein Ballverlust.</li>\r\n</ul>",
+      "createdAt" : 1375999751589,
+      "objective" : "Verbesserung des Zusammenspiels",
+      "title" : "4 vs 4 plus einen neutralen Spieler",
+      "images" : [],
+      "maxPlayers" : 0,
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : "Dies kann auch gut für das Schulen der 6er Position, bzw. der 10er Position gespielt werden!",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz 30 x 40 Meter",
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore.",
+      "id" : 62,
+      "updatedAt" : 1406037517964
+   },
+   {
+      "id" : 11,
+      "updatedAt" : 1367055371184,
+      "properties" : [],
+      "auxiliaryMaterial" : "Hütchen, Bälle, Markierungshemden",
+      "minPlayers" : 0,
+      "setting" : "Sportplatz, 30 x 40 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Gruppentaktische Mittel im Spiel mit dem Ball sind:<br/><br/>\r\n\r\n• der Doppelpass<br/>\r\n• das Hinterlaufen<br/>\r\n• das Spiel über den \"Dritten Mann\"<br/>\r\n• die Ballübergabe",
+      "trainingFocus" : "TECHNIC",
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "5 vs 5 auf Tore",
+      "objective" : "Verbesserung des Zusammenspiels mit kurzen Pässen. Trainieren von Kombinationen beim Spiel mit dem Ball.",
+      "ageClasses" : [
+         "U11",
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1>Organisation</h1>\r\nDie Spieler werden in zwei Teams eingeteilt. Das Spielfeld wird durch Hütchen begrenzt.\r\n\r\n<h1>Ablauf</h1>\r\nDas Team in der Spielphase \"mit dem Ball\" versucht so schnell wie möglich ein Tor zu erzielen. \r\n\r\n<h1>Modifikation</h1>\r\nSpielt ein Team vor dem Tor einen Doppelpass, zählt der Treffer doppelt."
+   },
+   {
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Diese Übung kann auch gut dazu dienen, die wettkampfgemäße Spielleistung der Spieler festzustellen.",
+      "trainingFocus" : "TACTIC",
+      "setting" : "Sportplatz",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle, Hütchen, Markierungshemden",
+      "minPlayers" : 0,
+      "id" : 116,
+      "updatedAt" : 1405977575207,
+      "ageClasses" : [
+         "U19",
+         "SENIOR",
+         "U17",
+         "U15"
+      ],
+      "createdAt" : 1397540302501,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden zwei Teams gebildet und so aufgestellt, dass sie farblich gut zu unterscheiden sind. Auf der Mitte der zweiten Spielfeldhälfte wird ein Großtor aufgebaut und in Verlängerung der Torlinie wird das Spielfeld begrenzt.\r\n\r\n<h1> Ablauf </h1>\r\nDie Teams versuchen Tore zu schießen. \r\n\r\n<h1> Modifikationen </h1>\r\n<ul>\r\n  <li>Der Trainer gibt bestimmte System vor. Z.B. 1:4:4, oder 1:3:3:2.</li>\r\n  <li>Passtore geben die durchzuspielenden Korridore vor.</li>\r\n  <li>Der Ball wird immer wieder von einer bestimmten Position aus ins Spiel gebracht. Z.B. von der rechten Seite, im mittleren Drittel.</li>\r\n</ul>",
+      "objective" : "Verbesserung der mannschaftstaktischen Abläufe in Angriff- und Abwehrverhalten.",
+      "images" : [],
+      "title" : "8 vs 8 plus TW auf 3/4 Spielfeld",
+      "maxPlayers" : 0
+   },
+   {
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden zwei Teams zum Abschluss des Teams gebildet. Es werden Tore dadurch erzielt, dass die Ecken durchgespielt werden. \r\n\r\n<h1> Ablauf </h1>\r\nDas Team in Ballbesitz versucht Tore zu erzielen, in dem die Ecken des Spielfeldes durchgepasst werden.\r\n\r\n<h1> Modifikation </h1>\r\nEs müssen diagonal versetzte Tore beschützt werden.\r\nEs reicht ein Schuss um ein Tor zu erzielen. \r\nEin Spieler steht hinter der Hütchenlinie und bei Ballannahme wird ein Tor gezählt.",
+      "ageClasses" : [
+         "U13",
+         "U17",
+         "U15"
+      ],
+      "objective" : "Spaß am Fußball und nutzen der offenen Räume. Das Umschaltspiel steht durch die versetzten Tore im Focus.",
+      "images" : [],
+      "title" : "Abschlussspiel auf Ecktore",
+      "maxPlayers" : 0,
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, 30 x 40 Meter",
+      "trainingPhases" : [
+         "SCRIMMAGE"
+      ],
+      "auxiliaryMaterial" : "Hütchen und Bälle und Markierungshemden",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1366660563813,
+      "id" : 26
+   },
+   {
+      "auxiliaryMaterial" : "Hütchen und Markierungshemden",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1387029825884,
+      "id" : 23,
+      "note" : "Gerade die Aufwärmphase eignet sich dazu, mit den Kids zu sprechen und die Beziehungsebene aufzubauen.",
+      "trainingFocus" : "ENDURANCE",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "WARM_UP",
+         "ARRIVAL"
+      ],
+      "images" : [],
+      "title" : "Abwechslungsreiches Ballführen",
+      "maxPlayers" : 0,
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nJeder Spieler hat einen Ball und führt ihn im abgesteckten Feld.\r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler laufen mit dem Ball und variieren das Tempo. Dazu verabredet der Trainer mit den Spielern Signalwörter. Z.B. bedeutet das Wort \"Fahrrad\", dass die Spieler sich langsam bewegen. Das Wort \"Porsche\" hingegen bedeutet, dass die Spieler schneller werden.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li> der Ball darf nur mit der Sohle geführt werden</li>\r\n  <li> der Ball darf nur mit einem Fuß geführt werden</li>\r\n  <li> der Ball wird geführt, einen Kontakt mit links, einen Kontakt mit rechts</li>\r\n  <li> auf ein visuelles oder akustischem Signal hin, lassen die Spieler den Ball zwischen den Beinen pendeln</li>\r\n</ul>",
+      "ageClasses" : [
+         "U9",
+         "U11"
+      ],
+      "objective" : "Verbesserung des Ballgefühls und der räumlichen Wahrnehmung."
+   },
+   {
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Angriffspressing 5 vs 4, plus Torhüter",
+      "objective" : "Verbesserung des Angriffspressings und des Spielaufbaus, gegen einen hoch angreifenden Gegner.",
+      "createdAt" : 1406042676196,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird eine Spielfeldhälfte benötigt, in der zwei Teams gegeneinander spielen. Die ballbesitzende Mannschaft bildet mit den vier Feldspielern eine Viererkette. Die verteidigende Mannschaft spielt mit zwei Stürmern(9/10), zwei offensiven, äußeren Mittelfeldspielern(7,11) und einer Absicherung(8) im Zentrum. Auf der Mittellinie wird ein weiteres Tor aufgestellt. \r\n<h1> Ablauf </h1>\r\nDer Torwart der grünen Mannschaft startet immer mit der Spieleröffnung. Entweder legt er den Ball zum Abstoß auf die Ecken des 5-Meterraumes, oder führ den Ball im Dribbling im 16-Meterraum. Die grünen Feldspieler stellen sich nach den Vorgaben des Trainers auf ihre Position und fordern den Ball. Nachdem der Ball vom Torwart in das Spiel gebracht wurde, versucht blau den Ball zu gewinnen. Beide Teams versuchen einen Treffer zu erzielen. Die Hütchen an den Flügeln begrenzen das Spielfeld.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Das blaue Team spielt ebenfalls Spieleröffnungen.</li>\r\n  <li>Der erste Pass vom Torwart zum Feldspieler darf nicht angegriffen werden.</li>\r\n</ul>",
+      "ageClasses" : [
+         "SENIOR",
+         "U19",
+         "U17"
+      ],
+      "updatedAt" : 1406270150043,
+      "id" : 137,
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore, Markierungshemden.",
+      "minPlayers" : 0,
+      "properties" : [],
+      "setting" : "Sportplatz",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED"
+   },
+   {
+      "id" : 138,
+      "updatedAt" : 1406270222060,
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore, Markierungshemden.",
+      "minPlayers" : 0,
+      "setting" : "Sportplatz",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Angriffspressing im 8 vs 8 auf dem halben Feld, Mannschaftstaktik",
+      "objective" : "Verbesserung des Angriffspressing, aus der Grundordnung des 4:4:2 mit Raute.",
+      "ageClasses" : [
+         "SENIOR",
+         "U19",
+         "U17"
+      ],
+      "createdAt" : 1406042693441,
+      "schedule" : "<h1> Organisation </h1>\r\nGespielt wird auf einer Spielfeldhälfte. Die Trainingsgruppe wird in zwei Mannschaften eingeteilt. Als Grundordnung dient für beide Teams das 4:4:2 System mit Raute. Die grüne Mannschaft spielt mit einer Vierkette, einer 6, den beiden Mittelfeldpositionen 8 und 7 in den Halbräumen und der 10. Das blaue Team stellt zwei Stürmer(9,11), die Mittelfeldraute(6,7,8,10) und zwei Innenverteidiger(4,5) in entsprechender Formation auf. \r\n<h1> Ablauf </h1>\r\nDer Torwart der grünen Mannschaft eröffnet immer die Sequenz durch ein Anspiel auf einen Mitspieler. Nun hat das grüne Team die Chance einen Treffer zu erzielen, indem sie auf das gegnerische Tor spielen. Jedoch haben sie eine zweite Option. Auf der Mittellinie befinden sich zusätzlich noch zwei, auf Höhe der Halbräume, Dribbeltore. Diese Option soll der grünen Mannschaft einen Plan B ermöglichen und zwingt die blauen Halbpositionen, Nummer 7 und 8 zum Defensivspiel."
+   },
+   {
+      "updatedAt" : 1406270283987,
+      "id" : 139,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore, Markierungshemden.",
+      "properties" : [],
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "maxPlayers" : 0,
+      "title" : "Angriffspressing im 8 vs 8 auf ¾ Spielfeld, Mannschaftstaktik",
+      "images" : [],
+      "objective" : "Verbesserung des Angriffspressing, aus der Grundordnung des 4:4:2 mit Raute.",
+      "schedule" : "<h1> Organisation </h1>\r\nGespielt wird auf einer Spielfeldhälfte. Die Trainingsgruppe wird in zwei Mannschaften eingeteilt. Als Grundordnung dient für beide Teams das 4:4:2 System mit Raute. Die grüne Mannschaft spielt mit einer Vierkette, einer 6, den beiden Mittelfeldpositionen 8 und 7 in den Halbräumen und der 10. Das blaue Team stellt zwei Stürmer(9,11), die Mittelfeldraute(6,7,8,10) und zwei Innenverteidiger(4,5) in entsprechender Formation auf. \r\n<h1> Ablauf </h1>\r\nDer Torwart der grünen Mannschaft eröffnet immer die Sequenz durch ein Anspiel auf einen Mitspieler. Nun hat das grüne Team die Chance einen Treffer zu erzielen, indem sie auf das gegnerische Tor spielen.",
+      "createdAt" : 1406042752888,
+      "ageClasses" : [
+         "SENIOR",
+         "U19",
+         "U17"
+      ]
+   },
+   {
+      "objective" : "Verbesserung des Angriffspressing, aus der Grundordnung des 4:4:2 mit Raute.",
+      "ageClasses" : [
+         "SENIOR",
+         "U19",
+         "U17"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nGespielt wird auf einer Spielfeldhälfte. Die Trainingsgruppe wird in zwei Mannschaften eingeteilt. Als Grundordnung dient für beide Teams das 4:4:2 System mit Raute. Die grüne Mannschaft spielt mit einer Vierkette, einer 6, den beiden Mittelfeldpositionen 8 und 7 in den Halbräumen und der 10. Das blaue Team stellt zwei Stürmer(9,11), die Mittelfeldraute(6,7,8,10) und zwei Innenverteidiger(4,5) in entsprechender Formation auf. \r\n<h1> Ablauf </h1>\r\nDie Übung wird immer mit einem Einwurf durch einen grünen Außenverteidiger(2,3) begonnen. Dazu werden mehrere Bälle an entsprechenden Stellen vorgehalten. Beide Teams spielen auf ein Tor und versuchen so schnell wie möglich dieses zu erreichen.",
+      "createdAt" : 1406042792170,
+      "maxPlayers" : 0,
+      "title" : "Angriffspressing im 8 vs 8 auf ¾ Spielfeld, nach Einwurf, Mannschaftstaktik",
+      "images" : [],
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "id" : 140,
+      "updatedAt" : 1406270336279,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore, Markierungshemden."
+   },
+   {
+      "ageClasses" : [
+         "SENIOR",
+         "U17",
+         "U19",
+         "U15"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nGespielt wird auf einer Spielfeldhälfte. Es werden zwei Teams gebildet. Das Team im Spielaufbau hat 5 Feldspieler. Das verteidigende Team hat 6 Feldspieler. Beide Aufstellungen werden aus dem 4:4:2 flach abgeleitet. So spielt die Mannschaft im Spielaufbau mit einer Viererkette, einer 6, plus Torwart. Die verteidigende Mannschaft spielt mit zwei Stürmern und einem vierer Mittelfeld.\r\n\r\n<h1> Ablauf </h1>\r\nDie Übung beginnt immer mit einem Abstoß durch den Torwart. Dabei besetzen die Spieler aus der Viererkette die Breite. Die Position 6 befindet sich zentral vor dem Tor, ca. 35 Meter entfernt. Die Verteidiger sind gestaffelt und verschließen zunächst das Zentrum. Wenn der Torwart den Ball spielt, verschieben die Verteidiger ballnah. Wenn sie den Ball gewinnen, versuchen sie umgehend ein Tor zu erzielen. Sollte das grüne Team den Ball behaupten können, haben sie das Ziel, über die Mittellinie zu spielen.\r\n<ul>\r\n  <li> Nummer 9 unterbindet die Spielverlagerung über die Innenverteidiger und den Torwart.\r\n</li>\r\n  <li> Nummer 10 rückt an den Außenverteidiger heran und baut aus dem Zentrum Druck auf den Ballbesitzer auf.\r\n</li>\r\n  <li> Nummer 7 attackiert den Außenverteidiger und wird im Rückraum durch Nummer 6 geschützt.\r\n</li>\r\n  <li> Nummer 8 sichert das offensive Zentrum des Gegners.\r\n</li>\r\n  <li> Nummer 11 besetzt ebenfalls den tiefen Raum vor der gegnerischen Viererkette.\r\n</li>\r\n</ul>\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Das Spiel wird über den grünen 6er eröffnet.</li>\r\n  <li>Der Torwart öffnet das Spiel durch einen Pass auf einen tiefen Außenverteidiger.</li>\r\n  <li>Die grüne Mannschaft agiert flexibel im Spielaufbau und agiert aus einer 3-2 Formation. Dabei wird ein Innenverteidiger zur zweiten 6 und die Außenverteidiger rücken in die Halbräume neben dem verbliebenen Innenverteidiger.</li>\r\n</ul>",
+      "createdAt" : 1406042494353,
+      "objective" : "Diese Übung soll das Angriffspressing der verteidigenden Mannschaft verbessern.",
+      "title" : "Anlaufverhalten im Angriffspressing, 5 plus TW vs 6",
+      "images" : [],
+      "maxPlayers" : 0,
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, halbes Feld",
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Markierungshemden, Tore.",
+      "id" : 132,
+      "updatedAt" : 1406198703781
+   },
+   {
+      "updatedAt" : 1406205871102,
+      "id" : 133,
+      "auxiliaryMaterial" : "Bälle, Markierungshemden, Tore.",
+      "minPlayers" : 0,
+      "properties" : [],
+      "setting" : "Sportplatz, halbes Feld",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Anlaufverhalten im Angriffspressing, 6 vs 6 mit Torhütern",
+      "objective" : "Diese Übung soll das Angriffspressing der verteidigenden Mannschaft verbessern.",
+      "createdAt" : 1406042539616,
+      "schedule" : "<h1> Organisation </h1>\r\nGespielt wird auf einer Spielfeldhälfte. Es werden zwei Teams mit jeweils 6 Feldspielern gebildet, plus Torhüter. Das zweite Tor wird mittig auf der Mittelfeldlinie aufgebaut. Beide Aufstellungen werden aus dem 4:4:2 flach abgeleitet. So spielt die Mannschaft im Spielaufbau mit einer Viererkette und zwei 6ern. Die verteidigende Mannschaft spielt mit zwei Stürmer und einem vierer Mittelfeld.\r\n\r\n<h1> Ablauf </h1>\r\nDie Übung beginnt immer mit einem Abstoß durch den Torwart. Dabei besetzen die Spieler aus der Viererkette die Breite. Die Position 6 befindet sich zentral vor dem Tor, ca. 35 Meter entfernt. Die Verteidiger sind gestaffelt und verschließen zunächst das Zentrum. Wenn der Torwart den Ball spielt, verschieben die Verteidiger ballnah. Wenn sie den Ball gewinnen, versuchen sie umgehend ein Tor zu erzielen. Sollte das grüne Team den Ball behaupten können, haben sie das Ziel, ebenfalls einen Treffer zu erzielen. Das blaue Team spielt die selbe Spieleröffnung auf Höhe der Mittellinie. Nun sind die grünen Spieler dazu angehalten, den Gegner früh zu stören..\r\n<ul>\r\n  <li> Nummer 9 unterbindet die Spielverlagerung über die Innenverteidiger und den Torwart.\r\n</li>\r\n  <li> Nummer 10 rückt an den Außenverteidiger heran und baut aus dem Zentrum Druck auf den Ballbesitzer auf.\r\n</li>\r\n  <li> Nummer 7 attackiert den Außenverteidiger und wird im Rückraum durch Nummer 6 geschützt.\r\n</li>\r\n  <li> Nummer 8 sichert das offensive Zentrum des Gegners.\r\n</li>\r\n  <li> Nummer 11 besetzt ebenfalls den tiefen Raum vor der gegnerischen Viererkette.\r\n</li>\r\n</ul>\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Das Spiel wird über einen der grünen 6er eröffnet.</li>\r\n  <li>Der Torwart öffnet das Spiel durch einen Pass auf einen tiefen Außenverteidiger.</li>\r\n  <li>Die grüne Mannschaft agiert flexibel im Spielaufbau und agiert aus einer 3-2 Formation. Dabei wird ein Innenverteidiger zur zweiten 6 und die Außenverteidiger rücken in die Halbräume neben dem verbliebenen Innenverteidiger.</li>\r\n</ul>",
+      "ageClasses" : [
+         "SENIOR",
+         "U17",
+         "U19",
+         "U15"
+      ]
+   },
+   {
+      "objective" : "In dieser Übung sollen die Spieler den Unterschied erfahren, wie das Spiel nach der Ballkontrolle durch die Grundtechniken beeinflusst wird. \r\nWenn der Spieler den Ball wie in der ersten Variante dribbelt, kann er dem Ball immer eine neue Richtung geben. Spielt er sich den Ball mittels eines Passes selber vor, kann er schneller und präziser spielen.",
+      "ageClasses" : [
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "schedule" : "<h1>Organisation</h1>\r\nEs werden zwei Hütchentore im Abstand von 10 bis 15 Metern gegenüberliegend aufgebaut. Die Hütchentore sind 4 Meter breit. \r\n\r\n<h1>Ablauf</h1>\r\n(linke Seite der Grafik)\r\nDer erste Spieler dribbelt kurz an und spielt den Ball zentral auf das gegenüberliegende Hütchentor. Der ballerwartende Spieler kommt dem Ball kurz entgegen und dribbelt mit dem Ball um das rechte Hütchen. Aus der Bewegung heraus, spielt er einen Pass neben das rechte Hütchen des Mitspielers. Dann wechselt er die Position. Der Spieler Nummer 1 kontrolliert den Ball und dribbelt parallel hinter seinem Hütchentor. Wenn er das linke Hütchen überdribbelt hat, spielt er ebenfalls einen Pass neben das linke Hütchen des Mitspielers.\r\n\r\n<h1>Modifikation</h1>\r\n(rechte Seite der Grafik)\r\nWie bei der ersten Variante, jedoch werden die Bälle nach der Annahme nicht gedribbelt. Die Spieler legen sich den Ball durch einen Pass vor um den Blick vom Ball lösen zu können. \r\nEs folgt nach dem Umrunden des Zielhütchens, wie bei Variante 1, der Pass zum Mitspieler.",
+      "createdAt" : 1387033291038,
+      "maxPlayers" : 0,
+      "title" : "Annahmetechnik am Hütchentor",
+      "images" : [],
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TECHNIC",
+      "note" : null,
+      "id" : 54,
+      "updatedAt" : 1387032911261,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Markierungshütchen, Bälle"
+   },
+   {
+      "auxiliaryMaterial" : "Hütchen, Bälle",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1375732262533,
+      "id" : 53,
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "ARRIVAL",
+         "WARM_UP"
+      ],
+      "images" : [],
+      "title" : "Annahmetechnik auf kurzer Distanz, zwischen zwei Hütchen",
+      "maxPlayers" : 0,
+      "createdAt" : 1375090189049,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden mehrere Hütchenpaar parallel zu einander aufgebaut. Der Abstand zwischen den Hütchen beträgt 15 Meter. An jedem Hütchen steht mindestens ein Spieler. Mehrere Bälle sollten in Reichweite liegen, damit Fehlpässe nicht den Ablauf zu sehr behindern.\r\n<h1> Ablauf </h1>\r\n+ Variante 1\r\nSpieler 1 dribbelt kurz an und spielt einen Pass auf den Mitspieler am anderen Hütchen. Nun lässt er sich nach dem Pass hinter sein Hütchen fallen und läuft auf die linke Seite des Hütchens. Dort nimmt der den zurückgespielten Ball an und spielt wiederum einen Pass zum Mitspieler und hinterläuft erneut das Hütchen. \r\n\r\n+ Variante 2\r\nSpieler 1 dribbelt kurz an und spielt den Ball diagonal, also über das Standbein zum Mitspieler. Dieser kontrolliert den Ball mit zwei Kontakten und legt den Ball auf die andere Seite des Hütchens. Dann spielt der den Ball ebenfalls über das Standbein zum Spieler Nummer 1.\r\n\r\n+ Variante 3\r\nSpieler 1 passt zu Spieler 2 und folgt dem Ball, bis zur Mitte der Übung. Dort empfängt er den Ball des Mitspielers kontrolliert den Ball mit zwei Kontakten und Dribbelt zurück zum Ausgangshütchen. \r\n\r\n<h1> Modifikation </h1>\r\nLass die Spieler selber Vorschläge entwickeln und testen.",
+      "ageClasses" : [
+         "U11",
+         "U13",
+         "U15"
+      ],
+      "objective" : "Verbesserung der Grundtechniken\r\n- Passen\r\n- Ballan- und –mitnahme\r\n- Dribbling"
+   },
+   {
+      "objective" : "Verbesserung des Passspiels, der Ballkontrolle und Mobilisierung.",
+      "createdAt" : 1398699858651,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden zwei Hütchen im Abstand von 20 Metern aufgebaut. Zwischen den beiden Hütchen, werden drei Hütchentore mit einer jeweiligen Breite von ca. 4 Metern postiert. Die Spieler werden in zwei Gruppen aufgeteilt. \r\n\r\n<h1> Ablauf </h1>\r\nSpieler Nummer 4 nimmt den Ball und spielt einen frontalen Pass zum gegenüberstehenden Mitspieler mit der Nummer 8. Dieser lässt den Ball ca. 50 bis 80 cm  klatschen, geht dem Ball nach und spielt wiederum den Ball auf Spieler Nummer 5. Nachdem die Spieler den Ball zum Mitspieler gespielt haben, laufen sie durch ein versetztes Hütchentor. Die Strecke bis zur Mitte des Hütchentores laufen sie normal. Die zweite Hälfte der Laufstecke wird mit Anfersen gelaufen. \r\n\r\n<h1> Modifikation Passspiel</h1>\r\n<ul>\r\n<li>Direktspiel.</li>\r\n<li>Links kontrollieren, rechts spielen.</li>\r\n<li> Rechts kontrollieren, links spielen.</li>\r\n<li> vor dem Abspiel eine Körpertäuschung.</li>\r\n<li> Dribbling bis zur Mitte und dann erst einen Pass spielen.</li>\r\n</ul>\r\n\r\n<h1> Modifikation Lauf ABC</h1>\r\n<ul>\r\n<li>Hopserlauf</li>\r\n<li>Rückwärts</li>\r\n<li> Hüpfen auf einem Bein</li>\r\n<li> Weitsprung</li>\r\n<li> Überkreuz</li>\r\n</ul>",
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Ballannahme und Passspiel mit Koordination Teil 1",
+      "setting" : "Sportplatz, 15 x 20 Meter Feld,20 Meter Feld,",
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "note" : "Diese Übung eignet sich auch als Übung zum Aufwärmen für die Spiele. Siehe auch Teil dieser Übungsserie. Ballannahme und Passspiel mit Koordination Teil 2.",
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1401804665516,
+      "id" : 118,
+      "auxiliaryMaterial" : "Bälle und Hütchen",
+      "minPlayers" : 0,
+      "properties" : []
+   },
+   {
+      "createdAt" : 1398712396698,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden zwei Hütchen im Abstand von 20 Metern aufgebaut. Zwischen den beiden Hütchen, werden drei Hütchentore mit einer jeweiligen Breite von ca. 4 Metern postiert. Die Spieler werden in zwei Gruppen aufgeteilt. \r\n\r\n<h1> Ablauf </h1>\r\nSpieler Nummer 4 nimmt den Ball und spielt einen frontalen Pass zum gegenüberstehenden Mitspieler mit der Nummer 8. Dieser lässt den Ball ca. 50 bis 80 cm  klatschen, geht dem Ball nach und spielt wiederum den Ball auf Spieler Nummer 5. Nachdem die Spieler den Ball zum Mitspieler gespielt haben, laufen sie auf ein rotes, oder blaues Markierungshütchen. Die Strecke bis zum Hütchen laufen die Spieler normal. Vom roten Hütchen zum zweiten Hütchen des Hütchentores laufen die Spieler seitlich. Zum Ausgangshütchen sprinten die Spieler\r\n\r\n<h1> Modifikation Passspiel</h1>\r\n<ul>\r\n<li>Direktspiel.</li>\r\n<li>Links kontrollieren, rechts spielen.</li>\r\n<li> Rechts kontrollieren, links spielen.</li>\r\n<li> Vor dem Abspiel eine Körpertäuschung.</li>\r\n</ul>\r\n\r\n<h1> Modifikation Lauf ABC</h1>\r\n<ul>\r\n<li>Hopserlauf</li>\r\n<li>Rückwärts</li>\r\n<li> Hüpfen auf einem Bein</li>\r\n<li> Weitsprung</li>\r\n<li> Überkreuz</li>\r\n</ul>",
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung des Passspiels und Mobilisierung",
+      "images" : [],
+      "title" : "Ballannahme und Passspiel mit Koordination Teil 2",
+      "maxPlayers" : 0,
+      "note" : "Diese Übung eignet sich wie die Übung: Ballannahme und Passspiel mit Koordination Teil 1, zum Aufwärmen vor dem Spiel",
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "auxiliaryMaterial" : "Bälle und Hütchen",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1401804796655,
+      "id" : 119
+   },
+   {
+      "ageClasses" : [
+         "U15",
+         "U17"
+      ],
+      "schedule" : "<h1> Ablauf </h1>\r\nDie Spieler mit einem Ball dribbeln und fintieren frei im Feld. Der Spieler ohne Ball ruft den Namen eines Mitspielers. Daraufhin lösen sich beide Spieler von ihrer Position zur Seitenlinie des Feldes und umrunden ein Hütchen. Der dribbelnde Spieler passt schnell zum Spieler ohne Ball und fordert das direkte Rückspiel durch einen Doppelpass.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n<li>Die dribbelnden Spieler erhalten Aufgaben, z.B. immer wieder eine bestimmte Finte zu probieren</li>\r\n<li>Es wird kein Doppelpassgespielt. Somit wird der zuvor dribbelnde Spieler zum Spieler ohne Ball und muss nun den Namen eines weiteren Mitspielers nennen, um wieder einen Ball zu erhalten</li>\r\n<li>Der Pass wird nicht auf den Mann gespielt, sondern in den freien Raum im Übungsfeld</li>\r\n</ul>",
+      "createdAt" : 1375090051600,
+      "objective" : "Verbesserung der räumlichen Wahrnehmung. Verbesserung des Passspiels und des gegnerüberwindenden Dribblings.",
+      "title" : "Doppelpass im abgestecktem Raum",
+      "images" : [],
+      "maxPlayers" : 0,
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TECHNIC",
+      "note" : null,
+      "trainingPhases" : [
+         "ARRIVAL",
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, 25 x 25 Meter",
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Markierungshütchen",
+      "id" : 50,
+      "updatedAt" : 1375731926205
+   },
+   {
+      "id" : 32,
+      "updatedAt" : 1366660816843,
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle für jeden Spieler, Hütchen",
+      "minPlayers" : 0,
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Dribbeln durch den Hütchenwald",
+      "objective" : "Verbesserung des gegnerüberwindenden Dribblings. Umgang mit dem Ball.",
+      "ageClasses" : [
+         "U9",
+         "U11",
+         "U13"
+      ],
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nIn einem abgestecken Feld laufen die Spieler mit dem Ball am Fuß ohne Vorgaben durcheinander.\r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler dribbeln mit dem Ball am Fuß um die Hütchen. Der Trainer läuft im Feld und stört die Spieler beim Dribbling und darf die Spieler umstoßen."
+   },
+   {
+      "auxiliaryMaterial" : "Ball, Markierungshütchen - und Leibchen",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1366820297681,
+      "id" : 19,
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz",
+      "trainingPhases" : [
+         "ARRIVAL"
+      ],
+      "images" : [],
+      "title" : "Dribbling - freie Ballarbeit",
+      "maxPlayers" : 0,
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein rechteckige Feld abgestellt.\r\n\r\n<h1> Ablauf </h1>\r\nFreies Dribbling im abgesteckten Feld. An den Hütchen machen die Spieler eine  180 Graddrehung und suchen sich anschließend ein neues Hütchen. Der Blick sollte vom Ball gelöst sein. Auf Zuruf des Trainers müssen alle Spieler schnellstmöglich aus dem Feld dribbeln.\r\n\r\n<h1> Modifikation </h1>\r\nDie Spieler müssen anderen Spieler während der Ballführung \"stören\".",
+      "ageClasses" : [
+         "U9"
+      ],
+      "objective" : "Die Spieler lernen den Ball mit unterschiedlichen Techniken, kontrolliert und eng am Fuß zu dribbeln."
+   },
+   {
+      "maxPlayers" : 0,
+      "title" : "Einfaches Passspiel",
+      "images" : [],
+      "objective" : "Grundtechniken wie Passen und Ballan- und Mitnahme werden verbessert.",
+      "ageClasses" : [
+         "U19",
+         "SENIOR",
+         "U13",
+         "U15"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nJeweils zwei Spieler stellen sich mit einem Ball ca. 15m - 20m gegenüber auf\r\n\r\n<h1> Ablauf </h1>\r\nSpieler A passt einen flachen Ball an Spieler B. Spieler B verarbeitet den Ball und spielt einen Pass auf Spieler A zurück. Rollenwechsel nach jeweils 5 Pässen.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li> die Pässe werden mit dem Innenriss gespielt</li>\r\n  <li> die Pässe werden mit dem Außenriss gespielt</li>\r\n  <li> den Ball mit der Sohle stoppen </li>\r\n  <li> den Ball nach der Annahme schnell zwischen den Füßen pendeln lassen </li>\r\n  <li> dem Ball entgegenkommen und \"sich um den Ball wickeln\" </li>\r\n</ul>",
+      "createdAt" : 1365242400000,
+      "id" : 15,
+      "updatedAt" : 1366552800000,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Ball, Markierungshütchen",
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TECHNIC",
+      "note" : null
+   },
+   {
+      "note" : "Begrüße Deine Spieler/-innen immer vor dem Training. Die Kids freuen sich auf Fußball und möchten einfach gerne fair behandelt werden. Versuch auch einfach neue Bewegungen in das Aufwärmen einfließen zu lassen.",
+      "trainingFocus" : "ENDURANCE",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "WARM_UP",
+         "ARRIVAL"
+      ],
+      "auxiliaryMaterial" : "Hütchen, Markierungshemden",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1366552800000,
+      "id" : 22,
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein Feld abgesteckt. Zwei Spieler bekommen ein Markierungshemd in die Hand.\r\n\r\n<h1> Ablauf </h1>\r\nDie Fänger versuchen andere Spieler abzuschlagen. Wer berührt worden ist muss aus dem Feld und darf erst wieder das Spielfeld betreten, wenn er einen Ball fünf mal hochgehalten hat.\r\n\r\n<h1> Modifikation </h1>\r\nBerührte Spieler müssen auf der Stelle stehenbleiben und können erst wieder mitmachen, wenn ein freier Spieler durch seine Beine krabbelt.",
+      "ageClasses" : [
+         "U9",
+         "U11"
+      ],
+      "objective" : "Verbesserung der Koordination und räumlichen Wahrnehmung. Intensive Kommunikation und abbauen von Hemmschwellen.",
+      "images" : [],
+      "title" : "Fangspiel 2 gegen den Rest",
+      "maxPlayers" : 0
+   },
+   {
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle, Markierungshemden",
+      "minPlayers" : 0,
+      "id" : 48,
+      "updatedAt" : 1375731677664,
+      "ageClasses" : [
+         "U9",
+         "U11",
+         "U13"
+      ],
+      "createdAt" : 1375089913608,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein Quadrat mit einer Seitenlänge von 20 Metern aufgebaut. Die Spieler verteilen sich auf die Hütchen. Die jeweils gegenüberstehenden Spieler bilden eine Übungsgruppe.\r\n\r\n<h1> Ablauf </h1>\r\nEin Spieler dribbelt mit dem Ball in das Zentrum der Übung. Sein gegenüberstehender Mitspieler kommt ihm entgegen. Bevor die beiden sich in der Mitte treffen, macht der Spieler mit dem Ball eine Finte. Der Mitspieler macht eine angreifende Täuschung, lässt den Ballbesitzer aber passieren. Anschliessend folgen die Spieler von den beiden anderen Hütchen und es erfolgt ein Aufgabenwechsel.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n<li>Der andribbelnde Spieler erhält einen Pass vom Mitspieler</li>\r\n<li>Die Spieler wechseln nicht die Position, sondern gehen nach der Finte wieder auf ihr Ausgangshütchen zurück</li>\r\n</ul>",
+      "objective" : "Erlernen von Finten. Erlernen von defensiv Verhalten im 1vs 1 frontal, weite Distanz.",
+      "images" : [],
+      "title" : "Fintieren, Gegner frontal",
+      "maxPlayers" : 0
+   },
+   {
+      "trainingFocus" : "TECHNIC",
+      "note" : "Wird der Ball zu einem falschen Mitspieler gespielt, erfolgt eine kleine Strafe in Form einer Sprung- oder Kraftübung. Oder entsprechender Spieler läuft einmal um das Übungsfeld.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "ARRIVAL",
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Ein Ball",
+      "properties" : [],
+      "updatedAt" : 1375730391440,
+      "id" : 43,
+      "schedule" : "<h1> Organisation </h1>\r\nDie Spieler versammeln sich in einem abgestecken Raum, mit den Maßen 20 Meter x 20 Meter. Jeder Spieler erhält eine Nummer und der Spieler mit der niedrigsten Nummer erhält vom Trainer den Ball zu Beginn der Übung. Die Spieler ohne Ball bewegen sich frei im Spielfeld.\r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler passen den Ball immer zur nächst höheren Nummer. Spieler Nummer 1 passt zu Spieler Nummer 2 und dieser zu Nummer 3.\r\n\r\nWird der Ball zu einem falschen Mitspieler gespielt, erfolgt eine kleine Strafe in Form einer Sprung- oder Kraftübung. Oder entsprechender Spieler läuft einmal um das Übungsfeld.\r\n\r\n<h1> Modifikationen </h1>\r\n- Die Spieler spielen den Ball nicht von 1 auf 2, sondern überspringen immer eine vorherige Nummer (wichtig: klappt nur, wenn die Anzahl der Spieler ungerade ist)\r\n- es wird ein zweiter Ball hinzugenommen\r\n- mit dem zweiten Ball spielen zusätzlich alle graden Zahlen untereinander\r\n- Der Trainer ruft eine Zahl. Dies Zahl muss der Spieler mit seiner Nummer addieren. Diese Zahl ist dann die Nummer des Spielers, der angespielt werden muss. Wenn eine Zahl entsteht, die größer als die Anzahl der Spieler ist, beginnt es wieder bei Spieler 1. \r\n\r\nBeispiel: Spieler 5 hat den Ball. Insgesamt sind 9 Spieler in dieser Übungsgruppe. Der Trainer ruft nun 8. 5 + 8 = 13. 13 - 9 (Anzahl der Spieler) ist gleich 4. Bedeutet, Spieler Nummer 5, muss den Spieler mit der Nummer 4 anspielen.\r\n\r\n<h1> Coaching </h1>\r\nAuf eine saubere Technik achten.",
+      "createdAt" : 1375089652167,
+      "ageClasses" : [
+         "U9",
+         "U11",
+         "U13",
+         "U15"
+      ],
+      "objective" : "Verbesserung der Pass- und Annahmetechnik. Schnelle Orientierung im Raum.",
+      "title" : "Folgenummer anspielen",
+      "images" : [],
+      "maxPlayers" : 0
+   },
+   {
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle, Markierungshemden, Tore.",
+      "minPlayers" : 0,
+      "id" : 135,
+      "updatedAt" : 1406208475380,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "setting" : "Sportplatz",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "images" : [],
+      "title" : "Gegner lenken im Mittelfeldpressing, 11 vs 6, attackieren auf dem Flügel",
+      "maxPlayers" : 0,
+      "ageClasses" : [
+         "SENIOR",
+         "U17",
+         "U19",
+         "U15"
+      ],
+      "createdAt" : 1406042600065,
+      "schedule" : "<h1> Organisation </h1>\r\nGespielt wird auf dem ganzen Spielfeld. Es werden zwei Teams gebildet. Die grüne Mannschaft organisiert sich in einem flachen 4:4:2 System und spielt Mittelfeldpressing. Der Trainer markiert die entsprechende Zone mit Hütchen. Das blaue Team spielt mit Viererkette plus zwei 6er. \r\n\r\n<h1> Ablauf </h1>\r\nDie blaue Mannschaft beginnt immer wieder mit dem geordneten Spielaufbau durch den Torwart. Dazu führt er Abstöße durch. \r\nDie blaue Mannschaft soll versuchen, so weit wie möglich in die gegnerische Hälfte vorzudringen. Wenn sie die Gelegenheit haben, suchen sie den Torabschluss. Die grüne Mannschaft steht kompakt in der vom Trainer markierten Zone. \r\n\r\nSie lassen bewusst die Außenverteidiger von blau frei. Werden diese angespielt, attackieren jeweils ein Mittelfeldspieler und ein Stürmer. Auf der rechten Seite grün 7 und 10 und auf der linken Seit 11 und 9. Durch das Doppeln soll ein sicherer Ballgewinn erfolgen. Gewinnt grün den Ball, soll der Angriff innerhalb von 10 Sekunden zum Torabschluss gebracht werden.\r\n\r\n<ul>\r\n  <li> Alle Spieler verschieben kompakt von grün.</li>\r\n  <li> Die diagonal versetzten Außenverteidiger müssen ihr Stellungsspiel so ausrichten, dass lange Bälle keine Gefahr darstellen.</li>\r\n</ul>\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Das Spiel wird über einen blauen 6er eröffnet.</li>\r\n  <li>Der Torwart öffnet das Spiel durch einen Pass auf einen tiefen Außenverteidiger.</li>\r\n  <li>Die blaue Mannschaft agiert flexibel im Spielaufbau und agiert aus einer 3-2-1 Formation. Dabei wird ein Innenverteidiger zur zweiten 6 und die Außenverteidiger rücken in die Halbräume neben dem verbliebenen Innenverteidiger.</li>\r\n</ul>",
+      "objective" : "Diese Übung soll das Mittelfeldpressing der verteidigenden Mannschaft verbessern."
+   },
+   {
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "id" : 134,
+      "updatedAt" : 1406208870589,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Markierungshemden, Tore.",
+      "objective" : "Diese Übung soll das Mittelfeldpressing der verteidigenden Mannschaft verbessern.",
+      "ageClasses" : [
+         "SENIOR",
+         "U17",
+         "U19",
+         "U15"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nGespielt wird auf dem ganzen Spielfeld. Es werden zwei Teams gebildet. Die grüne Mannschaft organisiert sich in einem flachen 4:4:2 System und spielt Mittelfeldpressing. Der Trainer markiert die entsprechende Zone mit Hütchen. Das blaue Team spielt mit Viererkette plus zwei 6er. \r\n\r\n<h1> Ablauf </h1>\r\nDie blaue Mannschaft beginnt immer wieder mit dem geordneten Spielaufbau durch den Torwart. Dazu führt er Abstöße durch. \r\nDie blaue Mannschaft soll versuchen, so weit wie möglich in die gegnerische Hälfte vorzudringen. Wenn sie die Gelegenheit haben, suchen sie den Torabschluss. Die grüne Mannschaft steht kompakt in der vom Trainer markierten Zone. Sie versuchen die Außen von blau durch 7 und 11 zu blocken. Somit soll der Gegner gezwungen werden, dass Spiel über die 6 oder 8 in den Halbräumen zu sichern. Gewinnt grün den Ball, soll der Angriff innerhalb von 10 Sekunden zum Torabschluss gebracht werden.\r\n\r\n<ul>\r\n  <li> Nummer 9 und 10 stehen leicht versetzt im Zentrum und verhindern den Pass in das Zentrum. \r\n</li>\r\n  <li> Nummer 8 und 6 stehen ebenfalls eng im Zentrum und gleichen die Bewegungen der grünen 8 und 6 aus. \r\n</li>\r\n  <li> Nummer 7 und 11 stehen eng auf der inneren Linie an den blauen Außenverteidigern und verhindern Anspiele auf sie. \r\n</li>\r\n  <li> Die grünen Nummer 2 und 3 unterstützen Nummer 7 und 11 gegen die blauen Außenverteidiger.</li>\r\n  <li> Die beiden grünen Innenverteidiger organisieren die Bewegung gegen den Ball. \r\n</li>\r\n</ul>\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Das Spiel wird über einen blauen 6er eröffnet.</li>\r\n  <li>Der Torwart öffnet das Spiel durch einen Pass auf einen tiefen Außenverteidiger.</li>\r\n  <li>Die blaue Mannschaft agiert flexibel im Spielaufbau und agiert aus einer 3-2-1 Formation. Dabei wird ein Innenverteidiger zur zweiten 6 und die Außenverteidiger rücken in die Halbräume neben dem verbliebenen Innenverteidiger.</li>\r\n</ul>",
+      "createdAt" : 1406042565160,
+      "maxPlayers" : 0,
+      "title" : "Gegner lenken im Mittelfeldpressing, 11 vs 6, attackieren im Halbfeld",
+      "images" : []
+   },
+   {
+      "objective" : "Diese Übung soll das Mittelfeldpressing der verteidigenden Mannschaft verbessern.",
+      "ageClasses" : [
+         "SENIOR",
+         "U17",
+         "U19",
+         "U15"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nGespielt wird auf dem ganzen Spielfeld. Es werden zwei Teams gebildet. Die grüne Mannschaft organisiert sich in einem flachen 4:4:2 System und spielt Mittelfeldpressing. Der Trainer markiert die entsprechende Zone mit Hütchen. Das blaue Team spielt mit Viererkette plus zwei 6er. \r\n\r\n<h1> Ablauf </h1>\r\nDie blaue Mannschaft beginnt immer wieder mit dem geordneten Spielaufbau durch den Torwart. Dazu führt er Abstöße durch. \r\nDie blaue Mannschaft soll versuchen, so weit wie möglich in die gegnerische Hälfte vorzudringen. Wenn sie die Gelegenheit haben, suchen sie den Torabschluss. Die grüne Mannschaft steht kompakt in der vom Trainer markierten Zone. \r\n\r\nSie lassen bewusst das zentrum offen. Dazu lassen die Stürmer Platz zwischen sich und versperren den Pass nach Außen durch die Innenverteidiger. Spielt blau nun einen Pass in das Zentrum, wird die blaue 6 von einem zentralen Mittelfeldspieler von grün gestellt und ein Stürmer „klaut“ den Ball. Gewinnt grün den Ball, soll der Angriff innerhalb von 10 Sekunden zum Torabschluss gebracht werden.\r\n\r\n<ul>\r\n  <li> Nummer 9 und 10 lassen das Zentrum offen. <li>\r\n  <li> Die zentralen Mittelfeldspieler stellen den Gegner.</li>\r\n</ul>\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Das Spiel wird über einen blauen 6er eröffnet.</li>\r\n  <li>Der Torwart öffnet das Spiel durch einen Pass auf einen tiefen Außenverteidiger.</li>\r\n  <li>Die blaue Mannschaft agiert flexibel im Spielaufbau und agiert aus einer 3-2-1 Formation. Dabei wird ein Innenverteidiger zur zweiten 6 und die Außenverteidiger rücken in die Halbräume neben dem verbliebenen Innenverteidiger.</li>\r\n</ul>",
+      "createdAt" : 1406042646013,
+      "maxPlayers" : 0,
+      "title" : "Gegner lenken im Mittelfeldpressing, 11 vs 6, attackieren im Zentrum",
+      "images" : [],
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "id" : 136,
+      "updatedAt" : 1406208744961,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, Markierungshemden, Tore."
+   },
+   {
+      "ageClasses" : [
+         "MINI",
+         "U9",
+         "U11",
+         "U13"
+      ],
+      "createdAt" : 1376115042792,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden zwei Tore im Abstand von ca. 20 Metern nebeneinander aufgestellt. Jeweils ein Torwart hütet das Tor. Die Feldspieler sind ca. 25 Meter vor dem Tor aufgestellt. Zwischen ihnen und dem Tor sind Hütchen zu einem Slalom aufgebaut. \r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler starten mit dem Ball am Fuß und dribbeln druch die Hütchen. Nach dem letzten erreichten Hütchen, schießen sie auf das Tor.\r\n\r\n<h1> Modifikation </h1>\r\nDie Spieler schießen mit \r\n<ul>\r\n  <li>links</li>\r\n  <li>rechts</li>\r\n  <li>der Innenseite</li>\r\n  <li>dem Spann</li>\r\n  <li>dem Außenriss</li>\r\n</ul>\r\n\r\n<h1> Erleichtern </h1>\r\n<ul>\r\n  <li>Sie Spieler laufen einfach entlang der Hütchen, ohne zu sie zu durch dribbeln.</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\nDie Hütchen müssen nach unterschiedlichen Mustern durchdribbelt werden:\r\n<ul>\r\n  <li>nach dem zweiten Hütchen dribbeln die Spieler wieder zum ersten Hütchen, durchdribbeln dann alle Hütchen vor ihnen und schießen dann auf das Tor.</li>\r\n  <li>Der Trainer nennt vor dem Start eine Farbe. Die gesagt Farbe steht für den Fuß mit dem der Spieler schießen muss. Rot = links. Blau = rechts.</li>\r\n  <li>Nachdem der Spieler das erste Hütchenerreicht hat, versucht ihn ein Spieler einzuholen. Schafft er dies, darf der zuerst gestartete Spieler nicht auf das Tor schießen.</li>\r\n</ul>",
+      "objective" : "Verbesserung des Torabschlusses nach einem Dribbling.",
+      "images" : [],
+      "title" : "Gegnerüberwindendes Dribbling mit Torabschluss",
+      "maxPlayers" : 0,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Diese einfache Übung kann leicht durch den Trainer verändert werden. So sind die Abstände der Hütchen ein Mittel. Ebenso der Abstand des letzten Hütchens zum Tor. So kann die Distanz variiert werden.",
+      "trainingFocus" : "TECHNIC",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore.",
+      "minPlayers" : 0,
+      "id" : 66,
+      "updatedAt" : 1406039970640
+   },
+   {
+      "setting" : "Sportplatz, 20 x 20 Meter Feld",
+      "trainingPhases" : [
+         "ARRIVAL",
+         "WARM_UP"
+      ],
+      "note" : "In dieser Übung lernen die Kids den Umgang mit einem fliegenden Ball. Der Trainer fördert die Bewegungsfreude mit dieser Übung und das Zusammenspielen der jungen Kicker.",
+      "trainingFocus" : "ENDURANCE",
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1375194317314,
+      "id" : 35,
+      "auxiliaryMaterial" : "Bälle für jeden Spieler, Markierungshemden, Hütchen",
+      "minPlayers" : 0,
+      "properties" : [],
+      "objective" : "Verbesserung der koordinativen Fähigkeiten. Hier insbesondere die Orientierungs-, Reaktions- und Gleichgewichtsfähigkeit. Schulung der Auge-Hand Koordination.",
+      "createdAt" : 1366563518374,
+      "schedule" : "<h1> Organisation </h1>\r\nDer Trainer teilt das Team in zwei Gruppen ein. In einem 20 x 30 Meter großen Feld spielen die Kids Handball. In dieser Übung wird der Fuß nicht benutzt.\r\n\r\n<h1> Ablauf </h1>\r\nZiel ist es so schnell wie möglich ein Tor zu werfen. Jedoch dürfen die Kids den Ball nur 3 Sekunden lang in der Hand halten. Dies kann der Trainer vor der Gruppe einmal vorführen. Wenn ein Spieler den Ball länger hält, bedeutet dies einen Ballverlust und das andere Team darf sofort den Ball übernehmen und auf das Tor stürmen. Der Ball darf vom verteidigenden Team nur beim Wurf abgejagt werden. \r\n\r\n<h1> Modifikation </h1>\r\nDer ballbesitzende Spieler darf mit dem Ball nicht laufen.\r\nVolleyschüsse mit dem Ball zählen doppelt.",
+      "ageClasses" : [
+         "MINI",
+         "U9"
+      ],
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Handball für Kids mit Torwart"
+   },
+   {
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1>Organisation</h1>\r\nAlle Spieler befinden sich in einem Feld.\r\n\r\n<h1>Ablauf</h1>\r\nEs wird ein Spieler herausgesucht, der als Fänger versucht weitere Spieler abzuschlagen. Jeder Spieler, der abgeschlagen wurde nimmt die Hand des Fängers und verlängert die Fängerkette, bis nur noch ein Spieler übrig bleibt.\r\n\r\n<h1>Modifikation</h1>\r\nEs werden von Beginn an zwei Spieler als Fänger ausgewählt. Welche Kette wird am schnellsten am längsten?",
+      "ageClasses" : [
+         "U9",
+         "U11"
+      ],
+      "objective" : "Einstimmung auf das Training. Austausch zwischen den Spielern.",
+      "images" : [],
+      "title" : "Kettenfangen",
+      "maxPlayers" : 0,
+      "note" : "Ist immer ein großer Spaß, unabhängig von der Altersklasse.",
+      "trainingFocus" : "MENTAL",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, Halle, 15 x 15 Meter",
+      "trainingPhases" : [
+         "ARRIVAL"
+      ],
+      "auxiliaryMaterial" : "Hütchen",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1367055582020,
+      "id" : 13
+   },
+   {
+      "ageClasses" : [
+         "MINI",
+         "U9"
+      ],
+      "createdAt" : 1366563752395,
+      "schedule" : "Organisation\r\nEs wird ein quadratisches Feld mit der Größe 20 x 20  Meter aufgebaut. Das Team wird in zwei Gruppen aufgeteilt.\r\n\r\nAblauf\r\nDie Spieler müssen jeweils zwei Tore gegen Ball verteidigen. Haben aber auch zwei Tore auf die sie angreifen können.",
+      "objective" : "Kennenlernen der Breite im Spiel. Verbesserung des 1 vs 1 und des Spiels in der Gruppe.",
+      "images" : [],
+      "title" : "Kleine Spielform auf zwei Tore",
+      "maxPlayers" : 0,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Diese Übung ist sehr gut dafür geeignet, den Spieler die breite des Spielfeldes zu vermitteln. Durch geschicktes fragen, kann der Trainer den Kids beibringen, wie sie geschickt den Raum für 1 vs 1 Situationen nutzen können.",
+      "trainingFocus" : "TACTIC",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "properties" : [],
+      "auxiliaryMaterial" : "Hütchen,  Bälle, Markierungshemden",
+      "minPlayers" : 0,
+      "id" : 38,
+      "updatedAt" : 1406035663702
+   },
+   {
+      "ageClasses" : [
+         "U11",
+         "U13",
+         "U15",
+         "U17"
+      ],
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden zwei Quadrate mit einer Seitenlänge von jeweils ca. 15 Metern aufgebaut. Die Spieler werden in zwei Gruppen eingeteilt und auf beide Felder gleichmäßig verteilt.\r\n\r\n<h1> Ablauf </h1>\r\nFeld A\r\nDie Spieler laufen ohne Ball um das Quadrat. Der Trainer gibt unterschiedliche Laufstile durch. Z.B. \r\n<ul>\r\n  <li>rückwärts Lauf</li>\r\n  <li>seitlicher Lauf</li>\r\n  <li>Skippings an den Hütchen</li>\r\n  <li>einfaches Laufen</li>\r\n  <li>Hopserlauf</li>\r\n</ul>\r\n\r\nFeld B \r\nMit dem Ball am Fuß umlaufen die Spieler das Feld B. Der Trainer gibt unterschiedliche Dribbelformen vor. Z.B.:\r\nul>\r\n  <li>der Ball wird nur mit den Außenrissen geführt</li>\r\n  <li>der Ball wird mit der Sohle im Vorwärtslauf geführt</li>\r\n  <li>der Ball wird zwischen den Füßen gependelt</li>\r\n  <li>einen Kontakt mit links, zwei Kontakte mit rechts</li>  \r\n  <li>abwechselnd werden zwei Kontakte mit link/rechts geführt</li>\r\n  <li>der Ball wird nur mit dem rechten/linken Fuß geführt</li>\r\n</ul>\r\n\r\n<h1> Modifikation </h1>\r\nDie Spieler laufen im Uhrzeigersinn oder gegen den Uhrzeigersinn. Auf ein akkustisches Signal des Trainers (Stimme, Pfeife) wechseln die Spieler die Laufrichtung.",
+      "objective" : "Mobilisierung und Gewöhnung an den Ball. Verbesserung der Handlunsgsschnelligkeit (Signale) und Automatisieren des Dribblings.",
+      "images" : [],
+      "title" : "Koordinationstraining Teil I",
+      "maxPlayers" : 0,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Die Felder können optimal für den Aufbau des Hauptteils genutzt werden. Störquellen in Form von freien Spieler, die den eigentlichen Ablauf der Übung \"stören\", führen zu einer erhöhten Aufmerksamkeit bei den Spielern.",
+      "trainingFocus" : "ENDURANCE",
+      "setting" : "Halle, Sportplatz",
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "properties" : [],
+      "auxiliaryMaterial" : "Hütchen, Bälle für jeden Spieler",
+      "minPlayers" : 0,
+      "id" : 18,
+      "updatedAt" : 1366552800000
+   },
+   {
+      "setting" : "Sportplatz, Sporthalle",
+      "trainingPhases" : [
+         "WARM_UP",
+         "MAIN"
+      ],
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "id" : 56,
+      "updatedAt" : 1390690426820,
+      "properties" : [],
+      "auxiliaryMaterial" : "Jugendtore, Hütchen, Markierungshemden, Bälle",
+      "minPlayers" : 0,
+      "objective" : "Spielerisches Erlernen des Kopfballs in einer Spielform",
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "createdAt" : 1375908179507,
+      "schedule" : "<h1>Organisation</h1>\r\nEs wird ein Spielfeld der Größe 25x25 Meter markiert. Auf zwei Seiten werden Jugendtore aufgebaut. Das Team wird in drei Mannschaften eingeteilt. Zwei Torhüter bleiben in den jeweiligen Toren, wenn die Teams wechseln.\r\n\r\n<h1>Ablauf</h1>\r\nDie Teams spielen Handball. Tore können nur mit dem Kopf erzielt werden. Dazu muss der Ball zu einem neutralen Wandspieler geworfen werden. Dieser wirft den Ball zu einem Angreifer. Dieser versucht den Ball im Tor unterzubringen. \r\n\r\n\r\n<h1>Modifikation</h1>\r\nDie Spieler spielen mit dem Fuß und die Wandspieler nehmen den Ball nach der Annahme mit der Hand auf und werfen ihn dann zum angreifenden Spieler. Kopfballtore zählen doppelt.",
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Kopfballspiel auf Jugendtore"
+   },
+   {
+      "exerciseStatus" : "PUBLISHED",
+      "note" : null,
+      "trainingFocus" : "TACTIC",
+      "setting" : "Sportplatz 30 x 30 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "properties" : [],
+      "auxiliaryMaterial" : "Markierungshütchen und -hemden, Bälle",
+      "minPlayers" : 0,
+      "id" : 57,
+      "updatedAt" : 1396266166636,
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "U19"
+      ],
+      "createdAt" : 1375909307604,
+      "schedule" : "<h1>Organisation</h1>\r\nEs wird ein Quadrat mit den Seitenlängen 30m x 30m aufgebaut. An zwei gegenüberliegenden Seiten werden Zonen mit Markierungshütchen verdeutlicht. Diese sollten eine Breite von jeweils ca. 5 Metern haben. Es werden zwei Teams mit jeweils vier Spielern gebildet.\r\n\r\n<h1>Ablauf</h1>\r\nDie Teams spielen auf Ballbesitz. Zudem ist es die Aufgaben, das Spiel in die freien Räume zu entwickeln. Dazu wird ein Pass in eine der beiden Zonen mit einem Punkt belohnt. \r\n\r\n<h1>Modifikation</h1>\r\n<li>Es müssen abwechselnd beide Zielkorridore angespielt werden.</li>\r\n<li>Ein Neutraler Spieler schafft Unter- und Überzahlsituationen.</li>\r\n<li>Aus den Korridoren müssen für einen Punkt, Doppelpässe gespielt werden.</li>\r\n<li>Es müssen Anspiele \"Über den Dritten\" erfolgen.</li>\r\n<li>In die Zonen muss gedribbelt werden und dann erfolgt der Pass zum Mitspieler.</li>\r\n<li>Welches Team, schafft die meisten Punkte, innerhalb von 4 Minuten?</li>",
+      "objective" : "Verbesserung der räumlichen Wahrnehmung und des Orientierungssinns. Verbesserung der Basistechniken, Passen und der Ballan- und -mitnahme.",
+      "images" : [],
+      "title" : "Kurzes Passspiel in Zielräume",
+      "maxPlayers" : 0
+   },
+   {
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Hütchen, Koordinationsleiter",
+      "properties" : [],
+      "updatedAt" : 1366552800000,
+      "id" : 34,
+      "trainingFocus" : "ENDURANCE",
+      "note" : "Neben dem Lauf ABC wird auch das Sprung ABC für das Schulen der koordinativen Fähigkeiten empfohlen.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "title" : "Lauf ABC Teil 1",
+      "images" : [],
+      "maxPlayers" : 0,
+      "schedule" : "<h1> Organisation </h1>\r\nDie Spieler positionieren sich an den Starthütchen. \r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler laufen vorwärts bis zum ersten Hütchen. Ab dem ersten Hütchen werden die unterschiedlichen Laufmuster durchgeführt. Ab dem zweiten Hütchen laufen die Spieler wieder normal weiter und drehen nach dem Passieren des letzten Hütchens wieder auf die Ausgangsposition zurück.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li> Kniehebelauf</li>\r\n  <li> Storchengang</li>\r\n  <li> Anfersen</li>\r\n  <li> unterschiedliche Rhytmen links-links, rechts-rechts, links-recht</li>\r\n  <li> seitliches Laufen</li>\r\n <li> rückwärtslaufen</li>\r\n <li> Hopserlauf</li>\r\n</ul>",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung der koordinativen Fähigkeiten."
+   },
+   {
+      "updatedAt" : 1366552800000,
+      "id" : 17,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Markierungshütchen",
+      "properties" : [],
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "trainingFocus" : "ENDURANCE",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "maxPlayers" : 0,
+      "title" : "Laufen im Quadrat",
+      "images" : [],
+      "objective" : "Verbesserung der Koordinationsfähigkeiten",
+      "schedule" : "<h1> Organisation </h1>\r\n4 Hütchen im Quadrat aufstellen, ca. 20x20 m\r\n4 Spieler positionieren sich an den 4 Außenlinien des abgesteckten Quadrats\r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler umlaufen das abgesteckte Quadrat nach variierenden Vorgaben, bspw. Side-steps, Hopserlauf, etc.\r\n\r\n<h1> Modifikation </h1>\r\nDer Trainer kann durch Zuruf einen Richtungswechsel einleiten oder das Tempo variieren.\r\n<ul>\r\n  <li> die Spieler laufen im Hopserlauf</li>\r\n  <li> die Spieler laufe seitlich um die Hütchen</li>\r\n  <li> die Spieler laufen rückwärts</li>\r\n  <li> die Spieler laufen im Kniehebelauf</li>\r\n  <li> die Spieler machen Skippings an den Hütchen</li>\r\n</ul>",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ]
+   },
+   {
+      "createdAt" : 1375090006377,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden zwei Hütchen im Abstand von 20 Metern gegnüberstehend aufgebaut. Die Spieler verteilen sich auf diese beiden Positionen. \r\n\r\n<h1> Ablauf </h1>\r\nDer erste Spieler dribbelt 3 Meter an und passt den Ball zum gegenüberstehenden Mitspieler. Dann lässt er sich quer zum Anspiel fallen und fordert den Ball in einer offenen Spielstellung vom Mitspieler. Er kontrolliert den Ball mit zwei Kontakten und spielt seinen wartenden Mitspieler durch einen harten Pass an.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n<li>Die Pässe werden mit dem Außenriss, Spann oder der Innenseite gespielt</li>\r\n<li>Die Ballkontrolle erfolgt ebenfalls mit der Außenseite, Sohle oder mit der Innenseite</li>\r\n</ul>",
+      "ageClasses" : [
+         "U11",
+         "U13",
+         "U15"
+      ],
+      "objective" : "Verbesserung des Passspiels mit anschließender Freilaufbewegung.",
+      "images" : [],
+      "title" : "Passen auf gegenüberstehende Hütchen",
+      "maxPlayers" : 0,
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "WARM_UP",
+         "MAIN"
+      ],
+      "auxiliaryMaterial" : "Hütchen und Bälle",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1375731784273,
+      "id" : 49
+   },
+   {
+      "auxiliaryMaterial" : "Hütchen, Bälle",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1366660701119,
+      "id" : 28,
+      "note" : "Dies ist eine Übung die sich leicht modifiziert lässt. Deshalb ist sie für sämtliche Altersklassen und Spielstärken geeignet. Wichtig ist die Korrektur im Detail bzgl. des Passspiels.",
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz 30 x 30 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "images" : [],
+      "title" : "Passen im farbigen Passquadrat",
+      "maxPlayers" : 0,
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nDie Spieler positionieren sich in den Quadraten an den Ecken des Feldes. \r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler starten mit einem kurzen Dribbling und spielen einen Mitspieler im Uhrzeigersinn an. Dann laufen sie in das Quadrat, in dem der Spieler wartete, den er zuvor angespielt hat.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li> die Spieler lösen sich immer mit dem ersten Kontakt zwischen dem roten und gelben Hütchen.</li>\r\n  <li> die Spieler laufen zwischen zwei farbigen Hütchen ein und bekommen den Ball in den Raum gespielt.</li>\r\n  <li> der passende Spieler dribbelt um eine Hütchenfarbe und spielt dann den nächsten Spieler an.</li>\r\n</ul>",
+      "ageClasses" : [
+         "U19",
+         "U17",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung des Passspiels und der Ballan- und -mitnahme."
+   },
+   {
+      "objective" : "Verbesserung der Passtechnik, erlernen des Doppelpassen. Freilaufaktion, bzw. erlernen von Lauffinten.",
+      "createdAt" : 1375089860230,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein Dreieck aufgebaut, bei dem die längste Seite ca. 20 Meter ist. Ein Hütchen wird leicht versetzt zur Mitte, in einer Entfernung von ca. 10 Metern aufgestellt. \r\nDie Spieler verteilen sich gleichmäßig auf die Hütchen. Ein Spieler hat einen Ball.\r\n\r\n<h1> Ablauf </h1>\r\nAn der linken Skizze erläutert. Ein Spieler startet am oberen Hütchen, mit einem kurzen Dribbling. Er passt den Ball zum nächsten Spieler, der links von ihm an dem leicht versetzten Hütchen wartet und macht sofort eine absetzende Lauffinte wieder zurück und fordert den Ball. Der Mitspieler lässt den Ball prallen, spielt also einen Doppelpass. Der Ball wird nun in der Bewegung zum nächsten Spieler gepasst. Spieler Nummer drei kontrolliert das frontale Anspiel und spielt einen harten Pass auf das Ausgangshütchen.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n<li>alle Aktionen werden mit zwei Kontakten gespielt.</li>\r\n<li>nach den jeweiligen Pässen, übernehmen die Passgeber die nächste Position</li>\r\n</ul>",
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Passen im ungleichschenkeligen Dreieck",
+      "setting" : "Sportplatz, Halle, 20 x 10 Meter",
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1375731488173,
+      "id" : 47,
+      "auxiliaryMaterial" : "Markierungshütchen, Bälle",
+      "minPlayers" : 0,
+      "properties" : []
+   },
+   {
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Hütchen, Bälle",
+      "properties" : [],
+      "updatedAt" : 1366660634614,
+      "id" : 27,
+      "trainingFocus" : "TECHNIC",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "title" : "Passen und Ballan- und -mitnahme",
+      "images" : [],
+      "maxPlayers" : 0,
+      "schedule" : "<h1> Organisation </h1>\r\nDie Spieler werden auf die Hütchen verteilt.\r\n\r\n<h1> Ablauf </h1>\r\nVariate A\r\nSpieler 1 spielt einen Pass und der Empfänger legt den Ball mit dem ersten Kontakt durch die Hütchen und versucht nach dem Hinterlaufen des Hütchens, einen Pass zum Mitspieler anzubringen.\r\n\r\nVariante B\r\nEin Spieler dribbelt langsam in die Mitte. Der gegenüber postierte Spieler startet und nimmt den Ball dem Gegenspieler vom Fuß. Hier muss darauf geachtet werden, dass bei der Ballübergabe der rechte Führfuß des einen Spielers, den Ball an den rechten Führfuß des Mitspielers übergibt.\r\n\r\nVariante C\r\nEin Spieler dribbelt mit dem Ball durch eine Hütchenreihe und spielt einen Pass auf den entgegenkommenden Mitspieler. Der Ball sollte so in den Fuß gespielt werden, dass der anlaufende Spieler den Ball ohne Schwierigkeiten mitnehmen und kontrollieren kann.",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "U11",
+         "U13"
+      ],
+      "objective" : "Verbesserung der Ballan- und -mitnahme und des Passspiels."
+   },
+   {
+      "updatedAt" : 1390690308990,
+      "id" : 55,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Ball, Hütchen",
+      "properties" : [],
+      "trainingPhases" : [
+         "WARM_UP",
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, Sporthalle",
+      "trainingFocus" : "TECHNIC",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "maxPlayers" : 0,
+      "title" : "Passen und Ballannahme in der Dreiergruppe",
+      "images" : [],
+      "objective" : "Verbesserung der Ballkontrolle.",
+      "schedule" : "<h1>Organisation</h1>\r\nDie Spieler bilden Dreiergruppen. Zwei Hütchen im Abstand von ca. 20 bis 25 Metern werden pro Dreiergruppe aufgebaut. Jeweils ein Spieler befindet sich an einem Hütchen. Der freie Spieler positioniert sich in der Mitte zwischen den beiden Hütchen.\r\n<h1>Ablauf</h1>\r\nDer obere Spieler passt den Ball auf den Spieler in der Mitte. Dieser versucht den Ball so schnell wie möglich zu kontrollieren. Er führt den Ball mit der Innenseite und spielt den Ball, wenn er frontal zum 2. Mitspieler steht. Für diesen Pass nutzt er ebenfalls die Innenseite.\r\nDie Ballkontrolle sollte variiert werden. So stehen neben der Innenseite noch der Außenriss und die Sohle für den ersten Kontakt zur Verfügung. Ebenfalls sollte der anschließende Pass variiert werden. Hierfür kann der Spieler die Innenseite, den Außenriss oder den Vollspann wählen.\r\n\r\n<h1>Modifikation</h1>\r\nBei der mittleren Variante bewegt sich der Spieler in der Mitte, dem Ball entgegen und simuliert so ein Entgegenkommen.",
+      "createdAt" : 1375090277127,
+      "ageClasses" : [
+         "U9",
+         "U11",
+         "U13",
+         "U15"
+      ]
+   },
+   {
+      "images" : [],
+      "title" : "Passfolge mit Torabschluß",
+      "maxPlayers" : 0,
+      "ageClasses" : [
+         "U15"
+      ],
+      "createdAt" : 1390610482399,
+      "schedule" : "<h1> Organisation </h1>\r\n\r\n<h1> Ablauf</h1>\r\nDer Spieler 1 beginnt und spielt einen Doppelpass mit Spieler 2. Nachdem Spieler 2 den Doppelpass zurück zu Spieler 1 gespielt hat läuft dieser in Richtung 16er-Eck, dabei wird er von Spieler 1 mit einem Steilpass angespielt. Zeitgleich mit der Ballannahme von Spieler 2 macht Spieler 3 eine Körpertäuschung an seinem Hütchen und läuft im Sprinttempo in Richtung 16er, wo er nun von Spieler 2 mit einem präzisen Druckpass durch das Hütchentor angespielt wird. Spieler 3 schießt direkt, oder nach einer Ballmitnahme auf das Tor.  \r\nNach dem Torschuß wechselt Spieler 1 auf die Position von Spieler 2, Spieler 2 stellt sich an die Position von Spieler 3 und Spieler 3 wechselt auf die Position von Spieler 1. \r\n\r\n<h1> Modifikation </h1>\r\n<ul><li>Spieler 2 wird nach dem Zuspiel auf Spieler 3 zum Abwehrspieler und läuft an die 16er-Linie um in ein 1 gegen 1 zu gehen und den heranstürmenden Spieler 3 an einem Torschuß zu hindern</li>\r\n<li>Erkämpft sich Spieler 2 den Ball, darf nun dieser versuchen an Spieler 3 vorbei zu kommen, um den Torabschluß zu suchen</li></ul>",
+      "objective" : "Die Spieler sollen das Passspiel trainieren und lernen die Pässe präzise und druckvoll zu spielen. Wichtig dabei ist auch das richtige Timing für die Zuspiele auf Spieler 2 und den heranlaufenden Spieler 3.",
+      "properties" : [],
+      "auxiliaryMaterial" : "Ball, Hütchen, ein Großtor mit Torwart",
+      "minPlayers" : 0,
+      "id" : 106,
+      "updatedAt" : 1390690903827,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Das Hütchentor zum Durchspielen des Druckpasses sollte man je nach Spielerstärke in der Größe verändern. Ein guter Hütchenabstand ist 1,5 m.\r\n<br/><br/>\r\nDiese Übung wurde von <strong>S. Hölzl</strong> aus München an foomla gesendet!",
+      "trainingFocus" : "TECHNIC",
+      "setting" : "Sportplatz, halbes Feld",
+      "trainingPhases" : [
+         "MAIN"
+      ]
+   },
+   {
+      "trainingPhases" : [
+         "WARM_UP",
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "trainingFocus" : "TECHNIC",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1387030004899,
+      "id" : 52,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Hütchen, Bälle",
+      "properties" : [],
+      "objective" : "Verbesserung des Zusammenspiels. Ballkontrolle im ersten Kontakt.",
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein Feld mit der Größe von 20 x 20 Metern aufgebaut. An jedem Hütchen steht ein Spieler. \r\n<h1> Ablauf </h1>\r\nEin Spieler dribbelt kurz an und spielt den Ball auf einen Mitspieler. Dieser lässt den Ball klatschen und löst sich in die Richtung des dritten Mitspielers. Der Ball wird nun von Spieler 1, diagonal zu Spieler Nummer 3 gepasst. Dieser lässt den Ball wiederum zum Doppelpass klatschen und bewegt anschließend in die Richtung Spieler Nummer 4.\r\n\r\n<h1> Modifikation </h1>",
+      "createdAt" : 1375090126565,
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "maxPlayers" : 0,
+      "title" : "Passquadrat mit Doppelpass",
+      "images" : []
+   },
+   {
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nEs werden 4 Hütchen versetzt im Abstand von 25 Metern aufgestellt. Die Spieler besetzten alle Hütchen.\r\n\r\n<h1> Ablauf </h1>\r\nSpieler Nummer 1 hat den Ball. Er dribbelt kurz an und Spielt einen kurzen Pass auf Spieler 2. Dieser kontrolliert den Ball mit 2 Kontakten und spielt einen harten Pass auf Spieler 4. Dieser kontrolliert den Ball wiederum mit zwei Kontakten und läßt den Ball auf den anlaufenden Spieler 1, der hinter Spieler 2 hergelaufen ist. Spieler 1 läßt den Ball direkt auf Spieler 3 klatschen und die Übung beginnt nun spiegelverkehrt.",
+      "ageClasses" : [
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Passspiel und Nachrücken in den Raum. Trainieren des ersten Kontakts.",
+      "images" : [],
+      "title" : "Passübung \"Schnelle Kombination\" I",
+      "maxPlayers" : 0,
+      "note" : "Super Übungsform zur Verbesserung des Passspiels. Hier können Trainer auch Ihrer Phantasie und Ihrem Improvisationstalent freien Lauf lassen.",
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "auxiliaryMaterial" : "Hütchen, Bälle",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1366552800000,
+      "id" : 14
+   },
+   {
+      "schedule" : "<h1> Organisation </h1>\r\nDie Spieler verteilen sich auf die vier Hütchen. An der Position 1 und 3 stehen mehrere Spieler. Am Hütchen für Spieler 2 und 4 steht jeweils ein Spieler.\r\n\r\n<h1> Ablauf </h1>\r\nSpieler 1 dribbelt kurz an und spielt einen kurzen Pass auf den 2. Spieler. Dieser spielt mit zwei Kontakten einen Doppelpass und geht an das Starthütchen zurück. Spieler Nr. 1 passt nun über eine längere Distanz den Ball zu Spieler Nr. 3 und rückt auf dessen Position vor. Nun beginnt die Übung von der anderen Seite. \r\n\r\n<h1> Modifikation </h1>\r\nDas Anspiel von 1 auf 3 muss mit dem Vollspann gespielt werden.",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "U19",
+         "SENIOR",
+         "U15",
+         "U17"
+      ],
+      "objective" : "Verbesserung des Passspiels, der Ballkontrolle und der Ballan- und -mitnahme.",
+      "title" : "Passübung \"Schnelle Kombination\" II",
+      "images" : [],
+      "maxPlayers" : 0,
+      "trainingFocus" : "TECHNIC",
+      "note" : "Ballan- und -mitnahme sollte unbedingt mit beiden Füßen trainiert werden.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, 10 x 30 Meter Feld,",
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Hütchen, Bälle",
+      "properties" : [],
+      "updatedAt" : 1366552800000,
+      "id" : 16
+   },
+   {
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Markierungshütchen, Bälle",
+      "properties" : [],
+      "updatedAt" : 1390690580082,
+      "id" : 105,
+      "trainingFocus" : "TECHNIC",
+      "note" : "Diese Übung wird gerne direkt vor dem Spiel gewählt. Die Spieler haben kurze Laufwege und gewöhnen sich an wenig Kontaktzeit mit dem Ball.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Halle, Sportplatz, 15 x 25 Meter",
+      "title" : "Passübung für den nachrückenden 6er",
+      "images" : [],
+      "maxPlayers" : 0,
+      "schedule" : "<h1>Organisation</h1>\r\nDer Trainer markiert mit den Markierungshütchen ein Rechteck der Größe 15 Meter mal 25 Meter.\r\n\r\n<h1>Ablauf</h1>\r\nSpieler A startet mit einem Pass auf Spieler B. Dieser lässt den Ball kurz wieder klatschen und spielt einen Doppelpass mit Spieler A. Dieser passt den Ball diagonal durch das Rechteck auf Spieler C. Während der Ball auf dem Weg zu C ist, folgt Spieler B dem Ball im Zentrum der Übung. Spieler C spielt nun wieder einen kurzen Pass auf Spieler B und läuft um das Markierungshütchen. Spieler B lässt den Ball für Spieler C in den Lauf klatschen. Spieler C führt den Ball im Tempodribbling auf das vor ihm befindliche Markierungshütchen.\r\n\r\n<h1>Modifikation</h1>\r\nDer zentrale Spieler spielt mit Spieler A keinen Doppelpass, sondern dreht mit dem Ball in die Spielrichtung auf und passt aus einem kurzen Dribbling den Ball selber auf Spieler C.",
+      "createdAt" : 1390608555362,
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung des Passspiels mit wenigen Kontakten"
+   },
+   {
+      "objective" : "Verbesserung der Ballkontrolle nach seitlichem Anspiel.",
+      "ageClasses" : [
+         "U13",
+         "U9",
+         "MINI",
+         "U11"
+      ],
+      "schedule" : "<h1>Organisation</h1>\r\nDie Spieler werden an die Markierunghütchen gestellt und die Bälle sind an den zentralen Positionen abgelegt. Dort befinden sich auch die meisten Spieler. \r\n\r\n<h1>Ablauf</h1>\r\nEin zentraler Spieler spielt nun dem Außenverteidiger den Ball in den Lauf. Dieser muss das Anspiel aus der Position des Innenverteidigers kontrollieren und dann den in der vertikalen Position wartenden Mitspieler zupassen. Anschliessend wechselt er mit diesem die Position. Der Passempfänger spielt den Pass zurück auf die zentrale Ausgangsposition.\r\n\r\n<h1>Modifikation</h1>\r\n<ul>\r\n   <li>Der Ball soll vom Außenverteidiger mit einem Kontakt weiter gespielt werden.</li>\r\n   <li>Der Außenverteidiger bekommt den Ball vom Innenverteidiger in den Fuß gespielt. Dann beginnt er mit einem Tempodribbling und spielt den Ball auf den vertikalpostierten Mitspieler.</li>\r\n   <li>Der Außenverteidiger setzt seinem Pass nach und simuliert einen Zweikampf Hierbei versucht er den Gegner in eine Richtung zu lenken..</li>\r\n   <li>Das Anspiel vom Außenverteidiger auf den Mitspieler erfolgt als halbhoher Ball.</li>\r\n   <li>Der Pass vom Außenverteidiger erfolgt als flacher Vollspannstoß.</li>\r\n</ul>",
+      "createdAt" : 1375999303612,
+      "maxPlayers" : 0,
+      "title" : "Positionstraining: Außenverteidiger (2/3)",
+      "images" : [],
+      "trainingPhases" : [
+         "WARM_UP",
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TECHNIC",
+      "note" : "Die Außenverteidiger müssen insbesondere nach Spielverlagerungen den Ball schnell in die Spitze befördern. Diese Passtechnik, bzw. diese Ballkontrolle ist für sie von Vorteil. Diese Übung eignet sich zudem zum Torschuss, anstatt dem vertikalen Pass auf einen Mitspieler. Der Winkel zum Außenverteidiger ist ähnlich demjenigen, den der Spielmacher auf einen aus der Tiefe startenden Stürmer, zwischen die Innenverteidigung spielt.",
+      "id" : 61,
+      "updatedAt" : 1397658296520,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle und Hütchen"
+   },
+   {
+      "properties" : [],
+      "auxiliaryMaterial" : "Großtor, Markierungshütchen, Bälle",
+      "minPlayers" : 0,
+      "id" : 58,
+      "updatedAt" : 1396266820306,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Dieses Positionstraining soll den Innenverteidigern helfen, das richtige Timing zum Kopfball zu entwickeln. Insbesondere, wenn der Gegner den Ball oft hoch auf die eigene Viererkette schlägt.",
+      "trainingFocus" : "TECHNIC",
+      "setting" : "Sportplatz 40 x 20 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "images" : [],
+      "title" : "Positionstraining: Innverteidigung - Kopfball mit Torabschluss",
+      "maxPlayers" : 0,
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "createdAt" : 1375911221620,
+      "schedule" : "<h1>Organisation</h1>\r\nEs wird ein Großtor benötigt und eine Fläche von ca. 40 Meter x 20 Meter. Neben dem Tor, stehen Spieler die im Spiel meistens auch flanken. \r\n<h1>Ablauf</h1>\r\nDie gelben Anspieler schlagen einen hohen Ball in die Richtung des zentralen, grünen Spieler. Diese geht mit dem Kopf zum Ball und spielt den Ball kontrolliert in die Laufrichtung eines Mitspielers. Zunächst auf die linke, dann auf die rechte Seite. Er nimmt dann den Platz des Spielers ein, der den Kopfball erhalten hat und schiesst den nächsten Ball nun selber auf das Tor.\r\n\r\n<h1>Modifikation</h1>\r\n<li>Die Anspieler spielen flache und hohe Bälle abwechselnd, oder variieren diese.</li>\r\n<li>Die Position der gelber Spieler wird verändert. Wenn der Ball seitlicher Kommen soll, muss das Feld entsprechend verändert werden.</li>\r\n<li>Ein zentraler, grüner Spieler, der nicht an der Reihe ist, stört den Innenverteidiger als passiver Stürmer.</li>",
+      "objective" : "Verbesserung des Kopfballspiels, bei frontalen Bällen."
+   },
+   {
+      "objective" : "Verbesserung der Wahrnehmung im Raum und des ersten Kontaktes.",
+      "createdAt" : 1375090089397,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein Feld mit der Größe von 25 Meter mal 25 Meter aufgebaut. An den Eckhütchen positionieren sich jeweils Spieler mit Bällen. In der Mitte des Quadrats steht ein Spieler ohne Ball.\r\n\r\n<h1> Ablauf </h1>\r\nEin Spieler mit Ball dribbelt kurz an und spielt den Spieler ohne Ball im Zentrum den Ball zu. Dieser muss nun den Ball so schnell wie möglich verarbeiten und einen anderen Spieler anspielen. Nun bekommt er aus einer anderen Richtung einen weiteren Ball und verarbeitet ihn schnell. Bei der Ballkontrolle sollte der Spieler darauf achten, dass der erste Kontakt sauber ist und der Ball in die Richtung gelegt wird, in die der Spieler den Ball spielen möchte.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n<li>Bevor der Ball weitergespielt wird vom zentralen Spieler, wird der Ball in die entgegengesetzte Richtung abgelegt. In diesem Fall nutzt der Spieler eine Körpertäuschung um Platz und Zeit zu schaffen</li>\r\n<li>Der zentrale Spieler kann den Ball auch Klatschen lassen und es werden drei schnelle Pässe innerhalb der Übungsgruppe gespielt</li>\r\n</ul>",
+      "ageClasses" : [
+         "U19",
+         "SENIOR"
+      ],
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Positionstraining: Stürmer (9)  Ballan- und -mitnahme",
+      "setting" : "Sportplatz, Halle",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : null,
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1375998746490,
+      "id" : 51,
+      "auxiliaryMaterial" : "Hütchen, Bälle",
+      "minPlayers" : 0,
+      "properties" : []
+   },
+   {
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tor.",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1406038711765,
+      "id" : 64,
+      "note" : "Es handelt sich hierbei um ein intensives Training für die Stürmer, bzw. für Spieler die ihren Torabschluss trainieren möchten. Diese Übung kann bereits mit einem Torwart und einem Anspieler durchgeführt werden.",
+      "trainingFocus" : "MENTAL",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, halbes Feld",
+      "trainingPhases" : [
+         "MAIN",
+         "SCRIMMAGE"
+      ],
+      "images" : [],
+      "title" : "Positionstraining: Stürmer (9) - Torschuss",
+      "maxPlayers" : 0,
+      "createdAt" : 1376086039842,
+      "schedule" : "<h1> Organisation </h1>\r\nVor dem Tor wird im Abstand von ca. 11 Metern, ein 7 x 10 Meter großes Rechteck markiert. In diesem Rechteck wartet der Stürmer auf Anspiel aus unterschiedlichen Richtungen. Die übrigen Spieler befinden sich auf spieltypischen Positionen, die der Trainer aus seinem System ableiten kann.\r\n \r\n<h1> Ablauf </h1>\r\nDie Spieler auf den Anspielpositionen dribbeln entweder mit dem Ball kurz an und spielen einen Pass oder eine Flanke auf den Stürmer, oder schlagen einen ruhenden Ball zum Stürmer. Dieser versucht so schnell wie möglich den zugespielten Ball ins Tor zu schießen.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Das erste Zuspiel schießt der Spieler selber auf das Tor, den zweiten legt er dem Anspieler vor.</li>\r\n  <li>Mit dem Anspieler wird ein Doppelpass gespielt.</li>\r\n  <li>Der Stürmer entscheidet selber, ob er den Abschluss sucht, oder der Mitspieler.</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\n<ul>\r\n  <li>Es befindet sich ein passiver Gegenspieler im Rechteck.</li>\r\n  <li>Es befindet sich ein teilaktiver Gegenspieler im Rechteck.</</li>\r\n  <li>Es befindet sich ein aktiver Gegenspieler im Rechteck.</</li>\r\n</ul>",
+      "ageClasses" : [
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung des Torabschlusses nach Anspielen aus unterschiedlcihen Richtungen."
+   },
+   {
+      "objective" : "Verbessrung der Orientierung im Raum und des Passspiels.",
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird mit Markierungshütchen ein Kreis aufgebaut. Es wird ein Hütchen mehr aufgestellt, als die Anzahl der Spieler. Ein Durchmesser von 15 Meter ist zu Beginn angemessen. Die Spieler besetzen alle Markierungshütchen, ein Spieler ist der Jäger in der Mitte.\r\n\r\n<h1> Ablauf </h1>\r\nEin Spieler hat den Ball und passt zu einem Spieler an einem Hütchen. Er läuft nun auf das freie Hütchen und ist wieder anspielbereit. Der Spieler Nummer 2 spielt wiederum zu einem Spieler und besetzt das freigewordene Markierungshütchen. Der Spieler in der Mitte muss versuchen, die Pässe abzufangen. Wenn es ihm gelingt den Ball zu kontrollieren, wechselt er die Aufgabe mit dem Passgeber.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n<li>Direktes Spiel.</li>\r\n<li>Zwei Pflichtkontakte.</li>\r\n<li>Es darf nur flach gespielt werden.</li>\r\n<li>Die Spieler zählen die Pässe.</li>\r\n</ul>\r\n\r\n<h1> Vereinfachen </h1>\r\n<ul>\r\n<li>Ohne Passjäger.</li>\r\n<li>Es darf auch direkt gespielt werden.</li>\r\n<li>Das Spielfeld wird vergrößert.</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\n<ul>\r\n<li>Zwei Passjäger.</li>\r\n<li>Das Spielfeld wird verkleinert</li>\r\n</ul>",
+      "createdAt" : 1375089586886,
+      "ageClasses" : [
+         "SENIOR",
+         "U15",
+         "U11",
+         "U17",
+         "U13",
+         "U19"
+      ],
+      "maxPlayers" : 0,
+      "title" : "Positionswechsel mit Gegenspieler",
+      "images" : [],
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1406048496178,
+      "id" : 42,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Markierungshütchen, Bälle",
+      "properties" : []
+   },
+   {
+      "maxPlayers" : 0,
+      "title" : "Rundlauf mit Torabschluss",
+      "images" : [],
+      "objective" : "Verbesserung der Schusstechnik. Insbesondere des Vollspann- und Innenseitstoßes.",
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird ein Feld mit der Größe von 20m x 20m aufgebaut. Zwei Tore werden sich gegenüberstehend, versetzt aufgebaut. Zwei Torhüter besetzen die Tore und die Mannschaft wird in zwei Gruppen aufgeteilt. \r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler starten mit einem Dribbling von der Ausgangsposition. Wenn Sie die beiden Markierungshütchen erreicht haben, versuchen sie den Ball mit einem Schuss auf das Tor zu bringen. Anschließend nehmen sie ihren Ball und wechseln auf die zweite Hälfte der Übung und schießen dort ebenfalls auf das Tor. So entsteht ein Rundlauf, bei dem die Spiele in kurzer Zeit, viele Torschüsse üben.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n<li>Die Spieler sollen nur mit dem Vollspann schießen.</li>\r\n<li>Die Spieler schießen mit dem Innenseitstoß.</li>\r\n<li>Es wird auch mit dem schwachen Fuß geschossen.</li>\r\n<li>Die Spieler laufen parallel in beiden Übungsteilen an und schiessen synchron auf das jeweilige Tor.</li>\r\n<li>Die Spieler dribbeln nicht bis zu den Schusshütchen, sondern legen sich den Ball selber vor. </li>\r\n<li>Vor dem Schuss machen die Spieler eine Körpertäuschung um eventuelle Gegenspieler zu verladen.</li>\r\n</ul>",
+      "createdAt" : 1398536111138,
+      "ageClasses" : [
+         "MINI",
+         "U9",
+         "U11",
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "updatedAt" : 1398537287879,
+      "id" : 117,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, zwei Groß- oder Jugendtore",
+      "properties" : [],
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, 20 x 20 Meter",
+      "trainingFocus" : "TECHNIC",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED"
+   },
+   {
+      "updatedAt" : 1406040645713,
+      "id" : 90,
+      "auxiliaryMaterial" : "Ball, Markierungshütchen - und Leibchenbchen",
+      "minPlayers" : 0,
+      "properties" : [],
+      "setting" : "Halbes Spielfeld, oder ein Drittel des Spielfeldes",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : "Diese Übung ist sehr komplex und mehrere Trainingsziele können vom Trainer verfolgt werden. Deshalb ist es wichtig, eine klare Aufgabenstellung mit den Spielern verabredet zu haben.",
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Sanduhr",
+      "objective" : "Verbesserung der räumlichen Wahrnehmung. Lösen von komplexen taktischen Situationen. Strategisches Handeln der zentralen Spieler.",
+      "createdAt" : 1379143977173,
+      "schedule" : "<h1> Organisation </h1>\r\nOberhalb des 16 Meterraumes wird eine Fläche in der Form einer Sanduhr aufgebaut. Wichtig ist, dass die mittlere Zone weniger Breite hat, als die Zonen links und rechts von Ihr. Die Trainingsgruppe wird in zwei Teams eingeteilt.\r\n\r\n<h1> Ablauf </h1>\r\nZiel der Übung ist es, den Ball in den eigenen Reihen zu halten, also auf Ballbesitz und auf Ballzikulation. Dazu werden pro Team, die 3 Räume besetzt. Im linken und rechten Raum, wird jeweils 3 gegen 3 gespielt. In der mittleren Zone spielen zwei Spieler 1 gegen 1. \r\nWenn grün den Ball in einer der beiden Flügelzonen hat, darf der grüne 6er mit in diesen Raum hineinlaufen, um eine 4 zu 3 Überzahlsituation herzustellen. Jedoch dürfen in die mittlere Zone nur die 6er von beiden Teams sein.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n<li>Die beiden 6er, sind immer in dem Team, dass in Ballbesitz ist.</li>\r\n<li>Die 6er dürfen ihren mittleren Raum nicht verlassen.</li>\r\n<li> Beide 6er dürfen mit und gegen den Ball in die äußeren Zonen einlaufen.</li>\r\n<li> Jeweils ein Spieler aus den 3 gegen 3 Zonen darf mit in die mittlere Zone, bei Ballbesitz.</li>\r\n</ul>",
+      "ageClasses" : [
+         "U19",
+         "SENIOR"
+      ]
+   },
+   {
+      "maxPlayers" : 0,
+      "title" : "Schattenlaufen mit Ball",
+      "images" : [],
+      "objective" : "Förderung der kreativen Bewegung der Kids. Spielerisches kennenlerne von unterschiedlichen Bewegungen. Lerne von Bewegungen durch Beobachtung.",
+      "ageClasses" : [
+         "MINI",
+         "U9"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nDie Kids werden in 3er oder 4er Gruppen eingeteilt und laufen in einem abgesteckten Quadrat.\r\n\r\n<h1> Ablauf </h1>\r\nEs wird ein Spieler benannt der mit dem Ball am Fuß dribbelt. Die anderen Kids seiner Gruppe laufen mit ihrem Ball hinter ihm her. Der erste Spieler nutz  unterschiedliche Kontaktflächen des Fußes um den Ball zu führen.\r\n\r\n<h1> Modifikation </h1>\r\nDer Trainer ändert die Reihenfolge der Gruppe durch optische oder akustische Signale.",
+      "createdAt" : 1366563666142,
+      "id" : 37,
+      "updatedAt" : 1406054928257,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Hütchen, Bälle",
+      "trainingPhases" : [
+         "ARRIVAL",
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "ENDURANCE",
+      "note" : "Die Kids sollen beim Fußball Spaß haben und so viele Kontakte mit dem Ball haben wie möglich. Durch diese Übung lernen die Kinder den Ball zu führen und dabei auf die Mitspieler zu achten. Auch schwächere Spieler bewegen sich mit dem Ball und können sich weiterentwickeln."
+   },
+   {
+      "id" : 12,
+      "updatedAt" : 1375194571753,
+      "properties" : [],
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Ball, Markierungshemden, Markierungshütchen",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingFocus" : "TACTIC",
+      "note" : null,
+      "maxPlayers" : 0,
+      "title" : "Spiel auf Ballhalten",
+      "images" : [],
+      "objective" : "Verbessern des Passspiels und der Ballan- und Ballmitnahme unter Druck.",
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "schedule" : "<h1> Organisation </h1>\r\nEin Spielfeld mit Hütchen abstecken und zwei Teams einteilen. Ein Team spielt in Überzahl, das andere Team in Unterzahl.\r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler spielen sich den Ball untereinander zu. Der Ball muss so lange wie möglich in den eigenen Reihen gehalten werden. Das andere Team muss versuchen in Ballbesitz gelangen.\r\n\r\n<h1> Modifikation </h1>\r\n- Mindestanzahl der Ballkontakte pro Spieler festlegen.\r\n- Maximale Anzahl der Ballkontakte festlegen.\r\n- gegnerüberwindendes Dribbling ist erwünscht.",
+      "createdAt" : 1365242400000
+   },
+   {
+      "updatedAt" : 1366660794244,
+      "id" : 31,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle für jeden Spieler, Hütchen",
+      "properties" : [],
+      "trainingPhases" : [
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, Halle, 10 x 10 Meter",
+      "trainingFocus" : "ENDURANCE",
+      "note" : null,
+      "exerciseStatus" : "PUBLISHED",
+      "maxPlayers" : 0,
+      "title" : "Spielerhaufen am Hütchen",
+      "images" : [],
+      "objective" : "Verbesserung der motorischen Fähigkeiten und der Körperbeherrschung.",
+      "schedule" : "<h1> Organisation </h1>\r\nJeder Spieler befindet sich mit einem Ball in dem abgesteckten Raum. SIe bewegen sich frei in diesem Raum und versuchen den Ball mit unterschiedlichen Flächen des Fußes zu führen.\r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler laufen wild im Feld durcheinander. Der Trainer ruft eine Zahl und die Spieler versuchen sich so schnell wir möglich an einem Hütchen in der Anzahl zu treffen, die der Trainer genannt hat. Wer schafft es nicht, sich einem Spielerhaufen anzuschließen?\r\n\r\n<h1> Modifikation </h1>\r\nDie Spieler haben einen Ball am Fuß oder in der Hand. Die Hütchen bekommen Vereinsnamen und stehen für eine bestimmt Zahl. 1 = FC Bayern München, 2 = BvB Borussia Dortmund, 3 = etc.",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "MINI",
+         "U9"
+      ]
+   },
+   {
+      "trainingFocus" : "TACTIC",
+      "note" : "Die Schnittstellen in der Spielphase \"Gegen den Ball\" sind sowohl im modernen Fußball, als auch im Spiel gegen eine mannorientierte Verteidigung eine wichtige Fähigkeit.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "setting" : "Sportplatz, 20 x 30 Meter Spielfeld",
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Ball, Markierungshemden, Zwei Groß- oder Jugendtore",
+      "properties" : [],
+      "updatedAt" : 1406054989279,
+      "id" : 7,
+      "schedule" : "<h1>Organisation</h1>\r\nEs werden mindestens zwei verschiedene Teams gebildet. Ein Spieler sollte die Torhüterposition einnehmen. \r\n\r\n<h1>Ablauf</h1>\r\nDie Spieler dürfen aus jeder Situation auf das gegnerische Tor schiessen. Der Ball muss jedoch zwischen zwei gegnerischen Spielern durchgespielt werden. Die Spieler sollen lernen, die Schnitt- und Passstellen des Gegners als Schwachstelle zu entdecken. Nachdem dies erreicht wurde, wird versucht, mit wenigen Kontakten (Ballan- und Ballmitname, Vorlage, Torschuss) abzuschliessen. \r\n\r\n<h1>Modifikation</h1>\r\nSollte ein Team ein Tor erzielen, bleibt es in Ballbesitz. Der eigene Torhüter nimmt einen Ball aus dem eigenen Tor und eröffnet so schnell wie möglich das Spiel durch eine Abwurf auf einen Mitspieler.",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "U11",
+         "U13",
+         "U15"
+      ],
+      "objective" : "Verbesserung der Spielintelligenz und -übersicht.",
+      "title" : "Spielform 3 vs 3",
+      "images" : [],
+      "maxPlayers" : 0
+   },
+   {
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Tempodribbling mit Torabschluß unter Druck",
+      "objective" : "Tempodribbling mit Torschuss, frontal vor dem Tor, mit Gegner im Rücken, kurze Distanz.",
+      "createdAt" : 1390611658447,
+      "schedule" : "<h1> Organisation </h1>\r\nBall, Hütchen, ein Großtor mit Torwart\r\n\r\n<h1> Ablauf </h1>\r\n2 Spieler bewegen sich in einem etwa 10 x 10 m großen Feld und spielen sich laufend Doppelpässe zu. Nach mindestens 5 gespielten Doppelpässen soll sich einer der beiden Spieler blitzartig mit dem Ball im höchsten Tempo absetzen und durch eines der beiden Ecktore laufen. Der andere Spieler übernimmt dann die Rolle des Verteidigers und läuft ebenfalls im höchsten Tempo durch das gegenüberliegende Ecktor und versucht den Angreifer noch am Torabschluß zu hindern.\r\n\r\nDer Spieler der sich als Angreifer lösen wird soll ein Gefühl dafür bekommen, wann und wie er sich am Besten lösen kann, um sich durch die Lücke (Ecktor) abzusetzen. Der Verteidiger muss blitzschnell umschalten und im höchsten Tempo versuchen den Angreifer noch am Torabschuß zu hindern. Ähnlich einem plötzlichen Ballverlust in der 4er-Kette.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n<li>Beide Spieler im Ausgangsfeld sind Stürmer und spielen sich Doppelpässe zu. Einer von beiden initiiert durch Kreuzen den Angriff durch eines der beiden Eck-Tore, der andere Spieler hinterläuft den Mitspieler und schaltet sich mit in den Angriff ein.</li>\r\n<li>Zusätzlich könnte man noch einen Abwehspieler am 16ner positionieren.</li></ul>",
+      "ageClasses" : [
+         "U15"
+      ],
+      "updatedAt" : 1390691164734,
+      "id" : 107,
+      "auxiliaryMaterial" : "Ball, Hütchen, ein Großtor mit Torwart",
+      "minPlayers" : 0,
+      "properties" : [],
+      "setting" : "Sportplatz, Kleinfeld",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : "Wichtig ist das Stellungsspiel zu den beiden Lücken und ein blitzschnelles Umschalten.<br/><br/>\r\nDiese Übung wurde von <strong>S. Hölzl</strong> aus München an foomla gesendet!",
+      "trainingFocus" : "TECHNIC",
+      "exerciseStatus" : "PUBLISHED"
+   },
+   {
+      "maxPlayers" : 0,
+      "title" : "Tempowechsel nach Automarken",
+      "images" : [],
+      "objective" : "Verbesserung des gegnerüberwindenden Dribblings, der Rhytmisierungs- und Umstellungsfähigkeit.",
+      "schedule" : "<h1> Organisation </h1>\r\nDie Spieler bewegen sich mit einem Ball am Fuß in einem abgesteckten Feld.\r\n\r\n<h1> Ablauf </h1>\r\nSie bewegen sich zunächst frei im Feld und probieren unterschiedliche Ballkontakte aus. Dies können die Sohle, der Innenriss, der Außenriss und der Hacke sein. Das Tempo bleibt zunächst gleich. Nach der Eingewöhnung fragt der Trainer, was sie mit einem langsamen Tempo verbinden. Dies steht nun für „langsam“. Anschließend werden Begriffe für „normales Tempo“ und „schnell“ gemeinsam gesucht. Beispiel:\r\n\r\n<ul>\r\n  <li> Fahrrad = langsam</li>\r\n  <li> Golf = normales Tempo</li>\r\n  <li> Ferrari = schnell</li>\r\n</ul>\r\n\r\nNun ruft der Trainer einen Begriff während die Kids im Feld dribbeln. Diese passen ihr Tempo dem genannten Gegenstand an.\r\n\r\n\r\n<h1> Modifikation </h1>\r\nUmgekehrte Bedeutung, Ferrari gleich langsam, Fahrrad = schnell\r\nFarben werden genutzt, rot = schnell, gelb = mittleres Tempo, grün = langsam",
+      "createdAt" : 1366563600650,
+      "ageClasses" : [
+         "MINI",
+         "U9",
+         "U11"
+      ],
+      "updatedAt" : 1406054748589,
+      "id" : 36,
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle für alle Spieler, Hütchen",
+      "properties" : [],
+      "trainingPhases" : [
+         "ARRIVAL",
+         "WARM_UP"
+      ],
+      "setting" : "Sportplatz, Halle",
+      "trainingFocus" : "ENDURANCE",
+      "note" : "Der Trainer kann das Tempo von außen steuern. Diese Form ermöglicht auch die Korrektur des Dribblings. Dabei ist darauf zu achten, dass die Spieler den Ball in einer Entfernung vor dem Körper führen, die es dem Spieler ermöglicht, den Ball jederzeit zu kontrollieren.  Der Blick sollte vom Ball gelöst sein.",
+      "exerciseStatus" : "PUBLISHED"
+   },
+   {
+      "setting" : "Sportplatz, 20 x 20 Meter Feld",
+      "trainingPhases" : [
+         "MAIN",
+         "SCRIMMAGE"
+      ],
+      "note" : "Beim Torabschluss sollten die Spieler fokussiert sein. Oftmals entscheidet der Kopf über Erfolg und Misserfolg. Deswegen ist es wichtig, dass die Spieler sich mental auf den Torabschluss fokussieren.\r\n\r\nWenn die Spieler 4 Aktionen hintereinander durchführen müssen und somit 4 x 20 Meter sprinten müssen, wird die Schnelligkeitsausdauer trainert. Dies ist dann aber eher weniger für den Kinderfußball geeignet.",
+      "trainingFocus" : "MENTAL",
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1369155020869,
+      "id" : 40,
+      "auxiliaryMaterial" : "2 Tore, Bälle, Markierungshemden",
+      "minPlayers" : 0,
+      "properties" : [],
+      "objective" : "Verbesserung des Torabschlusses.",
+      "createdAt" : 1366563863098,
+      "schedule" : "<h1>Organisation</h1>\r\nEs wird ein Feld mit der Größe 20 x 20 Meter abgesteckt. Das Team wird in zwei Gruppen eingeteilt und beide Gruppen stellen sich jeweils hinter ein Tor. Die Tore werden mit jeweils einem Torspieler besetzt. Zwei Flankengeber stehen ca. 10 Meter parallel zur Grundlinie.\r\n\r\n<h1>Ablauf</h1>\r\nDie Spieler hinter Tor 1 starten parallel Richtung zweites Tor. Der Flankengeber spielt einen Flugball vor das Tor. Die heranstürmenden Spieler versuchen den Ball im Tor unterzubringen. \r\n\r\n\r\n<h1>Modifikation</h1>\r\n<ul>\r\n  <li>die Bälle werden knallhart, flach vor das Tor gespielt</li>\r\n  <li>die Bälle werden aus einer tieferen, weiter von der Grundlinie entfernten Position gespielt</li>\r\n  <li>wer ein Tor erzielt, darf zum nächsten Tor laufen und hat eine weitere Chance</li>\r\n<li> Wettbewerb: welches Team schafft mehr Tore (z.B. 10 Versuche pro Gruppe)</li>\r\n</ul>",
+      "ageClasses" : [
+         "U13",
+         "SENIOR",
+         "U19",
+         "U15",
+         "U17"
+      ],
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Torabschluss auf zwei Tore"
+   },
+   {
+      "updatedAt" : 1406042082032,
+      "id" : 69,
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore.",
+      "minPlayers" : 0,
+      "properties" : [],
+      "setting" : "Sportplatz, halbes Feld",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : "In dieser Übung muss der Trainer sowohl den Verteidigern als auch den Angreifern Hilfestellungen geben. Wann sollen sie attackieren, wir sollen sie das Tor vorbereiten.",
+      "trainingFocus" : "MENTAL",
+      "exerciseStatus" : "PUBLISHED",
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Torabschluss nach Anspiel aus der Tiefe",
+      "objective" : "Verbesserung des Herausspielens von Torchancen durch da Zentrum. Verbesserung der Annahmetechnik der Stürmer.",
+      "createdAt" : 1376117098490,
+      "schedule" : "<h1> Organisation </h1>\r\nEs stehen ein paar Anspieler auf den zentralen Positionen im Mittelfeld. 20 Meter vor dem Tor stehen zwei Stürmer die den Ball erwarten. Hier befinden sich ebenfalls zwei Verteidiger die den Torschuss verhinden wollen. \r\n<h1> Ablauf </h1>\r\nDie Mittelfeldspieler dribbeln an un versuchen einen Pass auf die Stürmer zu spielen. Diese komme  entgegen oder schieben in die Horizontale um den Pass zu ermöglichen. Wenn sie den Ball erreicht haben, müssen sie so schnell wie möglich ein Tor erzielen.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Die Verteidiger lasse das Anspiel zu.</li>\r\n  <li>Die Verteidiger attackieren, wenn der ballführende Stürmer aufdreht.</li>\r\n  <li>Der Passspieler rückt mit vor das Tor.</li>\r\n</ul>\r\n\r\n<h1> Erleichtern </h1>\r\n<ul>\r\n  <li>Es gibt keine Verteidiger.</li>\r\n  <li>Es wird nur gegen ein Verteidiger gespielt.</li>\r\n  <li>Die Verteidiger dürfen erst  nach 5 Sekunden eingreifen.</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\n<ul>\r\n  <li>Die Verteidiger sind von Beginn an aktiv.</li>\r\n  <li>Der Trainer achtet auf das Abseits.</li>\r\n  <li>Die Spielfeldbreite wird weiter eingeengt, durch weitere Hütchen.</li>\r\n</ul>",
+      "ageClasses" : [
+         "U13",
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ]
+   },
+   {
+      "properties" : [],
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore.",
+      "minPlayers" : 0,
+      "id" : 68,
+      "updatedAt" : 1406041286784,
+      "exerciseStatus" : "PUBLISHED",
+      "note" : "Diese Übung eignet sich ebenfalls für die unmittelbare Spielvorbereitung.",
+      "trainingFocus" : "TECHNIC",
+      "setting" : "Sportplatz, halbes Feld",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "images" : [],
+      "title" : "Torabschluss nach Flanke aus dem Halbfeld",
+      "maxPlayers" : 0,
+      "ageClasses" : [
+         "U15",
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "createdAt" : 1376116416636,
+      "schedule" : "<h1> Organisation </h1>\r\nAuf der linken und rechten Außenbahn werden Hütchen aufgebaut. Dabei ist das Starthütchen ca. 10 Meter von der Mittellinie entfernt. Die davor aufgestellten Hütchen sollen Gegenspieler simulieren. Im Zentrum lauern zwei Stürmer und ein passiver Abwehrspieler.\r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler auf dem Flügel dribbeln um die Hütchen Richtung Halbfeld. Dort angekommen schlagen sie die Bälle flach oder als Flanke vor das Tor. Die einlaufenden Stürmer müssen dabei auf das Abseits acht geben.\r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Es werden nur hohe Bälle vor das Tor gespielt.</li>\r\n  <li>Es werden nur flache Bälle vor das Tor gespielt.</li>\r\n</ul>",
+      "objective" : "Verbesserung der Torabschlusstechnik. Verbesserung des Torabschlusses."
+   },
+   {
+      "schedule" : "<h1> Organisation </h1>\r\nLinks und rechts neben dem 16-Meterraum werden Hütchen aufgebaut. Dabei ist das Starthütchen ca. 16 Meter von der Grundlinie entfernt. Die davor aufgestellten Hütchen sollen Gegenspieler simulieren. Im Zentrum lauern zwei Stürmer und ein passiver Abwehrspieler.\r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler auf dem Flügel dribbeln um die Hütchen Richtung Grundlinie. Dort angekommen schlagen sie die Bälle flach oder als Flanke Richtung 11-Meterpunkt. \r\n\r\n<h1> Modifikation </h1>\r\n<ul>\r\n  <li>Es werden nur hohe Bälle vor das Tor gespielt.</li>\r\n  <li>Es werden nur flache Bälle vor das Tor gespielt.</li>\r\n  <li>Der Außenspieler kann noch ein paar Meter auf der Grundlinie dribbeln und den Ball in den Rückraum legen.</li>\r\n</ul>",
+      "createdAt" : 1376115927525,
+      "ageClasses" : [
+         "U15",
+         "U17",
+         "SENIOR",
+         "U19"
+      ],
+      "objective" : "Verbesserung des Flankenspiels. Verbesserung des Torabschlusses von der Seite.",
+      "title" : "Torabschluss nach Flanke von der Grundlinie",
+      "images" : [],
+      "maxPlayers" : 0,
+      "trainingFocus" : "MENTAL",
+      "note" : "Bei dieser Übung sich die Spieler verpflichtet sich zu konzentrieren. Insbesondere die mangelnde Konzentration vor dem Tor führt zu vielen Missstimmungen im Spiel.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "MAIN",
+         "SCRIMMAGE"
+      ],
+      "setting" : "Sportplatz, halbes Felds Feld",
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Hütchen, Bälle, Tor.",
+      "properties" : [],
+      "updatedAt" : 1406040610646,
+      "id" : 67
+   },
+   {
+      "images" : [],
+      "title" : "Torabschluss nach Richtungswechsel",
+      "maxPlayers" : 0,
+      "createdAt" : 1376087012994,
+      "schedule" : "<h1> Organisation </h1>\r\nDer Trainer markiert ein Feld in der größe eines doppelten 16 Meterraumes. Zwei Tore werden gegenüberstehend aufgebaut. In ihnen befindet sich jeweils ein Torwart. An den Seitenlinine stehen die Spieler in gleichmäßiger Gruppengröße. \r\n<h1> Ablauf </h1>\r\nVon der Seitenlinine startet ein Spieler z.B. zum rechten Tor und umrundet ein Hütchenauf der Grundlinie. Er sprinte in die Richtung des anderen Tores. Ein Mitspieler aus der Gruppe, aus der er gestartet war, passt ihm einen Ball zu. Diesen kontrolliert er und sucht den Abschluss. Nach dem Schuss wechselt er in die gegenüberliegende Gruppe. \r\n\r\n\r\n<h1> Modifikation </h1>\r\nNach dem Anspiel muss der Spieler\r\n<ul>\r\n  <li>den Ball direkt auf das Tor schießen.</li>\r\n  <li>muss den Ball 5 Meter dribbeln und schießt dann.</li>\r\n  <li>spielt 1vs1 gegen den Torwart.</li>\r\n</ul>\r\n\r\n<h1> Erschweren </h1>\r\n<ul>\r\n  <li>Der Passspieler wird zum teilaktiven Gegner und macht Druck von hinten.</li>\r\n  <li>Der Schütze hat nur zwei Kontakte um zum Abschluss zu gelangen.</li>\r\n</ul>",
+      "ageClasses" : [
+         "U17",
+         "U19",
+         "SENIOR"
+      ],
+      "objective" : "Verbesserung des Torabschlusses aus den Halbpositionen vor dem Tor, nach einem Sprint mit Richtungswechsel.",
+      "auxiliaryMaterial" : "Bälle, Hütchen, Tore.",
+      "minPlayers" : 0,
+      "properties" : [],
+      "updatedAt" : 1406039304719,
+      "id" : 65,
+      "note" : "Diese Übung eignet sich um die Technik des Torschusses zu lernen. Ebenso wird der Sprint trainiert.",
+      "trainingFocus" : "ENDURANCE",
+      "exerciseStatus" : "PUBLISHED",
+      "setting" : "Sportplatz, 30 x 40 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ]
+   },
+   {
+      "title" : "Verbesserung der Torschußtechnik",
+      "images" : [],
+      "maxPlayers" : 0,
+      "schedule" : "<h1>Organisation</h1>\r\nDie Spieler stellen sich ca. 16 Meter vor dem Tor auf. \r\n\r\n<h1> Ablauf </h1>\r\nDie Spieler schießen der Reihe nach auf das Tor.\r\n\r\n<h1> Modifikation </h1>\r\nJeder Spieler erhält eine Nummer. Der Trainer ruft eine Nummer und der entsprechende Spieler läuft an und schiesst.",
+      "createdAt" : 1365242400000,
+      "ageClasses" : [
+         "U9",
+         "U11",
+         "U13",
+         "U15"
+      ],
+      "objective" : "Verbesserung der Torschußtechnik",
+      "minPlayers" : 0,
+      "auxiliaryMaterial" : "Bälle, ein Tor",
+      "properties" : [],
+      "updatedAt" : 1367055087454,
+      "id" : 9,
+      "trainingFocus" : "TECHNIC",
+      "note" : "Torschusstraining eigent sich immer besonders gut, um die kognitiven Fähigkeiten der Spieler zu entwickeln. Dazu können vertiefende Informationen zum Training der Handlungs- und Reaktionsschnelligkeit hilfreich sein. Die Aufgabe wird oftmals durch akustische und visuelle Reize begleitet. Dadurch wird der Spieler trainiert, schneller auf dem Platz Entscheidungen zu treffen.",
+      "exerciseStatus" : "PUBLISHED",
+      "trainingPhases" : [
+         "SCRIMMAGE"
+      ],
+      "setting" : "Sportplatz"
+   },
+   {
+      "setting" : "Sportplatz 30 x 30 Meter",
+      "trainingPhases" : [
+         "MAIN"
+      ],
+      "note" : "Der Trainer coacht nach den Prinzipien der Vierkette, bzw. ball- und raumorientiert.",
+      "trainingFocus" : "TACTIC",
+      "exerciseStatus" : "PUBLISHED",
+      "updatedAt" : 1366552800000,
+      "id" : 33,
+      "auxiliaryMaterial" : "Hütchen, Markierungshemden, Ball",
+      "minPlayers" : 0,
+      "properties" : [],
+      "objective" : "Verbesserung des taktischen Verhaltens in der Spielphase \"Gegen den Ball\".",
+      "createdAt" : 1365242400000,
+      "schedule" : "<h1> Organisation </h1>\r\nEs wird in Gleichzahl gespielt. Beide Teams bekommen zwei Hütchentore zugewiesen, die sie verteidigen müssen.\r\n\r\n<h1> Ablauf </h1>\r\nEs wird versucht, so schnell wie möglich ein Tor zu erzielen. Die verteidigende Mannschaft bewegt sich dazu wie es in einer Vierkette der Fall sein sollte. Die Spieler schieben in Reihe zum Ball und lösen sich aus der Vierkette, wenn ein Gegner in den entsprechenden Raum mit dem Ball eindringt. Bei Ballgewinn sollen die Spieler so schnell wie möglich den Torerfolg erzielen.\r\n\r\n<h1> Modifikation </h1>\r\nEs werden 6er Positionen dazu genommen.\r\nDer Angriff darf nicht länger als 10 Sekunden dauern.",
+      "ageClasses" : [
+         "U17"
+      ],
+      "maxPlayers" : 0,
+      "images" : [],
+      "title" : "Verschiebung der Vierkette"
+   }
+]

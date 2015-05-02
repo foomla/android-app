@@ -12,6 +12,7 @@ import org.foomla.androidapp.activities.news.NewsActivity;
 import org.foomla.androidapp.activities.user.UserActivity;
 import org.foomla.api.entities.User;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -24,8 +25,6 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import com.actionbarsherlock.app.ActionBar;
 
 public class ActivityNavDrawer {
 

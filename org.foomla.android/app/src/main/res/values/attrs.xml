@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExerciseRatingView">
+        <attr name="username" format="string"/>
+        <attr name="rating" format="integer"/>
+        <attr name="comment" format="string"/>
+    </declare-styleable>
+</resources>

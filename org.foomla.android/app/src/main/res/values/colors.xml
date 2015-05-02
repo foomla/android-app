@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="foogreen">#219A2D</color>
+    <color name="fooselectorgreen">#8ACA91</color>
+    <color name="foolightgreen">#5cc151</color>
+    <color name="foodarkgreen">#1A7A23</color>
+    <color name="white">#FFFFFF</color>
+    <color name="fooblack">#222</color>
+    <color name="foodarkblack">#161616</color>
+    <color name="foolightblack">#444</color>
+    <color name="foowhite">#EEEEEE</color>
+    <color name="foodarkwhite">#CCCCCC</color>
+    <color name="grey">#999</color>
+    <color name="darkgrey">#666</color>
+    <color name="lightgrey">#AAA</color>
+    <color name="black">#000000</color>
+    <color name="greybg">#e5e5e5</color>
+
+</resources>
