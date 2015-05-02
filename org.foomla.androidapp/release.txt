@@ -1,0 +1,1 @@
+execute "mvn clean install -Psign -Dstorepass=<STORE_PASS> -Dkeypass=<KEY_PASS>"

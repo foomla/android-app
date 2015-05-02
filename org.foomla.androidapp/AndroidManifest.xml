@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.foomla.androidapp"
+          android:versionCode="6"
+          android:versionName="2.0">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-sdk
+            android:minSdkVersion="10"
+            android:targetSdkVersion="17"/>
+
+    <application
+            android:name=".FoomlaApplication"
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:logo="@drawable/foomla_logo"
+            android:theme="@style/Theme.FoomlaTheme">
+        <activity
+                android:name="com.google.ads.AdActivity"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity
+                android:name=".activities.splash.SplashScreenActivity"
+                android:label="@string/app_name"
+                android:theme="@style/Theme.Sherlock.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.login.LoginActivity"
+                android:label="@string/activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name=".activities.login.LoginInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>        
+        <activity
+                android:name=".activities.main.MainActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.edittraining.EditTrainingActivity"
+                android:label="@string/activity_edit_training">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.exercisebrowser.ExerciseBrowserActivity"
+                android:label="@string/activity_exercise_browser">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.mytrainings.MyTrainingsActivity"
+                android:label="@string/activity_my_trainings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.exercisedetail.ExerciseDetailActivity"
+                android:label="@string/activity_exercisedetails">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.trainingdetail.TrainingDetailActivity"
+                android:label="@string/activity_trainingdetails">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.info.InfoActivity"
+                android:label="@string/activity_info">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.news.NewsActivity"
+                  android:label="@string/activity_news">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.newsdetail.NewsDetailActivity"
+                  android:label="@string/activity_news">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.user.UserActivity"
+                  android:label="@string/activity_user">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

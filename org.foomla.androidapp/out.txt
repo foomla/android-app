@@ -1,0 +1,1085 @@
+Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 14:51:28+0100)
+Maven home: /opt/apache-maven-3.0.5
+Java version: 1.7.0_45, vendor: Oracle Corporation
+Java home: /opt/java/jdk1.7.0_45/jre
+Default locale: de_DE, platform encoding: UTF-8
+OS name: "linux", version: "3.12.0-031200-generic", arch: "amd64", family: "unix"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /opt/apache-maven-3.0.5/conf/settings.xml
+[DEBUG] Reading user settings from /home/iweinzierl/.m2/settings.xml
+[DEBUG] Using local repository at /home/iweinzierl/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /home/iweinzierl/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] com.jayway.maven.plugins.android.generation2:android-maven-plugin:jar:3.6.0:
+[DEBUG]    com.android.tools.build:builder:jar:0.4:compile
+[DEBUG]       com.android.tools:sdklib:jar:22.0:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.1.1:compile
+[DEBUG]             org.apache.httpcomponents:httpcore:jar:4.1:compile
+[DEBUG]             commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.4:compile
+[DEBUG]          org.apache.httpcomponents:httpmime:jar:4.1:compile
+[DEBUG]          com.android.tools.layoutlib:layoutlib-api:jar:22.0:compile
+[DEBUG]          com.android.tools:dvlib:jar:22.0:compile
+[DEBUG]          org.apache.commons:commons-compress:jar:1.0:compile
+[DEBUG]       com.android.tools.build:builder-test-api:jar:0.4:compile
+[DEBUG]       com.android.tools.build:builder-model:jar:0.4:compile
+[DEBUG]          com.android.tools:common:jar:22.0:compile
+[DEBUG]             com.google.guava:guava:jar:13.0.1:compile
+[DEBUG]       com.android.tools:sdk-common:jar:22.0:compile
+[DEBUG]       com.android.tools.ddms:ddmlib:jar:22.0:compile
+[DEBUG]          net.sf.kxml:kxml2:jar:2.3.0:compile
+[DEBUG]       com.android.tools.build:manifest-merger:jar:22.0:compile
+[DEBUG]       org.bouncycastle:bcpkix-jdk15on:jar:1.48:compile
+[DEBUG]          org.bouncycastle:bcprov-jdk15on:jar:1.48:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0.3:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0.3:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0.3:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:2.1.1:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4:compile
+[DEBUG]    org.apache.maven:maven-compat:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0.3:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.11:compile
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]    emma:emma:jar:2.1.5320:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    commons-jxpath:commons-jxpath:jar:1.3:compile
+[DEBUG]    commons-io:commons-io:jar:2.4:compile
+[DEBUG]    org.ow2.asm:asm:jar:4.1:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    org.sonatype.aether:aether-api:jar:1.13.1:compile
+[DEBUG]    org.sonatype.aether:aether-util:jar:1.13.1:compile
+[DEBUG]    com.github.rtyley:android-screenshot-paparazzo:jar:1.9:compile
+[DEBUG]       com.madgag:animated-gif-lib:jar:1.0:compile
+[DEBUG]    com.github.rtyley:android-screenshot-celebrity:jar:1.8:compile
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.metadata < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.collection < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.version < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.artifact < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.graph < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.deployment < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.installation < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.resolution < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created new class realm extension>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0
+[DEBUG] Importing foreign packages into class realm extension>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0
+[DEBUG]   Included: com.jayway.maven.plugins.android.generation2:android-maven-plugin:jar:3.6.0
+[DEBUG]   Included: com.android.tools.build:builder:jar:0.4
+[DEBUG]   Included: com.android.tools:sdklib:jar:22.0
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.1.1
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.1
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.1.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.4
+[DEBUG]   Included: org.apache.httpcomponents:httpmime:jar:4.1
+[DEBUG]   Included: com.android.tools.layoutlib:layoutlib-api:jar:22.0
+[DEBUG]   Included: com.android.tools:dvlib:jar:22.0
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.0
+[DEBUG]   Included: com.android.tools.build:builder-test-api:jar:0.4
+[DEBUG]   Included: com.android.tools.build:builder-model:jar:0.4
+[DEBUG]   Included: com.android.tools:common:jar:22.0
+[DEBUG]   Included: com.google.guava:guava:jar:13.0.1
+[DEBUG]   Included: com.android.tools:sdk-common:jar:22.0
+[DEBUG]   Included: com.android.tools.ddms:ddmlib:jar:22.0
+[DEBUG]   Included: net.sf.kxml:kxml2:jar:2.3.0
+[DEBUG]   Included: com.android.tools.build:manifest-merger:jar:22.0
+[DEBUG]   Included: org.bouncycastle:bcpkix-jdk15on:jar:1.48
+[DEBUG]   Included: org.bouncycastle:bcprov-jdk15on:jar:1.48
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:2.1.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: emma:emma:jar:2.1.5320
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.6
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: commons-jxpath:commons-jxpath:jar:1.3
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: org.ow2.asm:asm:jar:4.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.13.1
+[DEBUG]   Included: com.github.rtyley:android-screenshot-paparazzo:jar:1.9
+[DEBUG]   Included: com.madgag:animated-gif-lib:jar:1.0
+[DEBUG]   Included: com.github.rtyley:android-screenshot-celebrity:jar:1.8
+[DEBUG] Extension realms for project org.foomla:org.foomla.androidapp:apk:1.0-SNAPSHOT: [ClassRealm[extension>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0, parent: sun.misc.Launcher$AppClassLoader@23137792]]
+[DEBUG] Created new class realm project>org.foomla:org.foomla.androidapp:1.0-SNAPSHOT
+[DEBUG] Populating class realm project>org.foomla:org.foomla.androidapp:1.0-SNAPSHOT
+[DEBUG] Looking up lifecyle mappings for packaging apk from ClassRealm[project>org.foomla:org.foomla.androidapp:1.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.foomla:org.foomla.androidapp:apk:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 94, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.foomla:org.foomla.androidapp:apk:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, process-sources]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.foomla.androidapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-compiler-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml in local (/home/iweinzierl/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-compiler-plugin to 3.1 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-install-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in local (/home/iweinzierl/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-install-plugin to 2.5.1 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-resources-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml in local (/home/iweinzierl/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-resources-plugin to 2.6 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml in local (/home/iweinzierl/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-surefire-plugin to 2.16 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-jar-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-jar-plugin/maven-metadata.xml in local (/home/iweinzierl/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-jar-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-jar-plugin to 2.4 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-deploy-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in local (/home/iweinzierl/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-deploy-plugin to 2.8.1 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.foomla:org.foomla.androidapp:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0:generate-sources (default-generate-sources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <aaptExtraArgs>${android.aaptExtraArgs}</aaptExtraArgs>
+  <androidManifestFile default-value="${project.basedir}/AndroidManifest.xml"/>
+  <assetsDirectory default-value="${project.basedir}/assets"/>
+  <attachJar default-value="true">${android.attachJar}</attachJar>
+  <attachSources default-value="false">${android.attachSources}</attachSources>
+  <combinedAssets>${project.build.directory}/generated-sources/combined-assets/assets</combinedAssets>
+  <combinedRes>${project.build.directory}/generated-sources/combined-resources/res</combinedRes>
+  <configurations>${android.configurations}</configurations>
+  <customPackage>${android.customPackage}</customPackage>
+  <device>${android.device}</device>
+  <envAndroidHome>${env.ANDROID_HOME}</envAndroidHome>
+  <extractedDependenciesAssets>${project.build.directory}/generated-sources/extracted-dependencies/assets</extractedDependenciesAssets>
+  <extractedDependenciesDirectory>${project.build.directory}/generated-sources/extracted-dependencies</extractedDependenciesDirectory>
+  <extractedDependenciesJavaResources>${project.build.directory}/generated-sources/extracted-dependencies/src/main/resources</extractedDependenciesJavaResources>
+  <extractedDependenciesJavaSources>${project.build.directory}/generated-sources/extracted-dependencies/src/main/java</extractedDependenciesJavaSources>
+  <extractedDependenciesRes>${project.build.directory}/generated-sources/extracted-dependencies/res</extractedDependenciesRes>
+  <genDirectory default-value="${project.build.directory}/generated-sources/r">${android.genDirectory}</genDirectory>
+  <genDirectoryAidl default-value="${project.build.directory}/generated-sources/aidl">${android.genDirectoryAidl}</genDirectoryAidl>
+  <generateApk default-value="true">${android.generateApk}</generateApk>
+  <mergeManifests default-value="false">${android.mergeManifests}</mergeManifests>
+  <nativeLibrariesDirectory default-value="${project.basedir}/libs">${android.nativeLibrariesDirectory}</nativeLibrariesDirectory>
+  <ndkPath>${android.ndk.path}</ndkPath>
+  <proguardFile>${android.proguardFile}</proguardFile>
+  <project>${project}</project>
+  <projectRepos default-value="${project.remoteProjectRepositories}"/>
+  <release default-value="false">${android.release}</release>
+  <renameManifestPackage>${android.renameManifestPackage}</renameManifestPackage>
+  <repoSession default-value="${repositorySystemSession}"/>
+  <resourceDirectory default-value="${project.basedir}/res"/>
+  <resourceOverlayDirectory default-value="${project.basedir}/res-overlay"/>
+  <sdk>
+    <platform>14</platform>
+  </sdk>
+  <sdkPath>${android.sdk.path}</sdkPath>
+  <sdkPlatform>${android.sdk.platform}</sdkPlatform>
+  <session>${session}</session>
+  <sourceDirectory default-value="${project.build.sourceDirectory}"/>
+  <undeployBeforeDeploy default-value="false">${android.undeployBeforeDeploy}</undeployBeforeDeploy>
+  <unpackedApkLibsDirectory>${project.build.directory}/unpack/apklibs</unpackedApkLibsDirectory>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Failure to find org.foomla:foomla-parent:0.0.1-SNAPSHOT/maven-metadata.xml in http://maven.restlet.org was cached in the local repository, resolution will not be reattempted until the update interval of maven-restlet has elapsed or updates are forced
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[DEBUG] org.foomla:org.foomla.androidapp:apk:1.0-SNAPSHOT
+[DEBUG]    com.google.android:android:jar:4.1.1.4:provided
+[DEBUG]       commons-logging:commons-logging:jar:1.1.1:provided
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.0.1:provided
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.0.1:provided
+[DEBUG]          commons-codec:commons-codec:jar:1.3:provided
+[DEBUG]       org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:provided
+[DEBUG]       xerces:xmlParserAPIs:jar:2.6.2:provided
+[DEBUG]       xpp3:xpp3:jar:1.1.4c:provided
+[DEBUG]       org.json:json:jar:20080701:provided
+[DEBUG]    com.google.android:support-v4:jar:r13:compile
+[DEBUG]    com.actionbarsherlock:actionbarsherlock:apklib:4.4.0:compile
+[DEBUG]    com.viewpagerindicator:library:apklib:2.4.1:compile
+[DEBUG]    com.google.guava:guava:jar:14.0-rc1:compile
+[DEBUG]    commons-io:commons-io:jar:1.3.2:compile
+[DEBUG]    log4j:log4j:jar:1.2.17:compile
+[DEBUG]    de.mindpipe.android:android-logging-log4j:jar:1.0.3:compile
+[DEBUG]    com.google.android.admob:admob:jar:6.4.1-r11.0.0:compile
+[DEBUG]    org.foomla:org.foomla.api:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]       javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[DEBUG]       org.restlet.jse:org.restlet:jar:2.1.1:compile
+[DEBUG]       org.restlet.jse:org.restlet.ext.jackson:jar:2.1.1:compile
+[DEBUG]          org.codehaus.jackson:jackson-core-asl:jar:1.9.8:compile
+[DEBUG]          org.codehaus.jackson:jackson-mapper-asl:jar:1.9.8:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    org.foomla:org.foomla.api.client:jar:0.0.1-SNAPSHOT:compile
+[DEBUG]       junit:junit:jar:4.8.1:compile
+[DEBUG]       com.google.code.gson:gson:jar:2.2.4:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ org.foomla.androidapp ---
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Imported:  < project>org.foomla:org.foomla.androidapp:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1, parent: sun.misc.Launcher$AppClassLoader@23137792]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/classes
+[DEBUG]   (f) reportDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/site
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/com/viewpagerindicator/BuildConfig.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/com/viewpagerindicator/R.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/com/viewpagerindicator
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/com/actionbarsherlock/BuildConfig.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/com/actionbarsherlock/R.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/com/actionbarsherlock
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/com
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/org/foomla/androidapp/BuildConfig.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/org/foomla/androidapp/R.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/org/foomla/androidapp
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/org/foomla
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r/org
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/aidl
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/AndroidManifest.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/META-INF/MANIFEST.MF
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/META-INF
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/libs/android-support-v4.jar
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/libs
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator/PageIndicator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator/LinePageIndicator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator/IconPagerAdapter.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator/IcsLinearLayout.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator/TitlePageIndicator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator/TabPageIndicator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator/CirclePageIndicator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator/IconPageIndicator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator/UnderlinePageIndicator.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com/viewpagerindicator
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src/com
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/src
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-mdpi/vpi__tab_unselected_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-mdpi/vpi__tab_selected_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-mdpi/vpi__tab_selected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-mdpi/vpi__tab_selected_holo.9.png
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-mdpi
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-hdpi/vpi__tab_unselected_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-hdpi/vpi__tab_unselected_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-hdpi/vpi__tab_unselected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-hdpi/vpi__tab_selected_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-hdpi/vpi__tab_selected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-hdpi/vpi__tab_selected_holo.9.png
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-hdpi
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/values/vpi__attrs.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/values/vpi__colors.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/values/vpi__defaults.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/values/vpi__styles.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/values
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-xhdpi/vpi__tab_unselected_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-xhdpi/vpi__tab_unselected_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-xhdpi/vpi__tab_unselected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-xhdpi/vpi__tab_selected_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-xhdpi/vpi__tab_selected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-xhdpi/vpi__tab_selected_holo.9.png
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable-xhdpi
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable/vpi__tab_indicator.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/drawable
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/color/vpi__dark_theme.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/color/vpi__light_theme.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res/color
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/AndroidManifest.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/META-INF/MANIFEST.MF
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/META-INF
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/widget/ShareActionProvider.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/widget/SearchView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/widget/ActivityChooserView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/widget/SuggestionsAdapter.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/widget/ActivityChooserModel.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/widget
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/IcsColorDrawable.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/IcsListPopupWindow.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/IcsSpinner.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/IcsProgressBar.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/CollapsibleActionViewWrapper.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/ActionBarView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/ActionBarContextView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/IcsLinearLayout.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/PopupWindowCompat.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/ScrollingTabContainerView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/TabsLinearLayout.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/ActionBarContainer.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/CapitalizingButton.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/CapitalizingTextView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/IcsToast.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/IcsAbsSpinner.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/IcsAdapterView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/AbsActionBarView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget/IcsView.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/widget
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/MenuPopupHelper.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/ActionMenuView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/ActionMenuItemView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/SubMenuBuilder.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/MenuBuilder.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/BaseMenuPresenter.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/SubMenuWrapper.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/ListMenuItemView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/MenuPresenter.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/ActionMenu.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/MenuView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/ActionMenuPresenter.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu/MenuWrapper.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/menu
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/View_HasStateListenerSupport.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/StandaloneActionMode.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/View_OnAttachStateChangeListener.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view/ActionProviderWrapper.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/view
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/ActionBarSherlockCompat.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/ActionBarSherlockNative.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/app/ActionBarImpl.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/app/ActionBarWrapper.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/app
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineFrameLayout.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineLinearLayout.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineHorizontalScrollView.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/widget
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/view/NineViewGroup.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/view/animation/AnimatorProxy.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/view/animation
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/view
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/FloatKeyframeSet.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/IntKeyframeSet.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/PropertyValuesHolder.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/ObjectAnimator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/FloatEvaluator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/TypeEvaluator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/Animator.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/KeyframeSet.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorListenerAdapter.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/Keyframe.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation/IntEvaluator.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids/animation
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/nineoldandroids
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal/ResourcesCompat.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/internal
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/ActionBarSherlock.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/view/Menu.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/view/SubMenu.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/view/ActionProvider.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/view/Window.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/view/CollapsibleActionView.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/view/MenuItem.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/view/ActionMode.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/view/MenuInflater.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/view
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app/SherlockActivity.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app/SherlockFragmentActivity.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app/SherlockPreferenceActivity.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app/SherlockDialogFragment.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app/SherlockFragment.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app/ActionBar.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app/SherlockListFragment.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app/SherlockExpandableListActivity.java
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app/SherlockListActivity.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock/app
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com/actionbarsherlock
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/com
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/android/support/v4/app/Watson.java
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/android/support/v4/app
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/android/support/v4
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/android/support
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src/android
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/src
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-w360dp/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-w360dp
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-w480dp/abs__config.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-w480dp/abs__bools.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-w480dp
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout-large/abs__action_mode_close_item.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout-large
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-large-hdpi-1024x600/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-large-hdpi-1024x600
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__progress_bg_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__tab_unselected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__textfield_search_right_selected_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__menu_dropdown_panel_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__progress_secondary_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__textfield_search_right_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__btn_cab_done_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_ab_disabled_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__tab_selected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_commit_search_api_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_cab_done_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__textfield_search_selected_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_ab_back_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__list_longpressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_transparent_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_search.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__progress_secondary_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_voice_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_solid_shadow_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__cab_background_top_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_ab_pressed_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__list_selector_disabled_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__btn_cab_done_pressed_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__list_pressed_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_ab_disabled_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_clear_search_api_disabled_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__btn_cab_done_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_bottom_transparent_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__list_divider_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_commit_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_share_pack_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_ab_back_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_clear_normal.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_48_inner_holo.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_ab_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__textfield_search_right_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_go_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_stacked_transparent_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__list_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_menu_share_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__cab_background_bottom_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__list_selector_disabled_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__textfield_search_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_stacked_solid_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__textfield_search_selected_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__btn_cab_done_focused_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_stacked_transparent_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__progress_primary_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__cab_background_bottom_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__cab_background_top_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__btn_cab_done_focused_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_transparent_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_share_pack_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__list_pressed_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__menu_dropdown_panel_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_menu_moreoverflow_normal_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_stacked_solid_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_menu_moreoverflow_normal_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_solid_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_ab_focused_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__list_activated_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_clear_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_bottom_solid_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_bottom_solid_inverse_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_ab_pressed_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_bottom_transparent_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__textfield_search_right_selected_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__list_divider_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_bottom_solid_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__progress_primary_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__progress_bg_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__tab_selected_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_menu_share_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_clear_disabled.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_ab_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__toast_frame.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_go.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_48_outer_holo.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ab_solid_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_cab_done_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__tab_selected_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__textfield_search_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__btn_cab_done_pressed_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__ic_voice_search.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi/abs__spinner_ab_focused_holo_light.9.png
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-mdpi
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__activity_chooser_view_list_item.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__action_menu_layout.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__popup_menu_item_layout.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__action_bar_tab_bar_view.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__screen_action_bar.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/sherlock_spinner_dropdown_item.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__list_menu_item_icon.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__activity_chooser_view.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/sherlock_spinner_item.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__simple_dropdown_hint.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__screen_simple_overlay_action_mode.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__action_bar_title_item.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__action_bar_home.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__search_dropdown_item_icons_2line.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__search_view.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__action_bar_tab.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__screen_action_bar_overlay.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__action_menu_item_layout.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__list_menu_item_radio.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__list_menu_item_checkbox.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__action_mode_close_item.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__screen_simple.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout/abs__action_mode_bar.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-large-land-hdpi-1024x600/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-large-land-hdpi-1024x600
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-w500dp/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-w500dp
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-large-mdpi-1024x600/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-large-mdpi-1024x600
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__progress_bg_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__tab_unselected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__textfield_search_right_selected_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__menu_dropdown_panel_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__progress_secondary_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__textfield_search_right_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__btn_cab_done_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_ab_disabled_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__tab_selected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_commit_search_api_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_cab_done_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__textfield_search_selected_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_ab_back_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__list_longpressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_transparent_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_search.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__progress_secondary_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_voice_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_solid_shadow_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__cab_background_top_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_ab_pressed_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__list_selector_disabled_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__btn_cab_done_pressed_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__list_pressed_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_ab_disabled_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_clear_search_api_disabled_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__btn_cab_done_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_bottom_transparent_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__list_divider_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_commit_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_share_pack_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_ab_back_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_clear_normal.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_48_inner_holo.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_ab_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__textfield_search_right_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_go_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_stacked_transparent_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__list_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_menu_share_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__cab_background_bottom_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__list_selector_disabled_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__textfield_search_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_stacked_solid_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__textfield_search_selected_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__btn_cab_done_focused_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_stacked_transparent_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__progress_primary_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__cab_background_bottom_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__cab_background_top_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__btn_cab_done_focused_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_transparent_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_share_pack_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__list_pressed_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__menu_dropdown_panel_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_menu_moreoverflow_normal_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_stacked_solid_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_menu_moreoverflow_normal_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_solid_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_ab_focused_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__list_activated_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_clear_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_bottom_solid_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_bottom_solid_inverse_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_ab_pressed_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_bottom_transparent_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__textfield_search_right_selected_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__list_divider_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_bottom_solid_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__progress_primary_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__progress_bg_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__tab_selected_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_menu_share_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_clear_disabled.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_ab_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__toast_frame.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_go.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_48_outer_holo.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ab_solid_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_cab_done_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__tab_selected_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__textfield_search_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__btn_cab_done_pressed_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__ic_voice_search.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi/abs__spinner_ab_focused_holo_light.9.png
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-hdpi
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-v14/abs__themes.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-v14/abs__styles.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-v14
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-land/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-land
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values/abs__config.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values/abs__themes.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values/abs__ids.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values/abs__attrs.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values/abs__colors.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values/abs__styles.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values/abs__bools.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values/abs__dimens.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values/abs__strings.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-large-land-mdpi-1024x600/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-large-land-mdpi-1024x600
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__progress_bg_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__tab_unselected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__textfield_search_right_selected_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__menu_dropdown_panel_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__progress_secondary_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__textfield_search_right_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__btn_cab_done_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_ab_disabled_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__tab_selected_pressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_commit_search_api_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_cab_done_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__textfield_search_selected_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_ab_back_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__list_longpressed_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_transparent_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_search.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__progress_secondary_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_voice_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_solid_shadow_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__cab_background_top_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_ab_pressed_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__list_selector_disabled_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__btn_cab_done_pressed_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__list_pressed_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_ab_disabled_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_clear_search_api_disabled_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__btn_cab_done_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_bottom_transparent_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__list_divider_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_commit_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_share_pack_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_ab_back_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_48_inner_holo.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_ab_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__textfield_search_right_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_go_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_stacked_transparent_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__list_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_menu_share_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__cab_background_bottom_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__list_selector_disabled_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__textfield_search_default_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_stacked_solid_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__textfield_search_selected_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__btn_cab_done_focused_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_stacked_transparent_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__progress_primary_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__cab_background_bottom_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__cab_background_top_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__btn_cab_done_focused_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_transparent_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_share_pack_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__list_pressed_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__menu_dropdown_panel_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_menu_moreoverflow_normal_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_stacked_solid_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_menu_moreoverflow_normal_holo_dark.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_solid_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_ab_focused_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__list_activated_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_clear_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_bottom_solid_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_bottom_solid_inverse_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_ab_pressed_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_bottom_transparent_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__textfield_search_right_selected_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__list_divider_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_bottom_solid_dark_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__progress_primary_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__progress_bg_holo_light.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__tab_selected_focused_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_menu_share_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_clear_disabled.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_ab_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__toast_frame.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_go.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_48_outer_holo.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ab_solid_light_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_cab_done_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__tab_selected_holo.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_search_api_holo_light.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__textfield_search_default_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__btn_cab_done_pressed_holo_dark.9.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__ic_voice_search.png
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi/abs__spinner_ab_focused_holo_light.9.png
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-xhdpi
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__spinner_ab_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__list_selector_background_transition_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__ic_clear.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__ic_clear_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__spinner_ab_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__list_selector_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__btn_cab_done_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__textfield_searchview_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__search_dropdown_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__activated_background_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__list_selector_background_transition_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__search_dropdown_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__textfield_searchview_right_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__list_selector_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__activated_background_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__textfield_searchview_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__progress_horizontal_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__item_background_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__item_background_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__ic_menu_moreoverflow_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__textfield_searchview_right_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__ic_menu_moreoverflow_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__tab_indicator_ab_holo.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__progress_horizontal_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__btn_cab_done_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable/abs__progress_medium_holo.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-w600dp/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-w600dp
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-sw600dp/abs__bools.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-sw600dp/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-sw600dp
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-xlarge/abs__dimens.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-xlarge
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout-xlarge/abs__screen_action_bar.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout-xlarge/abs__screen_action_bar_overlay.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout-xlarge
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout-v14/sherlock_spinner_dropdown_item.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout-v14/sherlock_spinner_item.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/layout-v14
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-v11/abs__progress_medium_holo.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/drawable-v11
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-v11/abs__themes.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/values-v11
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/color/abs__primary_text_disable_only_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/color/abs__primary_text_disable_only_holo_dark.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/color/abs__primary_text_holo_light.xml
+[INFO] Deleting file /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/color/abs__primary_text_holo_dark.xml
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res/color
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack
+[INFO] Deleting directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target
+[DEBUG] Skipping non-existing directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/classes
+[DEBUG] Skipping non-existing directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/test-classes
+[DEBUG] Skipping non-existing directory /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/site
+[INFO] 
+[INFO] --- android-maven-plugin:3.6.0:generate-sources (default-generate-sources) @ org.foomla.androidapp ---
+[DEBUG] com.jayway.maven.plugins.android.generation2:android-maven-plugin:jar:3.6.0:
+[DEBUG]    com.android.tools.build:builder:jar:0.4:compile
+[DEBUG]       com.android.tools:sdklib:jar:22.0:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.1.1:compile
+[DEBUG]             org.apache.httpcomponents:httpcore:jar:4.1:compile
+[DEBUG]             commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.4:compile
+[DEBUG]          org.apache.httpcomponents:httpmime:jar:4.1:compile
+[DEBUG]          com.android.tools.layoutlib:layoutlib-api:jar:22.0:compile
+[DEBUG]          com.android.tools:dvlib:jar:22.0:compile
+[DEBUG]          org.apache.commons:commons-compress:jar:1.0:compile
+[DEBUG]       com.android.tools.build:builder-test-api:jar:0.4:compile
+[DEBUG]       com.android.tools.build:builder-model:jar:0.4:compile
+[DEBUG]          com.android.tools:common:jar:22.0:compile
+[DEBUG]             com.google.guava:guava:jar:13.0.1:compile
+[DEBUG]       com.android.tools:sdk-common:jar:22.0:compile
+[DEBUG]       com.android.tools.ddms:ddmlib:jar:22.0:compile
+[DEBUG]          net.sf.kxml:kxml2:jar:2.3.0:compile
+[DEBUG]       com.android.tools.build:manifest-merger:jar:22.0:compile
+[DEBUG]       org.bouncycastle:bcpkix-jdk15on:jar:1.48:compile
+[DEBUG]          org.bouncycastle:bcprov-jdk15on:jar:1.48:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0.3:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0.3:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0.3:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:2.1.1:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4:compile
+[DEBUG]    org.apache.maven:maven-compat:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0.3:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.11:compile
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]    emma:emma:jar:2.1.5320:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    commons-jxpath:commons-jxpath:jar:1.3:compile
+[DEBUG]    commons-io:commons-io:jar:2.4:compile
+[DEBUG]    org.ow2.asm:asm:jar:4.1:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    org.sonatype.aether:aether-api:jar:1.13.1:compile
+[DEBUG]    org.sonatype.aether:aether-util:jar:1.13.1:compile
+[DEBUG]    com.github.rtyley:android-screenshot-paparazzo:jar:1.9:compile
+[DEBUG]       com.madgag:animated-gif-lib:jar:1.0:compile
+[DEBUG]    com.github.rtyley:android-screenshot-celebrity:jar:1.8:compile
+[DEBUG] Created new class realm plugin>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0
+[DEBUG] Importing foreign packages into class realm plugin>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0
+[DEBUG]   Imported:  < project>org.foomla:org.foomla.androidapp:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0
+[DEBUG]   Included: com.jayway.maven.plugins.android.generation2:android-maven-plugin:jar:3.6.0
+[DEBUG]   Included: com.android.tools.build:builder:jar:0.4
+[DEBUG]   Included: com.android.tools:sdklib:jar:22.0
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.1.1
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.1
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.1.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.4
+[DEBUG]   Included: org.apache.httpcomponents:httpmime:jar:4.1
+[DEBUG]   Included: com.android.tools.layoutlib:layoutlib-api:jar:22.0
+[DEBUG]   Included: com.android.tools:dvlib:jar:22.0
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.0
+[DEBUG]   Included: com.android.tools.build:builder-test-api:jar:0.4
+[DEBUG]   Included: com.android.tools.build:builder-model:jar:0.4
+[DEBUG]   Included: com.android.tools:common:jar:22.0
+[DEBUG]   Included: com.google.guava:guava:jar:13.0.1
+[DEBUG]   Included: com.android.tools:sdk-common:jar:22.0
+[DEBUG]   Included: com.android.tools.ddms:ddmlib:jar:22.0
+[DEBUG]   Included: net.sf.kxml:kxml2:jar:2.3.0
+[DEBUG]   Included: com.android.tools.build:manifest-merger:jar:22.0
+[DEBUG]   Included: org.bouncycastle:bcpkix-jdk15on:jar:1.48
+[DEBUG]   Included: org.bouncycastle:bcprov-jdk15on:jar:1.48
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:2.1.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: emma:emma:jar:2.1.5320
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.6
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: commons-jxpath:commons-jxpath:jar:1.3
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: org.ow2.asm:asm:jar:4.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.13.1
+[DEBUG]   Included: com.github.rtyley:android-screenshot-paparazzo:jar:1.9
+[DEBUG]   Included: com.madgag:animated-gif-lib:jar:1.0
+[DEBUG]   Included: com.github.rtyley:android-screenshot-celebrity:jar:1.8
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:3.0.3
+[DEBUG]   Excluded: org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1
+[DEBUG]   Excluded: org.apache.maven:maven-compat:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-model-builder:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-settings-builder:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-aether-provider:jar:3.0.3
+[DEBUG]   Excluded: org.sonatype.aether:aether-spi:jar:1.11
+[DEBUG]   Excluded: org.sonatype.aether:aether-impl:jar:1.11
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-classworlds:jar:2.4
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.sonatype.aether:aether-api:jar:1.13.1
+[DEBUG] Configuring mojo com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0:generate-sources from plugin realm ClassRealm[plugin>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0, parent: sun.misc.Launcher$AppClassLoader@23137792]
+[DEBUG] Configuring mojo 'com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.6.0:generate-sources' with basic configurator -->
+[DEBUG]   (f) aaptExtraArgs = []
+[DEBUG]   (f) androidManifestFile = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/AndroidManifest.xml
+[DEBUG]   (f) assetsDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/assets
+[DEBUG]   (f) attachJar = true
+[DEBUG]   (f) attachSources = false
+[DEBUG]   (f) combinedAssets = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/combined-assets/assets
+[DEBUG]   (f) combinedRes = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/combined-resources/res
+[DEBUG]   (f) envAndroidHome = /opt/adt-bundle-linux-x86_64-20131030/sdk/
+[DEBUG]   (f) extractedDependenciesAssets = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/extracted-dependencies/assets
+[DEBUG]   (f) extractedDependenciesDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/extracted-dependencies
+[DEBUG]   (f) extractedDependenciesJavaResources = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/extracted-dependencies/src/main/resources
+[DEBUG]   (f) extractedDependenciesJavaSources = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/extracted-dependencies/src/main/java
+[DEBUG]   (f) extractedDependenciesRes = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/extracted-dependencies/res
+[DEBUG]   (f) genDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r
+[DEBUG]   (f) genDirectoryAidl = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/aidl
+[DEBUG]   (f) generateApk = true
+[DEBUG]   (f) mergeManifests = false
+[DEBUG]   (f) nativeLibrariesDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/libs
+[DEBUG]   (f) project = MavenProject: org.foomla:org.foomla.androidapp:1.0-SNAPSHOT @ /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/pom.xml
+[DEBUG]   (f) projectRepos = [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG]   (f) release = false
+[DEBUG]   (f) repoSession = org.sonatype.aether.util.DefaultRepositorySystemSession@5f4a1347
+[DEBUG]   (f) resourceDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/res
+[DEBUG]   (f) resourceOverlayDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/res-overlay
+[DEBUG]   (f) platform = 14
+[DEBUG]   (f) sdk = com.jayway.maven.plugins.android.configuration.Sdk@16fcf9f9
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7df5d62f
+[DEBUG]   (f) sourceDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/src
+[DEBUG]   (f) undeployBeforeDeploy = false
+[DEBUG]   (f) unpackedApkLibsDirectory = /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs
+[DEBUG] -- end configuration --
+[DEBUG] Extracting apklib actionbarsherlock...
+[DEBUG] Expanding: /home/iweinzierl/.m2/repository/com/actionbarsherlock/actionbarsherlock/4.4.0/actionbarsherlock-4.4.0.apklib into /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0
+[DEBUG] expand complete
+[DEBUG] Extracting apklib library...
+[DEBUG] Expanding: /home/iweinzierl/.m2/repository/com/viewpagerindicator/library/2.4.1/library-2.4.1.apklib into /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1
+[DEBUG] expand complete
+[INFO] ANDROID-904-002: Found aidl files: Count = 0
+[INFO] ANDROID-904-002: Found aidl files: Count = 0
+[INFO] ANDROID-904-002: Found aidl files: Count = 0
+[INFO] ANDROID-904-002: Found aidl files: Count = 0
+[DEBUG] mergeManifests: false
+[INFO] Manifest merging disabled. Using project manifest only
+[DEBUG] Generating R file for apk
+[INFO] /opt/adt-bundle-linux-x86_64-20131030/sdk/build-tools/android-4.4/aapt [package, -m, -J, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r, -M, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/AndroidManifest.xml, -S, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/res, -S, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res, -S, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res, --auto-add-overlay, -I, /opt/adt-bundle-linux-x86_64-20131030/sdk/platforms/android-14/android.jar]
+[DEBUG] ANDROID-040-000: Executed command: Commandline = /bin/sh -c cd /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp && /opt/adt-bundle-linux-x86_64-20131030/sdk/build-tools/android-4.4/aapt package -m -J /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r -M /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/AndroidManifest.xml -S /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/res -S /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res -S /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res --auto-add-overlay -I /opt/adt-bundle-linux-x86_64-20131030/sdk/platforms/android-14/android.jar, Result = 0
+[DEBUG] Generating R file for projects dependent on apklibs
+[DEBUG] Generating R file for apklibrary: com.actionbarsherlock
+[INFO] /opt/adt-bundle-linux-x86_64-20131030/sdk/build-tools/android-4.4/aapt [package, --non-constant-id, -m, -J, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r, --custom-package, com.actionbarsherlock, -M, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/AndroidManifest.xml, -S, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/res, -S, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res, -S, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res, --auto-add-overlay, -I, /opt/adt-bundle-linux-x86_64-20131030/sdk/platforms/android-14/android.jar]
+[DEBUG] ANDROID-040-000: Executed command: Commandline = /bin/sh -c cd /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp && /opt/adt-bundle-linux-x86_64-20131030/sdk/build-tools/android-4.4/aapt package --non-constant-id -m -J /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r --custom-package com.actionbarsherlock -M /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/AndroidManifest.xml -S /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/res -S /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res -S /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res --auto-add-overlay -I /opt/adt-bundle-linux-x86_64-20131030/sdk/platforms/android-14/android.jar, Result = 0
+[DEBUG] Generating R file for apklibrary: com.viewpagerindicator
+[INFO] /opt/adt-bundle-linux-x86_64-20131030/sdk/build-tools/android-4.4/aapt [package, --non-constant-id, -m, -J, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r, --custom-package, com.viewpagerindicator, -M, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/AndroidManifest.xml, -S, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/res, -S, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res, -S, /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res, --auto-add-overlay, -I, /opt/adt-bundle-linux-x86_64-20131030/sdk/platforms/android-14/android.jar]
+[DEBUG] ANDROID-040-000: Executed command: Commandline = /bin/sh -c cd /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp && /opt/adt-bundle-linux-x86_64-20131030/sdk/build-tools/android-4.4/aapt package --non-constant-id -m -J /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/generated-sources/r --custom-package com.viewpagerindicator -M /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/AndroidManifest.xml -S /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/res -S /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.actionbarsherlock_actionbarsherlock_apklib_4.4.0/res -S /home/iweinzierl/private/hg.foomla/source/org.foomla.androidapp/target/unpack/apklibs/com.viewpagerindicator_library_apklib_2.4.1/res --auto-add-overlay -I /opt/adt-bundle-linux-x86_64-20131030/sdk/platforms/android-14/android.jar, Result = 0
+[DEBUG] Generating BuildConfig file
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.645s
+[INFO] Finished at: Wed Jan 08 23:13:36 CET 2014
+[INFO] Final Memory: 11M/217M
+[INFO] ------------------------------------------------------------------------

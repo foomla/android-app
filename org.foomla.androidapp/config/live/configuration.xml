@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_url">http://live.foomla.de/foomla-backend</string>
+    <string name="exercise_image_url">http://foomla.de/exercise_images/</string>
+    <string name="client_id">1122334455</string>
+    <string name="client_secret">HZ2TVnK95fU8Db99pfDQKI8iibQ=</string>
+    <string name="admob_id">ca-app-pub-9625745503884289/8493982058</string>
+    <string name="news_url">"http://foomla.de/category/news/feed/atom/"</string>
+</resources>

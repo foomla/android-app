@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Widget.FoomlaTheme.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Widget.FoomlaTheme.LabelTextStyle" parent="TextAppearance.Sherlock.Light.Small">
+        <item name="android:textColor">@color/fooblack</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.FoomlaTheme.FieldTextStyle" parent="Theme.FoomlaTheme">
+        <item name="android:textColor">@color/foolightblack</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+    <style name="Widget.FoomlaTheme.Rating" parent="Theme.FoomlaTheme">
+    </style>
+
+    <style name="Widget.FoomlaTheme.Rating.Username" parent="Widget.FoomlaTheme.Rating">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.FoomlaTheme.Rating.Date" parent="Widget.FoomlaTheme.Rating">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="Widget.FoomlaTheme.Rating.Text" parent="Widget.FoomlaTheme.Rating">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="Widget.FoomlaTheme.ExerciseMarker" parent="Theme.FoomlaTheme">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textColor">@color/foodarkgreen</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="FoomlaTheme.ListItem" parent="Theme.FoomlaTheme">
+        <item name="android:background">@color/list_item_selector</item>
+    </style>
+
+    <style name="FoomlaTheme.ListItem.Grey" parent="FoomlaTheme.ListItem">
+        <item name="android:background">@color/list_item_selector_grey</item>
+    </style>
+
+    <style name="FoomlaTheme.ListCell" parent="Theme.FoomlaTheme">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/foolightblack</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="FoomlaTheme.ListCell.Grey" parent="FoomlaTheme.ListCell">
+        <item name="android:paddingLeft">@dimen/list_cell_padding_left</item>
+        <item name="android:paddingRight">@dimen/list_cell_padding_right</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FoomlaTheme.ListCell.Subtitle" parent="FoomlaTheme.ListCell">
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="FoomlaTheme.ListCell.Subtitle.Grey" parent="FoomlaTheme.ListCell.Grey">
+        <item name="android:textColor">@color/foowhite</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    
+    <style name="FoomlaTheme.NewsEntry" parent="Theme.FoomlaTheme">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="FoomlaTheme.NewsEntry.Wrapper" parent="FoomlaTheme.NewsEntry">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="FoomlaTheme.NewsEntry.Title" parent="FoomlaTheme.NewsEntry">
+        <item name="android:textSize">@dimen/text_extra_big</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="FoomlaTheme.NewsEntry.Date" parent="FoomlaTheme.NewsEntry">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="FoomlaTheme.NewsEntry.Summary" parent="FoomlaTheme.NewsEntry">
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="FoomlaTheme.NewsEntry.Image" parent="FoomlaTheme.NewsEntry">
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="FoomlaTheme.NewsEntry.Content" parent="FoomlaTheme.NewsEntry">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="menu_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:gravity">center_vertical|center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="embedded_button">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="rating_bar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bar_indicator</item>
+        <item name="android:minHeight">25dip</item>
+        <item name="android:maxHeight">25dip</item>
+    </style>
+
+    <style name="rating_bar_small" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bar_indicator_small</item>
+        <item name="android:minHeight">15dip</item>
+        <item name="android:maxHeight">15dip</item>
+    </style>
+    
+    <style name="CustomTitlePageIndicator">
+        <item name="android:background">@color/foolightblack</item>
+        <item name="footerColor">@color/foogreen</item>
+        <item name="footerLineHeight">1dp</item>
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="android:textColor">@color/foowhite</item>
+        <item name="selectedColor">@color/foowhite</item>
+        <item name="selectedBold">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:id="@+id/arrival_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/white_box_selector"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/Widget.FoomlaTheme.LabelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edittraining_phase_arrival" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/exercise_arrival_image"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/foolightblack" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp" >
+
+                            <TextView
+                                android:id="@+id/exercise_arrival_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:ellipsize="end"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true"
+                                android:text="@string/edittraining_label_choose"
+                                android:textColor="@color/fooblack"
+                                android:textSize="@dimen/text_normal"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/exercise_arrival_focus_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="@color/foolightblack"
+                                android:textSize="@dimen/text_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/exercise_arrival_edit"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_edit"
+                            android:src="@drawable/edit" />
+
+                        <ImageButton
+                            android:id="@+id/exercise_arrival_random"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_random"
+                            android:src="@drawable/shuffle" />
+
+                        <ProgressBar
+                            android:id="@+id/exercise_arrival_random_pg"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="8dp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/warmup_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/white_box_selector"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/Widget.FoomlaTheme.LabelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edittraining_phase_warmup" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/exercise_warmup_image"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/foolightblack" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp" >
+
+                            <TextView
+                                android:id="@+id/exercise_warmup_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:ellipsize="end"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true"
+                                android:text="@string/edittraining_label_choose"
+                                android:textColor="@color/fooblack"
+                                android:textSize="@dimen/text_normal"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/exercise_warmup_focus_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="@color/foolightblack"
+                                android:textSize="@dimen/text_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/exercise_warmup_edit"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_edit"
+                            android:src="@drawable/edit" />
+
+                        <ImageButton
+                            android:id="@+id/exercise_warmup_random"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_random"
+                            android:src="@drawable/shuffle" />
+
+                        <ProgressBar
+                            android:id="@+id/exercise_warmup_random_pg"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="8dp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_one_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/white_box_selector"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/Widget.FoomlaTheme.LabelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edittraining_phase_main_one" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/exercise_main_one_image"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/foolightblack" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp" >
+
+                            <TextView
+                                android:id="@+id/exercise_main_one_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:ellipsize="end"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true"
+                                android:text="@string/edittraining_label_choose"
+                                android:textColor="@color/fooblack"
+                                android:textSize="@dimen/text_normal"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/exercise_main_one_focus_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="@color/foolightblack"
+                                android:textSize="@dimen/text_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/exercise_main_one_edit"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_edit"
+                            android:src="@drawable/edit" />
+
+                        <ImageButton
+                            android:id="@+id/exercise_main_one_random"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_random"
+                            android:src="@drawable/shuffle" />
+
+                        <ProgressBar
+                            android:id="@+id/exercise_main_one_random_pg"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="8dp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_two_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/white_box_selector"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/Widget.FoomlaTheme.LabelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edittraining_phase_main_two" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/exercise_main_two_image"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/foolightblack" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp" >
+
+                            <TextView
+                                android:id="@+id/exercise_main_two_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:ellipsize="end"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true"
+                                android:text="@string/edittraining_label_choose"
+                                android:textColor="@color/fooblack"
+                                android:textSize="@dimen/text_normal"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/exercise_main_two_focus_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="@color/foolightblack"
+                                android:textSize="@dimen/text_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/exercise_main_two_edit"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_edit"
+                            android:src="@drawable/edit" />
+
+                        <ImageButton
+                            android:id="@+id/exercise_main_two_random"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_random"
+                            android:src="@drawable/shuffle" />
+
+                        <ProgressBar
+                            android:id="@+id/exercise_main_two_random_pg"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="8dp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/scrimmage_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/white_box_selector"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/Widget.FoomlaTheme.LabelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edittraining_phase_scrimmage" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/exercise_scrimmage_image"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/foolightblack" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp" >
+
+                            <TextView
+                                android:id="@+id/exercise_scrimmage_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:ellipsize="end"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true"
+                                android:text="@string/edittraining_label_choose"
+                                android:textColor="@color/fooblack"
+                                android:textSize="@dimen/text_normal"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/exercise_scrimmage_focus_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="@color/foolightblack"
+                                android:textSize="@dimen/text_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/exercise_scrimmage_edit"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_edit"
+                            android:src="@drawable/edit" />
+
+                        <ImageButton
+                            android:id="@+id/exercise_scrimmage_random"
+                            style="@style/embedded_button"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:contentDescription="@string/edittraining_label_random"
+                            android:src="@drawable/shuffle" />
+
+                        <ProgressBar
+                            android:id="@+id/exercise_scrimmage_random_pg"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="8dp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

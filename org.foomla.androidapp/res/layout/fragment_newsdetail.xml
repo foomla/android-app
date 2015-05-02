@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/FoomlaTheme.NewsEntry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            style="@style/FoomlaTheme.NewsEntry.Wrapper"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                style="@style/FoomlaTheme.NewsEntry.Date"
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <TextView
+                style="@style/FoomlaTheme.NewsEntry.Title"
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <ImageView
+                style="@style/FoomlaTheme.NewsEntry.Image"
+                android:id="@+id/image"
+                android:contentDescription="@string/newsdetail_image_description"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                style="@style/FoomlaTheme.NewsEntry.Summary"
+                android:id="@+id/summary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <TextView
+                style="@style/FoomlaTheme.NewsEntry.Content"
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</ScrollView>
