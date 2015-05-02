@@ -189,18 +189,4 @@
         </LinearLayout>
     </ScrollView>
 
-    <com.google.ads.AdView
-        xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
-        android:id="@+id/ad"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="false"
-        android:gravity="bottom|center_horizontal"
-        app:adSize="BANNER"
-        app:adUnitId="@string/admob_id" >
-
-    </com.google.ads.AdView>
-
 </RelativeLayout>
