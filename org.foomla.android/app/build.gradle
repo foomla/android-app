@@ -52,4 +52,5 @@ dependencies {
     compile 'de.mindpipe.android:android-logging-log4j:1.0.3'
     compile 'org.foomla:org.foomla.api:1.0'
     compile 'org.foomla:org.foomla.api.client:1.0'
+    compile 'com.google.code.gson:gson:2.3.1'
 }

@@ -7,19 +7,18 @@ import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
-import org.foomla.androidapp.async.DownloadExercisesTask;
-import org.foomla.androidapp.async.DownloadTask;
-import org.foomla.androidapp.async.DownloadTrainingPhaseExercisesTask;
-import org.foomla.api.client.FoomlaClient;
+import org.foomla.androidapp.service.ExerciseService;
 import org.foomla.api.entities.twizard.Exercise;
+import org.foomla.api.entities.twizard.TrainingPhase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
-    implements ExerciseBrowserFragment.FragmentCallback {
+        implements ExerciseBrowserFragment.FragmentCallback {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ExerciseBrowserActivity.class);
 
@@ -45,12 +44,16 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
         setContentView(R.layout.activity_exercisebrowser);
         createNavDrawer();
 
-        exercises = new ArrayList<Exercise>();
+        exercises = new ArrayList<>();
         trainingPhase = getTrainingPhaseFromIntent();
 
         exerciseBrowserFragment = new ExerciseBrowserFragment();
         getFragmentManager().beginTransaction().replace(R.id.exercise_browser, exerciseBrowserFragment).commit();
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
         initialize();
     }
 
@@ -71,7 +74,7 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     private Integer getTrainingPhaseFromIntent() {
         Intent i = getIntent();
         Integer trainingPhase = i.getIntExtra(ExerciseBrowserIntent.EXTRA_TRAINING_PHASE, -1);
-        return trainingPhase != null && trainingPhase >= 0 ? trainingPhase : null;
+        return trainingPhase >= 0 ? trainingPhase : null;
     }
 
     private void initialize() {
@@ -85,41 +88,25 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     private void initializeWithAllExercises() {
         LOGGER.info("Initialize with all exercises");
 
-        DownloadTask.DownloadHandler<List<Exercise>> handler = new DownloadTask.DownloadHandler<List<Exercise>>() {
-            @Override
-            public void handle(final List<Exercise> exercises) {
-                setExercises(exercises);
-            }
-        };
-
-        FoomlaClient foomlaClient = ((FoomlaApplication) getApplication()).getFoomlaClient();
-        new DownloadExercisesTask(this, handler) {
-            @Override
-            protected int getLoadingTextId() {
-                return R.string.exercises;
-            }
-            ;
-        }.execute(foomlaClient);
+        try {
+            ExerciseService service = ((FoomlaApplication) getApplication()).getExerciseService();
+            setExercises(service.list());
+        } catch (IOException ioe) {
+            LOGGER.error("Unable to read exercises from JSON", ioe);
+            // TODO inform user
+        }
     }
 
     private void initializeWithTrainingPhase(final int trainingPhase) {
         LOGGER.info("Initialize with exercises for training phase '" + trainingPhase + "'");
 
-        DownloadTask.DownloadHandler<List<Exercise>> handler = new DownloadTask.DownloadHandler<List<Exercise>>() {
-            @Override
-            public void handle(final List<Exercise> exercises) {
-                setExercises(exercises);
-            }
-        };
-
-        FoomlaClient foomlaClient = ((FoomlaApplication) getApplication()).getFoomlaClient();
-        new DownloadTrainingPhaseExercisesTask(this, handler, trainingPhase) {
-            @Override
-            protected int getLoadingTextId() {
-                return R.string.exercises;
-            }
-            ;
-        }.execute(foomlaClient);
+        try {
+            ExerciseService service = ((FoomlaApplication) getApplication()).getExerciseService();
+            setExercises(service.filter(TrainingPhase.getById(trainingPhase)));
+        } catch (IOException ioe) {
+            LOGGER.error("Unable to read exercises from JSON", ioe);
+            // TODO inform user
+        }
     }
 
     private void setExercises(final List<Exercise> exercises) {

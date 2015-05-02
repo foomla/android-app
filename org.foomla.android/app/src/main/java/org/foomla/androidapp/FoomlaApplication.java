@@ -1,11 +1,16 @@
 package org.foomla.androidapp;
 
-import org.foomla.android.logging.AndroidLoggerFactory;
+import android.app.Application;
+import android.content.Intent;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.provider.Settings.Secure;
 
+import org.foomla.android.logging.AndroidLoggerFactory;
 import org.foomla.androidapp.activities.login.LoginInfoActivity;
 import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
-
+import org.foomla.androidapp.service.ExerciseService;
+import org.foomla.androidapp.service.ExerciseServiceImpl;
 import org.foomla.api.client.AuthorizationException;
 import org.foomla.api.client.FoomlaClient;
 import org.foomla.api.client.FoomlaClient.ClientType;
@@ -14,17 +19,10 @@ import org.foomla.api.client.oauth.OAuthClientCredentials;
 import org.foomla.api.client.oauth.OAuthToken;
 import org.foomla.api.client.service.UserServiceProvider;
 import org.foomla.api.entities.User;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import android.app.Application;
-
-import android.content.Intent;
-
-import android.content.pm.PackageManager.NameNotFoundException;
-
-import android.provider.Settings.Secure;
+import java.io.IOException;
 
 public class FoomlaApplication extends Application {
 
@@ -37,6 +35,8 @@ public class FoomlaApplication extends Application {
     private static final Logger LOGGER = LoggerFactory.getLogger(FoomlaApplication.class);
 
     private FoomlaClient foomlaClient;
+
+    private ExerciseService exerciseService;
 
     private User user = null;
 
@@ -71,6 +71,14 @@ public class FoomlaApplication extends Application {
         }
 
         return foomlaClient;
+    }
+
+    public ExerciseService getExerciseService() throws IOException {
+        if (exerciseService == null) {
+            exerciseService = new ExerciseServiceImpl(getResources());
+        }
+
+        return exerciseService;
     }
 
     public String getOAuthAuthorizeUrl() {
