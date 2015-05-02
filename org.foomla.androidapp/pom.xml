@@ -72,8 +72,8 @@
         </dependency>
         <dependency>
             <groupId>org.foomla</groupId>
-            <artifactId>org.foomla.android.logging</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <artifactId>android-logging</artifactId>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>de.mindpipe.android</groupId>
@@ -81,19 +81,14 @@
             <version>1.0.3</version>
         </dependency>
         <dependency>
-            <groupId>com.google.android.admob</groupId>
-            <artifactId>admob</artifactId>
-            <version>6.4.1-r11.0.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.foomla</groupId>
             <artifactId>org.foomla.api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.foomla</groupId>
             <artifactId>org.foomla.api.client</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
