@@ -11,6 +11,8 @@ import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
 import org.foomla.androidapp.service.ExerciseService;
 import org.foomla.androidapp.service.ExerciseServiceImpl;
+import org.foomla.androidapp.service.TrainingService;
+import org.foomla.androidapp.service.TrainingServiceImpl;
 import org.foomla.api.client.AuthorizationException;
 import org.foomla.api.client.FoomlaClient;
 import org.foomla.api.client.FoomlaClient.ClientType;
@@ -19,6 +21,7 @@ import org.foomla.api.client.oauth.OAuthClientCredentials;
 import org.foomla.api.client.oauth.OAuthToken;
 import org.foomla.api.client.service.UserServiceProvider;
 import org.foomla.api.entities.User;
+import org.foomla.api.entities.twizard.Training;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -37,6 +40,7 @@ public class FoomlaApplication extends Application {
     private FoomlaClient foomlaClient;
 
     private ExerciseService exerciseService;
+    private TrainingService trainingService;
 
     private User user = null;
 
@@ -79,6 +83,14 @@ public class FoomlaApplication extends Application {
         }
 
         return exerciseService;
+    }
+
+    public TrainingService getTrainingService() throws IOException {
+        if (trainingService == null) {
+            trainingService = new TrainingServiceImpl(getExerciseService());
+        }
+
+        return trainingService;
     }
 
     public String getOAuthAuthorizeUrl() {

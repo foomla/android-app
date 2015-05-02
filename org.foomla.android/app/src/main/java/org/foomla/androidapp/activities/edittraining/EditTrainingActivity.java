@@ -1,32 +1,29 @@
 package org.foomla.androidapp.activities.edittraining;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Toast;
+
+import com.google.common.base.Strings;
+
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
 import org.foomla.androidapp.activities.trainingdetail.TrainingDetailActivity;
 import org.foomla.androidapp.activities.trainingdetail.TrainingDetailFragment;
-import org.foomla.androidapp.async.DownloadRandomTrainingTask;
-import org.foomla.androidapp.async.DownloadTask;
 import org.foomla.androidapp.async.RepositoryLoadTask;
 import org.foomla.androidapp.async.RepositoryLoadTrainingTask;
 import org.foomla.androidapp.async.RepositorySaveTrainingTask;
 import org.foomla.androidapp.persistence.Repository;
 import org.foomla.androidapp.persistence.TrainingProxyRepository;
+import org.foomla.androidapp.service.TrainingService;
 import org.foomla.androidapp.widgets.TrainingTitleDialog;
-
 import org.foomla.api.entities.twizard.Exercise;
 import org.foomla.api.entities.twizard.Training;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.base.Strings;
-
-import android.content.Intent;
-
-import android.os.Bundle;
-
-import android.widget.Toast;
+import java.io.IOException;
 
 public class EditTrainingActivity extends TrainingDetailActivity implements TrainingDetailFragment.ActionHandler {
 
@@ -36,6 +33,11 @@ public class EditTrainingActivity extends TrainingDetailActivity implements Trai
     public void onCreate(final Bundle savedInstanceBundle) {
         super.onCreate(savedInstanceBundle);
         createNavDrawer();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
         initialize();
     }
 
@@ -112,15 +114,16 @@ public class EditTrainingActivity extends TrainingDetailActivity implements Trai
     private void initializeWithRandomTraining() {
         LOGGER.info("Initialize with random training");
 
-        final FoomlaApplication app = (FoomlaApplication) getApplication();
-        DownloadTask.DownloadHandler<Training> handler = new DownloadTask.DownloadHandler<Training>() {
-            @Override
-            public void handle(final Training training) {
-                training.setTitle(null);
-                initialize(training);
-            }
-        };
-        new DownloadRandomTrainingTask(this, handler).execute(app.getFoomlaClient());
+        try {
+            final TrainingService service = ((FoomlaApplication) getApplication()).getTrainingService();
+            training = service.random();
+            training.setTitle(null);
+            initialize(service.random());
+        }
+        catch (IOException ioe) {
+            LOGGER.error("Unable to initialize random training", ioe);
+            // TODO inform user
+        }
     }
 
     private void initializeWithTrainingId(final int trainingId) {
