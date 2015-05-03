@@ -28,7 +28,7 @@ import android.widget.TextView;
 
 public class ActivityNavDrawer {
 
-    private final ActionBar actionBar;
+    private final android.support.v7.app.ActionBar actionBar;
 
     private final Activity activity;
     private DrawerLayout drawerLayout;
@@ -36,7 +36,7 @@ public class ActivityNavDrawer {
     private ViewGroup drawerListLayout;
     private ActionBarDrawerToggle drawerToggle;
 
-    public ActivityNavDrawer(final Activity activity, final ActionBar actionBar) {
+    public ActivityNavDrawer(final Activity activity, final android.support.v7.app.ActionBar actionBar) {
         this.activity = activity;
         this.actionBar = actionBar;
     }

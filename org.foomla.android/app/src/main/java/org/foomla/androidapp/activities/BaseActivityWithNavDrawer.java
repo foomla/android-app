@@ -2,11 +2,12 @@ package org.foomla.androidapp.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 
 import org.foomla.androidapp.FoomlaApplication;
 
-public class BaseActivityWithNavDrawer extends FragmentActivity {
+public class BaseActivityWithNavDrawer extends ActionBarActivity {
 
     private ActivityNavDrawer navDrawer;
 
@@ -24,7 +25,7 @@ public class BaseActivityWithNavDrawer extends FragmentActivity {
     }
 
     protected void createNavDrawer() {
-        navDrawer = new ActivityNavDrawer(this, getActionBar());
+        navDrawer = new ActivityNavDrawer(this, getSupportActionBar());
         navDrawer.create();
     }
 

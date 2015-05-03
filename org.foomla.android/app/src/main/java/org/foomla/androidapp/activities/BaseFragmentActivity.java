@@ -4,9 +4,10 @@ import org.foomla.androidapp.FoomlaApplication;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 
-public class BaseFragmentActivity extends Activity {
+public class BaseFragmentActivity extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -26,7 +27,7 @@ public class BaseFragmentActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }
