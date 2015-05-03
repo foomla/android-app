@@ -34,7 +34,7 @@ public class TrainingServiceImpl implements TrainingService {
         addRandomExercise(phases, TrainingPhase.MAIN);
         addRandomExercise(phases, TrainingPhase.SCRIMMAGE);
 
-        Training t = new TrainingImpl("Random", new Date());
+        Training t = new TrainingImpl(null, new Date());
         t.setExercises(phases);
 
         return t;
