@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/logout"
-          android:title="@string/menu_logout"
-          android:showAsAction="always"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foomla="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/logout"
+        foomla:showAsAction="always"
+        android:title="@string/menu_logout" />
 </menu>
