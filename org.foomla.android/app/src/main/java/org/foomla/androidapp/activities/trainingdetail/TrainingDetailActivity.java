@@ -69,7 +69,7 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
         initializeView();
         setTitle(getTraining() != null ? getTraining().getTitle() : getTitle());
         if (!isEditTrainingActivity()) {
-            getActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
     }
 

@@ -34,23 +34,32 @@ public class TrainingTitleDialog {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setView(view);
+        builder.setTitle("Training speichern");
         builder.setNegativeButton(R.string.dialog_trainingname_cancel, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(final DialogInterface dialog, final int which) {
-                    dialog.dismiss();
-                }
-            });
+            @Override
+            public void onClick(final DialogInterface dialog, final int which) {
+                dialog.dismiss();
+            }
+        });
 
         builder.setPositiveButton(R.string.dialog_trainingname_save, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(final DialogInterface dialog, final int which) {
-                    String name = UiUtils.getSafeTextOrNull(view, R.id.title);
-                    String comment = UiUtils.getSafeTextOrNull(view, R.id.comment);
+            @Override
+            public void onClick(final DialogInterface dialog, final int which) {
+                String name = UiUtils.getSafeTextOrNull(view, R.id.title);
+                String comment = UiUtils.getSafeTextOrNull(view, R.id.comment);
 
-                    saveListener.save(training, name, comment);
-                }
-            });
-
-        return builder.show();
+                saveListener.save(training, name, comment);
+            }
+        });
+        final AlertDialog dialog = builder.create();
+        dialog.setOnShowListener( new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface arg0) {
+                dialog.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(context.getResources().getColor(R.color.foogreen));
+                dialog.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(context.getResources().getColor(R.color.darkgrey));
+            }
+        });
+        dialog.show();
+        return dialog;
     }
 }

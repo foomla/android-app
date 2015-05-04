@@ -5,6 +5,8 @@ import java.util.List;
 
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
+import org.foomla.androidapp.activities.edittraining.EditTrainingActivity;
+import org.foomla.androidapp.activities.edittraining.EditTrainingIntent;
 import org.foomla.androidapp.activities.trainingdetail.TrainingDetailIntent;
 import org.foomla.androidapp.async.RepositoryLoadTask;
 import org.foomla.androidapp.async.RepositoryLoadTrainingsTask;
@@ -120,6 +122,11 @@ public class MyTrainingsActivity extends BaseActivityWithNavDrawer implements My
         if (myTrainings == null || myTrainings.isEmpty()) {
             displayEmptyListInfo();
         }
+    }
+
+    @Override
+    public void onAddTraining() {
+        startActivity(new Intent(this, EditTrainingActivity.class));
     }
 
     private MyTrainingsFragment buildMyTrainingsFragment() {

@@ -7,11 +7,14 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPager;
+
+import com.astuetz.PagerSlidingTabStrip;
 
 
 public class InfoActivity extends BaseActivityWithNavDrawer {
-    /*
+
     private class InfoFragmentAdapter extends FragmentPagerAdapter {
 
         public InfoFragmentAdapter(FragmentManager fm) {
@@ -58,14 +61,15 @@ public class InfoActivity extends BaseActivityWithNavDrawer {
 
         setContentView(R.layout.activity_info);
         createNavDrawer();
-
+        getSupportActionBar().setElevation(0);
         FragmentPagerAdapter adapter = new InfoFragmentAdapter(getSupportFragmentManager());
 
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(adapter);
 
-        TitlePageIndicator indicator = (TitlePageIndicator) findViewById(R.id.indicator);
-        indicator.setViewPager(pager);
+        PagerSlidingTabStrip tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
+        tabs.setViewPager(pager);
+        ViewCompat.setElevation(tabs, 8);
     }
-    */
+
 }

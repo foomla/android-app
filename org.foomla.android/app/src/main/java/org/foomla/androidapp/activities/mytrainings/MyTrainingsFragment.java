@@ -27,6 +27,8 @@ public class MyTrainingsFragment extends ListFragment {
         void onDeleteTraining(Training training);
 
         void onTrainingSelected(Training training);
+
+        void onAddTraining();
     }
 
     private static final int DELETE_ITEM_ID = 0;
@@ -93,6 +95,21 @@ public class MyTrainingsFragment extends ListFragment {
         }
 
         setListAdapter(myTrainingsAdapter);
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        View addButton = getActivity().findViewById(R.id.add_button);
+        addButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(final View v) {
+                if (fragmentCallback != null) {
+                    fragmentCallback.onAddTraining();
+                }
+            }
+        });
     }
 
     @Override

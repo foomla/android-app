@@ -29,7 +29,7 @@ public class SplashScreenActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(org.foomla.androidapp.R.layout.activity_splash_screen);
         setAppVersionInBottomTextView();
-
+        getSupportActionBar().hide();
         getFoomlaApplication().initLogging();
     }
 
@@ -45,18 +45,12 @@ public class SplashScreenActivity extends BaseActivity {
 
             @Override
             protected Void doInBackground(final Void... params) {
-                FoomlaClient foomlaClient = ((FoomlaApplication) getApplication()).getFoomlaClient();
-                foomlaClient.exchangeRefreshToken();
                 return null;
             }
 
             @Override
             protected void onPostExecute(final Void result) {
-                if (((FoomlaApplication) getApplication()).getFoomlaClient().isAuthorized()) {
-                    startMainActivity();
-                } else {
-                    startActivityDelayed(MainActivity.class);
-                }
+                startActivityDelayed(MainActivity.class);
             }
         };
         asyncTask.execute();

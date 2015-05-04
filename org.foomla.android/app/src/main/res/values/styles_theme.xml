@@ -21,10 +21,15 @@
     <style name="Theme.FoomlaNoActionBar" parent="Theme.AppCompat.NoActionBar">
     </style>
 
+    <style name="Theme.FoomlaTheme.Fab" parent="FloatingActionButton">
+        <item name="floatingActionButtonColor">@color/foogreen</item>
+    </style>
+
     <style name="Theme.FoomlaTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/foogreen</item>
         <item name="colorPrimaryDark">@color/foodarkgreen</item>
         <item name="colorAccent">@color/foogreen</item>
+        <item name="floatingActionButtonStyle">@style/Theme.FoomlaTheme.Fab</item>
     </style>
 
     <style name="Theme.FoomlaDarkTheme" parent="Theme.FoomlaTheme">
