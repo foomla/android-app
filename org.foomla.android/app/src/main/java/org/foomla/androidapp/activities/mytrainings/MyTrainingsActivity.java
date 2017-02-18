@@ -45,7 +45,7 @@ public class MyTrainingsActivity extends BaseActivityWithNavDrawer implements My
         setContentView(R.layout.activity_mytrainings);
         createNavDrawer();
 
-        myTrainings = new ArrayList<Training>();
+        myTrainings = new ArrayList<>();
         myTrainingsFragment = buildMyTrainingsFragment();
         getFragmentManager().beginTransaction().replace(R.id.my_trainings, myTrainingsFragment).commit();
     }

@@ -58,16 +58,11 @@ public class SplashScreenActivity extends BaseActivity {
     private void startActivityDelayed(final Class<? extends Activity> activityClass) {
         new Handler().postDelayed(new Runnable() {
 
-                @Override
-                public void run() {
-                    startActivity(new Intent(SplashScreenActivity.this, activityClass));
-                    finish();
-                }
-            }, SPLASH_DISPLAY_TIME);
-    }
-    
-    private void startMainActivity() {
-        startActivity(new Intent(this, MainActivity.class));
-        finish();
+            @Override
+            public void run() {
+                startActivity(new Intent(SplashScreenActivity.this, activityClass));
+                finish();
+            }
+        }, SPLASH_DISPLAY_TIME);
     }
 }

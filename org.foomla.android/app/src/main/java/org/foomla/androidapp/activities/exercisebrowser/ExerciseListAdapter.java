@@ -44,7 +44,7 @@ public class ExerciseListAdapter extends BaseAdapter {
         super();
         this.context = context;
         this.itemListener = itemListener;
-        this.exercises = new ArrayList<Exercise>();
+        this.exercises = new ArrayList<>();
         this.showSelectButton = showSelectButton;
     }
 
@@ -160,11 +160,8 @@ public class ExerciseListAdapter extends BaseAdapter {
 
     private boolean isExerciseNew(Exercise exercise) {
         Date creation = exercise.getCreatedAt();
-        if (creation == null) {
-            return false;
-        }
+        return creation != null && System.currentTimeMillis() - creation.getTime() <= (14 * 24 * 60 * 60 * 1000);
 
-        return System.currentTimeMillis() - creation.getTime() <= (14 * 24 * 60 * 60 * 1000);
     }
 
     private void setImage(View view, Exercise exercise) {

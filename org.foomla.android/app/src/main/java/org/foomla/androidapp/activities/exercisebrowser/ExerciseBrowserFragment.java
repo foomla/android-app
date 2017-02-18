@@ -27,8 +27,6 @@ public class ExerciseBrowserFragment extends Fragment implements ExerciseListAda
         void onShowExerciseDetails(Exercise exercise);
     }
 
-    private static final String LOGTAG = "[foomla] ExerciseBrowserFragment";
-
     private ExerciseListAdapter exerciseListAdapter;
 
     private FragmentCallback fragmentCallback;

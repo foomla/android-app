@@ -53,14 +53,6 @@ public class TrainingDetailFragment extends Fragment {
         return actionHandler;
     }
 
-    public void hideRandomizeProgessbar(final int trainingPhase) {
-        int randomizeButtonId = getRandomizeButtonId(trainingPhase);
-        view.findViewById(randomizeButtonId).setVisibility(View.VISIBLE);
-
-        int randomizeProgessbarId = getRandomizeProgessbarId(trainingPhase);
-        view.findViewById(randomizeProgessbarId).setVisibility(View.GONE);
-    }
-
     @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,7 +74,7 @@ public class TrainingDetailFragment extends Fragment {
 
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
-            final Bundle savedInstanceState) {
+                             final Bundle savedInstanceState) {
         this.view = inflater.inflate(R.layout.fragment_trainingdetail, container, false);
         return view;
     }
@@ -91,7 +83,7 @@ public class TrainingDetailFragment extends Fragment {
     public boolean onOptionsItemSelected(final MenuItem menuItem) {
         switch (menuItem.getItemId()) {
 
-            case R.id.save_training :
+            case R.id.save_training:
                 getActionHandler().onSaveTraining();
                 return true;
         }
@@ -125,14 +117,6 @@ public class TrainingDetailFragment extends Fragment {
         if (tv != null) {
             tv.setText(text);
         }
-    }
-
-    public void showRandomizeProgessBar(final int trainingPhase) {
-        int randomizeButtonId = getRandomizeButtonId(trainingPhase);
-        view.findViewById(randomizeButtonId).setVisibility(View.GONE);
-
-        int randomizeProgessbarId = getRandomizeProgessbarId(trainingPhase);
-        view.findViewById(randomizeProgessbarId).setVisibility(View.VISIBLE);
     }
 
     public void trainingChanged() {
@@ -182,68 +166,6 @@ public class TrainingDetailFragment extends Fragment {
         }
 
         return null;
-    }
-
-    private int getRandomizeButtonId(final int trainingPhase) {
-        int buttonId = 0;
-        switch (trainingPhase) {
-
-            case 0 :
-                buttonId = R.id.exercise_arrival_random;
-                break;
-
-            case 1 :
-                buttonId = R.id.exercise_warmup_random;
-                break;
-
-            case 2 :
-                buttonId = R.id.exercise_main_one_random;
-                break;
-
-            case 3 :
-                buttonId = R.id.exercise_main_two_random;
-                break;
-
-            case 4 :
-                buttonId = R.id.exercise_scrimmage_random;
-                break;
-
-            default :
-                break;
-        }
-
-        return buttonId;
-    }
-
-    private int getRandomizeProgessbarId(final int trainingPhase) {
-        int buttonId = 0;
-        switch (trainingPhase) {
-
-            case 0 :
-                buttonId = R.id.exercise_arrival_random_pg;
-                break;
-
-            case 1 :
-                buttonId = R.id.exercise_warmup_random_pg;
-                break;
-
-            case 2 :
-                buttonId = R.id.exercise_main_one_random_pg;
-                break;
-
-            case 3 :
-                buttonId = R.id.exercise_main_two_random_pg;
-                break;
-
-            case 4 :
-                buttonId = R.id.exercise_scrimmage_random_pg;
-                break;
-
-            default :
-                break;
-        }
-
-        return buttonId;
     }
 
     private TextView getTextView(final int resId) {
@@ -371,31 +293,31 @@ public class TrainingDetailFragment extends Fragment {
 
         switch (phase) {
 
-            case 0 :
+            case 0:
                 setTextViewText(R.id.exercise_arrival_text, exercise.getTitle());
                 setTextViewText(R.id.exercise_arrival_focus_text, exerciseFocusText);
                 loadImage(R.id.exercise_arrival_image, training, exercise);
                 break;
 
-            case 1 :
+            case 1:
                 setTextViewText(R.id.exercise_warmup_text, exercise.getTitle());
                 setTextViewText(R.id.exercise_warmup_focus_text, exerciseFocusText);
                 loadImage(R.id.exercise_warmup_image, training, exercise);
                 break;
 
-            case 2 :
+            case 2:
                 setTextViewText(R.id.exercise_main_one_text, exercise.getTitle());
                 setTextViewText(R.id.exercise_main_one_focus_text, exerciseFocusText);
                 loadImage(R.id.exercise_main_one_image, training, exercise);
                 break;
 
-            case 3 :
+            case 3:
                 setTextViewText(R.id.exercise_main_two_text, exercise.getTitle());
                 setTextViewText(R.id.exercise_main_two_focus_text, exerciseFocusText);
                 loadImage(R.id.exercise_main_two_image, training, exercise);
                 break;
 
-            case 4 :
+            case 4:
                 setTextViewText(R.id.exercise_scrimmage_text, exercise.getTitle());
                 setTextViewText(R.id.exercise_scrimmage_focus_text, exerciseFocusText);
                 loadImage(R.id.exercise_scrimmage_image, training, exercise);

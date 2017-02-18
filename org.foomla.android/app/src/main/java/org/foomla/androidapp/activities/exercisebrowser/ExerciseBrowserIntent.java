@@ -11,15 +11,9 @@ public class ExerciseBrowserIntent extends Intent {
     public static final String EXTRA_EXERCISE = "extra.exercise";
     public static final int REQUEST_EXERCISE = 100;
 
-    private Exercise exercise;
-
     public ExerciseBrowserIntent(Intent o) {
         super(o);
     }
-
-	public ExerciseBrowserIntent(Context context) {
-		super(context, ExerciseBrowserActivity.class);
-	}
 
     public ExerciseBrowserIntent(Context context, int trainingPhase) {
         super(context, ExerciseBrowserActivity.class);

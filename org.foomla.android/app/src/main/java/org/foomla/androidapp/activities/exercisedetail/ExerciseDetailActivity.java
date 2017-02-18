@@ -30,8 +30,7 @@ public class ExerciseDetailActivity extends BaseFragmentActivity implements Exer
 
     @Override
     public Training getTraining() {
-        Training training = new ExerciseDetailIntent(getIntent()).getTraining();
-        return training;
+        return new ExerciseDetailIntent(getIntent()).getTraining();
     }
 
     @Override
