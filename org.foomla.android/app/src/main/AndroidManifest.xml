@@ -74,20 +74,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.news.NewsActivity"
-            android:label="@string/activity_news">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".activities.newsdetail.NewsDetailActivity"
-            android:label="@string/activity_news">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".activities.user.UserActivity"
             android:label="@string/activity_user">
             <intent-filter>
