@@ -23,10 +23,10 @@ public class ExerciseServiceImpl implements ExerciseService {
     private final List<Exercise> exercises = new ArrayList<>();
 
     public ExerciseServiceImpl(final Resources resources) throws IOException {
-        final ExerciseImpl[] exerciseArr =
-                new JsonResourceReader(resources, R.raw.exercises).read(ExerciseImpl[].class);
+        final Exercise[] exerciseArr =
+                new JsonResourceReader(resources, R.raw.exercises).read(Exercise[].class);
 
-        for (ExerciseImpl exercise : exerciseArr) {
+        for (Exercise exercise : exerciseArr) {
             exercises.add(exercise);
         }
     }
