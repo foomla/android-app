@@ -6,8 +6,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import org.foomla.androidapp.R;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.Training;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.Training;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -55,7 +55,7 @@ public class ImageUtil {
     }
 
     public static Drawable getImage(final Context context, final Training training, final Exercise exercise,
-            final ImageType imageType) {
+                                    final ImageType imageType) {
         Drawable drawable;
 
         if (training != null && training.getId() != null && training.getId() > 0) {

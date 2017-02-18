@@ -7,10 +7,9 @@ import com.google.common.collect.Collections2;
 import com.google.common.collect.Lists;
 
 import org.foomla.androidapp.R;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.TrainingPhase;
 import org.foomla.androidapp.utils.JsonResourceReader;
-import org.foomla.api.client.entities.ExerciseImpl;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.TrainingPhase;
 
 import java.io.IOException;
 import java.util.ArrayList;

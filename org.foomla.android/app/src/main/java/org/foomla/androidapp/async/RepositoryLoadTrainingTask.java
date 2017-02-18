@@ -2,8 +2,8 @@ package org.foomla.androidapp.async;
 
 import android.content.Context;
 
+import org.foomla.androidapp.domain.Training;
 import org.foomla.androidapp.persistence.Repository;
-import org.foomla.api.entities.twizard.Training;
 
 public class RepositoryLoadTrainingTask extends RepositoryLoadTask<Training> {
 

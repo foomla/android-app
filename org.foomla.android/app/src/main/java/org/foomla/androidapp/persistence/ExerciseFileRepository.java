@@ -2,12 +2,11 @@ package org.foomla.androidapp.persistence;
 
 import android.content.Context;
 
+import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.exception.FoomlaException;
 import org.foomla.androidapp.utils.FileUtils;
 import org.foomla.api.client.ClientEntityRestMapping;
-import org.foomla.api.client.entities.ExerciseImpl;
 import org.foomla.api.converters.CustomJacksonConverter;
-import org.foomla.api.entities.twizard.Exercise;
 
 import java.io.File;
 import java.io.FileInputStream;

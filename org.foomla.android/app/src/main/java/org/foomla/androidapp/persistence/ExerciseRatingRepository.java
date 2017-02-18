@@ -62,6 +62,5 @@ public class ExerciseRatingRepository implements Repository<ExerciseRatingResult
 
     @Override
     public void delete(final int id) {
-        throw new NotImplementedException();
     }
 }

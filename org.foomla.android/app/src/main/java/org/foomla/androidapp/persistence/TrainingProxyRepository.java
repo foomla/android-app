@@ -104,7 +104,6 @@ public class TrainingProxyRepository implements Repository<Training> {
     }
 
     private void deleteTrainingOnServerAndDevice(final int id) {
-        remoteRepository.delete(id);
         LOGGER.info("Deleted training on remote server with ID: {}", id);
 
         try {

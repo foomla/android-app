@@ -4,10 +4,10 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.Training;
 import org.foomla.androidapp.utils.ImageUtil;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.Training;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

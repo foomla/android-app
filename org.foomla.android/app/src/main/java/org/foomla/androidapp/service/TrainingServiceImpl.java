@@ -1,9 +1,8 @@
 package org.foomla.androidapp.service;
 
-import org.foomla.api.client.entities.TrainingImpl;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.Training;
-import org.foomla.api.entities.twizard.TrainingPhase;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.Training;
+import org.foomla.androidapp.domain.TrainingPhase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

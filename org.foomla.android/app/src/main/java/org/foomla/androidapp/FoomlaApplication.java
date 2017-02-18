@@ -5,22 +5,13 @@ import android.content.Intent;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.provider.Settings.Secure;
 
-import org.foomla.android.logging.AndroidLoggerFactory;
-import org.foomla.androidapp.activities.login.LoginInfoActivity;
+import org.foomla.androidapp.domain.User;
 import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
 import org.foomla.androidapp.service.ExerciseService;
 import org.foomla.androidapp.service.ExerciseServiceImpl;
 import org.foomla.androidapp.service.TrainingService;
 import org.foomla.androidapp.service.TrainingServiceImpl;
-import org.foomla.api.client.AuthorizationException;
-import org.foomla.api.client.FoomlaClient;
-import org.foomla.api.client.FoomlaClient.ClientType;
-import org.foomla.api.client.entities.UserImpl;
-import org.foomla.api.client.oauth.OAuthClientCredentials;
-import org.foomla.api.client.oauth.OAuthToken;
-import org.foomla.api.client.service.UserServiceProvider;
-import org.foomla.api.entities.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
