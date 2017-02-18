@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class Training extends EntityWithTitle implements Serializable {
+public class Training extends EntityWithTitle {
 
     private User owner;
 

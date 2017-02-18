@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 
-public class Exercise extends EntityWithTitle implements Serializable {
+public class Exercise extends EntityWithTitle {
 
     private ExerciseVisibility exerciseVisibility;
 
