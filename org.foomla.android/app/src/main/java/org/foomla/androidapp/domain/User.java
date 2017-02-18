@@ -3,36 +3,65 @@ package org.foomla.androidapp.domain;
 import java.io.Serializable;
 import java.util.List;
 
-public interface User extends Serializable, Entity {
+public class User extends Entity implements Serializable {
 
-    String getEmail();
+    private String email;
 
-    String getFirstname();
+    private String firstname;
 
-    @Override
-    Integer getId();
+    private String lastname;
 
-    String getLastname();
+    private String password;
 
-    String getPassword();
+    private List<UserRole> userRoles;
 
-    List<UserRole> getUserRoles();
+    private boolean active;
 
-    boolean isActive();
+    public String getEmail() {
+        return email;
+    }
 
-    void setEmail(String email);
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
-    void setFirstname(String firstname);
+    public String getFirstname() {
+        return firstname;
+    }
 
-    @Override
-    void setId(Integer id);
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
 
-    void setActive(boolean isActive);
+    public String getLastname() {
+        return lastname;
+    }
 
-    void setLastname(String lastname);
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
 
-    void setPassword(String password);
+    public String getPassword() {
+        return password;
+    }
 
-    void setUserRoles(List<UserRole> userRoles);
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
+    public List<UserRole> getUserRoles() {
+        return userRoles;
+    }
+
+    public void setUserRoles(List<UserRole> userRoles) {
+        this.userRoles = userRoles;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
 }

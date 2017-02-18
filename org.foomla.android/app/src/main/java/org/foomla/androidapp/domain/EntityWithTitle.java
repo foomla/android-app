@@ -1,9 +1,14 @@
 package org.foomla.androidapp.domain;
 
-public interface EntityWithTitle extends Entity {
+public abstract class EntityWithTitle extends Entity {
 
-    String getTitle();
+    private String title;
 
-    void setTitle(String title);
+    public String getTitle() {
+        return title;
+    }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
 }

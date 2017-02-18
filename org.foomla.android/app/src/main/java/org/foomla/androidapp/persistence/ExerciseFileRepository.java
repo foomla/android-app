@@ -5,7 +5,6 @@ import android.content.Context;
 import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.exception.FoomlaException;
 import org.foomla.androidapp.utils.FileUtils;
-import org.foomla.api.client.ClientEntityRestMapping;
 import org.foomla.api.converters.CustomJacksonConverter;
 
 import java.io.File;

@@ -5,69 +5,155 @@ import java.util.Date;
 import java.util.List;
 
 
-public interface Exercise extends EntityWithTitle, Serializable {
+public class Exercise extends EntityWithTitle implements Serializable {
 
-    void setVisibility(ExerciseVisibility exerciseVisibility);
+    private ExerciseVisibility exerciseVisibility;
 
-    ExerciseVisibility getVisibility();
+    private List<AgeClass> ageClasses;
 
-    List<AgeClass> getAgeClasses();
+    private String auxiliaryMaterial;
 
-    String getAuxiliaryMaterial();
+    private Date createdAt;
 
-    Date getCreatedAt();
+    private ExerciseStatus exerciseStatus;
 
-    ExerciseStatus getExerciseStatus();
+    private List<ExerciseImage> images;
 
-    List<ExerciseImage> getImages();
+    private int minPlayers;
 
-    int getMaxPlayers();
+    private String note;
 
-    int getMinPlayers();
+    private String objective;
 
-    String getNote();
+    private List<ExerciseProperty> properties;
 
-    String getObjective();
+    private String schedule;
 
-    List<ExerciseProperty> getProperties();
+    private String setting;
 
-    String getSchedule();
+    private TrainingFocus trainingFocus;
 
-    String getSetting();
+    private List<TrainingPhase> trainingPhases;
 
-    TrainingFocus getTrainingFocus();
+    private Date updatedAt;
 
-    List<TrainingPhase> getTrainingPhases();
+    public ExerciseVisibility getExerciseVisibility() {
+        return exerciseVisibility;
+    }
 
-    Date getUpdatedAt();
+    public void setExerciseVisibility(ExerciseVisibility exerciseVisibility) {
+        this.exerciseVisibility = exerciseVisibility;
+    }
 
-    void setAgeClasses(List<AgeClass> ageClasses);
+    public List<AgeClass> getAgeClasses() {
+        return ageClasses;
+    }
 
-    void setAuxiliaryMaterial(String auxiliaryMaterial);
+    public void setAgeClasses(List<AgeClass> ageClasses) {
+        this.ageClasses = ageClasses;
+    }
 
-    void setCreatedAt(Date createdAt);
+    public String getAuxiliaryMaterial() {
+        return auxiliaryMaterial;
+    }
 
-    void setExerciseStatus(ExerciseStatus exerciseStatus);
+    public void setAuxiliaryMaterial(String auxiliaryMaterial) {
+        this.auxiliaryMaterial = auxiliaryMaterial;
+    }
 
-    void setImages(List<ExerciseImage> exerciseImages);
+    public Date getCreatedAt() {
+        return createdAt;
+    }
 
-    void setMaxPlayers(int maxPlayers);
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
 
-    void setMinPlayers(int minPlayers);
+    public ExerciseStatus getExerciseStatus() {
+        return exerciseStatus;
+    }
 
-    void setNote(String note);
+    public void setExerciseStatus(ExerciseStatus exerciseStatus) {
+        this.exerciseStatus = exerciseStatus;
+    }
 
-    void setObjective(String objective);
+    public List<ExerciseImage> getImages() {
+        return images;
+    }
 
-    void setProperties(List<ExerciseProperty> property);
+    public void setImages(List<ExerciseImage> images) {
+        this.images = images;
+    }
 
-    void setSchedule(String schedule);
+    public int getMinPlayers() {
+        return minPlayers;
+    }
 
-    void setSetting(String setting);
+    public void setMinPlayers(int minPlayers) {
+        this.minPlayers = minPlayers;
+    }
 
-    void setTrainingFocus(TrainingFocus trainingFocus);
+    public String getNote() {
+        return note;
+    }
 
-    void setTrainingPhases(List<TrainingPhase> trainingPhase);
+    public void setNote(String note) {
+        this.note = note;
+    }
 
-    void setUpdatedAt(Date updatedAt);
+    public String getObjective() {
+        return objective;
+    }
+
+    public void setObjective(String objective) {
+        this.objective = objective;
+    }
+
+    public List<ExerciseProperty> getProperties() {
+        return properties;
+    }
+
+    public void setProperties(List<ExerciseProperty> properties) {
+        this.properties = properties;
+    }
+
+    public String getSchedule() {
+        return schedule;
+    }
+
+    public void setSchedule(String schedule) {
+        this.schedule = schedule;
+    }
+
+    public String getSetting() {
+        return setting;
+    }
+
+    public void setSetting(String setting) {
+        this.setting = setting;
+    }
+
+    public TrainingFocus getTrainingFocus() {
+        return trainingFocus;
+    }
+
+    public void setTrainingFocus(TrainingFocus trainingFocus) {
+        this.trainingFocus = trainingFocus;
+    }
+
+    public List<TrainingPhase> getTrainingPhases() {
+        return trainingPhases;
+    }
+
+    public void setTrainingPhases(List<TrainingPhase> trainingPhases) {
+        this.trainingPhases = trainingPhases;
+    }
+
+    public Date getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(Date updatedAt) {
+        this.updatedAt = updatedAt;
+    }
 }

@@ -3,10 +3,15 @@ package org.foomla.androidapp.domain;
 import java.io.Serializable;
 
 
-public interface ExerciseProperty extends EntityWithTitle, Serializable {
+public class ExerciseProperty extends EntityWithTitle implements Serializable {
 
-    String getValue();
+    private String value;
 
-    void setValue(String value);
+    public String getValue() {
+        return value;
+    }
 
+    public void setValue(String value) {
+        this.value = value;
+    }
 }

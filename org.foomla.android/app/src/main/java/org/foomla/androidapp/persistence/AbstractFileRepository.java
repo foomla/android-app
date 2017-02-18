@@ -1,22 +1,24 @@
 package org.foomla.androidapp.persistence;
 
-import org.foomla.api.client.ClientEntityRestMapping;
-import org.foomla.api.converters.CustomJacksonConverter;
+
+import com.google.gson.Gson;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Serializable;
 
 public abstract class AbstractFileRepository<T extends Serializable> implements Repository<T> {
 
+    private Gson gson = new Gson();
+
     protected Object convert(File file, Class target) throws IOException {
-        CustomJacksonConverter converter = new CustomJacksonConverter(new ClientEntityRestMapping());
-        return converter.getObjectMapper().readValue(new FileInputStream(file), target);
+        return gson.fromJson(new FileReader(file), target);
     }
 
     protected void write(File destination, T entity) throws IOException {
-        CustomJacksonConverter converter = new CustomJacksonConverter(new ClientEntityRestMapping());
-        converter.getObjectMapper().writeValue(destination, entity);
+        gson.toJson(entity, new FileWriter(destination));
     }
 }

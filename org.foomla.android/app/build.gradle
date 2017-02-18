@@ -53,4 +53,5 @@ dependencies {
     compile 'com.jpardogo.materialtabstrip:library:1.0.9'
     compile 'com.github.iweinzierl:android-logging:1.0'
     compile 'com.github.iweinzierl:android-utils:1.0'
+    compile 'com.google.code.gson:gson:1.7.2'
 }

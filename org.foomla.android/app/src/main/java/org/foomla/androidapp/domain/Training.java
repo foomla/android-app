@@ -4,30 +4,72 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
-public interface Training extends EntityWithTitle, Serializable {
+public class Training extends EntityWithTitle implements Serializable {
 
-    void setTitle(String title);
+    private User owner;
 
-    String getTitle();
+    private Date date;
 
-    void setOwner(User user);
+    private List<Exercise> exercises;
 
-    User getOwner();
+    private String comment;
 
-    void setDate(Date date);
 
-    Date getDate();
+    public User getOwner() {
+        return owner;
+    }
 
-    void setExercises(List<Exercise> exercises);
+    public void setOwner(User owner) {
+        this.owner = owner;
+    }
 
-    List<Exercise> getExercises();
+    public Date getDate() {
+        return date;
+    }
 
-    boolean setExercise(int idx, Exercise exercise);
+    public void setDate(Date date) {
+        this.date = date;
+    }
 
-    Set<TrainingFocus> getTrainingFocus();
+    public List<Exercise> getExercises() {
+        return exercises;
+    }
 
-    void setComment(String comment);
+    public void setExercises(List<Exercise> exercises) {
+        this.exercises = exercises;
+    }
 
-    String getComment();
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+
+    public boolean setExercise(int idx, Exercise exercise) {
+        if (idx <= exercises.size()) {
+            exercises.set(idx, exercise);
+            return true;
+        }
+
+        return false;
+    }
+
+    public Set<TrainingFocus> getTrainingFocus() {
+        SortedSet<TrainingFocus> trainingFocusSet = new TreeSet<TrainingFocus>();
+        for (Exercise exercise : getExercises()) {
+            TrainingFocus trainingFocus = exercise.getTrainingFocus();
+            if (trainingFocus != null) {
+                trainingFocusSet.add(trainingFocus);
+            }
+        }
+
+        return trainingFocusSet;
+    }
+
+
 }

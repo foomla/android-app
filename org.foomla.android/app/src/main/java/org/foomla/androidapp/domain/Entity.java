@@ -1,9 +1,14 @@
 package org.foomla.androidapp.domain;
 
-public interface Entity {
+public abstract class Entity {
 
-    Integer getId();
+    private Integer id;
 
-    void setId(Integer id);
+    public Integer getId() {
+        return id;
+    }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
 }

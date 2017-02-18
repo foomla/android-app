@@ -103,9 +103,9 @@ public class TrainingFileRepository extends AbstractFileRepository<Training> {
 
         for (String fileName : fileNames) {
             try {
-                Object obj = convert(new File(trainingDir, fileName), TrainingImpl.class);
+                Object obj = convert(new File(trainingDir, fileName), Training.class);
                 if (obj instanceof Training) {
-                    trainings.add((TrainingImpl) obj);
+                    trainings.add((Training) obj);
                 }
             } catch (IOException ioe) {
                 LOGGER.error("Unable to convert training: " + fileName, ioe);
@@ -124,7 +124,7 @@ public class TrainingFileRepository extends AbstractFileRepository<Training> {
                 return null;
             }
 
-            return (Training) convert(trainingFile, TrainingImpl.class);
+            return (Training) convert(trainingFile, Training.class);
         } catch (IOException e) {
             throw new FoomlaException("Unable to parse Training from disk", e);
         } catch (Exception e) {
