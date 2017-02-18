@@ -1,10 +1,10 @@
 package org.foomla.androidapp.activities.exercisedetail;
 
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.Training;
-
 import android.content.Context;
 import android.content.Intent;
+
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.Training;
 
 public class ExerciseDetailIntent extends Intent {
 

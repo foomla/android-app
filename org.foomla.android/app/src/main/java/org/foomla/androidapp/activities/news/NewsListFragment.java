@@ -1,12 +1,5 @@
 package org.foomla.androidapp.activities.news;
 
-import java.util.List;
-
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.utils.UiUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
@@ -17,6 +10,13 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndEntry;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.utils.UiUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.List;
 
 public class NewsListFragment extends Fragment {
 

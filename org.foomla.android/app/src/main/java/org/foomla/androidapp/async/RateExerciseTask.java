@@ -1,15 +1,13 @@
 package org.foomla.androidapp.async;
 
+import android.content.Context;
+import android.os.AsyncTask;
+
 import org.foomla.api.client.FoomlaClient;
 import org.foomla.api.client.providers.ExerciseRatingProvider;
 import org.foomla.api.entities.twizard.ExerciseRating;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import android.content.Context;
-
-import android.os.AsyncTask;
 
 public class RateExerciseTask extends AsyncTask<ExerciseRating, Void, Void> {
 

@@ -1,12 +1,5 @@
 package org.foomla.androidapp.activities.news;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.async.LoadImageTask;
-import org.foomla.androidapp.utils.UiUtils;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +8,13 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndEntry;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.async.LoadImageTask;
+import org.foomla.androidapp.utils.UiUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class NewsListAdapter extends BaseAdapter {
 

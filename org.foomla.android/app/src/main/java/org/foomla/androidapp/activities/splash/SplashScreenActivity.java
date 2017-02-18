@@ -1,24 +1,16 @@
 package org.foomla.androidapp.activities.splash;
 
-import org.foomla.androidapp.FoomlaApplication;
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.activities.BaseActivity;
-import org.foomla.androidapp.activities.login.LoginInfoActivity;
-import org.foomla.androidapp.activities.main.MainActivity;
-import org.foomla.androidapp.preferences.FoomlaPreferences;
-import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
-
-import org.foomla.api.client.FoomlaClient;
-
 import android.app.Activity;
-
 import android.content.Intent;
-
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-
 import android.widget.TextView;
+
+import org.foomla.androidapp.FoomlaApplication;
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.activities.BaseActivity;
+import org.foomla.androidapp.activities.main.MainActivity;
 
 public class SplashScreenActivity extends BaseActivity {
 

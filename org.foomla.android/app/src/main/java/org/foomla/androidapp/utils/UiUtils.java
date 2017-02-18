@@ -1,15 +1,13 @@
 package org.foomla.androidapp.utils;
 
-import org.foomla.androidapp.async.LoadImageTask;
-
 import android.text.Spanned;
-
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import org.foomla.androidapp.async.LoadImageTask;
 
 public final class UiUtils {
 

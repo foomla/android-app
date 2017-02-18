@@ -1,8 +1,8 @@
 package org.foomla.androidapp.data;
 
-import java.util.List;
-
 import android.database.Cursor;
+
+import java.util.List;
 
 public interface EntityBuilder<T> {
 

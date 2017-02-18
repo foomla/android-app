@@ -1,38 +1,32 @@
 package org.foomla.androidapp.activities.mytrainings;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
+import com.google.common.base.Joiner;
+import com.google.common.collect.Lists;
 
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.async.LoadExerciseImageTask;
 import org.foomla.androidapp.utils.EnumTextUtil;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
-
 import org.foomla.api.entities.twizard.Exercise;
 import org.foomla.api.entities.twizard.Training;
 import org.foomla.api.entities.twizard.TrainingFocus;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.base.Joiner;
-import com.google.common.collect.Lists;
-
-import android.content.Context;
-
-import android.graphics.drawable.Drawable;
-
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.TextView;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
 
 public class MyTrainingsAdapter extends BaseAdapter {
 

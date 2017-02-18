@@ -1,14 +1,13 @@
 package org.foomla.androidapp.persistence;
 
-import java.util.List;
+import android.content.ContentValues;
+import android.content.Context;
 
 import org.apache.commons.lang.NotImplementedException;
-
 import org.foomla.androidapp.data.ExerciseRatingResult;
 import org.foomla.androidapp.data.ExerciseRatingResultBuilder;
 
-import android.content.ContentValues;
-import android.content.Context;
+import java.util.List;
 
 public class ExerciseRatingRepository implements Repository<ExerciseRatingResult> {
 

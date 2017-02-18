@@ -1,27 +1,23 @@
 package org.foomla.androidapp.persistence;
 
-import java.io.File;
-import java.io.IOException;
-
-import java.net.URL;
-
-import java.util.ArrayList;
-import java.util.List;
+import android.content.Context;
 
 import org.foomla.androidapp.data.UserMode;
 import org.foomla.androidapp.exception.FoomlaException;
 import org.foomla.androidapp.utils.FileUtils;
 import org.foomla.androidapp.utils.ImageUtil;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
-
 import org.foomla.api.client.entities.TrainingImpl;
 import org.foomla.api.entities.twizard.Exercise;
 import org.foomla.api.entities.twizard.Training;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import android.content.Context;
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 public class TrainingFileRepository extends AbstractFileRepository<Training> {
 

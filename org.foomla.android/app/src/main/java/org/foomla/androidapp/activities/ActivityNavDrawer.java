@@ -1,5 +1,16 @@
 package org.foomla.androidapp.activities;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.widget.DrawerLayout;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ListView;
+import android.widget.TextView;
+
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.NavigationListAdapter.NavigationItem;
@@ -8,23 +19,6 @@ import org.foomla.androidapp.activities.exercisebrowser.ExerciseBrowserActivity;
 import org.foomla.androidapp.activities.info.InfoActivity;
 import org.foomla.androidapp.activities.main.MainActivity;
 import org.foomla.androidapp.activities.mytrainings.MyTrainingsActivity;
-import org.foomla.androidapp.activities.news.NewsActivity;
-import org.foomla.androidapp.activities.user.UserActivity;
-import org.foomla.api.entities.User;
-
-import android.app.ActionBar;
-import android.app.Activity;
-import android.content.Intent;
-import android.os.AsyncTask;
-import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.widget.DrawerLayout;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ListView;
-import android.widget.TextView;
 
 public class ActivityNavDrawer {
 

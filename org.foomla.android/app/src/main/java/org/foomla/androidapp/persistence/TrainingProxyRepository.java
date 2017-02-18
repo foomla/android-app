@@ -1,17 +1,15 @@
 package org.foomla.androidapp.persistence;
 
-import java.util.List;
+import android.content.Context;
 
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.data.UserMode;
+import org.foomla.androidapp.domain.Training;
 import org.foomla.androidapp.exception.FoomlaException;
-
-import org.foomla.api.entities.twizard.Training;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import android.content.Context;
+import java.util.List;
 
 public class TrainingProxyRepository implements Repository<Training> {
 
@@ -22,13 +20,11 @@ public class TrainingProxyRepository implements Repository<Training> {
     private final FoomlaApplication foomlaApplication;
     private final TrainingFileRepository fileRepositoryAuthorized;
     private final TrainingFileRepository fileRepositoryUnauthorized;
-    private final TrainingRemoteRepository remoteRepository;
 
     private TrainingProxyRepository(final FoomlaApplication application, final Context context) {
         this.foomlaApplication = application;
         this.fileRepositoryUnauthorized = TrainingFileRepository.getInstance(context, UserMode.UNAUTHORIZED);
         this.fileRepositoryAuthorized = TrainingFileRepository.getInstance(context, UserMode.AUTHORIZED);
-        this.remoteRepository = TrainingRemoteRepository.getInstance(application, context);
     }
 
     public static TrainingProxyRepository getInstance(final FoomlaApplication application, final Context context) {

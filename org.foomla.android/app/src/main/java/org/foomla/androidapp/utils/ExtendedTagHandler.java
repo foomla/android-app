@@ -1,9 +1,9 @@
 package org.foomla.androidapp.utils;
 
-import org.xml.sax.XMLReader;
-
 import android.text.Editable;
 import android.text.Html.TagHandler;
+
+import org.xml.sax.XMLReader;
 
 public class ExtendedTagHandler implements TagHandler {
 	boolean first = true;

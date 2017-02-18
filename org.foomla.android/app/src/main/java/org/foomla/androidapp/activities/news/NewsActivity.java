@@ -1,8 +1,9 @@
 package org.foomla.androidapp.activities.news;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.List;
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndEntry;
 
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
@@ -10,10 +11,9 @@ import org.foomla.androidapp.async.DownloadNewsTask;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import android.content.Intent;
-import android.os.Bundle;
-
-import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndEntry;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.List;
 
 public class NewsActivity extends BaseActivityWithNavDrawer implements NewsListFragment.Callback {
 

@@ -1,11 +1,11 @@
 package org.foomla.androidapp.widgets;
 
-import org.foomla.androidapp.R;
-
 import android.app.Dialog;
 import android.content.Context;
 import android.view.MotionEvent;
 import android.widget.TextView;
+
+import org.foomla.androidapp.R;
 
 public class ExplainShakeDialog extends Dialog {
 

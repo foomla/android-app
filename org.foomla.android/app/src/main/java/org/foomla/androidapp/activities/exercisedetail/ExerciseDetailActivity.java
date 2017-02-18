@@ -1,20 +1,17 @@
 package org.foomla.androidapp.activities.exercisedetail;
 
+import android.content.Intent;
+import android.os.Bundle;
+
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseFragmentActivity;
 import org.foomla.androidapp.activities.info.InfoActivity;
 import org.foomla.androidapp.data.ExerciseRatingResult;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.Training;
 import org.foomla.androidapp.persistence.ExerciseRatingRepository;
-
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.Training;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import android.content.Intent;
-
-import android.os.Bundle;
 
 public class ExerciseDetailActivity extends BaseFragmentActivity implements ExerciseDetailFragment.ActionHandler {
 
@@ -76,16 +73,6 @@ public class ExerciseDetailActivity extends BaseFragmentActivity implements Exer
     }
 
     private void updateComments(final Exercise exercise) {
-        // final FoomlaClient foomlaClient = ((FoomlaApplication)
-        // getApplication()).getFoomlaClient();
-        // ExerciseRatingProvider provider =
-        // foomlaClient.getProvider(ExerciseRatingProvider.class);
-        //
-        // List<ExerciseRating> all = provider.getExerciseRating(exercise);
-        // if (all != null && !all.isEmpty()) {
-        // exerciseDetailFragment.setUserComments(all);
-        // }
-
     }
 
     private void updateRating(final Exercise exercise) {

@@ -1,7 +1,5 @@
 package org.foomla.androidapp.view;
 
-import org.foomla.androidapp.R;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
@@ -10,6 +8,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
+
+import org.foomla.androidapp.R;
 
 public class ExerciseRatingView extends LinearLayout {
 

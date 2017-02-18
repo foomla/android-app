@@ -1,8 +1,5 @@
 package org.foomla.androidapp.activities.info;
 
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.utils.ProgressVisualizationUtil;
-
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -14,6 +11,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebSettings.PluginState;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.utils.ProgressVisualizationUtil;
 
 public abstract class BaseInfoFragment extends Fragment {
 

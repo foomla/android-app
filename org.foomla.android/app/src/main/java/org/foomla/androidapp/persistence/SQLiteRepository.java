@@ -1,17 +1,14 @@
 package org.foomla.androidapp.persistence;
 
-import org.foomla.androidapp.data.EntityBuilder;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import android.content.ContentValues;
 import android.content.Context;
-
 import android.database.Cursor;
-
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import org.foomla.androidapp.data.EntityBuilder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class SQLiteRepository extends SQLiteOpenHelper {
 

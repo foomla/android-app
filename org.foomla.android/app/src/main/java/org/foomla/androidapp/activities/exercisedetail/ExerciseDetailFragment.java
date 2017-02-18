@@ -1,6 +1,23 @@
 package org.foomla.androidapp.activities.exercisedetail;
 
-import java.util.List;
+import android.app.Activity;
+import android.app.Fragment;
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
+import android.text.Html;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RatingBar;
+import android.widget.TextView;
+
+import com.google.common.base.Joiner;
+import com.google.common.collect.Lists;
 
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.async.LoadExerciseImageTask;
@@ -10,40 +27,16 @@ import org.foomla.androidapp.utils.ExtendedTagHandler;
 import org.foomla.androidapp.utils.ImageUtil;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
 import org.foomla.androidapp.view.ExerciseRatingView;
-
 import org.foomla.api.entities.twizard.AgeClass;
 import org.foomla.api.entities.twizard.Exercise;
 import org.foomla.api.entities.twizard.ExerciseRating;
 import org.foomla.api.entities.twizard.Training;
 import org.foomla.api.entities.twizard.TrainingFocus;
 import org.foomla.api.entities.twizard.TrainingPhase;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.base.Joiner;
-import com.google.common.collect.Lists;
-
-import android.app.Activity;
-
-import android.app.Fragment;
-import android.graphics.drawable.Drawable;
-
-import android.os.Bundle;
-
-import android.text.Html;
-
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RatingBar;
-import android.widget.TextView;
+import java.util.List;
 
 public class ExerciseDetailFragment extends Fragment {
 

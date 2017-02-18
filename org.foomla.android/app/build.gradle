@@ -43,16 +43,14 @@ repositories {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
-    compile 'com.google.guava:guava:14.0-rc1'
+    compile 'com.google.guava:guava:18.0'
     compile 'org.apache.commons:commons-io:1.3.2'
     compile 'com.squareup:seismic:1.0.0'
-    compile 'com.google.code.android-rome-feed-reader:android-rome-feed-reader:1.0.0-r2'
     compile 'log4j:log4j:1.2.17'
-    compile 'org.foomla:android-logging:1.0'
     compile 'de.mindpipe.android:android-logging-log4j:1.0.3'
-    compile 'org.foomla:org.foomla.api:1.0'
-    compile 'org.foomla:org.foomla.api.client:1.0'
-    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.google.code.gson:gson:2.4'
     compile 'com.shamanland:fab:0.0.8'
     compile 'com.jpardogo.materialtabstrip:library:1.0.9'
+    compile 'com.github.iweinzierl:android-logging:1.0'
+    compile 'com.github.iweinzierl:android-utils:1.0'
 }

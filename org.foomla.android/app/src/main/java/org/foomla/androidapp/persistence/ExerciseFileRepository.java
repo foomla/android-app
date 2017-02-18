@@ -1,21 +1,19 @@
 package org.foomla.androidapp.persistence;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-
-import java.util.ArrayList;
-import java.util.List;
+import android.content.Context;
 
 import org.foomla.androidapp.exception.FoomlaException;
 import org.foomla.androidapp.utils.FileUtils;
-
 import org.foomla.api.client.ClientEntityRestMapping;
 import org.foomla.api.client.entities.ExerciseImpl;
 import org.foomla.api.converters.CustomJacksonConverter;
 import org.foomla.api.entities.twizard.Exercise;
 
-import android.content.Context;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ExerciseFileRepository implements Repository<Exercise> {
 

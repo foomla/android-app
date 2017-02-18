@@ -1,25 +1,19 @@
 package org.foomla.androidapp.async;
 
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.utils.ProgressVisualizationUtil;
-
-import org.foomla.api.client.FoomlaClient;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.app.Service;
-
 import android.content.Context;
-
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-
 import android.os.AsyncTask;
-
 import android.widget.Toast;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.utils.ProgressVisualizationUtil;
+import org.foomla.api.client.FoomlaClient;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public abstract class DownloadTask<Result> extends AsyncTask<FoomlaClient, Void, Result> {
 

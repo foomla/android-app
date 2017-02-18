@@ -21,7 +21,6 @@ import org.foomla.api.client.oauth.OAuthClientCredentials;
 import org.foomla.api.client.oauth.OAuthToken;
 import org.foomla.api.client.service.UserServiceProvider;
 import org.foomla.api.entities.User;
-import org.foomla.api.entities.twizard.Training;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

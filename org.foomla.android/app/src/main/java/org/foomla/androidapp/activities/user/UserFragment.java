@@ -1,9 +1,5 @@
 package org.foomla.androidapp.activities.user;
 
-import org.foomla.androidapp.FoomlaApplication;
-import org.foomla.androidapp.R;
-import org.foomla.api.entities.User;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
@@ -16,6 +12,10 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+
+import org.foomla.androidapp.FoomlaApplication;
+import org.foomla.androidapp.R;
+import org.foomla.api.entities.User;
 
 public class UserFragment extends Fragment {
     public interface Callback {

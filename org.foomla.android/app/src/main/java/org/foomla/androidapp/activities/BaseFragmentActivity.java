@@ -1,11 +1,10 @@
 package org.foomla.androidapp.activities;
 
-import org.foomla.androidapp.FoomlaApplication;
-
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
+
+import org.foomla.androidapp.FoomlaApplication;
 
 public class BaseFragmentActivity extends ActionBarActivity {
 

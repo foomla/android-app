@@ -1,17 +1,17 @@
 package org.foomla.androidapp.activities.news;
 
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import android.content.Context;
+
+import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndContent;
+import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndEntry;
 
 import org.foomla.androidapp.activities.newsdetail.NewsDetailIntent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import android.content.Context;
-
-import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndContent;
-import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndEntry;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class NewsUtil {
 

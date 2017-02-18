@@ -1,11 +1,11 @@
 package org.foomla.androidapp.utils;
 
-import org.foomla.androidapp.R;
-
 import android.app.Activity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.foomla.androidapp.R;
 
 public class ProgressVisualizationUtil {
 

@@ -1,9 +1,5 @@
 package org.foomla.androidapp.activities;
 
-import java.util.List;
-
-import org.foomla.androidapp.R;
-
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
@@ -14,6 +10,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.common.collect.Lists;
+
+import org.foomla.androidapp.R;
+
+import java.util.List;
 
 public class NavigationListAdapter extends BaseAdapter {
 

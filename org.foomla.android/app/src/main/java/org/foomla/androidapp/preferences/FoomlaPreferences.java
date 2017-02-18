@@ -1,10 +1,10 @@
 package org.foomla.androidapp.preferences;
 
-import org.foomla.androidapp.FoomlaApplication;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+
+import org.foomla.androidapp.FoomlaApplication;
 
 public class FoomlaPreferences {
 

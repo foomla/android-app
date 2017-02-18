@@ -1,16 +1,14 @@
 package org.foomla.androidapp.activities.trainingdetail;
 
+import android.content.Context;
+import android.content.Intent;
+
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.exception.FoomlaException;
 import org.foomla.androidapp.persistence.TrainingProxyRepository;
-
 import org.foomla.api.entities.twizard.Training;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import android.content.Context;
-import android.content.Intent;
 
 public class TrainingDetailIntent extends Intent {
 

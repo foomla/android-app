@@ -1,13 +1,13 @@
 package org.foomla.androidapp.utils;
 
+import android.content.Context;
+
 import org.foomla.androidapp.async.RateExerciseTask;
 import org.foomla.androidapp.data.Comment;
 import org.foomla.api.client.FoomlaClient;
 import org.foomla.api.client.entities.ExerciseRatingImpl;
 import org.foomla.api.client.entities.UserImpl;
 import org.foomla.api.entities.twizard.Exercise;
-
-import android.content.Context;
 
 public class ExerciseCommentHandler {
 

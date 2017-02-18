@@ -1,11 +1,11 @@
 package org.foomla.androidapp.async;
 
-import java.util.List;
+import android.content.Context;
 
 import org.foomla.androidapp.persistence.Repository;
 import org.foomla.api.entities.twizard.Training;
 
-import android.content.Context;
+import java.util.List;
 
 public class RepositoryLoadTrainingsTask extends RepositoryLoadTask<List<Training>> {
 

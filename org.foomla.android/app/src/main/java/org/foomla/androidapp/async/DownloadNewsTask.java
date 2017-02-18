@@ -1,16 +1,7 @@
 package org.foomla.androidapp.async;
 
-import java.io.IOException;
-
-import java.net.URL;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import org.foomla.androidapp.utils.ProgressVisualizationUtil;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import android.app.Activity;
+import android.os.AsyncTask;
 
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndEntry;
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.synd.SyndFeed;
@@ -18,9 +9,14 @@ import com.google.code.rome.android.repackaged.com.sun.syndication.io.FeedExcept
 import com.google.code.rome.android.repackaged.com.sun.syndication.io.SyndFeedInput;
 import com.google.code.rome.android.repackaged.com.sun.syndication.io.XmlReader;
 
-import android.app.Activity;
+import org.foomla.androidapp.utils.ProgressVisualizationUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import android.os.AsyncTask;
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DownloadNewsTask extends AsyncTask<URL, Integer, List<SyndEntry>> {
 

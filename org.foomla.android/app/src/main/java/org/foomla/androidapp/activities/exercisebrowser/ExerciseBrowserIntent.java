@@ -1,9 +1,9 @@
 package org.foomla.androidapp.activities.exercisebrowser;
 
-import org.foomla.api.entities.twizard.Exercise;
-
 import android.content.Context;
 import android.content.Intent;
+
+import org.foomla.api.entities.twizard.Exercise;
 
 public class ExerciseBrowserIntent extends Intent {
 

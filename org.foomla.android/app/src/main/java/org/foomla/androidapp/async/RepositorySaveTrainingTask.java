@@ -1,16 +1,16 @@
 package org.foomla.androidapp.async;
 
+import android.app.Service;
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
 import org.foomla.androidapp.persistence.Repository;
 import org.foomla.api.client.FoomlaClient;
 import org.foomla.api.client.providers.TrainingProvider;
 import org.foomla.api.entities.twizard.Training;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import android.app.Service;
-import android.content.Context;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 
 public class RepositorySaveTrainingTask extends RepositoryLoadTask<Training> {
 

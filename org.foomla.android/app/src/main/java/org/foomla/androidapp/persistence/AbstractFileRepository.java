@@ -1,12 +1,12 @@
 package org.foomla.androidapp.persistence;
 
+import org.foomla.api.client.ClientEntityRestMapping;
+import org.foomla.api.converters.CustomJacksonConverter;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.Serializable;
-
-import org.foomla.api.client.ClientEntityRestMapping;
-import org.foomla.api.converters.CustomJacksonConverter;
 
 public abstract class AbstractFileRepository<T extends Serializable> implements Repository<T> {
 

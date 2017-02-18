@@ -1,19 +1,15 @@
 package org.foomla.androidapp.async;
 
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
+
 import org.foomla.androidapp.utils.ImageUtil;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
-
 import org.foomla.api.entities.twizard.Exercise;
 import org.foomla.api.entities.twizard.Training;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import android.content.Context;
-
-import android.graphics.drawable.Drawable;
-
-import android.os.AsyncTask;
 
 public class LoadExerciseImageTask extends AsyncTask<Exercise, Void, Drawable> {
 

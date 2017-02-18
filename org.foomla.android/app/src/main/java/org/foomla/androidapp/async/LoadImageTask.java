@@ -1,12 +1,12 @@
 package org.foomla.androidapp.async;
 
-import org.foomla.androidapp.utils.ImageUtil;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.widget.ImageView;
+
+import org.foomla.androidapp.utils.ImageUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class LoadImageTask extends AsyncTask<String, Void, Drawable> {
 

@@ -1,16 +1,5 @@
 package org.foomla.androidapp.activities.exercisebrowser;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.async.LoadExerciseImageTask;
-import org.foomla.androidapp.utils.EnumTextUtil;
-import org.foomla.androidapp.utils.ImageUtil.ImageType;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.TrainingFocus;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -25,6 +14,17 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.async.LoadExerciseImageTask;
+import org.foomla.androidapp.utils.EnumTextUtil;
+import org.foomla.androidapp.utils.ImageUtil.ImageType;
+import org.foomla.api.entities.twizard.Exercise;
+import org.foomla.api.entities.twizard.TrainingFocus;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 public class ExerciseListAdapter extends BaseAdapter {
 

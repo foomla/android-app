@@ -1,5 +1,9 @@
 package org.foomla.androidapp.activities.exercisedetail;
 
+import android.content.Context;
+import android.content.Intent;
+import android.os.AsyncTask;
+
 import org.foomla.androidapp.activities.login.LoginActivity;
 import org.foomla.androidapp.data.Comment;
 import org.foomla.androidapp.data.ExerciseRatingResult;
@@ -11,10 +15,6 @@ import org.foomla.api.client.FoomlaClient;
 import org.foomla.api.entities.twizard.Exercise;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import android.content.Context;
-import android.content.Intent;
-import android.os.AsyncTask;
 
 public class RateExerciseHandler {
 

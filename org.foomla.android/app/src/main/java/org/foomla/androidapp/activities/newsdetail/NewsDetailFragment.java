@@ -1,10 +1,5 @@
 package org.foomla.androidapp.activities.newsdetail;
 
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.activities.news.NewsUtil;
-import org.foomla.androidapp.utils.ExtendedTagHandler;
-import org.foomla.androidapp.utils.UiUtils;
-
 import android.app.Fragment;
 import android.os.Bundle;
 import android.text.Html;
@@ -15,6 +10,11 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.google.common.base.Strings;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.activities.news.NewsUtil;
+import org.foomla.androidapp.utils.ExtendedTagHandler;
+import org.foomla.androidapp.utils.UiUtils;
 
 public class NewsDetailFragment extends Fragment {
 

@@ -1,9 +1,9 @@
 package org.foomla.androidapp.persistence;
 
+import android.content.Context;
+
 import org.foomla.androidapp.exception.FoomlaException;
 import org.foomla.api.entities.base.Entity;
-
-import android.content.Context;
 
 public class RepositoryFactory {
 

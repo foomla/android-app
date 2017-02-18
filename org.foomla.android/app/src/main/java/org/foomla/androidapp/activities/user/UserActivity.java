@@ -1,13 +1,13 @@
 package org.foomla.androidapp.activities.user;
 
+import android.os.AsyncTask;
+import android.os.Bundle;
+
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.user.UserFragment.Callback;
 import org.foomla.androidapp.utils.ProgressVisualizationUtil;
 import org.foomla.api.entities.User;
-
-import android.os.AsyncTask;
-import android.os.Bundle;
 
 public class UserActivity extends BaseActivityWithNavDrawer implements Callback {
 

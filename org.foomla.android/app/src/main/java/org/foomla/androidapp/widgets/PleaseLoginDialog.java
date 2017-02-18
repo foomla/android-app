@@ -1,13 +1,13 @@
 package org.foomla.androidapp.widgets;
 
-import org.foomla.androidapp.R;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+
+import org.foomla.androidapp.R;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class PleaseLoginDialog {
 

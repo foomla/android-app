@@ -1,18 +1,15 @@
 package org.foomla.androidapp.widgets;
 
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.utils.UiUtils;
-
-import org.foomla.api.entities.twizard.Training;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
-
 import android.content.Context;
 import android.content.DialogInterface;
-
 import android.view.LayoutInflater;
 import android.view.View;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.utils.UiUtils;
+import org.foomla.api.entities.twizard.Training;
 
 public class TrainingTitleDialog {
 

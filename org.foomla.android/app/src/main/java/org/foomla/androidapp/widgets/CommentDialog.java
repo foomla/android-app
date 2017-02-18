@@ -1,8 +1,5 @@
 package org.foomla.androidapp.widgets;
 
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.data.Comment;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -10,6 +7,9 @@ import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.data.Comment;
 
 public class CommentDialog {
 

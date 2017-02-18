@@ -1,19 +1,17 @@
 package org.foomla.androidapp.utils;
 
-import java.io.File;
-import java.io.FilenameFilter;
-import java.io.IOException;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import android.content.Context;
 
 import org.foomla.androidapp.exception.FoomlaException;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import android.content.Context;
+import java.io.File;
+import java.io.FilenameFilter;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class FileUtils {
 

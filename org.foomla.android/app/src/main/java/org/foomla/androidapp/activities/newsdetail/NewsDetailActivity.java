@@ -1,12 +1,12 @@
 package org.foomla.androidapp.activities.newsdetail;
 
-import org.foomla.androidapp.R;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
+
+import org.foomla.androidapp.R;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class NewsDetailActivity extends Activity {
 

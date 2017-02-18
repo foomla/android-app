@@ -1,8 +1,5 @@
 package org.foomla.androidapp.activities.info;
 
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -11,6 +8,9 @@ import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPager;
 
 import com.astuetz.PagerSlidingTabStrip;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 
 
 public class InfoActivity extends BaseActivityWithNavDrawer {

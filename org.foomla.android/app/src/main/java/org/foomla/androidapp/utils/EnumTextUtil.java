@@ -1,11 +1,11 @@
 package org.foomla.androidapp.utils;
 
+import android.content.Context;
+
 import org.foomla.androidapp.R;
 import org.foomla.api.entities.twizard.AgeClass;
 import org.foomla.api.entities.twizard.TrainingFocus;
 import org.foomla.api.entities.twizard.TrainingPhase;
-
-import android.content.Context;
 
 public class EnumTextUtil {
 

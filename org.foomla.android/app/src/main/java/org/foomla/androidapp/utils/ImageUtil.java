@@ -1,26 +1,21 @@
 package org.foomla.androidapp.utils;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-
-import java.net.URL;
-import java.net.URLConnection;
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import org.foomla.androidapp.R;
-
 import org.foomla.api.entities.twizard.Exercise;
 import org.foomla.api.entities.twizard.Training;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import android.content.Context;
-
-import android.graphics.drawable.Drawable;
-
-import android.widget.ImageView;
-import android.widget.LinearLayout;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
 
 public class ImageUtil {
 

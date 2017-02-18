@@ -1,36 +1,31 @@
 package org.foomla.androidapp.activities.trainingdetail;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-
-import org.foomla.androidapp.R;
-import org.foomla.androidapp.async.LoadExerciseImageTask;
-import org.foomla.androidapp.utils.EnumTextUtil;
-import org.foomla.androidapp.utils.ImageUtil.ImageType;
-
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.Training;
-import org.foomla.api.entities.twizard.TrainingFocus;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.graphics.drawable.Drawable;
-
 import android.os.Bundle;
-
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.foomla.androidapp.R;
+import org.foomla.androidapp.async.LoadExerciseImageTask;
+import org.foomla.androidapp.utils.EnumTextUtil;
+import org.foomla.androidapp.utils.ImageUtil.ImageType;
+import org.foomla.api.entities.twizard.Exercise;
+import org.foomla.api.entities.twizard.Training;
+import org.foomla.api.entities.twizard.TrainingFocus;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
 
 public class TrainingDetailFragment extends Fragment {
 
