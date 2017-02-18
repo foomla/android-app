@@ -5,6 +5,10 @@ import java.util.List;
 
 public class User extends Entity implements Serializable {
 
+    public User(String email) {
+        this.email = email;
+    }
+
     private String email;
 
     private String firstname;

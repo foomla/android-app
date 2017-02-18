@@ -22,7 +22,6 @@ public class SplashScreenActivity extends BaseActivity {
         setContentView(org.foomla.androidapp.R.layout.activity_splash_screen);
         setAppVersionInBottomTextView();
         getSupportActionBar().hide();
-        getFoomlaApplication().initLogging();
     }
 
     @Override

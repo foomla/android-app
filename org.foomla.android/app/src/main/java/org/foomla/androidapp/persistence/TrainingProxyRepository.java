@@ -39,7 +39,8 @@ public class TrainingProxyRepository implements Repository<Training> {
     public Training save(final Training entity) {
         if (foomlaApplication.isLoggedIn()) {
             LOGGER.info("Save training on remote server and on device for authorized user");
-            return saveTrainingOnServerAndDevice(entity);
+            // nothing to do
+            return null;
         } else {
             LOGGER.info("Save training only on device for unauthorized user.");
             return saveTrainingOnDevice(entity);
@@ -70,32 +71,6 @@ public class TrainingProxyRepository implements Repository<Training> {
             deleteTrainingOnServerAndDevice(id);
         } else {
             fileRepositoryUnauthorized.delete(id);
-        }
-    }
-
-    private Training saveTrainingOnServerAndDevice(final Training entity) {
-        final Training saved = remoteRepository.save(entity);
-        if (saved != null) {
-            LOGGER.info("Saved training on remote server with ID: {}", saved.getId());
-            try {
-                saveRemoteTrainingOnDevice(saved);
-            } catch (FoomlaException e) {
-                LOGGER.warn("Failed to save training on local device", e);
-            }
-        }
-
-        return saved;
-    }
-
-    private void saveRemoteTrainingOnDevice(final Training remoteTraining) {
-        if (remoteTraining.getId() != null && remoteTraining.getId() > 0) {
-            Training localTraining = fileRepositoryAuthorized.save(remoteTraining);
-
-            if (localTraining == null || localTraining.getId() <= 0) {
-                LOGGER.warn("Failed to save training on device!");
-            }
-        } else {
-            LOGGER.warn("Remote training has no or incorrect ID set: {}", remoteTraining.getId());
         }
     }
 
