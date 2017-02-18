@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 import org.foomla.androidapp.R;
+import org.foomla.androidapp.domain.Training;
 import org.foomla.androidapp.utils.UiUtils;
-import org.foomla.api.entities.twizard.Training;
 
 public class TrainingTitleDialog {
 

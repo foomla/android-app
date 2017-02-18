@@ -14,8 +14,8 @@ import android.widget.TextView;
 
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.async.LoadExerciseImageTask;
+import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
-import org.foomla.api.entities.twizard.Exercise;
 
 public class MainFragment extends Fragment {
 
@@ -64,7 +64,7 @@ public class MainFragment extends Fragment {
 
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
-            final Bundle savedInstanceState) {
+                             final Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_main, container, false);
         return view;
     }

@@ -14,11 +14,11 @@ import com.google.common.collect.Lists;
 
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.async.LoadExerciseImageTask;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.Training;
+import org.foomla.androidapp.domain.TrainingFocus;
 import org.foomla.androidapp.utils.EnumTextUtil;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.Training;
-import org.foomla.api.entities.twizard.TrainingFocus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

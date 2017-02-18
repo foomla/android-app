@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.GridView;
 
 import org.foomla.androidapp.R;
-import org.foomla.api.entities.twizard.Exercise;
+import org.foomla.androidapp.domain.Exercise;
 
 import java.util.List;
 

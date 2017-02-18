@@ -14,7 +14,7 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.ListView;
 
 import org.foomla.androidapp.R;
-import org.foomla.api.entities.twizard.Training;
+import org.foomla.androidapp.domain.Training;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -18,18 +18,18 @@ import org.foomla.androidapp.activities.edittraining.EditTrainingActivity;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
 import org.foomla.androidapp.activities.mytrainings.MyTrainingsActivity;
 import org.foomla.androidapp.activities.user.UserActivity;
+import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
 import org.foomla.androidapp.service.ExerciseService;
 import org.foomla.androidapp.widgets.ExplainShakeDialog;
-import org.foomla.api.entities.twizard.Exercise;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
 public class MainActivity extends BaseActivityWithNavDrawer implements MainFragment.ActionHandler,
-ShakeDetector.Listener {
+        ShakeDetector.Listener {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MainActivity.class);
 
@@ -64,8 +64,7 @@ ShakeDetector.Listener {
         try {
             ExerciseService service = ((FoomlaApplication) getApplication()).getExerciseService();
             mainFragment.showLatestExercise(service.random());
-        }
-        catch (IOException ioe) {
+        } catch (IOException ioe) {
             LOGGER.error("Unable to set random exercise", ioe);
             // TODO inform user
         }

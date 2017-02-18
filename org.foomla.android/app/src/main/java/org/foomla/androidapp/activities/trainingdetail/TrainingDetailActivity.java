@@ -18,21 +18,20 @@ import org.foomla.androidapp.activities.exercisebrowser.ExerciseBrowserIntent;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
 import org.foomla.androidapp.async.RepositoryLoadTask;
 import org.foomla.androidapp.async.RepositorySaveTrainingTask;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.Training;
 import org.foomla.androidapp.persistence.Repository;
 import org.foomla.androidapp.persistence.TrainingProxyRepository;
 import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
 import org.foomla.androidapp.service.TrainingService;
-import org.foomla.api.client.FoomlaClient;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.Training;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
 public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements TrainingDetailFragment.ActionHandler,
-    ShakeDetector.Listener {
+        ShakeDetector.Listener {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TrainingDetailActivity.class);
 
@@ -90,13 +89,13 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
     public boolean onOptionsItemSelected(final MenuItem item) {
         switch (item.getItemId()) {
 
-            case android.R.id.home :
+            case android.R.id.home:
                 if (!isEditTrainingActivity()) {
                     finish();
                     return true;
                 }
 
-            default :
+            default:
                 return super.onOptionsItemSelected(item);
         }
     }
@@ -110,8 +109,7 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
             Exercise exercise = training.getExercises().get(trainingPhase);
             getTraining().setExercise(trainingPhase, exercise);
             trainingDetailFragment.trainingChanged();
-        }
-        catch (IOException ioe) {
+        } catch (IOException ioe) {
             LOGGER.error("Unable to set random training phase", ioe);
         }
     }
@@ -131,8 +129,7 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
             }
         };
 
-        new RepositorySaveTrainingTask(TrainingDetailActivity.this, handler, repository).withFoomlaClient(
-            getFoomlaClient()).execute(getTraining());
+        new RepositorySaveTrainingTask(TrainingDetailActivity.this, handler, repository).execute(getTraining());
     }
 
     protected TrainingDetailFragment buildTrainingDetailFragment() {
@@ -149,7 +146,7 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
         setContentView(R.layout.activity_trainingdetail);
         trainingDetailFragment = buildTrainingDetailFragment();
         getFragmentManager().beginTransaction().replace(R.id.training_detail_fragment, trainingDetailFragment)
-                                   .commit();
+                .commit();
     }
 
     @Override
@@ -159,7 +156,7 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
         if (resultCode == RESULT_OK) {
             switch (requestCode) {
 
-                case ExerciseBrowserIntent.REQUEST_EXERCISE :
+                case ExerciseBrowserIntent.REQUEST_EXERCISE:
 
                     ExerciseBrowserIntent i = new ExerciseBrowserIntent(data);
                     exerciseChanged(i.getExercise(), i.getTrainingPhase());
@@ -193,11 +190,6 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
         if (!wasExplainShakeToastAlreadyDisplayed()) {
             Toast.makeText(this, R.string.dialog_explain_shake_random_exercises, Toast.LENGTH_LONG).show();
         }
-    }
-
-    private FoomlaClient getFoomlaClient() {
-        final FoomlaApplication app = (FoomlaApplication) getApplication();
-        return app.getFoomlaClient();
     }
 
     private boolean isEditTrainingActivity() {

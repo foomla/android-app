@@ -14,12 +14,12 @@ import org.foomla.androidapp.activities.trainingdetail.TrainingDetailFragment;
 import org.foomla.androidapp.async.RepositoryLoadTask;
 import org.foomla.androidapp.async.RepositoryLoadTrainingTask;
 import org.foomla.androidapp.async.RepositorySaveTrainingTask;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.Training;
 import org.foomla.androidapp.persistence.Repository;
 import org.foomla.androidapp.persistence.TrainingProxyRepository;
 import org.foomla.androidapp.service.TrainingService;
 import org.foomla.androidapp.widgets.TrainingTitleDialog;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.Training;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

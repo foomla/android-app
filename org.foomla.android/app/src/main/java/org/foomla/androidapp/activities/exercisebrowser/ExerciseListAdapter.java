@@ -17,10 +17,10 @@ import android.widget.TextView;
 
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.async.LoadExerciseImageTask;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.TrainingFocus;
 import org.foomla.androidapp.utils.EnumTextUtil;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.TrainingFocus;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -112,8 +112,7 @@ public class ExerciseListAdapter extends BaseAdapter {
                     itemListener.onDisplayExerciseDetails(exercise);
                 }
             });
-        }
-        else {
+        } else {
             container.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -139,8 +138,7 @@ public class ExerciseListAdapter extends BaseAdapter {
         TrainingFocus trainingFocus = exercise.getTrainingFocus();
         if (trainingFocus != null) {
             tv.setText(EnumTextUtil.getText(context, trainingFocus));
-        }
-        else {
+        } else {
             tv.setText("-");
         }
     }
@@ -150,8 +148,7 @@ public class ExerciseListAdapter extends BaseAdapter {
         if (isExerciseNew(exercise)) {
             TextView markerTextView = (TextView) view.findViewById(R.id.marker);
             markerTextView.setText(context.getString(R.string.exercisebrowser_newexercise).toUpperCase());
-        }
-        else {
+        } else {
             view.findViewById(R.id.marker_container).setVisibility(View.GONE);
         }
     }
@@ -182,8 +179,7 @@ public class ExerciseListAdapter extends BaseAdapter {
                     imageCache.put(exerciseId, result);
                 }
             }.execute(exercise);
-        }
-        else {
+        } else {
             imageView.setImageDrawable(imageCache.get(exerciseId));
         }
     }

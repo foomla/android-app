@@ -7,9 +7,9 @@ import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.TrainingPhase;
 import org.foomla.androidapp.service.ExerciseService;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.TrainingPhase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

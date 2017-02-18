@@ -3,7 +3,7 @@ package org.foomla.androidapp.activities.exercisebrowser;
 import android.content.Context;
 import android.content.Intent;
 
-import org.foomla.api.entities.twizard.Exercise;
+import org.foomla.androidapp.domain.Exercise;
 
 public class ExerciseBrowserIntent extends Intent {
 

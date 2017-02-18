@@ -3,9 +3,9 @@ package org.foomla.androidapp.utils;
 import android.content.Context;
 
 import org.foomla.androidapp.R;
-import org.foomla.api.entities.twizard.AgeClass;
-import org.foomla.api.entities.twizard.TrainingFocus;
-import org.foomla.api.entities.twizard.TrainingPhase;
+import org.foomla.androidapp.domain.AgeClass;
+import org.foomla.androidapp.domain.TrainingFocus;
+import org.foomla.androidapp.domain.TrainingPhase;
 
 public class EnumTextUtil {
 
@@ -26,7 +26,7 @@ public class EnumTextUtil {
             case U19:
                 return context.getString(R.string.AGE_CLASS_U19);
             case U9:
-            	return context.getString(R.string.AGE_CLASS_U9);
+                return context.getString(R.string.AGE_CLASS_U9);
             default:
                 return "";
         }

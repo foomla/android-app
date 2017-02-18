@@ -12,8 +12,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.google.common.base.Joiner;
@@ -21,18 +19,15 @@ import com.google.common.collect.Lists;
 
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.async.LoadExerciseImageTask;
-import org.foomla.androidapp.data.ExerciseRatingResult;
+import org.foomla.androidapp.domain.AgeClass;
+import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.Training;
+import org.foomla.androidapp.domain.TrainingFocus;
+import org.foomla.androidapp.domain.TrainingPhase;
 import org.foomla.androidapp.utils.EnumTextUtil;
 import org.foomla.androidapp.utils.ExtendedTagHandler;
 import org.foomla.androidapp.utils.ImageUtil;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
-import org.foomla.androidapp.view.ExerciseRatingView;
-import org.foomla.api.entities.twizard.AgeClass;
-import org.foomla.api.entities.twizard.Exercise;
-import org.foomla.api.entities.twizard.ExerciseRating;
-import org.foomla.api.entities.twizard.Training;
-import org.foomla.api.entities.twizard.TrainingFocus;
-import org.foomla.api.entities.twizard.TrainingPhase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -45,8 +40,6 @@ public class ExerciseDetailFragment extends Fragment {
         Exercise getExercise();
 
         Training getTraining();
-
-        void onRatingChanged(float rating);
 
         void onShowHelp();
 
@@ -92,9 +85,8 @@ public class ExerciseDetailFragment extends Fragment {
 
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
-            final Bundle savedInstanceState) {
+                             final Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_exercisedetail, container, false);
-        setupRatingBar(view);
 
         return view;
     }
@@ -103,7 +95,7 @@ public class ExerciseDetailFragment extends Fragment {
     public boolean onOptionsItemSelected(final MenuItem menuItem) {
         switch (menuItem.getItemId()) {
 
-            case R.id.show_help :
+            case R.id.show_help:
                 getActionHandler().onShowHelp();
                 return true;
         }
@@ -139,53 +131,10 @@ public class ExerciseDetailFragment extends Fragment {
         setNoteText(exercise);
     }
 
-    public void setRating(final ExerciseRatingResult rating) {
-        View v = getView().findViewById(R.id.rating);
-        if (v instanceof RatingBar) {
-            ((RatingBar) v).setRating(rating.getValue());
-        }
-
-        RatingBar ratingBar = (RatingBar) v;
-        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
-
-                @Override
-                public void onRatingChanged(final RatingBar ratingBar, final float rating, final boolean fromUser) {
-                    if (fromUser) {
-                        getActionHandler().onRatingChanged(rating);
-                    }
-                }
-            });
-    }
-
-    public void setUserComments(final List<ExerciseRating> userComments) {
-        if (userComments == null) {
-            LOGGER.warn("Called setUserComments but parameter 'userComments' is null!");
-            return;
-        }
-
-        LinearLayout commentsWrapper = getLinearLayout(R.id.usercomments);
-        for (ExerciseRating rating : userComments) {
-            ExerciseRatingView ratingView = new ExerciseRatingView(getActivity());
-            ratingView.setUsername(rating.getUser().getEmail());
-            ratingView.setComment(rating.getUserComment());
-            ratingView.setRating(rating.getValue());
-            commentsWrapper.addView(ratingView);
-        }
-    }
-
     private ImageView getImageView(final int resId) {
         View view = getView();
         if (view != null) {
             return (ImageView) view.findViewById(resId);
-        }
-
-        return null;
-    }
-
-    private LinearLayout getLinearLayout(final int resId) {
-        View view = getView();
-        if (view != null) {
-            return (LinearLayout) view.findViewById(resId);
         }
 
         return null;
@@ -304,24 +253,5 @@ public class ExerciseDetailFragment extends Fragment {
 
     private void setTitleText(final Exercise exercise) {
         setTextViewText(getTextView(R.id.title), exercise.getTitle());
-    }
-
-    private void setupRatingBar(final View view) {
-        View bar = view.findViewById(R.id.rating);
-        if (bar == null || !(bar instanceof RatingBar)) {
-            LOGGER.warn("Unable to setup rating bar");
-            return;
-        }
-
-        RatingBar ratingBar = (RatingBar) bar;
-        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
-
-                @Override
-                public void onRatingChanged(final RatingBar ratingBar, final float rating, final boolean fromUser) {
-                    if (fromUser) {
-                        getActionHandler().onRatingChanged(rating);
-                    }
-                }
-            });
     }
 }
