@@ -22,8 +22,6 @@ public class MainFragment extends Fragment {
     public interface ActionHandler {
         void onLoadLatestExercise();
 
-        void onShowAccountActivity();
-
         void onOpenWebsite();
 
         void onShowEditTrainingActivity();

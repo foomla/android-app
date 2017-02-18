@@ -17,7 +17,6 @@ import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.edittraining.EditTrainingActivity;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
 import org.foomla.androidapp.activities.mytrainings.MyTrainingsActivity;
-import org.foomla.androidapp.activities.user.UserActivity;
 import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.preferences.FoomlaPreferences.Preference;
@@ -73,11 +72,6 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
     @Override
     public void onOpenWebsite() {
         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.website_url))));
-    }
-
-    @Override
-    public void onShowAccountActivity() {
-        startActivity(new Intent(this, UserActivity.class));
     }
 
     @Override
