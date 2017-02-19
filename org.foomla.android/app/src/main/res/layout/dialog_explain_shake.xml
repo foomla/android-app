@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:id="@+id/dialog_explain_shake"
-              android:orientation="vertical"
-              android:background="#000000"
-              android:alpha="0.8"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent" android:gravity="center_vertical" android:baselineAligned="true">
-    
-    <ImageView
-            android:src="@drawable/foomla_player_shake"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_explain_shake"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:background="#000000"
+    android:baselineAligned="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/ic_screen_rotation_black_24dp" />
 
     <TextView
-            android:id="@+id/message"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:text="@string/dialog_explain_shake_random_training"
-            android:gravity="center"
-            android:textSize="@dimen/text_big"
-            android:textColor="@color/white"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"/>
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/dialog_explain_shake_random_training"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_big" />
 
+    <Button
+        android:id="@+id/understood_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Verstanden"
+        android:onClick="close"/>
 </LinearLayout>

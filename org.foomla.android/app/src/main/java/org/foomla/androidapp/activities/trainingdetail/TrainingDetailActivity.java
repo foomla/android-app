@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.os.Vibrator;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -66,6 +67,8 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initializeView();
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         setTitle(getTraining() != null ? getTraining().getTitle() : getTitle());
         if (!isEditTrainingActivity()) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);

@@ -11,6 +11,8 @@
         android:background="#EFEFEF"
         android:orientation="vertical" >
 
+        <include layout="@layout/appbar" />
+
         <include layout="@layout/loading" />
 
         <FrameLayout
@@ -19,6 +21,6 @@
             android:layout_height="match_parent" />
     </LinearLayout>
 
-    <include layout="@layout/nav_drawer_list" />
+    <include layout="@layout/navigation_view" />
 
 </android.support.v4.widget.DrawerLayout>

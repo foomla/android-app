@@ -3,6 +3,7 @@ package org.foomla.androidapp.widgets;
 import android.app.Dialog;
 import android.content.Context;
 import android.view.MotionEvent;
+import android.view.View;
 import android.widget.TextView;
 
 import org.foomla.androidapp.R;
@@ -20,6 +21,14 @@ public class ExplainShakeDialog extends Dialog {
 
         TextView tv = (TextView) instance.findViewById(R.id.message);
         tv.setText(messageId);
+
+        instance.findViewById(R.id.understood_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                instance.dismiss();
+                instance = null;
+            }
+        });
     }
 
     private ExplainShakeDialog(final Context context) {

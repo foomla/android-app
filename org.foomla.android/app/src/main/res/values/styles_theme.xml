@@ -30,6 +30,8 @@
         <item name="colorPrimaryDark">@color/foodarkgreen</item>
         <item name="colorAccent">@color/foogreen</item>
         <item name="floatingActionButtonStyle">@style/Theme.FoomlaTheme.Fab</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="Theme.FoomlaDarkTheme" parent="Theme.FoomlaTheme">
@@ -37,5 +39,8 @@
         <item name="colorPrimaryDark">@color/foodarkblack</item>
         <item name="colorAccent">@color/foowhite</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

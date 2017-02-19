@@ -38,6 +38,9 @@ public class ExerciseDetailActivity extends BaseFragmentActivity implements Exer
         super.onCreate(savedInstanceBundle);
         setContentView(R.layout.activity_exercisedetail);
 
+        configureToolbar();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         if (savedInstanceBundle == null) {
             exerciseDetailFragment = buildExerciseDetailFragment();
             getFragmentManager().beginTransaction().add(R.id.exercise_detail, exerciseDetailFragment).commit();

@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <include layout="@layout/appbar" />
+
     <FrameLayout
         android:id="@+id/exercise_detail"
         android:layout_width="match_parent"

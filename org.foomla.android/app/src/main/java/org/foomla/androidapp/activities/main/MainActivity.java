@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Vibrator;
+import android.support.v4.view.GravityCompat;
 import android.view.View;
 
 import com.squareup.seismic.ShakeDetector;
@@ -135,7 +136,7 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                getNavDrawer().toggleNavDrawer();
+                getDrawer().openDrawer(GravityCompat.START);
             }
 
         }, TWO_SECONDS);
