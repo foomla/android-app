@@ -56,11 +56,14 @@ public class InfoActivity extends BaseActivityWithNavDrawer {
     }
 
     @Override
+    protected int getLayoutId() {
+        return R.layout.activity_info;
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_info);
-        createNavDrawer();
         getSupportActionBar().setElevation(0);
         FragmentPagerAdapter adapter = new InfoFragmentAdapter(getSupportFragmentManager());
 

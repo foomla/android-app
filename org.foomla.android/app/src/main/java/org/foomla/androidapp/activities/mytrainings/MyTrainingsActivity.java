@@ -42,12 +42,15 @@ public class MyTrainingsActivity extends BaseActivityWithNavDrawer implements My
     @Override
     public void onCreate(final Bundle savedInstanceBundle) {
         super.onCreate(savedInstanceBundle);
-        setContentView(R.layout.activity_mytrainings);
-        createNavDrawer();
 
         myTrainings = new ArrayList<>();
         myTrainingsFragment = buildMyTrainingsFragment();
         getFragmentManager().beginTransaction().replace(R.id.my_trainings, myTrainingsFragment).commit();
+    }
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_mytrainings;
     }
 
     @Override
@@ -65,7 +68,7 @@ public class MyTrainingsActivity extends BaseActivityWithNavDrawer implements My
                     } catch (FoomlaException e) {
                         LOGGER.error("Failed to delete training", e);
                         Toast.makeText(MyTrainingsActivity.this, R.string.mytrainings_unable_to_delete,
-                            Toast.LENGTH_LONG).show();
+                                Toast.LENGTH_LONG).show();
                     }
                 }
 

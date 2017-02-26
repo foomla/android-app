@@ -54,11 +54,13 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
-        createNavDrawer();
-
         mainFragment = new MainFragment();
         getFragmentManager().beginTransaction().replace(R.id.fragment_main, mainFragment).commit();
+    }
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_main;
     }
 
     @Override

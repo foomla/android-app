@@ -32,7 +32,13 @@ public class EditTrainingActivity extends TrainingDetailActivity implements Trai
     @Override
     public void onCreate(final Bundle savedInstanceBundle) {
         super.onCreate(savedInstanceBundle);
-        createNavDrawer();
+
+        initializeView();
+    }
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_edittraining;
     }
 
     @Override
@@ -67,11 +73,11 @@ public class EditTrainingActivity extends TrainingDetailActivity implements Trai
                     public void handle(final Training training) {
                         if (training != null) {
                             Toast.makeText(EditTrainingActivity.this, R.string.training_saved, Toast.LENGTH_LONG)
-                                 .show();
+                                    .show();
                             finish();
                         } else {
                             Toast.makeText(EditTrainingActivity.this, R.string.training_not_saved, Toast.LENGTH_LONG)
-                                 .show();
+                                    .show();
                         }
                     }
                 };
@@ -85,7 +91,6 @@ public class EditTrainingActivity extends TrainingDetailActivity implements Trai
 
     @Override
     protected void initializeView() {
-        setContentView(R.layout.activity_edittraining);
         trainingDetailFragment = buildTrainingDetailFragment();
         getFragmentManager().beginTransaction().replace(R.id.edit_training, trainingDetailFragment).commit();
     }
@@ -119,8 +124,7 @@ public class EditTrainingActivity extends TrainingDetailActivity implements Trai
             training = service.random();
             training.setTitle(null);
             initialize(service.random());
-        }
-        catch (IOException ioe) {
+        } catch (IOException ioe) {
             LOGGER.error("Unable to initialize random training", ioe);
             // TODO inform user
         }

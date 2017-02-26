@@ -66,13 +66,27 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
     @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        initializeView();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
         setTitle(getTraining() != null ? getTraining().getTitle() : getTitle());
         if (!isEditTrainingActivity()) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
+
+        initializeView();
+    }
+
+    protected void initializeView() {
+        trainingDetailFragment = buildTrainingDetailFragment();
+        getFragmentManager().beginTransaction().replace(R.id.training_detail_fragment, trainingDetailFragment)
+                .commit();
+    }
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_trainingdetail;
     }
 
     @Override
@@ -143,13 +157,6 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
         LOGGER.debug("Exercise changed: " + trainingPhase + " -> " + exercise.getTitle());
         training.setExercise(trainingPhase, exercise);
         trainingDetailFragment.trainingChanged();
-    }
-
-    protected void initializeView() {
-        setContentView(R.layout.activity_trainingdetail);
-        trainingDetailFragment = buildTrainingDetailFragment();
-        getFragmentManager().beginTransaction().replace(R.id.training_detail_fragment, trainingDetailFragment)
-                .commit();
     }
 
     @Override

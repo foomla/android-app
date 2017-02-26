@@ -1,6 +1,5 @@
 package org.foomla.androidapp.activities;
 
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 

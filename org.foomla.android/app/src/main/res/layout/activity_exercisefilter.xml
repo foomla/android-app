@@ -7,15 +7,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <include layout="@layout/loading" />
+
         <include layout="@layout/appbar" />
 
-        <FrameLayout
-            android:id="@+id/exercise_browser"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:text="TO BE IMPLEMENTED" />
     </LinearLayout>
 
     <include layout="@layout/navigation_view" />

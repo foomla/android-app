@@ -2,11 +2,15 @@ package org.foomla.androidapp.activities.exercisebrowser;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
+import org.foomla.androidapp.activities.exercisefilter.ExerciseFilterActivity;
 import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.domain.TrainingPhase;
 import org.foomla.androidapp.service.ExerciseService;
@@ -39,10 +43,13 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     }
 
     @Override
+    protected int getLayoutId() {
+        return R.layout.activity_exercisebrowser;
+    }
+
+    @Override
     public void onCreate(final Bundle savedInstanceBundle) {
         super.onCreate(savedInstanceBundle);
-        setContentView(R.layout.activity_exercisebrowser);
-        createNavDrawer();
 
         exercises = new ArrayList<>();
         trainingPhase = getTrainingPhaseFromIntent();
@@ -58,6 +65,23 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.exercisebrowser, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.filter:
+                startFilterActivity();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
     public void onSelectExercise(final Exercise exercise) {
         Integer trainingPhase = getTrainingPhaseFromIntent();
         Intent i = new ExerciseBrowserIntent(this, exercise, trainingPhase);
@@ -69,6 +93,18 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     public void onShowExerciseDetails(final Exercise exercise) {
         Intent i = new ExerciseDetailIntent(this, exercise);
         startActivity(i);
+    }
+
+    private void startFilterActivity() {
+        if (getFoomlaApplication().isProVersion()) {
+            Intent intent = new Intent(this, ExerciseFilterActivity.class);
+            startActivity(intent);
+        } else {
+            Snackbar.make(
+                    findViewById(android.R.id.content),
+                    "TODO: Inform user about PRO version",
+                    Snackbar.LENGTH_LONG).show();
+        }
     }
 
     private Integer getTrainingPhaseFromIntent() {
