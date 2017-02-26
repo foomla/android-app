@@ -14,11 +14,16 @@ import java.io.IOException;
 public class FoomlaApplication extends Application {
 
     public static final String APP_PREFERENCES_KEY = "SHARED_PREFERENCES";
+    public static final String PACKAGE_NAME_PRO = "org.foomla.androidapp.pro";
 
     private ExerciseService exerciseService;
     private TrainingService trainingService;
 
     private User user = null;
+
+    public boolean isProVersion() {
+        return getPackageName().equals(PACKAGE_NAME_PRO);
+    }
 
     public ExerciseService getExerciseService() throws IOException {
         if (exerciseService == null) {

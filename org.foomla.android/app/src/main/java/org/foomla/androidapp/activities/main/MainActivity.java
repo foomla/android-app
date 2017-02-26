@@ -7,11 +7,13 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Vibrator;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.view.View;
 
 import com.squareup.seismic.ShakeDetector;
 
+import org.foomla.androidapp.BuildConfig;
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
@@ -109,6 +111,10 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
         SensorManager sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         shakeDetector = new ShakeDetector(this);
         shakeDetector.start(sensorManager);
+
+        if (getFoomlaApplication().isProVersion() && BuildConfig.DEBUG) {
+            Snackbar.make(findViewById(android.R.id.content), "DEBUG: PRO VERSION!", Snackbar.LENGTH_LONG).show();
+        }
     }
 
     @Override
