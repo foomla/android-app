@@ -3,34 +3,50 @@ package org.foomla.androidapp.activities.exercisebrowser;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.google.common.collect.Lists;
 
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
-import org.foomla.androidapp.activities.exercisefilter.ExerciseFilterActivity;
+import org.foomla.androidapp.domain.AgeClass;
 import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.domain.TrainingFocus;
 import org.foomla.androidapp.domain.TrainingPhase;
+import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.service.ExerciseService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
-        implements ExerciseBrowserFragment.FragmentCallback {
+        implements ExerciseBrowserFragment.FragmentCallback, FilterDialogFragment.FilterDialogListener {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ExerciseBrowserActivity.class);
 
     private ExerciseBrowserFragment exerciseBrowserFragment;
 
+    private List<Exercise> unfilteredExercises;
+
     private List<Exercise> exercises;
 
     private Integer trainingPhase;
+
+    private ExerciseFilter exerciseFilter;
+
+    @Override
+    public ExerciseFilter getExerciseFilter() {
+        return exerciseFilter;
+    }
 
     @Override
     public List<Exercise> getExercises() {
@@ -49,10 +65,11 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
 
     @Override
     public void onCreate(final Bundle savedInstanceBundle) {
+        trainingPhase = getTrainingPhaseFromIntent();
         super.onCreate(savedInstanceBundle);
 
         exercises = new ArrayList<>();
-        trainingPhase = getTrainingPhaseFromIntent();
+        exerciseFilter = FoomlaPreferences.getExerciseFilter(this);
 
         exerciseBrowserFragment = new ExerciseBrowserFragment();
         getFragmentManager().beginTransaction().replace(R.id.exercise_browser, exerciseBrowserFragment).commit();
@@ -74,7 +91,7 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.filter:
-                startFilterActivity();
+                openFilter();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -95,11 +112,25 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
         startActivity(i);
     }
 
-    private void startFilterActivity() {
+    @Override
+    public void onClearFilter() {
+        this.exerciseFilter = null;
+        FoomlaPreferences.clearExerciseFilter(this);
+        this.exercises = applyFilter(this.unfilteredExercises);
+        exerciseBrowserFragment.notifyDataChanged();
+    }
+
+    private void openFilter() {
         if (getFoomlaApplication().isProVersion()) {
-            Intent intent = new Intent(this, ExerciseFilterActivity.class);
-            startActivity(intent);
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FilterDialogFragment filterFragment = new FilterDialogFragment();
+            if (this.exerciseFilter != null) {
+                filterFragment.setExerciseFilter(this.exerciseFilter);
+            }
+            filterFragment.show(fragmentManager, "filter");
+
         } else {
+            // TODO: use own dialog to promote PRO version
             Snackbar.make(
                     findViewById(android.R.id.content),
                     "TODO: Inform user about PRO version",
@@ -116,8 +147,18 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     private void initialize() {
         if (trainingPhase != null) {
             initializeWithTrainingPhase(trainingPhase);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         } else {
             initializeWithAllExercises();
+        }
+    }
+
+    @Override
+    protected void initDrawer(Toolbar toolbar) {
+        if (trainingPhase != null) {
+            // skip init
+        } else {
+            super.initDrawer(toolbar);
         }
     }
 
@@ -148,8 +189,45 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     private void setExercises(final List<Exercise> exercises) {
         if (exercises != null) {
             LOGGER.info("Initialize with " + exercises.size() + " exercises");
-            this.exercises = exercises;
+            this.unfilteredExercises = exercises;
+            this.exercises = applyFilter(this.unfilteredExercises);
             exerciseBrowserFragment.notifyDataChanged();
         }
+    }
+
+    private List<Exercise> applyFilter(List<Exercise> exercises) {
+        List<Exercise> filteredExercises = Lists.newArrayList();
+        if (this.exerciseFilter != null) {
+            for (Exercise exercise : exercises) {
+
+                boolean ageClassFilterMatches = false;
+                List<AgeClass> ageClasses = this.exerciseFilter.getAgeClasses();
+                if (ageClasses.isEmpty() || !Collections.disjoint(ageClasses, exercise.getAgeClasses())) {
+                    ageClassFilterMatches = true;
+                }
+
+                boolean focusFilterMatches = false;
+                List<TrainingFocus> focuses = this.exerciseFilter.getFocuses();
+                if (focuses.isEmpty() || focuses.contains(exercise.getTrainingFocus())) {
+                    focusFilterMatches = true;
+                }
+
+                if (ageClassFilterMatches && focusFilterMatches) {
+                    filteredExercises.add(exercise);
+                }
+            }
+        } else {
+            filteredExercises = exercises;
+        }
+        return filteredExercises;
+    }
+
+
+    @Override
+    public void onSaveFilter(ExerciseFilter exerciseFilter) {
+        this.exerciseFilter = exerciseFilter;
+        FoomlaPreferences.setExerciseFilter(this, exerciseFilter);
+        this.exercises = applyFilter(this.unfilteredExercises);
+        exerciseBrowserFragment.notifyDataChanged();
     }
 }

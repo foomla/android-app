@@ -45,13 +45,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.exercisefilter.ExerciseFilterActivity"
-            android:label="@string/activity_exercisefilter">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".activities.mytrainings.MyTrainingsActivity"
             android:label="@string/activity_my_trainings">
             <intent-filter>

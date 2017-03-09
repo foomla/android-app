@@ -4,20 +4,46 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
+import com.google.gson.Gson;
+
 import org.foomla.androidapp.FoomlaApplication;
+import org.foomla.androidapp.activities.exercisebrowser.ExerciseFilter;
+
+import static org.foomla.androidapp.preferences.FoomlaPreferences.Preference.EXERCISE_FILTER;
 
 public class FoomlaPreferences {
 
     public enum Preference {
 
         LOGIN(true), NAV_DRAWER_ALREADY_USED(false), RANDOM_EXERCISE_ON_SHAKE_DIALOG_ALREADY_DISPLAYED(false), RANDOM_TRAINING_ON_SHAKE_DIALOG_ALREADY_DISPLAYED(
-                false), REFRESH_TOKEN(null);
+                false), REFRESH_TOKEN(null), EXERCISE_FILTER(null);
 
         public Object defaultValue;
 
         Preference(Object defaultValue) {
             this.defaultValue = defaultValue;
         }
+    }
+
+    public static ExerciseFilter getExerciseFilter(Context context) {
+        String exerciseFilter = getString(context, EXERCISE_FILTER);
+        if(exerciseFilter != null) {
+            return new Gson().fromJson(exerciseFilter, ExerciseFilter.class);
+        } else {
+            return null;
+        }
+    }
+
+    public static void setExerciseFilter(Context context, ExerciseFilter exerciseFilter) {
+        String exerciseFilterJson = new Gson().toJson(exerciseFilter);
+        setString(context, EXERCISE_FILTER, exerciseFilterJson);
+    }
+
+    public static void clearExerciseFilter(Context context) {
+        SharedPreferences sharedPreference = getSharedPreference(context);
+        Editor editor = sharedPreference.edit();
+        editor.remove(EXERCISE_FILTER.name());
+        editor.commit();
     }
 
     public static boolean getBoolean(Context context, Preference preference) {

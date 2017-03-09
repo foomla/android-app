@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.NavUtils;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -21,7 +22,8 @@ import org.foomla.androidapp.activities.mytrainings.MyTrainingsActivity;
 
 public abstract class BaseActivityWithNavDrawer extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    private DrawerLayout drawer;
+    protected DrawerLayout drawer;
+    protected ActionBarDrawerToggle drawerToggle;
 
     @Override
     public void onCreate(final Bundle savedInstanceState) {
@@ -34,11 +36,15 @@ public abstract class BaseActivityWithNavDrawer extends AppCompatActivity implem
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        initDrawer(toolbar);
+    }
+
+    protected void initDrawer(Toolbar toolbar) {
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+        drawerToggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.addDrawerListener(toggle);
-        toggle.syncState();
+        drawer.addDrawerListener(drawerToggle);
+        drawerToggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -48,6 +54,17 @@ public abstract class BaseActivityWithNavDrawer extends AppCompatActivity implem
 
     public FoomlaApplication getFoomlaApplication() {
         return (FoomlaApplication) this.getApplication();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

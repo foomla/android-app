@@ -67,15 +67,24 @@ public class TrainingDetailActivity extends BaseActivityWithNavDrawer implements
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        // Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
-        setSupportActionBar(toolbar);
+        // setSupportActionBar(toolbar);
         setTitle(getTraining() != null ? getTraining().getTitle() : getTitle());
         if (!isEditTrainingActivity()) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
         initializeView();
+    }
+
+    @Override
+    protected void initDrawer(Toolbar toolbar) {
+        if (!isEditTrainingActivity()) {
+            // skip drawer init
+        } else {
+            super.initDrawer(toolbar);
+        }
     }
 
     protected void initializeView() {
