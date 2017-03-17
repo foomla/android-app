@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import com.google.common.collect.Lists;
 
 import org.foomla.androidapp.FoomlaApplication;
+import org.foomla.androidapp.GoProDialogFragment;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
@@ -130,11 +131,9 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
             filterFragment.show(fragmentManager, "filter");
 
         } else {
-            // TODO: use own dialog to promote PRO version
-            Snackbar.make(
-                    findViewById(android.R.id.content),
-                    "TODO: Inform user about PRO version",
-                    Snackbar.LENGTH_LONG).show();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            GoProDialogFragment filterFragment = new GoProDialogFragment();
+            filterFragment.show(fragmentManager, "goPro");
         }
     }
 

@@ -9,12 +9,9 @@ import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
-import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.LinearLayout;
-import android.widget.Spinner;
 
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.domain.AgeClass;
@@ -48,7 +45,7 @@ public class FilterDialogFragment extends DialogFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout to use as dialog or embedded fragment
-        // return inflater.inflate(R.layout.activity_exercisefilter, container, false);
+        // return inflater.inflate(R.layout.dialog_exercisefilter, container, false);
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 
@@ -57,7 +54,7 @@ public class FilterDialogFragment extends DialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this.getActivity());
         LayoutInflater inflater = this.getActivity().getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.activity_exercisefilter, null);
+        final View dialogView = inflater.inflate(R.layout.dialog_exercisefilter, null);
 
         LinearLayout linearLayout = (LinearLayout) dialogView.findViewById(R.id.ageClassesSelection);
 

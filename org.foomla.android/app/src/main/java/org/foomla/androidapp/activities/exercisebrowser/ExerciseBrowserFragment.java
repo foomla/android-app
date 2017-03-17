@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import com.google.common.collect.Lists;
 
+import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.domain.AgeClass;
 import org.foomla.androidapp.domain.Exercise;
@@ -109,6 +110,9 @@ public class ExerciseBrowserFragment extends Fragment implements ExerciseListAda
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_exercise_grid, container, false);
+        if(getFoomlaApplication().isProVersion()) {
+            view.findViewById(R.id.more_exercises).setVisibility(View.GONE);
+        }
         this.gridView = (GridView) view.findViewById(R.id.exercise_grid);
         gridView.setAdapter(exerciseListAdapter);
 
@@ -226,6 +230,10 @@ public class ExerciseBrowserFragment extends Fragment implements ExerciseListAda
         } else {
             infoText.setVisibility(View.GONE);
         }
+    }
+
+    private FoomlaApplication getFoomlaApplication() {
+        return (FoomlaApplication) this.getActivity().getApplication();
     }
 
 }

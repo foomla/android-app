@@ -15,6 +15,7 @@ public class FoomlaApplication extends Application {
 
     public static final String APP_PREFERENCES_KEY = "SHARED_PREFERENCES";
     public static final String PACKAGE_NAME_PRO = "org.foomla.androidapp.pro";
+    public static final int MAX_TRAININGS_ON_FREE = 3;
 
     private ExerciseService exerciseService;
     private TrainingService trainingService;

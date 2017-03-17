@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/greybg" >
@@ -8,15 +9,66 @@
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="40dp" >
+        android:layout_height="match_parent"
+        android:paddingBottom="0dp" >
 
         <LinearLayout
-            android:id="@+id/linearLayout1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="10dp" >
+
+            <LinearLayout
+                android:id="@+id/go_pro_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/pink_box"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="foomla PRO"
+                    android:textSize="@dimen/text_extra_big"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:tint="@color/white"
+                        app2:srcCompat="@drawable/ic_control_point_black_24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Mehr Features und mehr Übungen für Dein Training. Hol Dir jetzt foomla PRO."
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Download PRO"
+                    android:textColor="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -26,10 +78,15 @@
                 android:orientation="vertical"
                 android:padding="10dp" >
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="5dp"
                     android:text="@string/main_quickstart"
                     android:textSize="@dimen/text_extra_big" />
 
@@ -42,15 +99,17 @@
                     <Button
                         android:id="@+id/newTrainingButton"
                         android:layout_width="0dp"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
-                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:text="@string/main_create_training" />
 
                     <Button
                         android:id="@+id/trainingsButton"
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
                         android:text="@string/main_view_trainings" />
                 </LinearLayout>
             </LinearLayout>

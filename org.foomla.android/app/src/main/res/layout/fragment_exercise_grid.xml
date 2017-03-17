@@ -10,32 +10,31 @@
         android:id="@+id/filterContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@color/white">
+        android:background="@color/white"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:id="@+id/filter_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp"
+            android:layout_gravity="center_vertical"
             android:layout_weight="2"
-            android:layout_gravity="center_vertical">
-        </LinearLayout>
+            android:orientation="horizontal"
+            android:padding="10dp"></LinearLayout>
 
         <ImageButton
+            android:id="@+id/clearFilterButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_clear_black_24dp"
-            android:id="@+id/clearFilterButton"
-            android:layout_weight="1"
-            android:layout_margin="10dp"
             android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
             android:paddingBottom="5dp"
-            android:paddingTop="5dp"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:background="@color/white"/>
+            android:paddingTop="5dp"
+            app:srcCompat="@drawable/ic_clear_black_24dp" />
 
     </LinearLayout>
 
@@ -59,8 +58,8 @@
 
     <GridView
         android:id="@+id/exercise_grid"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:clipToPadding="false"
         android:columnWidth="150dp"
         android:gravity="center"
@@ -69,6 +68,35 @@
         android:padding="10dp"
         android:scrollbarStyle="outsideInset"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="10dp" />
+        android:verticalSpacing="10dp"
+        android:layout_weight="15"/>
+
+    <LinearLayout
+        android:id="@+id/more_exercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pink_box"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Mehr Übungen? Jetzt auf foomla PRO wechseln."
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/more_exercises_button"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="Download PRO"
+            android:textColor="@color/white" />
+    </LinearLayout>
 
 </LinearLayout>

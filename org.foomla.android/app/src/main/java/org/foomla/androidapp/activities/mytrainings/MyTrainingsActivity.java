@@ -4,11 +4,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.foomla.androidapp.FoomlaApplication;
+import org.foomla.androidapp.GoProDialogFragment;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.edittraining.EditTrainingActivity;
@@ -123,7 +126,13 @@ public class MyTrainingsActivity extends BaseActivityWithNavDrawer implements My
 
     @Override
     public void onAddTraining() {
-        startActivity(new Intent(this, EditTrainingActivity.class));
+        if(getFoomlaApplication().isProVersion() || this.myTrainings.size() < FoomlaApplication.MAX_TRAININGS_ON_FREE) {
+            startActivity(new Intent(this, EditTrainingActivity.class));
+        } else {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            GoProDialogFragment filterFragment = new GoProDialogFragment();
+            filterFragment.show(fragmentManager, "goPro");
+        }
     }
 
     private MyTrainingsFragment buildMyTrainingsFragment() {

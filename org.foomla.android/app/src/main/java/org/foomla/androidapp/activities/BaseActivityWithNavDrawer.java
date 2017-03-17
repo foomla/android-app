@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
 
 import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
@@ -48,6 +49,10 @@ public abstract class BaseActivityWithNavDrawer extends AppCompatActivity implem
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        if(!getFoomlaApplication().isProVersion()) {
+            View headerView = navigationView.getHeaderView(0);
+            headerView.findViewById(R.id.proSideNavText).setVisibility(View.GONE);
+        }
     }
 
     protected abstract int getLayoutId();

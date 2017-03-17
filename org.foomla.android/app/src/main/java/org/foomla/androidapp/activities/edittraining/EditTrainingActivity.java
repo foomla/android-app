@@ -1,18 +1,22 @@
 package org.foomla.androidapp.activities.edittraining;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.widget.Toast;
 
 import com.google.common.base.Strings;
 
 import org.foomla.androidapp.FoomlaApplication;
+import org.foomla.androidapp.GoProDialogFragment;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
 import org.foomla.androidapp.activities.trainingdetail.TrainingDetailActivity;
 import org.foomla.androidapp.activities.trainingdetail.TrainingDetailFragment;
 import org.foomla.androidapp.async.RepositoryLoadTask;
 import org.foomla.androidapp.async.RepositoryLoadTrainingTask;
+import org.foomla.androidapp.async.RepositoryLoadTrainingsTask;
 import org.foomla.androidapp.async.RepositorySaveTrainingTask;
 import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.domain.Training;
@@ -24,6 +28,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.util.List;
 
 public class EditTrainingActivity extends TrainingDetailActivity implements TrainingDetailFragment.ActionHandler {
 
@@ -56,6 +61,37 @@ public class EditTrainingActivity extends TrainingDetailActivity implements Trai
 
     @Override
     public void onSaveTraining() {
+        if(getFoomlaApplication().isProVersion()) {
+            openSaveTrainingDialog();
+        } else {
+            RepositoryLoadTask.LoadHandler<List<Training>> handler = new RepositoryLoadTask.LoadHandler<List<Training>>() {
+                @Override
+                public void handle(final List<Training> trainings) {
+                    if (trainings.size() < FoomlaApplication.MAX_TRAININGS_ON_FREE) {
+                        openSaveTrainingDialog();
+                    } else {
+                        FragmentManager fragmentManager = getSupportFragmentManager();
+                        GoProDialogFragment filterFragment = new GoProDialogFragment();
+                        filterFragment.show(fragmentManager, "goPro");
+                    }
+                }
+            };
+            Repository<Training> repository = TrainingProxyRepository.getInstance(getFoomlaApplication(), this);
+            new RepositoryLoadTrainingsTask(this, handler, repository) {
+                @Override
+                protected void hideProgressAnimation() {
+                    // nothing to do
+                }
+
+                @Override
+                protected void showProgressAnimation(final Context ctx) {
+                    // nothing to do
+                }
+            }.execute(new Object());
+        }
+    }
+
+    protected void openSaveTrainingDialog() {
         TrainingTitleDialog.SaveListener saveListener = new TrainingTitleDialog.SaveListener() {
             @Override
             public void save(final Training training, final String title, final String comment) {

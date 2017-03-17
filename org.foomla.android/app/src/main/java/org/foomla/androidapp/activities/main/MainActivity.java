@@ -8,16 +8,21 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Vibrator;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.squareup.seismic.ShakeDetector;
 
 import org.foomla.androidapp.BuildConfig;
 import org.foomla.androidapp.FoomlaApplication;
+import org.foomla.androidapp.GoProDialogFragment;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.edittraining.EditTrainingActivity;
+import org.foomla.androidapp.activities.exercisebrowser.FilterDialogFragment;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
 import org.foomla.androidapp.activities.mytrainings.MyTrainingsActivity;
 import org.foomla.androidapp.domain.Exercise;
@@ -123,6 +128,27 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
     protected void onStart() {
         super.onStart();
         displayExplainShakeDialog();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        if(!getFoomlaApplication().isProVersion()) {
+            getMenuInflater().inflate(R.menu.main, menu);
+        }
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.goPro:
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                GoProDialogFragment filterFragment = new GoProDialogFragment();
+                filterFragment.show(fragmentManager, "goPro");
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     private void displayExplainShakeDialog() {

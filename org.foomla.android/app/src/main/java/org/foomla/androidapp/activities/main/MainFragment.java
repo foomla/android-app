@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.async.LoadExerciseImageTask;
 import org.foomla.androidapp.domain.Exercise;
@@ -55,15 +56,12 @@ public class MainFragment extends Fragment {
     }
 
     @Override
-    public void onCreateOptionsMenu(final Menu menu, final MenuInflater menuInflater) {
-        super.onCreateOptionsMenu(menu, menuInflater);
-        menuInflater.inflate(R.menu.main, menu);
-    }
-
-    @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
                              final Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_main, container, false);
+        if(getFoomlaApplication().isProVersion()) {
+            view.findViewById(R.id.go_pro_layout).setVisibility(View.GONE);
+        }
         return view;
     }
 
@@ -147,4 +145,10 @@ public class MainFragment extends Fragment {
             }
         });
     }
+
+
+    private FoomlaApplication getFoomlaApplication() {
+        return (FoomlaApplication) this.getActivity().getApplication();
+    }
+
 }
