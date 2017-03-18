@@ -30,8 +30,8 @@ public class GoProDialogFragment extends DialogFragment {
         final View dialogView = inflater.inflate(R.layout.dialog_gopro, null);
 
         dialogBuilder.setView(dialogView);
-        dialogBuilder.setTitle("Go Pro");
-        dialogBuilder.setPositiveButton("Go Pro", new DialogInterface.OnClickListener() {
+        dialogBuilder.setTitle("foomla PRO");
+        dialogBuilder.setPositiveButton("Go PRO", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 // go pro
             }

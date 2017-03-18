@@ -9,6 +9,7 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -30,6 +31,8 @@ public class MainFragment extends Fragment {
         void onShowExerciseDetailActivity(Exercise exercise);
 
         void onShowMyTrainingsActivity();
+
+        void onGoPro();
     }
 
     private View view;
@@ -61,6 +64,13 @@ public class MainFragment extends Fragment {
         view = inflater.inflate(R.layout.fragment_main, container, false);
         if(getFoomlaApplication().isProVersion()) {
             view.findViewById(R.id.go_pro_layout).setVisibility(View.GONE);
+        } else {
+            view.findViewById(R.id.goProButton).setOnClickListener(new Button.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    getActionHandler().onGoPro();
+                }
+            });
         }
         return view;
     }

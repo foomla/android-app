@@ -121,6 +121,11 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
         exerciseBrowserFragment.notifyDataChanged();
     }
 
+    @Override
+    public void onGoPro() {
+        openGoProDialog();
+    }
+
     private void openFilter() {
         if (getFoomlaApplication().isProVersion()) {
             FragmentManager fragmentManager = getSupportFragmentManager();
@@ -131,10 +136,14 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
             filterFragment.show(fragmentManager, "filter");
 
         } else {
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            GoProDialogFragment filterFragment = new GoProDialogFragment();
-            filterFragment.show(fragmentManager, "goPro");
+            openGoProDialog();
         }
+    }
+
+    private void openGoProDialog() {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        GoProDialogFragment filterFragment = new GoProDialogFragment();
+        filterFragment.show(fragmentManager, "goPro");
     }
 
     private Integer getTrainingPhaseFromIntent() {

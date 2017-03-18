@@ -100,6 +100,11 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
     }
 
     @Override
+    public void onGoPro() {
+        showGoProDialog();
+    }
+
+    @Override
     protected void onPause() {
         super.onPause();
         shakeDetector.stop();
@@ -142,13 +147,17 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.goPro:
-                FragmentManager fragmentManager = getSupportFragmentManager();
-                GoProDialogFragment filterFragment = new GoProDialogFragment();
-                filterFragment.show(fragmentManager, "goPro");
+                showGoProDialog();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    protected void showGoProDialog() {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        GoProDialogFragment filterFragment = new GoProDialogFragment();
+        filterFragment.show(fragmentManager, "goPro");
     }
 
     private void displayExplainShakeDialog() {

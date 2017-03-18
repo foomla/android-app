@@ -89,13 +89,13 @@
             android:textColor="@color/white" />
 
         <Button
-            android:id="@+id/more_exercises_button"
+            android:id="@+id/goProButton"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_weight="1"
-            android:text="Download PRO"
+            android:text="Install PRO"
             android:textColor="@color/white" />
     </LinearLayout>
 

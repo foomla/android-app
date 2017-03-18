@@ -110,4 +110,7 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="pro_feature_filter"><b>Übungsfilter</b></string>
+    <string name="pro_feature_more_exercises"><b>Alle Übungen</b></string>
+    <string name="pro_feature_more_trainings"><b>Trainings</b></string>
 </resources>

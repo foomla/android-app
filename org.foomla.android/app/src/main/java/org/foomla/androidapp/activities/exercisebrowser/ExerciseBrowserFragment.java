@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -49,6 +50,8 @@ public class ExerciseBrowserFragment extends Fragment implements ExerciseListAda
         void onShowExerciseDetails(Exercise exercise);
 
         void onClearFilter();
+
+        void onGoPro();
     }
 
     private ExerciseListAdapter exerciseListAdapter;
@@ -112,6 +115,13 @@ public class ExerciseBrowserFragment extends Fragment implements ExerciseListAda
         View view = inflater.inflate(R.layout.fragment_exercise_grid, container, false);
         if(getFoomlaApplication().isProVersion()) {
             view.findViewById(R.id.more_exercises).setVisibility(View.GONE);
+        } else {
+            view.findViewById(R.id.goProButton).setOnClickListener(new Button.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    fragmentCallback.onGoPro();
+                }
+            });
         }
         this.gridView = (GridView) view.findViewById(R.id.exercise_grid);
         gridView.setAdapter(exerciseListAdapter);

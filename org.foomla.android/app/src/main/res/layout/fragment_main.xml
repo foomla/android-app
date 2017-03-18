@@ -60,12 +60,12 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/goProButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:layout_weight="1"
-                    android:text="Download PRO"
+                    android:text="Install PRO"
                     android:textColor="@color/white"
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
             </LinearLayout>
