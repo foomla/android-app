@@ -77,19 +77,19 @@ type Error struct {
 }
 
 type Exercise struct {
-    Timestamp           time.Time   `json:"timestamp"`
+    CreatedAt           time.Time   `json:"createdAt"`
     Title               string      `json:"title"`
     TrainingPhases      []string    `json:"trainingPhases"`
     TrainingFocus       string      `json:"trainingFocus"`
     AgeClasses          []string    `json:"ageClasses"`
-    Environment         string      `json:"environment"`
-    Description         string      `json:"description"`
-    Goal                string      `json:"goal"`
-    AuxileryMaterial    string      `json:"auxilaryMaterial"`
-    Comment             string      `json:"comment"`
-    ImageUrl            string      `json:"imageUrl"`
+    Setting             string      `json:"setting"`
+    Schedule            string      `json:"schedule"`
+    Objective           string      `json:"objective"`
+    AuxileryMaterial    string      `json:"auxiliaryMaterial"`
+    Note                string      `json:"note"`
     MinPlayers          int         `json:"minPlayers"`
-    Status              string      `json:"status"`
+    Status              string      `json:"exerciseStatus"`
+    ImageUrl            string      `json:"imageUrl"`
 }
 
 type Response2 struct {
@@ -173,22 +173,22 @@ func readCsvExercises(data []byte, exercises *[]Exercise) int {
 }
 
 func readExercise(exercises *[]Exercise, cols []string) ([]Error) {
-    timestamp, _ := time.Parse(TIMESTAMP_LAYOUT, cols[0])
+    createdAt, _ := time.Parse(TIMESTAMP_LAYOUT, cols[0])
     minPlayers, _ := strconv.ParseInt(cols[11], 10, 64)
     trainingPhases := strings.Split(cols[2], ",")
     ageClasses := strings.Split(cols[4], ",")
 
     exercise := Exercise{
-        Timestamp: timestamp,
+        CreatedAt: createdAt,
         Title: cols[1],
         TrainingPhases: mapValues(TRAINING_PHASE_MAPPING, trainingPhases),
         TrainingFocus: mapValue(TRAINING_FOCUS_MAPPING, cols[3]),
         AgeClasses: mapValues(AGE_CLASS_MAPPING, ageClasses),
-        Environment: cols[5],
-        Description: cols[6],
-        Goal: cols[7],
+        Setting: cols[5],
+        Schedule: cols[6],
+        Objective: cols[7],
         AuxileryMaterial: cols[8],
-        Comment: cols[9],
+        Note: cols[9],
         ImageUrl: cols[10],
         MinPlayers: int(minPlayers),
         Status: cols[12]}
@@ -227,7 +227,7 @@ func writeJsonExercises(jsonFile string, exercises *[]Exercise) {
     log.Printf("Start writing %d exercises to json", len(*exercises))
     jsonEx, _ := json.Marshal(*exercises)
 
-    ioutil.WriteFile(jsonFile, jsonEx, os.ModeExclusive)
+    ioutil.WriteFile(jsonFile, jsonEx, 0644)
 }
 
 func checkForErrors(exercise Exercise) ([]Error) {
@@ -238,10 +238,10 @@ func checkForErrors(exercise Exercise) ([]Error) {
             Field: "Title",
             Value: exercise.Title})
     }
-    if strings.EqualFold(exercise.Description, "") {
+    if strings.EqualFold(exercise.Schedule, "") {
         errors = append(errors, Error{
-            Field: "Description",
-            Value: exercise.Description})
+            Field: "Schedule",
+            Value: exercise.Schedule})
     }
     if exercise.MinPlayers < 0 {
         errors = append(errors, Error{
