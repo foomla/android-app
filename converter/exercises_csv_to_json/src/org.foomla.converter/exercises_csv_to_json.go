@@ -77,7 +77,7 @@ type Error struct {
 }
 
 type Exercise struct {
-    CreatedAt           time.Time   `json:"createdAt"`
+    CreatedAt           int64       `json:"createdAt"`
     Title               string      `json:"title"`
     TrainingPhases      []string    `json:"trainingPhases"`
     TrainingFocus       string      `json:"trainingFocus"`
@@ -89,7 +89,7 @@ type Exercise struct {
     Note                string      `json:"note"`
     MinPlayers          int         `json:"minPlayers"`
     Status              string      `json:"exerciseStatus"`
-    ImageUrl            string      `json:"imageUrl"`
+    Images              []string    `json:"images"`
 }
 
 type Response2 struct {
@@ -179,7 +179,7 @@ func readExercise(exercises *[]Exercise, cols []string) ([]Error) {
     ageClasses := strings.Split(cols[4], ",")
 
     exercise := Exercise{
-        CreatedAt: createdAt,
+        CreatedAt: createdAt.Unix(),
         Title: cols[1],
         TrainingPhases: mapValues(TRAINING_PHASE_MAPPING, trainingPhases),
         TrainingFocus: mapValue(TRAINING_FOCUS_MAPPING, cols[3]),
@@ -189,7 +189,7 @@ func readExercise(exercises *[]Exercise, cols []string) ([]Error) {
         Objective: cols[7],
         AuxileryMaterial: cols[8],
         Note: cols[9],
-        ImageUrl: cols[10],
+        Images: []string {cols[10]},
         MinPlayers: int(minPlayers),
         Status: cols[12]}
 
@@ -248,10 +248,10 @@ func checkForErrors(exercise Exercise) ([]Error) {
             Field: "MinPlayers",
             Value: strconv.Itoa(exercise.MinPlayers)})
     }
-    if strings.Index(exercise.ImageUrl, "http://") != 0 {
+    if len(exercise.Images) > 0 && strings.Index(exercise.Images[0], "http://") != 0 {
         errors = append(errors, Error{
             Field: "ImageUrl",
-            Value: exercise.ImageUrl})
+            Value: strings.Join(exercise.Images, ",")})
     }
     if !sliceContainsValue(TRAINING_FOCUS, exercise.TrainingFocus) {
         errors = append(errors, Error{
