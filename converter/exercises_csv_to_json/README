@@ -1,0 +1,8 @@
+How to run
+==========
+
+`go run exercise_csv_to_json.go input.csv output.json`
+
+Parameters:
+  input.csv      Absolute path to the input csv file.
+  output.json    Absolute path to the output json file (may not exist yet).
