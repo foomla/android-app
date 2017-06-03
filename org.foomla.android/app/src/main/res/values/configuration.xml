@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="server_url">http://live.foomla.de/foomla-backend</string>
-    <string name="token_url">http://live.foomla.de/foomla-oauth/token</string>
-    <string name="auth_url">http://live.foomla.de/foomla-oauth/authorize</string>
-    <string name="redirect_url">http://localhost</string>
-    <string name="exercise_image_url">http://foomla.dnobel.de/exercises/images/</string>
-    <string name="client_id">X74TOASH9B</string>
-    <string name="client_secret">TBD</string>
-    <string name="admob_id">ca-app-pub-9625745503884289/8493982058</string>
-    <string name="news_url">"http://foomla.de/category/news/feed/atom/"</string>
+    <string name="server_url" translatable="false">http://live.foomla.de/foomla-backend</string>
+    <string name="token_url" translatable="false">http://live.foomla.de/foomla-oauth/token</string>
+    <string name="auth_url" translatable="false">http://live.foomla.de/foomla-oauth/authorize</string>
+    <string name="redirect_url" translatable="false">http://localhost</string>
+    <string name="exercise_image_url" translatable="false">http://foomla.dnobel.de/exercises/images/</string>
+    <string name="client_id" translatable="false">X74TOASH9B</string>
+    <string name="client_secret" translatable="false">TBD</string>
+    <string name="admob_id" translatable="false">ca-app-pub-9625745503884289/8493982058</string>
+    <string name="news_url" translatable="false">"http://foomla.de/category/news/feed/atom/"</string>
 </resources>

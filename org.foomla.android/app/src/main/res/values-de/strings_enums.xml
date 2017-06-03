@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="TRAINING_FOCUS_ENDURANCE">Endurance</string>
-    <string name="TRAINING_FOCUS_TACTIC">Tactic</string>
-    <string name="TRAINING_FOCUS_TECHNIC">Technic</string>
+    <string name="TRAINING_FOCUS_ENDURANCE">Kondition</string>
+    <string name="TRAINING_FOCUS_TACTIC">Taktik</string>
+    <string name="TRAINING_FOCUS_TECHNIC">Technik</string>
     <string name="TRAINING_FOCUS_MENTAL">Mental</string>
-    <string name="TRAINING_FOCUS_KNOWLEDGE">Knowledge</string>
-    <string name="TRAINING_PHASE_ARRIVAL">Warm-up 1</string>
-    <string name="TRAINING_PHASE_WARM_UP">Warum-up 2</string>
-    <string name="TRAINING_PHASE_MAIN">Main</string>
-    <string name="TRAINING_PHASE_SCRIMMAGE">Scrimmage</string>
+    <string name="TRAINING_FOCUS_KNOWLEDGE">Wissen</string>
+    <string name="TRAINING_PHASE_ARRIVAL">Aufwärmen 1</string>
+    <string name="TRAINING_PHASE_WARM_UP">Aufwärmen 2</string>
+    <string name="TRAINING_PHASE_MAIN">Hauptteil</string>
+    <string name="TRAINING_PHASE_SCRIMMAGE">Abschluss</string>
     <string name="AGE_CLASS_MINI">Mini</string>
     <string name="AGE_CLASS_U9">F-Jugend (U9)</string>
     <string name="AGE_CLASS_U11">E-Jugend (U11)</string>

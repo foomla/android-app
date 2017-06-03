@@ -44,11 +44,11 @@ public class InfoActivity extends BaseActivityWithNavDrawer {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Übungen";
+                    return getString(R.string.info_exercises);
                 case 1:
-                    return "Symbole";
+                    return getString(R.string.info_symbols);
                 case 2:
-                    return "Impressum";
+                    return getString(R.string.info_imprint);
                 default:
                     return "";
             }
