@@ -12,13 +12,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mit foomla PRO kannst Du dein Fußballtraining noch besser planen. Nutze alle PRO Features wie Übungsfilter und noch mehr Übungen."
+        android:text="@string/go_pro_text"
         android:layout_marginBottom="20dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Exklusive PRO Features:"
+        android:text="@string/go_pro_features"
         android:textColor="@color/black"
         android:layout_marginBottom="20dp"
         android:textSize="16dp"/>
@@ -57,7 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Filtere alle Übungen nach Schwerpunkt und Altersklasse." />
+                android:text="@string/go_pro_features_filter" />
         </LinearLayout>
 
     </LinearLayout>
@@ -96,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Zugriff auf die komplette Übungsdatenbank mit mehr als 250 Übungen. " />
+                android:text="@string/go_pro_features_exercises" />
         </LinearLayout>
 
     </LinearLayout>
@@ -135,7 +135,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Keine Begrenzung. Speichere so viele Trainings wie Du möchtest." />
+                android:text="@string/go_pro_features_trainings" />
         </LinearLayout>
 
     </LinearLayout>

@@ -115,4 +115,11 @@
     <string name="pro_feature_more_trainings"><b>Trainings</b></string>
     <string name="exercise_detail_click_to_select">Übung zur Auswahl anklicken.</string>
     <string name="nav_slogan">Revolutioniere Dein Fußballtraining</string>
+    <string name="go_pro_text">Mit foomla PRO kannst Du dein Fußballtraining noch besser planen. Nutze alle PRO Features wie Übungsfilter und noch mehr Übungen.</string>
+    <string name="go_pro_features">Exklusive PRO Features:</string>
+    <string name="go_pro_features_filter">Filtere alle Übungen nach Schwerpunkt und Altersklasse.</string>
+    <string name="go_pro_features_exercises">Zugriff auf die komplette Übungsdatenbank mit mehr als 250 Übungen.</string>
+    <string name="go_pro_features_trainings">Keine Begrenzung. Speichere so viele Trainings wie Du möchtest.</string>
+    <string name="main_go_pro_teaser">Mehr Features und mehr Übungen für Dein Training. Hol Dir jetzt foomla PRO.</string>
+    <string name="exercises_go_pro">Mehr Übungen? Jetzt auf foomla PRO wechseln.</string>
 </resources>

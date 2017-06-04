@@ -54,7 +54,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="left"
-                        android:text="Mehr Features und mehr Übungen für Dein Training. Hol Dir jetzt foomla PRO."
+                        android:text="@string/main_go_pro_teaser"
                         android:textColor="@color/white" />
 
                 </LinearLayout>

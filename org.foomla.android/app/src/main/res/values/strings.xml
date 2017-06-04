@@ -62,7 +62,7 @@
     <string name="exercisebrowser_menu_filter">Filter</string>
     <string name="delete_question">Do you really want to delete the Training?</string>
     <string name="dialog_trainingname_label">Training name:</string>
-    <string name="dialog_trainingcomment_label">Note</string>
+    <string name="dialog_trainingcomment_label">Note:</string>
     <string name="dialog_trainingname_cancel">Cancel</string>
     <string name="dialog_trainingname_save">Save</string>
     <string name="dialog_commentexercise_userhint">Email (optional)</string>
@@ -115,4 +115,11 @@
     <string name="pro_feature_more_trainings"><b>Trainings</b></string>
     <string name="exercise_detail_click_to_select">Click on exercise to select it.</string>
     <string name="nav_slogan">Revolutionize your Soccertraining</string>
+    <string name="go_pro_text">With foomla PRO you can plan your trainings even better. Use all PRO features like exercises filters and store unlimited trainings.</string>
+    <string name="go_pro_features">Exclusive PRO Features:</string>
+    <string name="go_pro_features_filter">Filter exercises by training phase and age class.</string>
+    <string name="go_pro_features_exercises">Access the whole exercise database with more than 250 exercises.</string>
+    <string name="go_pro_features_trainings">No limitation. Store as many trainings as you wish.</string>
+    <string name="main_go_pro_teaser">More features and more exercises for your training. Get foomla PRO now.</string>
+    <string name="exercises_go_pro">More exercises? Get foomla PRO now.</string>
 </resources>

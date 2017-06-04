@@ -85,7 +85,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:text="Mehr Übungen? Jetzt auf foomla PRO wechseln."
+            android:text="@string/exercises_go_pro"
             android:textColor="@color/white" />
 
         <Button
