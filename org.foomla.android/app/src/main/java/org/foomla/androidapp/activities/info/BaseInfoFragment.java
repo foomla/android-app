@@ -15,18 +15,20 @@ import android.webkit.WebViewClient;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.utils.ProgressVisualizationUtil;
 
+import java.util.Locale;
+
 public abstract class BaseInfoFragment extends Fragment {
 
     private final class WebViewClientWithProgressBar extends WebViewClient {
 
         private final Activity activity;
+
         private final WebView webView;
 
         private WebViewClientWithProgressBar(WebView webView, Activity activity) {
             this.webView = webView;
             this.activity = activity;
         }
-
         @Override
         public void onPageFinished(WebView view, String url) {
             super.onPageFinished(view, url);
@@ -40,11 +42,10 @@ public abstract class BaseInfoFragment extends Fragment {
             webView.setVisibility(View.GONE);
             ProgressVisualizationUtil.showProgressbar(activity);
         }
+
     }
 
     private WebView webView;
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View fragmentView = inflater.inflate(R.layout.fragment_info_web_view, container, false);
@@ -64,6 +65,20 @@ public abstract class BaseInfoFragment extends Fragment {
 
         webView.setVisibility(View.GONE);
         webView.loadUrl(getUrl());
+    }
+
+
+    protected String getBaseInfoUrl() {
+        return "https://foomla.org/app/info/";
+    }
+
+    protected String getSuffix() {
+        return isEnglish() ? ".en.html" : ".html";
+    }
+
+    protected boolean isEnglish() {
+        String language = Locale.getDefault().getLanguage();
+        return language != null && language.contains("en");
     }
 
     protected abstract String getUrl();

@@ -4,7 +4,7 @@
     <string name="token_url" translatable="false">http://live.foomla.de/foomla-oauth/token</string>
     <string name="auth_url" translatable="false">http://live.foomla.de/foomla-oauth/authorize</string>
     <string name="redirect_url" translatable="false">http://localhost</string>
-    <string name="exercise_image_url" translatable="false">http://foomla.dnobel.de/exercises/images/</string>
+    <string name="exercise_image_url" translatable="false">https://foomla.org/app/exercises/images/</string>
     <string name="client_id" translatable="false">X74TOASH9B</string>
     <string name="client_secret" translatable="false">TBD</string>
     <string name="admob_id" translatable="false">ca-app-pub-9625745503884289/8493982058</string>
