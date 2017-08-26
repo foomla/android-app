@@ -31,7 +31,7 @@ public class TrainingTitleDialog {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setView(view);
-        builder.setTitle("Training speichern");
+        builder.setTitle(R.string.dialog_training_title);
         builder.setNegativeButton(R.string.dialog_trainingname_cancel, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(final DialogInterface dialog, final int which) {

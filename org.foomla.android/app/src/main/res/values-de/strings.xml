@@ -61,6 +61,7 @@
     <string name="exercisebrowser_newexercise">Neu</string>
     <string name="exercisebrowser_menu_filter">Filter</string>
     <string name="delete_question">Soll das Training wirklich gelöscht werden?</string>
+    <string name="dialog_training_title">Training Speichern</string>
     <string name="dialog_trainingname_label">Name des Trainings:</string>
     <string name="dialog_trainingcomment_label">Notiz</string>
     <string name="dialog_trainingname_cancel">Abbrechen</string>

@@ -61,6 +61,7 @@
     <string name="exercisebrowser_newexercise">New</string>
     <string name="exercisebrowser_menu_filter">Filter</string>
     <string name="delete_question">Do you really want to delete the Training?</string>
+    <string name="dialog_training_title">Save Training</string>
     <string name="dialog_trainingname_label">Training name:</string>
     <string name="dialog_trainingcomment_label">Note:</string>
     <string name="dialog_trainingname_cancel">Cancel</string>
