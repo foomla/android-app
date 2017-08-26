@@ -25,6 +25,7 @@ import org.foomla.androidapp.R;
 import org.foomla.androidapp.domain.AgeClass;
 import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.domain.TrainingFocus;
+import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.utils.EnumTextUtil;
 
 import java.util.List;
@@ -52,6 +53,8 @@ public class ExerciseBrowserFragment extends Fragment implements ExerciseListAda
         void onClearFilter();
 
         void onGoPro();
+
+        void dismissGoPro();
     }
 
     private ExerciseListAdapter exerciseListAdapter;
@@ -112,10 +115,17 @@ public class ExerciseBrowserFragment extends Fragment implements ExerciseListAda
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_exercise_grid, container, false);
-        if(getFoomlaApplication().isProVersion()) {
+        final View view = inflater.inflate(R.layout.fragment_exercise_grid, container, false);
+        if(getFoomlaApplication().isProVersion() || FoomlaPreferences.getBoolean(this.getActivity(), FoomlaPreferences.Preference.DISMISS_GO_PRO_EXERCISES)) {
             view.findViewById(R.id.more_exercises).setVisibility(View.GONE);
         } else {
+            view.findViewById(R.id.notNowButton).setOnClickListener(new Button.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    fragmentCallback.dismissGoPro();
+                    view.findViewById(R.id.more_exercises).setVisibility(View.GONE);
+                }
+            });
             view.findViewById(R.id.goProButton).setOnClickListener(new Button.OnClickListener() {
                 @Override
                 public void onClick(View v) {

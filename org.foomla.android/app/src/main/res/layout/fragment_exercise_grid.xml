@@ -60,6 +60,7 @@
         android:id="@+id/exercise_grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="15"
         android:clipToPadding="false"
         android:columnWidth="150dp"
         android:gravity="center"
@@ -68,18 +69,17 @@
         android:padding="10dp"
         android:scrollbarStyle="outsideInset"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="10dp"
-        android:layout_weight="15"/>
+        android:verticalSpacing="10dp" />
 
     <LinearLayout
         android:id="@+id/more_exercises"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
         android:background="@drawable/pink_box"
         android:orientation="vertical"
-        android:layout_weight="1"
-        android:padding="10dp"
-        android:layout_margin="10dp">
+        android:padding="10dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -88,15 +88,32 @@
             android:text="@string/exercises_go_pro"
             android:textColor="@color/white" />
 
-        <Button
-            android:id="@+id/goProButton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="right"
-            android:layout_weight="1"
-            android:text="Install PRO"
-            android:textColor="@color/white" />
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/notNowButton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="@string/not_now"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/goProButton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="@string/install_pro"
+                android:textColor="@color/white" />
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

@@ -17,6 +17,7 @@ import org.foomla.androidapp.FoomlaApplication;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.async.LoadExerciseImageTask;
 import org.foomla.androidapp.domain.Exercise;
+import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.utils.ImageUtil.ImageType;
 
 public class MainFragment extends Fragment {
@@ -33,6 +34,8 @@ public class MainFragment extends Fragment {
         void onShowMyTrainingsActivity();
 
         void onGoPro();
+
+        void dismissGoPro();
     }
 
     private View view;
@@ -62,13 +65,20 @@ public class MainFragment extends Fragment {
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
                              final Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_main, container, false);
-        if(getFoomlaApplication().isProVersion()) {
+        if(getFoomlaApplication().isProVersion() || FoomlaPreferences.getBoolean(this.getActivity(), FoomlaPreferences.Preference.DISMISS_GO_PRO_MAIN)) {
             view.findViewById(R.id.go_pro_layout).setVisibility(View.GONE);
         } else {
             view.findViewById(R.id.goProButton).setOnClickListener(new Button.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     getActionHandler().onGoPro();
+                }
+            });
+            view.findViewById(R.id.notNowButton).setOnClickListener(new Button.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    getActionHandler().dismissGoPro();
+                    view.findViewById(R.id.go_pro_layout).setVisibility(View.GONE);
                 }
             });
         }

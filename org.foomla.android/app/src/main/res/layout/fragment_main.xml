@@ -4,19 +4,19 @@
     xmlns:app2="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/greybg" >
+    android:background="@color/greybg">
 
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingBottom="0dp" >
+        android:paddingBottom="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="10dp" >
+            android:padding="10dp">
 
             <LinearLayout
                 android:id="@+id/go_pro_layout"
@@ -30,11 +30,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
                     android:gravity="left"
                     android:text="foomla PRO"
-                    android:textSize="@dimen/text_extra_big"
-                    android:layout_marginBottom="10dp"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_extra_big" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -44,8 +44,8 @@
                     <ImageView
                         android:layout_width="32dp"
                         android:layout_height="32dp"
-                        android:layout_marginRight="10dp"
                         android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
                         android:scaleType="fitXY"
                         android:tint="@color/white"
                         app2:srcCompat="@drawable/ic_control_point_black_24dp" />
@@ -59,15 +59,32 @@
 
                 </LinearLayout>
 
-                <Button
-                    android:id="@+id/goProButton"
+                <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_weight="1"
-                    android:text="Install PRO"
-                    android:textColor="@color/white"
-                    style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right">
+
+                    <Button
+                        android:id="@+id/notNowButton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:text="@string/not_now"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/goProButton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:text="@string/install_pro"
+                        android:textColor="@color/white" />
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -76,7 +93,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/white_box"
                 android:orientation="vertical"
-                android:padding="10dp" >
+                android:padding="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -94,22 +111,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:weightSum="2" >
+                    android:weightSum="2">
 
                     <Button
                         android:id="@+id/newTrainingButton"
                         android:layout_width="0dp"
                         android:layout_height="50dp"
-                        android:layout_weight="1"
                         android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
                         android:text="@string/main_create_training" />
 
                     <Button
                         android:id="@+id/trainingsButton"
                         android:layout_width="0dp"
                         android:layout_height="50dp"
-                        android:layout_weight="1"
                         android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
                         android:text="@string/main_view_trainings" />
                 </LinearLayout>
             </LinearLayout>
@@ -125,7 +142,7 @@
                 android:clickable="true"
                 android:gravity="center_horizontal|center_vertical"
                 android:orientation="vertical"
-                android:padding="10dp" >
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -144,7 +161,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:baselineAligned="false"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/latestExerciseImage"
@@ -174,15 +191,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/white_box_selector"
-                android:orientation="vertical"
                 android:clickable="true"
-                android:padding="10dp" >
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/main_more_info"
                     android:gravity="center"
+                    android:text="@string/main_more_info"
                     android:textSize="@dimen/text_normal" />
             </LinearLayout>
         </LinearLayout>

@@ -122,4 +122,6 @@
     <string name="go_pro_features_trainings">Keine Begrenzung. Speichere so viele Trainings wie Du möchtest.</string>
     <string name="main_go_pro_teaser">Mehr Features und mehr Übungen für Dein Training. Hol Dir jetzt foomla PRO.</string>
     <string name="exercises_go_pro">Mehr Übungen? Jetzt auf foomla PRO wechseln.</string>
+    <string name="install_pro">Install PRO</string>
+    <string name="not_now">Nicht jetzt</string>
 </resources>

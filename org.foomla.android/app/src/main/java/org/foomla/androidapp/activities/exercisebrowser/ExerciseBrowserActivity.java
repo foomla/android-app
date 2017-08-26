@@ -126,6 +126,11 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
         openGoProDialog();
     }
 
+    @Override
+    public void dismissGoPro() {
+        FoomlaPreferences.setBoolean(this, FoomlaPreferences.Preference.DISMISS_GO_PRO_EXERCISES, true);
+    }
+
     private void openFilter() {
         if (getFoomlaApplication().isProVersion()) {
             FragmentManager fragmentManager = getSupportFragmentManager();

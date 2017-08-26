@@ -16,7 +16,7 @@ public class FoomlaPreferences {
     public enum Preference {
 
         LOGIN(true), NAV_DRAWER_ALREADY_USED(false), RANDOM_EXERCISE_ON_SHAKE_DIALOG_ALREADY_DISPLAYED(false), RANDOM_TRAINING_ON_SHAKE_DIALOG_ALREADY_DISPLAYED(
-                false), REFRESH_TOKEN(null), EXERCISE_FILTER(null);
+                false), REFRESH_TOKEN(null), EXERCISE_FILTER(null), DISMISS_GO_PRO_MAIN(false), DISMISS_GO_PRO_EXERCISES(false);
 
         public Object defaultValue;
 

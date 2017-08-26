@@ -105,6 +105,11 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
     }
 
     @Override
+    public void dismissGoPro() {
+        FoomlaPreferences.setBoolean(this, Preference.DISMISS_GO_PRO_MAIN, true);
+    }
+
+    @Override
     protected void onPause() {
         super.onPause();
         shakeDetector.stop();
