@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class TrainingFileRepository extends AbstractFileRepository<Training> {
 
@@ -36,13 +37,13 @@ public class TrainingFileRepository extends AbstractFileRepository<Training> {
         try {
             switch (mode) {
 
-                case AUTHORIZED :
+                case AUTHORIZED:
                     return getInstanceForAuthorizedUser(context);
 
-                case UNAUTHORIZED :
+                case UNAUTHORIZED:
                     return getInstanceForUnauthorizedUser(context);
 
-                default :
+                default:
                     throw new IllegalArgumentException("Unknown UserMode: " + mode);
             }
         } catch (IOException e) {
@@ -139,6 +140,11 @@ public class TrainingFileRepository extends AbstractFileRepository<Training> {
     public Training save(final Training entity) {
         try {
             Integer entityId = entity.getId();
+            Random random = new Random();
+
+            for (Exercise exercise : entity.getExercises()) {
+                exercise.setId(random.nextInt());
+            }
 
             int id = entityId != null && entityId > 0 ? entityId : FileUtils.getNextId(trainingDir);
 
@@ -171,7 +177,7 @@ public class TrainingFileRepository extends AbstractFileRepository<Training> {
     }
 
     private void saveImage(final File imageDir, final Training training, final Exercise exercise, final int fileId)
-        throws IOException {
+            throws IOException {
         String url = ImageUtil.getImageUrl(context, training, exercise);
         File image = new File(imageDir, ImageType.NORMAL.getImageFileName(fileId));
 
@@ -200,7 +206,7 @@ public class TrainingFileRepository extends AbstractFileRepository<Training> {
     }
 
     private void saveThumb(final File imageDir, final Training training, final Exercise exercise, final int fileId)
-        throws IOException {
+            throws IOException {
         String url = ImageUtil.getImageUrl(context, training, exercise, ImageType.THUMBNAIL);
         File image = new File(imageDir, ImageType.THUMBNAIL.getImageFileName(fileId));
 
