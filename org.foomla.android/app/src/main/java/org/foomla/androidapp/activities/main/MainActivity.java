@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.hardware.SensorManager;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Vibrator;
@@ -22,7 +23,6 @@ import org.foomla.androidapp.GoProDialogFragment;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.edittraining.EditTrainingActivity;
-import org.foomla.androidapp.activities.exercisebrowser.FilterDialogFragment;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
 import org.foomla.androidapp.activities.mytrainings.MyTrainingsActivity;
 import org.foomla.androidapp.domain.Exercise;
@@ -68,11 +68,45 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
         return R.layout.activity_main;
     }
 
+    private void showLatestExercise(final Exercise exercise) {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                mainFragment.showLatestExercise(exercise);
+            }
+        });
+    }
+
     @Override
     public void onLoadLatestExercise() {
         try {
-            ExerciseService service = ((FoomlaApplication) getApplication()).getExerciseService();
-            mainFragment.showLatestExercise(service.random());
+            final FoomlaApplication foomlaApplication = (FoomlaApplication) getApplication();
+            final ExerciseService service = foomlaApplication.getExerciseService();
+            final ExerciseService.Callback<Exercise> callback = new ExerciseService.Callback<Exercise>() {
+                @Override
+                public void onResult(Exercise result) {
+                    showLatestExercise(result);
+                }
+
+                @Override
+                public void onFailure() {
+                    LOGGER.warn("Fetching ");
+                }
+            };
+
+            new AsyncTask<Void, Void, Void>() {
+
+                @Override
+                protected Void doInBackground(Void... voids) {
+                    try {
+                        service.random(callback, foomlaApplication.isProVersion());
+                    } catch (IOException e) {
+                        LOGGER.error("Fetching exercises failed", e);
+                    }
+
+                    return null;
+                }
+            }.execute();
         } catch (IOException ioe) {
             LOGGER.error("Unable to set random exercise", ioe);
             // TODO inform user
@@ -142,7 +176,7 @@ public class MainActivity extends BaseActivityWithNavDrawer implements MainFragm
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        if(!getFoomlaApplication().isProVersion()) {
+        if (!getFoomlaApplication().isProVersion()) {
             getMenuInflater().inflate(R.menu.main, menu);
         }
         return true;

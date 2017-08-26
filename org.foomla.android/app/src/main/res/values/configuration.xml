@@ -4,6 +4,11 @@
     <string name="token_url" translatable="false">http://live.foomla.de/foomla-oauth/token</string>
     <string name="auth_url" translatable="false">http://live.foomla.de/foomla-oauth/authorize</string>
     <string name="redirect_url" translatable="false">http://localhost</string>
+    <string name="exercise_url" translatable="false">https://foomla.org/</string>
+    <string name="exercise_url_en_pro" translatable="false">foomla_exercises.pro.en.json</string>
+    <string name="exercise_url_de_pro" translatable="false">foomla_exercises.pro.de.json</string>
+    <string name="exercise_url_en_free" translatable="false">foomla_exercises.en.json</string>
+    <string name="exercise_url_de_free" translatable="false">foomla_exercises.de.json</string>
     <string name="exercise_image_url" translatable="false">https://foomla.org/app/exercises/images/</string>
     <string name="client_id" translatable="false">X74TOASH9B</string>
     <string name="client_secret" translatable="false">TBD</string>

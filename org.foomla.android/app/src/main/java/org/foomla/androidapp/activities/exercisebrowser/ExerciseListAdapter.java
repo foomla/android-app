@@ -3,7 +3,6 @@ package org.foomla.androidapp.activities.exercisebrowser;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.util.SparseArray;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
@@ -36,7 +35,6 @@ public class ExerciseListAdapter extends BaseAdapter {
 
     private final Context context;
     private List<Exercise> exercises;
-    private final SparseArray<Drawable> imageCache = new SparseArray<Drawable>();
     private final ItemListener itemListener;
     private boolean showSelectButton;
 
@@ -164,20 +162,14 @@ public class ExerciseListAdapter extends BaseAdapter {
 
     }
 
-    private void setImage(View view, Exercise exercise) {
+    private void setImage(View view, final Exercise exercise) {
         final ImageView imageView = (ImageView) view.findViewById(R.id.image);
 
-        final Integer exerciseId = exercise.getId();
-        if (imageCache.get(exerciseId) == null) {
-            new LoadExerciseImageTask(context, null, ImageType.X_THUMBNAIL) {
-                @Override
-                protected void onPostExecute(Drawable result) {
-                    imageView.setImageDrawable(result);
-                    imageCache.put(exerciseId, result);
-                }
-            }.execute(exercise);
-        } else {
-            imageView.setImageDrawable(imageCache.get(exerciseId));
-        }
+        new LoadExerciseImageTask(context, null, ImageType.X_THUMBNAIL) {
+            @Override
+            protected void onPostExecute(Drawable result) {
+                imageView.setImageDrawable(result);
+            }
+        }.execute(exercise);
     }
 }

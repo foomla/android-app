@@ -3,13 +3,20 @@ package org.foomla.androidapp.service;
 import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.domain.TrainingPhase;
 
+import java.io.IOException;
 import java.util.List;
 
 public interface ExerciseService {
 
-    List<Exercise> list();
+    interface Callback<T> {
+        void onResult(T result);
+
+        void onFailure();
+    }
+
+    void list(Callback<List<Exercise>> callback, boolean isPro) throws IOException;
 
     List<Exercise> filter(TrainingPhase trainingPhase);
 
-    Exercise random();
+    void random(Callback<Exercise> callback, boolean isPro) throws IOException;
 }

@@ -39,19 +39,20 @@ public class ImageUtil {
     }
 
     public static Drawable createImageFromUrl(final String urlPath) {
-        Object content = null;
+        Object content;
         try {
             URL url = new URL(urlPath);
             URLConnection connection = url.openConnection();
             connection.setUseCaches(true);
             content = connection.getContent();
+
+            InputStream is = (InputStream) content;
+            return Drawable.createFromStream(is, "src");
         } catch (Exception ex) {
             ex.printStackTrace();
         }
 
-        InputStream is = (InputStream) content;
-        Drawable image = Drawable.createFromStream(is, "src");
-        return image;
+        return null;
     }
 
     public static Drawable getImage(final Context context, final Training training, final Exercise exercise,
@@ -62,10 +63,10 @@ public class ImageUtil {
             drawable = getLocalImage(context, training, exercise, imageType);
 
             if (drawable == null) {
-                drawable = getRemoteImage(context, training, exercise, imageType);
+                drawable = getRemoteImage(exercise);
             }
         } else {
-            drawable = getRemoteImage(context, training, exercise, imageType);
+            drawable = getRemoteImage(exercise);
         }
 
         return drawable;
@@ -76,14 +77,14 @@ public class ImageUtil {
     }
 
     public static String getImageUrl(final Context context, final Training training, final Exercise exercise,
-            final ImageType imageType) {
+                                     final ImageType imageType) {
         String imageName = imageType.getImageFileName(exercise.getId());
         String imageUrl = context.getString(R.string.exercise_image_url);
         return imageUrl + imageName;
     }
 
-    public static Drawable getLocalImage(final Context context, final Training training, final Exercise exercise,
-            final ImageType imageType) {
+    private static Drawable getLocalImage(final Context context, final Training training, final Exercise exercise,
+                                         final ImageType imageType) {
 
         try {
             File imageDirectory = FileUtils.getImageDirectory(context, training.getId());
@@ -98,10 +99,12 @@ public class ImageUtil {
         return null;
     }
 
-    public static Drawable getRemoteImage(final Context context, final Training training, final Exercise exercise,
-            final ImageType imageType) {
-        String url = getImageUrl(context, training, exercise, imageType);
-        return createImageFromUrl(url);
+    private static Drawable getRemoteImage(final Exercise exercise) {
+        if (exercise.getImages() != null && !exercise.getImages().isEmpty()) {
+            return createImageFromUrl(exercise.getImages().get(0));
+        } else {
+            return null;
+        }
     }
 
     private static File getImageFile(final Exercise exercise, final ImageType imageType, final File imageDirectory) {

@@ -17,7 +17,7 @@ public class Exercise extends EntityWithTitle {
 
     private ExerciseStatus exerciseStatus;
 
-    private List<ExerciseImage> images;
+    private List<String> images;
 
     private int minPlayers;
 
@@ -77,11 +77,11 @@ public class Exercise extends EntityWithTitle {
         this.exerciseStatus = exerciseStatus;
     }
 
-    public List<ExerciseImage> getImages() {
+    public List<String> getImages() {
         return images;
     }
 
-    public void setImages(List<ExerciseImage> images) {
+    public void setImages(List<String> images) {
         this.images = images;
     }
 

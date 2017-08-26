@@ -1,8 +1,8 @@
 package org.foomla.androidapp.activities.exercisebrowser;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -179,8 +179,32 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
         LOGGER.info("Initialize with all exercises");
 
         try {
-            ExerciseService service = ((FoomlaApplication) getApplication()).getExerciseService();
-            setExercises(service.list());
+            final FoomlaApplication foomlaApplication = (FoomlaApplication) getApplication();
+            final ExerciseService service = foomlaApplication.getExerciseService();
+            final ExerciseService.Callback<List<Exercise>> callback = new ExerciseService.Callback<List<Exercise>>() {
+                @Override
+                public void onResult(List<Exercise> result) {
+                    setExercises(result);
+                }
+
+                @Override
+                public void onFailure() {
+                    setExercises(Lists.<Exercise>newArrayList());
+                }
+            };
+
+            new AsyncTask<Void, Void, Void>() {
+                @Override
+                protected Void doInBackground(Void... voids) {
+                    try {
+                        service.list(callback, foomlaApplication.isProVersion());
+                    } catch (IOException e) {
+                        LOGGER.error("Fetching exercises failed", e);
+                    }
+
+                    return null;
+                }
+            }.execute();
         } catch (IOException ioe) {
             LOGGER.error("Unable to read exercises from JSON", ioe);
             // TODO inform user
@@ -200,12 +224,18 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
     }
 
     private void setExercises(final List<Exercise> exercises) {
-        if (exercises != null) {
-            LOGGER.info("Initialize with " + exercises.size() + " exercises");
-            this.unfilteredExercises = exercises;
-            this.exercises = applyFilter(this.unfilteredExercises);
-            exerciseBrowserFragment.notifyDataChanged();
-        }
+        final ExerciseBrowserActivity activity = this;
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                if (exercises != null) {
+                    LOGGER.info("Initialize with " + exercises.size() + " exercises");
+                    activity.unfilteredExercises = exercises;
+                    activity.exercises = applyFilter(activity.unfilteredExercises);
+                    exerciseBrowserFragment.notifyDataChanged();
+                }
+            }
+        });
     }
 
     private List<Exercise> applyFilter(List<Exercise> exercises) {
