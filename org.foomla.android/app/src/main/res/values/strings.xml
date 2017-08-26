@@ -57,7 +57,7 @@
     <string name="info_imprint">Imprint</string>
     <string name="newsdetail_image_description">Image for News</string>
     <string name="delete">Delete</string>
-    <string name="cancel">Abbrechen</string>
+    <string name="cancel">Cancel</string>
     <string name="exercisebrowser_newexercise">New</string>
     <string name="exercisebrowser_menu_filter">Filter</string>
     <string name="delete_question">Do you really want to delete the Training?</string>
