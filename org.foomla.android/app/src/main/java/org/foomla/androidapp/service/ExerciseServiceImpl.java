@@ -69,12 +69,9 @@ public class ExerciseServiceImpl implements ExerciseService {
 
     @Override
     public void list(final ExerciseService.Callback<List<Exercise>> callback, final boolean isPro) throws IOException {
-        if (!exercises.isEmpty()) {
-            callback.onResult(exercises);
-        }
+        List<Exercise> list = loadExercises(isPro);
 
         exercises.clear();
-        List<Exercise> list = loadExercises(isPro);
         exercises.addAll(list);
         callback.onResult(exercises);
     }
@@ -107,12 +104,10 @@ public class ExerciseServiceImpl implements ExerciseService {
 
     @Override
     public void random(final ExerciseService.Callback<Exercise> callback, boolean isPro) throws IOException {
-        if (exercises.isEmpty()) {
-            List<Exercise> collection = loadExercises(isPro);
+        List<Exercise> collection = loadExercises(isPro);
 
-            if (collection != null) {
-                exercises.addAll(collection);
-            }
+        if (collection != null) {
+            exercises.addAll(collection);
         }
 
         if ((!exercises.isEmpty())) {

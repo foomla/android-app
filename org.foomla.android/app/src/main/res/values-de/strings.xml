@@ -127,4 +127,5 @@
     <string name="not_now">Nicht jetzt</string>
     <string name="exercise_filter">Übungsfilter</string>
     <string name="ok">OK</string>
+    <string name="no_exercises_browser">Keine Übungen mit der Filterauswahl gefunden.</string>
 </resources>
