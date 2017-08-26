@@ -116,7 +116,7 @@
                     <Button
                         android:id="@+id/newTrainingButton"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="55dp"
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1"
                         android:text="@string/main_create_training" />
@@ -124,7 +124,7 @@
                     <Button
                         android:id="@+id/trainingsButton"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="55dp"
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1"
                         android:text="@string/main_view_trainings" />
