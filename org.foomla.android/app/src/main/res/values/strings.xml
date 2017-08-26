@@ -70,7 +70,7 @@
     <string name="dialog_commentexercise_commenthint">Comment</string>
     <string name="dialog_commentexercise_okbutton">Send</string>
     <string name="dialog_commentexercise_cancelbutton">Cancel</string>
-    <string name="choose">Auswählen</string>
+    <string name="choose">Choose</string>
     <string name="open">Open</string>
     
     <string name="menu_category_training">Training</string>
