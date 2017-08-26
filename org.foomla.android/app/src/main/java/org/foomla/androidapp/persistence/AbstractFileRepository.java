@@ -2,8 +2,12 @@ package org.foomla.androidapp.persistence;
 
 
 import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 
 import org.apache.commons.io.IOUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,10 +19,14 @@ import java.io.Serializable;
 
 public abstract class AbstractFileRepository<T extends Serializable> implements Repository<T> {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(AbstractFileRepository.class);
+
     private Gson gson = new Gson();
 
     protected Object convert(File file, Class target) throws IOException {
+        LOGGER.info("Deserializing file {}.", file.getPath());
         String s = IOUtils.toString(new InputStreamReader(new FileInputStream(file)));
+        LOGGER.debug(s);
         return gson.fromJson(s, target);
     }
 

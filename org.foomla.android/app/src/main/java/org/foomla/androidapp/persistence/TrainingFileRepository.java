@@ -102,13 +102,16 @@ public class TrainingFileRepository extends AbstractFileRepository<Training> {
         List<Training> trainings = new ArrayList<Training>(fileNames.size());
 
         for (String fileName : fileNames) {
+            File trainingFile = new File(trainingDir, fileName);
             try {
-                Object obj = convert(new File(trainingDir, fileName), Training.class);
+                Object obj = convert(trainingFile, Training.class);
                 if (obj instanceof Training) {
                     trainings.add((Training) obj);
                 }
-            } catch (IOException ioe) {
-                LOGGER.error("Unable to convert training: " + fileName, ioe);
+            } catch (Exception ex) {
+                LOGGER.error("Unable to convert training: " + fileName, ex);
+                trainingFile.delete();
+                LOGGER.info("Deleting invalid training file.");
             }
         }
 
