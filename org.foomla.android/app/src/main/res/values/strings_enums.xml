@@ -11,12 +11,12 @@
     <string name="TRAINING_PHASE_MAIN">Main</string>
     <string name="TRAINING_PHASE_SCRIMMAGE">Scrimmage</string>
     <string name="AGE_CLASS_MINI">Mini</string>
-    <string name="AGE_CLASS_U9">F-Jugend (U9)</string>
-    <string name="AGE_CLASS_U11">E-Jugend (U11)</string>
-    <string name="AGE_CLASS_U13">D-Jugend (U13)</string>
-    <string name="AGE_CLASS_U15">C-Jugend (U15)</string>
-    <string name="AGE_CLASS_U17">B-Jugend (U17)</string>
-    <string name="AGE_CLASS_U19">A-Jugend (U19)</string>
-    <string name="AGE_CLASS_SENIOR">Senioren/-innen</string>
+    <string name="AGE_CLASS_U9">U9</string>
+    <string name="AGE_CLASS_U11">U11</string>
+    <string name="AGE_CLASS_U13">U13</string>
+    <string name="AGE_CLASS_U15">U15</string>
+    <string name="AGE_CLASS_U17">U17</string>
+    <string name="AGE_CLASS_U19">U19</string>
+    <string name="AGE_CLASS_SENIOR">Senior</string>
 
 </resources>

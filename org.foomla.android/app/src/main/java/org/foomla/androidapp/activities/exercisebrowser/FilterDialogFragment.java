@@ -99,8 +99,8 @@ public class FilterDialogFragment extends DialogFragment {
         }
 
         dialogBuilder.setView(dialogView);
-        dialogBuilder.setTitle("Übungsfilter");
-        dialogBuilder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        dialogBuilder.setTitle(getActivity().getString(R.string.exercise_filter));
+        dialogBuilder.setPositiveButton(getActivity().getString(R.string.ok), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 if(exerciseFilter.getAgeClasses().size() == AgeClass.values().length) {
                     exerciseFilter.getAgeClasses().clear();
@@ -112,7 +112,7 @@ public class FilterDialogFragment extends DialogFragment {
                 listener.onSaveFilter(exerciseFilter);
             }
         });
-        dialogBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+        dialogBuilder.setNegativeButton(getActivity().getString(R.string.cancel), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // nothing to do

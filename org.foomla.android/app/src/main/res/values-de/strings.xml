@@ -124,4 +124,6 @@
     <string name="exercises_go_pro">Mehr Übungen? Jetzt auf foomla PRO wechseln.</string>
     <string name="install_pro">Install PRO</string>
     <string name="not_now">Nicht jetzt</string>
+    <string name="exercise_filter">Übungsfilter</string>
+    <string name="ok">OK</string>
 </resources>
