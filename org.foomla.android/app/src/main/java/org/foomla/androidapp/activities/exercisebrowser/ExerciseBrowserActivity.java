@@ -15,12 +15,14 @@ import org.foomla.androidapp.GoProDialogFragment;
 import org.foomla.androidapp.R;
 import org.foomla.androidapp.activities.BaseActivityWithNavDrawer;
 import org.foomla.androidapp.activities.exercisedetail.ExerciseDetailIntent;
+import org.foomla.androidapp.activities.mytrainings.MyTrainingsActivity;
 import org.foomla.androidapp.domain.AgeClass;
 import org.foomla.androidapp.domain.Exercise;
 import org.foomla.androidapp.domain.TrainingFocus;
 import org.foomla.androidapp.domain.TrainingPhase;
 import org.foomla.androidapp.preferences.FoomlaPreferences;
 import org.foomla.androidapp.service.ExerciseService;
+import org.foomla.androidapp.utils.ProgressVisualizationUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -181,16 +183,19 @@ public class ExerciseBrowserActivity extends BaseActivityWithNavDrawer
         try {
             final FoomlaApplication foomlaApplication = (FoomlaApplication) getApplication();
             final ExerciseService service = foomlaApplication.getExerciseService();
+            ProgressVisualizationUtil.showProgressbar(this, R.string.exercises);
             final ExerciseService.Callback<List<Exercise>> callback = new ExerciseService.Callback<List<Exercise>>() {
                 @Override
                 public void onResult(List<Exercise> result) {
                     setExercises(result);
+                    ProgressVisualizationUtil.hideProgressbar(ExerciseBrowserActivity.this);
                 }
 
                 @Override
                 public void onFailure() {
                     setExercises(Lists.<Exercise>newArrayList());
                 }
+
             };
 
             new AsyncTask<Void, Void, Void>() {
