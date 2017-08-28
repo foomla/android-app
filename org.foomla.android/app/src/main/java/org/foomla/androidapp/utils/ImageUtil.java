@@ -16,10 +16,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ImageUtil {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ImageUtil.class);
+
+    private static final Map<String, Drawable> imageCache = new HashMap<>(125);
 
     public enum ImageType {
 
@@ -84,7 +88,7 @@ public class ImageUtil {
     }
 
     private static Drawable getLocalImage(final Context context, final Training training, final Exercise exercise,
-                                         final ImageType imageType) {
+                                          final ImageType imageType) {
 
         try {
             File imageDirectory = FileUtils.getImageDirectory(context, training.getId());
@@ -100,11 +104,23 @@ public class ImageUtil {
     }
 
     private static Drawable getRemoteImage(final Exercise exercise) {
-        if (exercise.getImages() != null && !exercise.getImages().isEmpty()) {
-            return createImageFromUrl(exercise.getImages().get(0));
-        } else {
+        if (exercise.getImages() == null || exercise.getImages().isEmpty()) {
             return null;
         }
+
+        final String imageUrl = exercise.getImages().get(0);
+        Drawable image = imageCache.get(imageUrl);
+
+        if (image == null) {
+            LOGGER.info("Image not found in cache -> load from remote location: {}", imageUrl);
+
+            image = createImageFromUrl(imageUrl);
+            imageCache.put(imageUrl, image);
+        } else {
+            LOGGER.info("Image found in cache: {}", imageUrl);
+        }
+
+        return image;
     }
 
     private static File getImageFile(final Exercise exercise, final ImageType imageType, final File imageDirectory) {
