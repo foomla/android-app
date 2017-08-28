@@ -112,7 +112,9 @@ public class ImageUtil {
                 LOGGER.info("Image not found in cache -> load from remote location: {}", imageUrl);
 
                 image = createImageFromUrl(imageUrl);
-                imageCache.put(imageUrl, image);
+                if(imageType != ImageType.NORMAL) {
+                    imageCache.put(imageUrl, image);
+                }
             } else {
                 LOGGER.info("Image found in cache: {}", imageUrl);
             }
