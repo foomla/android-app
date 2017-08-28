@@ -9,7 +9,6 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"time"
 )
 
 const (
@@ -80,13 +79,17 @@ var STATUS = []string{
 	"PUBLISHED",
 	"DISABLED"}
 
+var PRO_EXERCISE = []string{
+    "yes",
+    "no"}
+
 type Error struct {
 	Field string
 	Value string
 }
 
 type Exercise struct {
-	CreatedAt        int64    `json:"createdAt"`
+	CreatedAt        string   `json:"createdAt"`
 	Title            string   `json:"title"`
 	TrainingPhases   []string `json:"trainingPhases"`
 	TrainingFocus    string   `json:"trainingFocus"`
@@ -99,6 +102,7 @@ type Exercise struct {
 	MinPlayers       int      `json:"minPlayers"`
 	Status           string   `json:"exerciseStatus"`
 	Images           []string `json:"images"`
+    Pro              string   `json:"pro"`
 }
 
 type Response2 struct {
@@ -141,6 +145,8 @@ func parseConfiguration() (string, string) {
 
 func readCsvExercises(data []byte, exercises *[]Exercise) int {
 	csvReader := csv.NewReader(strings.NewReader(string(data)))
+    csvReader.Comma = ';'
+    csvReader.LazyQuotes = true
 
 	exercisesRead := 0
 	fileLine := -1
@@ -181,13 +187,12 @@ func readCsvExercises(data []byte, exercises *[]Exercise) int {
 }
 
 func readExercise(exercises *[]Exercise, cols []string) []Error {
-	createdAt, _ := time.Parse(TIMESTAMP_LAYOUT, cols[0])
 	minPlayers, _ := strconv.ParseInt(cols[11], 10, 64)
 	trainingPhases := strings.Split(cols[2], ",")
 	ageClasses := strings.Split(cols[4], ",")
 
 	exercise := Exercise{
-		CreatedAt:        createdAt.Unix(),
+		CreatedAt:        cols[0],
 		Title:            cols[1],
 		TrainingPhases:   mapValues(TRAINING_PHASE_MAPPING, trainingPhases),
 		TrainingFocus:    mapValue(TRAINING_FOCUS_MAPPING, cols[3]),
@@ -256,7 +261,7 @@ func checkForErrors(exercise Exercise) []Error {
 			Field: "MinPlayers",
 			Value: strconv.Itoa(exercise.MinPlayers)})
 	}
-	if len(exercise.Images) > 0 && strings.Index(exercise.Images[0], "http://") != 0 {
+	if len(exercise.Images) > 0 && strings.Index(exercise.Images[0], "http") != 0 {
 		errors = append(errors, Error{
 			Field: "ImageUrl",
 			Value: strings.Join(exercise.Images, ",")})
